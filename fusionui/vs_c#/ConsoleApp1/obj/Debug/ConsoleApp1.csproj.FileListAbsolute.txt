@@ -1,0 +1,7 @@
+D:\study\fusionui\vs_c#\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\study\fusionui\vs_c#\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\study\fusionui\vs_c#\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\study\fusionui\vs_c#\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\study\fusionui\vs_c#\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\study\fusionui\vs_c#\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\study\fusionui\vs_c#\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
