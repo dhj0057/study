@@ -202,7 +202,7 @@ namespace ConsoleApp1
                Console.WriteLine(i);
             }
            
-            1부터 10까지 홀수는 출력하고 짝수는 컨티뉴 for문 반복 */
+            1부터 10까지 홀수는 출력하고 짝수는 컨티뉴 for문 반복 
 
 
 
