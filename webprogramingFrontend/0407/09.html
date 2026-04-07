@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    /*
+    <!-- 자손 선택 >h1
+    h1 요소의 부모 요소가 .alpha인 경우에만 스타일이 적용됩니다. -->
+    
+    */
+    <style>
+        .alpha > h1{    
+            color : red;
+            font-weight: bold;
+        }
+        .beta {
+            color: aqua;
+            background-color: greenyellow;    
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="beta">
+        <h1>Hello, World!</h1>
+        <div>
+            <h1>Hello, World!</h1>
+            <p>Hello, World!</p>
+        </div>
+    </div>
+
+    <div class ="alpha">
+        <h1>Hello, World!</h1>
+        <div>
+            <h1>Hello, World!</h1>
+            <p>Hello, World!</p>
+        </div>
+</body>
+</html>
