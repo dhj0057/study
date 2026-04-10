@@ -1,0 +1,7 @@
+D:\study\fusionui\vs_c#\0410fusionUi\obj\Debug\0410fusionUi.csproj.AssemblyReference.cache
+D:\study\fusionui\vs_c#\0410fusionUi\obj\Debug\0410fusionUi.csproj.CoreCompileInputs.cache
+D:\study\fusionui\vs_c#\0410fusionUi\bin\Debug\0410fusionUi.exe.config
+D:\study\fusionui\vs_c#\0410fusionUi\bin\Debug\0410fusionUi.exe
+D:\study\fusionui\vs_c#\0410fusionUi\bin\Debug\0410fusionUi.pdb
+D:\study\fusionui\vs_c#\0410fusionUi\obj\Debug\0410fusionUi.exe
+D:\study\fusionui\vs_c#\0410fusionUi\obj\Debug\0410fusionUi.pdb

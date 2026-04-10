@@ -1,0 +1,10 @@
+D:\study\fusionui\vs_c#\0410_th_fusionui\bin\Debug\0410_th_fusionui.exe.config
+D:\study\fusionui\vs_c#\0410_th_fusionui\bin\Debug\0410_th_fusionui.exe
+D:\study\fusionui\vs_c#\0410_th_fusionui\bin\Debug\0410_th_fusionui.pdb
+D:\study\fusionui\vs_c#\0410_th_fusionui\obj\Debug\0410_th_fusionui.csproj.AssemblyReference.cache
+D:\study\fusionui\vs_c#\0410_th_fusionui\obj\Debug\_0410_th_fusionui.Form1.resources
+D:\study\fusionui\vs_c#\0410_th_fusionui\obj\Debug\_0410_th_fusionui.Properties.Resources.resources
+D:\study\fusionui\vs_c#\0410_th_fusionui\obj\Debug\0410_th_fusionui.csproj.GenerateResource.cache
+D:\study\fusionui\vs_c#\0410_th_fusionui\obj\Debug\0410_th_fusionui.csproj.CoreCompileInputs.cache
+D:\study\fusionui\vs_c#\0410_th_fusionui\obj\Debug\0410_th_fusionui.exe
+D:\study\fusionui\vs_c#\0410_th_fusionui\obj\Debug\0410_th_fusionui.pdb
