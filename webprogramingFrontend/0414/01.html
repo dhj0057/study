@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사용 가능한 상태</title>
+    <!-- :enabled, :disabled, :focus  -->
+    <style>
+        input:enabled{
+            background-color: rgb(212, 83, 24);
+        }
+        input:disabled{
+            background-color: rgb(28, 141, 216);
+        }
+        input:focus {
+            background-color: rgb(37, 148, 27);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>사용 가능한 상태</h1>
+    <input type="text"><br><br>
+    <h1>사용 불가능한 상태</h1>
+    <input type="text" disabled><br><br>
+</html>
