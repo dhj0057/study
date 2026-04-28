@@ -1,0 +1,12 @@
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 0;
+    printf("Enter the Buddhist year: ");
+    if (scanf("%d", &a) != 1) return 1;
+    printf("Gregorian year is %d\n", a + 543);
+
+    return 0;
+}
