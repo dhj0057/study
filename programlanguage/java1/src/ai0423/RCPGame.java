@@ -26,7 +26,7 @@ public class RCPGame {
         String result = "";
 
 
-        if (me.equals("가위")) {ㄴ
+        if (me.equals("가위")) {
             if (computerChoice.equals("가위")) result = "비겼습니다.";
             else if (computerChoice.equals("바위")) result = "졌습니다.";
             else result = "이겼습니다.";
