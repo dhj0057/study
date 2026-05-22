@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|d:\\study\\fusionui\\vs_c#\\fusionui0515(2)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|d:\\study\\fusionui\\vs_c#\\fusionui0515(2)\\product2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\product2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|solutionrelative:product2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{653E4F59-29D3-4C46-B0CA-FA528A42741F}|fusionUi0515(2).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:31:28.499Z",
+              "IsPinned": true,
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:32:17.611Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -32,9 +63,23 @@
               "RelativeDocumentMoniker": "product2.cs",
               "ToolTip": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\product2.cs",
               "RelativeToolTip": "product2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T01:15:14.404Z",
+              "WhenOpened": "2026-05-21T07:32:15.726Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADgvzEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:32:36.877Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -49,31 +94,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T01:11:49.821Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\study\\fusionui\\vs_c#\\fusionUi0515(2)\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAIwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T01:12:59.273Z",
-              "EditorCaption": ""
             }
           ]
         }
