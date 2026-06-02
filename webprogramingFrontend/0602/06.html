@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function callAlert() {
+            let msg = document.getElementById("input1").value;
+            alert(msg);
+        }
+    </script>
+</head>
+<body>
+    <!---<button onclick="callAlert('Hello, World!')">Click Me</button>--->
+    <input type="text" id="input1" size="15" placeholder="Enter text">
+    <button onclick="callAlert('내가 쓴 문자열')">Click Me</button>
+</body>
+</html>
