@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요소객체 속성 조작</title>
+    <script>
+        //textContent, innerText, innerHTML
+        window.onload = function() {
+            let img1 = document.getElementById("img1");
+            
+            //img1.src = "https://placehold.co/300x200";
+            img1.src = "imgs/최민수짤.jpg";
+            img1.width = 500;
+            img1.height = 500;
+              
+        }
+        function changeImage(btn) {
+            if(btn.innerText === "최민수이미지변경"){
+                img1.src = "imgs/최민수짤.jpg";
+                btn.innerText = "궁예이미지변경";
+            } 
+            else {
+                img1.src = "imgs/궁예짤.jpg";
+                btn.innerText = "최민수이미지변경";
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="changeImage(this)">궁예이미지변경</button>
+    <br><br>
+    <img id="img1" >
+</body>
+</html>
