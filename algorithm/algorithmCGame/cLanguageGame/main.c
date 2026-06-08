@@ -1,4 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
+#pragma execution_character_set("utf-8")
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -7,117 +8,364 @@
 
 #define FIELD_HEIGHT 12
 #define START_GAUGE 50
-#define FISH_SPRITE "><(((('>"
-#define BAR_SPRITE "[##########]"
 
-/* 화면을 지워서 매 프레임마다 게임 화면을 새로 그린다. */
-void clearScreen(void)
+#define FISH_SPRITE "<º))))><"  
+#define BAR_SPRITE  "║██████║"  
+
+// 컬러 설정
+#define COLOR_NAVY   1
+#define COLOR_GREEN  2
+#define COLOR_AQUA   3
+#define COLOR_RED    4
+#define COLOR_PURPLE 5
+#define COLOR_GOLD   6
+#define COLOR_GRAY   8
+#define COLOR_BLUE   9
+#define COLOR_LIGHTGREEN  10
+#define COLOR_LIGHTAQUA   11
+#define COLOR_LIGHTRED    12
+#define COLOR_YELLOW 14
+#define COLOR_WHITE  15
+
+void setCursorPosition(int x, int y)
 {
-    system("cls");
+    COORD coord = { (SHORT)x, (SHORT)y };
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
 
-/*
- * 물고기, 낚시 바, 게이지가 허용 범위를 벗어나지 않도록 보정한다.
- * 포인터를 사용하므로 함수 밖에 있는 실제 변수의 값이 변경된다.
- */
+void setColor(int color)
+{
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+}
+
+void hideCursor(void)
+{
+    HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_CURSOR_INFO info;
+    info.dwSize = 100;
+    info.bVisible = FALSE;
+    SetConsoleCursorInfo(consoleHandle, &info);
+}
+
 void clampGameValues(int* fishPos, int* barPos, int barSize, int* gauge)
 {
-    if (*fishPos < 0)
-    {
-        *fishPos = 0;
-    }
-    else if (*fishPos >= FIELD_HEIGHT)
-    {
-        *fishPos = FIELD_HEIGHT - 1;
-    }
+    if (*fishPos < 0) *fishPos = 0;
+    else if (*fishPos >= FIELD_HEIGHT) *fishPos = FIELD_HEIGHT - 1;
 
-    if (*barPos < 0)
-    {
-        *barPos = 0;
-    }
-    else if (*barPos > FIELD_HEIGHT - barSize)
-    {
-        *barPos = FIELD_HEIGHT - barSize;
-    }
+    if (*barPos < 0) *barPos = 0;
+    else if (*barPos > FIELD_HEIGHT - barSize) *barPos = FIELD_HEIGHT - barSize;
 
-    if (*gauge < 0)
-    {
-        *gauge = 0;
-    }
-    else if (*gauge > 100)
-    {
-        *gauge = 100;
-    }
+    if (*gauge < 0) *gauge = 0;
+    else if (*gauge > 100) *gauge = 100;
 }
 
-/* 현재 게이지를 20칸 막대와 백분율로 출력한다. */
-void drawGauge(int gauge)
+// 한글/영문 고정폭 출력을 보장하는 문자열 정렬 함수
+void printPadded(const char* str, int targetWidth)
 {
-    int i;
-    int filled = gauge / 5;
+    int i = 0;
+    int currentWidth = 0;
 
-    printf("게이지: [");
-    for (i = 0; i < 20; i++)
+    while (str[i] != '\0')
     {
-        if (i < filled)
+        if ((str[i] & 0x80) != 0)
         {
-            printf("#");
+            printf("%c%c%c", str[i], str[i + 1], str[i + 2]);
+            currentWidth += 2;
+            i += 3;
         }
         else
         {
-            printf("-");
+            printf("%c", str[i]);
+            currentWidth += 1;
+            i += 1;
         }
     }
-    printf("] %d%%\n", gauge);
+
+    for (int j = currentWidth; j < targetWidth; j++)
+    {
+        printf(" ");
+    }
 }
 
-/* 물고기 위치, 낚시 바 위치, 게이지를 이용해 한 프레임을 출력한다. */
+// 스크린샷과 동일한 규격의 고정 가로폭 하단 대사창
+void drawMessageBox(const char* line1, const char* line2)
+{
+    setColor(COLOR_GRAY);
+    printf(" ┌────────────────────────────────────────────────────────┐\n");
+    printf(" │ "); setColor(COLOR_WHITE);  printPadded(line1, 56); setColor(COLOR_GRAY); printf("│\n");
+    printf(" │ "); setColor(COLOR_YELLOW); printPadded(line2, 56); setColor(COLOR_GRAY); printf("│\n");
+    printf(" └────────────────────────────────────────────────────────┘\n");
+    setColor(COLOR_WHITE);
+}
+
+void drawTitleArt(void)
+{
+    system("cls");
+    printf("\n");
+    setColor(COLOR_BLUE);       printf("   ╔════════════════════════════════════════════════════╗\n");
+    setColor(COLOR_AQUA);       printf("   ║  ███████╗██╗███████╗██╗  ██╗██╗███╗   ██╗ ██████╗  ║\n");
+    printf("   ║  ██╔════╝██║██╔════╝██║  ██║██║████╗  ██║██╔════╝  ║\n");
+    setColor(COLOR_LIGHTAQUA);  printf("   ║  █████╗  ██║███████╗███████║██║██╔██╗ ██║██║  ███╗ ║\n");
+    printf("   ║  ██╔══╝  ██║╚════██║██╔══██║██║██║╚██╗██║██║   ██║ ║\n");
+    setColor(COLOR_BLUE);       printf("   ║  ██║     ██║███████║██║  ██║██║██║ ╚████║╚██████╔╝ ║\n");
+    printf("   ║  ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝  ║\n");
+    setColor(COLOR_YELLOW);     printf("   ║               - REALTIME FISHING GAME -            ║\n");
+    setColor(COLOR_BLUE);       printf("   ╚════════════════════════════════════════════════════╝\n\n");
+}
+
+// [핵심 변경] 나룻배, 심해 단면, 유유히 헤엄치는 물고기가 포함된 광활한 FIELD VIEW
+void printFieldBorder(void)
+{
+    printf(" +--------------------------------------------------------------------+\n");
+}
+
+void printFieldLine(const char* text)
+{
+    printf(" |");
+    printPadded(text, 68);
+    printf("|\n");
+}
+
+void drawFieldMessageBox(int isBiting)
+{
+    printf("\n");
+    setColor(COLOR_GRAY);
+    printFieldBorder();
+
+    if (isBiting)
+    {
+        setColor(COLOR_WHITE);
+        printFieldLine("  BITE! 물 위에 큰 파문이 생겼습니다.");
+        setColor(COLOR_YELLOW);
+        printFieldLine("  2초 안에 SPACEBAR를 누르면 미니게임이 시작됩니다.");
+    }
+    else
+    {
+        setColor(COLOR_WHITE);
+        printFieldLine("  조용한 호수에서 입질을 기다리는 중입니다.");
+        setColor(COLOR_YELLOW);
+        printFieldLine("  물 위에 파문이 생기면 SPACEBAR를 누르세요.");
+    }
+
+    setColor(COLOR_GRAY);
+    printFieldBorder();
+    setColor(COLOR_WHITE);
+}
+
+void drawWaitingSceneFixed(int frame, int isBiting)
+{
+    setCursorPosition(0, 0);
+
+    setColor(COLOR_GOLD);
+    printFieldBorder();
+    printFieldLine("                           FIELD VIEW");
+    printFieldBorder();
+
+    setColor(COLOR_LIGHTAQUA);
+    if (frame % 4 < 2)
+    {
+        printFieldLine("       .            .                         .");
+    }
+    else
+    {
+        printFieldLine("             .            .                   .");
+    }
+
+    setColor(COLOR_GRAY);
+    printFieldLine("                 _.-^-._                  _.-^-._");
+    printFieldLine("            _.-'       '-._          _.-'       '-._");
+
+    setColor(COLOR_WHITE);
+    printFieldLine("        ____");
+    printFieldLine("       /_[]_\\        ________________");
+    printFieldLine("      ( o  o )------'                '----.__");
+    printFieldLine("       \\_==_/                              `-.`.");
+    printFieldLine("      __/||\\__                               `.`.");
+    printFieldLine("     /  /||\\  \\                                `o");
+    printFieldLine(" ___/__/ || \\__\\___");
+    printFieldLine("|_____|__||__|_____|________________________________");
+    printFieldLine("   ||    ||    ||       wooden dock");
+
+    setColor(COLOR_BLUE);
+    printFieldLine("~~~||~~~~||~~~~||~~~~~~~ ~~~~~~~ ~~~~~~~ ~~~~~~~");
+
+    if (isBiting)
+    {
+        setColor(COLOR_LIGHTRED);
+        printFieldLine("~~~~~~~~~~~~~ ~~~~~~~~~~~~~~       .-~~~~-.   ~~~");
+        printFieldLine("  ><(((('>        ~~~~~~~~        (  BITE! )  ~~~");
+        printFieldLine("~~~~~~~~~~~~~ ~~~~~~~~~~~~~~       '-.___.-'  ~~~");
+        printFieldLine("~~~~~~      ><(((('>       ~~~~~~~   \\ | /    ~~~");
+    }
+    else
+    {
+        setColor(COLOR_BLUE);
+        printFieldLine("~~~~~~~~~~~~~ ~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~ ~~~~~");
+
+        setColor(COLOR_GREEN);
+        if (frame % 2 == 0)
+        {
+            printFieldLine("~~~~~~     ><(((('>       ~~~~~~~        <><   ~~~");
+        }
+        else
+        {
+            printFieldLine("~~~~~~       ><(((('>     ~~~~~~~      <><     ~~~");
+        }
+
+        setColor(COLOR_BLUE);
+        printFieldLine("~~~~~~~~~~~~~ ~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~ ~~~~~");
+        printFieldLine("~~~~  seaweed   ~~~~~     stones      ~~~~   ~~~");
+    }
+
+    setColor(COLOR_GOLD);
+    printFieldBorder();
+
+    drawFieldMessageBox(isBiting);
+}
+
+void drawWaitingScene(int frame, int isBiting)
+{
+    setCursorPosition(0, 0);
+    setColor(COLOR_GOLD);
+    printf(" ╔═══════════════════════ FIELD VIEW ══════════════════════╗\n");
+
+    // 1. 하늘 및 구름 표현
+    setColor(COLOR_GRAY);
+    if (frame % 4 < 2) {
+        printf(" │   ☁                                 ☁                   │\n");
+    }
+    else {
+        printf(" │     ☁                                 ☁                 │\n");
+    }
+
+    // 2. 나룻배와 그 위에 앉아 낚싯대를 쥔 강태공 (제공 이미지 반영)
+    setColor(COLOR_WHITE);
+    printf(" │             (⌐■_■)                                      │\n");
+    printf(" │          ____[  ]/_  🎣 ══════⋱                         │\n");
+    printf(" │          \\________/            ⋱                        │\n");
+
+    // 3. 잔잔하게 물결치는 널찍한 바다 수면 레이어 및 낚싯줄 라인
+    setColor(COLOR_BLUE);
+    if (isBiting) {
+        printf(" │~~~~~~~~~~~~~~~"); setColor(COLOR_LIGHTAQUA); printf("~~~~~~~~~~~~~~~~"); setColor(COLOR_BLUE); printf("   ⋱  "); setColor(COLOR_BLUE); printf("~~~~~~~~~~~~~~~~~│\n");
+    }
+    else {
+        printf(" │~~~~~~~~~~~~~~~"); setColor(COLOR_LIGHTAQUA); printf("~~~~~~~~~~~~~~~~"); setColor(COLOR_RED);  printf("   ■  "); setColor(COLOR_BLUE); printf("~~~~~~~~~~~~~~~~~│\n");
+    }
+
+    // 4. 바다 내부 깊숙이 내려오는 낚싯줄과 실제 헤엄치는 물고기들
+    setColor(COLOR_BLUE);
+    printf(" │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒   │  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│\n");
+
+    // 물고기 A (심해 중층에서 노니는 물고기 애니메이션)
+    printf(" │▒▒▒▒▒▒▒▒▒▒▒▒ ");
+    if (frame % 2 == 0) { setColor(COLOR_GREEN); printf("  %s ", FISH_SPRITE); }
+    else { setColor(COLOR_GREEN); printf(" %s  ", FISH_SPRITE); }
+    setColor(COLOR_BLUE);
+    printf(" ▒▒▒▒▒▒▒▒▒   │  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│\n");
+
+    // 입질 발생 시 찌 근처 미끼 영역에 이펙트 발동
+    if (isBiting) {
+        printf(" │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ "); setColor(COLOR_LIGHTRED); printf("💥( . )💥"); setColor(COLOR_BLUE); printf("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│\n");
+    }
+    else {
+        printf(" │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒   ·  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│\n");
+    }
+
+    // 물고기 B (더 깊은 바닥 심해층에서 대기 중인 물고기)
+    printf(" │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒   │  ▒▒▒▒▒▒▒ ");
+    if (frame % 2 == 0) { setColor(COLOR_AQUA); printf(" %s  ", FISH_SPRITE); }
+    else { setColor(COLOR_AQUA); printf("  %s ", FISH_SPRITE); }
+    setColor(COLOR_BLUE);
+    printf(" ▒▒▒▒▒▒▒│\n");
+
+    // 5. 바다 최하단 모서리 마감
+    printf(" │▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒│\n");
+    setColor(COLOR_GOLD);
+    printf(" ╚════════════════════════════════════════════════════════╝\n");
+
+    if (isBiting) {
+        drawMessageBox("⚡ BITE! 미끼를 꽉 물고 물고기가 질주합니다!", "[ SPACEBAR ] 를 강하게 눌러 릴링을 시작하세요!");
+    }
+    else {
+        drawMessageBox("🌊 조용한 바다 위, 나룻배에 앉아 입질을 기다립니다.", "수면 위의 찌가 아래로 강하게 요동칠 때를 노리세요.");
+    }
+}
+
+// 스크린샷에서 보여주신 정밀하고 깔끔한 격벽 구조의 FIGHT WINDOW
 void drawFishingGame(int fishPos, int barPos, int barSize, int gauge)
 {
     int i;
+    setCursorPosition(0, 0);
 
-    clearScreen();
-
-    printf("========================================================\n");
-    printf("                 실시간 낚시 미니게임\n");
-    printf("========================================================\n\n");
-    printf("조작: W = 위로, S = 아래로\n");
-    printf("물고기 %s 가 낚시 바 %s 안에 있도록 유지하세요.\n\n",
-        FISH_SPRITE, BAR_SPRITE);
-    printf("+--------------------+----------------------+\n");
-    printf("|       물고기       |        낚시 바       |\n");
-    printf("+--------------------+----------------------+\n");
+    setColor(COLOR_LIGHTAQUA);
+    printf(" ╔══════════════════════ FIGHT WINDOW ═════════════════════╗\n");
+    setColor(COLOR_GRAY);
+    printf(" │          물 고 기 위 치       │        낚 시 바 가 드      │\n");
+    printf(" ├──────────────────────────────┼────────────────────────────┤\n");
 
     for (i = 0; i < FIELD_HEIGHT; i++)
     {
+        setColor(COLOR_GRAY);
+        printf(" │");
+
+        // 왼쪽 격실 (물고기 위치)
         if (i == fishPos)
         {
-            printf("|     %-14s |", FISH_SPRITE);
+            printf("         ");
+            setColor(COLOR_LIGHTGREEN);
+            printPadded(FISH_SPRITE, 20);
         }
         else
         {
-            printf("|                    |");
+            printPadded("", 29);
         }
 
+        setColor(COLOR_GRAY);
+        printf("│");
+
+        // 오른쪽 격실 (낚시 바 가드)
         if (i >= barPos && i < barPos + barSize)
         {
-            printf("     %-16s |\n", BAR_SPRITE);
+            printf("         ");
+            setColor(COLOR_YELLOW);
+            printPadded(BAR_SPRITE, 19);
         }
         else
         {
-            printf("                      |\n");
+            printPadded("", 28);
         }
+
+        setColor(COLOR_GRAY);
+        printf("│\n");
     }
 
-    printf("+--------------------+----------------------+\n\n");
-    drawGauge(gauge);
+    setColor(COLOR_LIGHTAQUA);
+    printf(" ╚═════════════════════════════════════════════════════════╝\n");
+
+    // 스크린샷의 깔끔한 가로 PROGRESS 게이지 바 배치
+    int filled = gauge / 5;
+    setColor(COLOR_WHITE);
+    printf("   PROGRESS: [");
+    for (i = 0; i < 20; i++)
+    {
+        if (i < filled) {
+            if (gauge > 70) setColor(COLOR_GREEN);
+            else if (gauge > 30) setColor(COLOR_YELLOW);
+            else setColor(COLOR_RED);
+            printf("█");
+        }
+        else {
+            setColor(COLOR_GRAY);
+            printf("░");
+        }
+    }
+    setColor(COLOR_WHITE);
+    printf("] %d%%\n\n", gauge);
+
+    drawMessageBox("[ W ] 위로 올리기 / [ S ] 아래로 내리기", "물고기를 황금색 가드 바 내부 공간에 가두어 두세요!");
 }
 
-/*
- * 실시간 낚시 미니게임을 실행한다.
- * 물고기가 낚시 바 안에 있으면 게이지가 증가하고,
- * 낚시 바 밖에 있으면 게이지가 감소한다.
- */
 int fishingMiniGame(int difficulty)
 {
     int fishPos = FIELD_HEIGHT / 2;
@@ -128,228 +376,168 @@ int fishingMiniGame(int difficulty)
     int gaugeDown = 3;
     int fishMoveRange = 1;
     int frameDelay = 140;
-    int move;
-    int key;
+    int move, key;
 
-    /* 난이도에 따라 낚시 바 크기, 게이지 변화량, 게임 속도를 조절한다. */
-    if (difficulty == 1)
-    {
-        barSize = 4;
-        gaugeUp = 4;
-        gaugeDown = 2;
-        fishMoveRange = 1;
-        frameDelay = 180;
+    if (difficulty == 1) {
+        barSize = 4; gaugeUp = 4; gaugeDown = 2; fishMoveRange = 1; frameDelay = 180;
     }
-    else if (difficulty == 3)
-    {
-        barSize = 2;
-        gaugeUp = 2;
-        gaugeDown = 4;
-        fishMoveRange = 2;
-        frameDelay = 100;
+    else if (difficulty == 3) {
+        barSize = 2; gaugeUp = 2; gaugeDown = 4; fishMoveRange = 2; frameDelay = 100;
     }
 
     clampGameValues(&fishPos, &barPos, barSize, &gauge);
+    system("cls");
 
     while (gauge > 0 && gauge < 100)
     {
         drawFishingGame(fishPos, barPos, barSize, gauge);
 
-        /* 키가 눌렸을 때만 입력을 읽어서 게임 흐름이 멈추지 않게 한다. */
         if (_kbhit())
         {
             key = _getch();
-
-            if (key == 'w' || key == 'W')
-            {
-                barPos--;
-            }
-            else if (key == 's' || key == 'S')
-            {
-                barPos++;
-            }
+            if (key == 'w' || key == 'W') barPos--;
+            else if (key == 's' || key == 'S') barPos++;
         }
 
-        /* 물고기는 매 프레임마다 무작위로 위아래 이동한다. */
         move = (rand() % (fishMoveRange * 2 + 1)) - fishMoveRange;
         fishPos += move;
 
         clampGameValues(&fishPos, &barPos, barSize, &gauge);
-
-        /* 물고기와 낚시 바가 겹치는지 확인하여 게이지를 변경한다. */
-        if (fishPos >= barPos && fishPos < barPos + barSize)
-        {
-            gauge += gaugeUp;
-        }
-        else
-        {
-            gauge -= gaugeDown;
-        }
+        if (fishPos >= barPos && fishPos < barPos + barSize) gauge += gaugeUp;
+        else gauge -= gaugeDown;
 
         clampGameValues(&fishPos, &barPos, barSize, &gauge);
         Sleep(frameDelay);
     }
 
-    clearScreen();
-
-    if (gauge >= 100)
-    {
-        return 1;
-    }
-
-    return 0;
+    return (gauge >= 100) ? 1 : 0;
 }
 
-/* 사용자에게 난이도를 입력받고, 잘못된 입력이면 보통 난이도를 선택한다. */
 int selectDifficulty(void)
 {
     int difficulty;
+    drawTitleArt();
 
-    printf("난이도를 선택하세요.\n");
-    printf("1. 쉬움\n");
-    printf("2. 보통\n");
-    printf("3. 어려움\n");
-    printf("선택: ");
+    setColor(COLOR_WHITE);
+    printf("   [ 원하는 낚시 장소(난이도)를 선택하세요 ]\n\n");
+    printf("   1. 마을 앞 잔잔한 시냇가     (Easy Mode)\n");
+    printf("   2. 비밀의 숲 신비로운 호수   (Normal Mode)\n");
+    printf("   3. 거친 파도가 치는 바닷가   (Hard Mode)\n\n");
+
+    drawMessageBox("장소에 따라 물고기의 기동성이 달라집니다.", "1 ~ 3 사이의 번호를 입력 후 Enter를 누르세요.");
+    printf("\n 🏹 선택: ");
 
     if (scanf("%d", &difficulty) != 1)
     {
-        while (getchar() != '\n')
-        {
-        }
+        while (getchar() != '\n') {}
         difficulty = 2;
     }
-
-    if (difficulty < 1 || difficulty > 3)
-    {
-        difficulty = 2;
-    }
-
+    if (difficulty < 1 || difficulty > 3) difficulty = 2;
     return difficulty;
 }
 
-/*
- * 캐스팅과 입질 반응 단계를 실행한다.
- * 입질이 온 뒤 2초 안에 SPACE 키를 누르면 성공한다.
- */
 int casting(void)
 {
-    int i;
-    int key;
+    int i, key;
     ULONGLONG biteStart;
+    int waitFrames = 8 + (rand() % 6);
 
-    printf("\n낚싯대를 던집니다");
-    for (i = 0; i < 3; i++)
+    system("cls");
+
+    for (i = 0; i < waitFrames; i++)
     {
-        printf(".");
-        Sleep(400);
+        drawWaitingSceneFixed(i, 0);
+        Sleep(350);
     }
 
-    printf("\n입질을 기다리는 중");
-    for (i = 0; i < 5; i++)
-    {
-        printf(".");
-        Sleep(500);
-    }
+    while (_kbhit()) _getch();
 
-    while (_kbhit())
-    {
-        _getch();
-    }
-
-    printf("\n\n입질이 왔습니다! 2초 안에 SPACE 키를 누르세요!\n");
     biteStart = GetTickCount64();
-
-    /* 시작 시각부터 2초 동안 키 입력을 실시간으로 확인한다. */
-    while (GetTickCount64() - biteStart < 2000)
+    i = 0;
+    while (GetTickCount64() - biteStart < 1800)
     {
+        drawWaitingSceneFixed(i++, 1);
+
         if (_kbhit())
         {
             key = _getch();
             if (key == ' ')
             {
-                printf("물고기를 낚았습니다! 미니게임을 시작합니다.\n");
-                Sleep(800);
+                system("cls");
                 return 1;
             }
         }
-
-        Sleep(10);
+        Sleep(120);
     }
 
-    printf("너무 늦었습니다. 물고기가 도망갔습니다.\n");
-    Sleep(1000);
+    system("cls");
+    drawMessageBox("아차차! 한발 늦었습니다.", "물고기가 미끼만 먹고 수면 아래로 도망쳤습니다.");
+    Sleep(1500);
     return 0;
 }
 
-/* 한 판이 끝난 뒤 재시도 여부를 입력받는다. */
 int askRetry(void)
 {
     int retry;
-
-    printf("\n다시 시도하시겠습니까?\n");
-    printf("1. 예\n");
-    printf("2. 아니요\n");
-    printf("선택: ");
+    printf("\n");
+    drawMessageBox("1. 다음 캐스팅을 준비한다 (다시 하기)", "2. 장비를 챙겨 집으로 돌아간다 (종료)");
+    printf("\n 선택: ");
 
     if (scanf("%d", &retry) != 1)
     {
-        while (getchar() != '\n')
-        {
-        }
+        while (getchar() != '\n') {}
         return 0;
     }
-
-    if (retry == 1)
-    {
-        return 1;
-    }
-
-    return 0;
+    return (retry == 1) ? 1 : 0;
 }
 
-/* 게임의 전체 진행 순서를 관리하는 시작 함수이다. */
 int main(void)
 {
-    int difficulty;
-    int result;
+    int difficulty, result;
     int retry = 1;
 
-    /* 콘솔에서 한글을 출력하고, 매 실행마다 다른 난수를 사용하도록 설정한다. */
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
     srand((unsigned int)time(NULL));
+    hideCursor();
 
     while (retry == 1)
     {
-        clearScreen();
-
-        printf("=== 낚시 게임 ===\n\n");
-
         difficulty = selectDifficulty();
 
-        /* 입질 반응에 성공한 경우에만 실시간 미니게임을 시작한다. */
-        if (casting())
-        {
-            result = fishingMiniGame(difficulty);
-        }
-        else
-        {
-            result = 0;
-        }
+        if (casting()) result = fishingMiniGame(difficulty);
+        else result = 0;
 
+        system("cls");
         if (result == 1)
         {
-            printf("축하합니다! 물고기를 잡았습니다!\n");
+            printf("\n");
+            setColor(COLOR_GREEN);
+            printf("     ██╗  ██╗██╗████████╗██╗   ██╗██╗██╗██╗\n");
+            printf("     ██║  ██║██║╚══██╔══╝██║   ██║██║██║██║\n");
+            printf("     ███████║██║   ██║   ██║   ██║██║██║██║\n");
+            printf("     ██╔══██║██║   ██║   ██║   ██║╚═╝╚═╝╚═╝\n");
+            printf("     ██║  ██║██║   ██║   ╚██████╔╝██╗██╗██╗\n");
+            printf("     ╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝ ╚═╝╚═╝╚═╝\n\n");
+            drawMessageBox("[ 대어 포획 성공! ]", "인벤토리에 싱싱한 물고기가 추가되었습니다.");
         }
         else
         {
-            printf("실패했습니다! 물고기를 놓쳤습니다.\n");
+            printf("\n");
+            setColor(COLOR_RED);
+            printf("     ███████╗ █████╗ ██╗██╗     ██╗██╗██╗\n");
+            printf("     ██╔════╝██╔══██╗██║██║     ██║██║██║\n");
+            printf("     █████╗  ███████║██║██║     ██║██║██║\n");
+            printf("     ██╔══╝  ██╔══██║██║██║     ╚═╝╚═╝╚═╝\n");
+            printf("     ██║     ██║  ██║██║███████╗██╗██╗██╗\n");
+            printf("     ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝╚═╝╚═╝\n\n");
+            drawMessageBox("[ 낚시 실패... ]", "거센 저항으로 인해 줄이 풀려 놓치고 말았습니다.");
         }
 
         retry = askRetry();
     }
 
-    printf("\n게임을 종료합니다.\n");
-
+    setColor(COLOR_WHITE);
+    printf("\n은은한 노을을 뒤로하고 집으로 복귀합니다. 시스템을 종료합니다.\n");
     return 0;
 }
