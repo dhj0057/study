@@ -3,34 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>인라인 이벤트 모델</title>
+    <title>인라인 이벤트 모델 1</title>
     <script>
+ 
         function greet() {
-            alert('안녕하세요~ 인라인 이벤트 모델2');
+            alert('안녕하세요~ 인라인 이벤트 모델 2');
         }
-
+ 
         function addStar(btn){
-            btn.textContent += '凸';
+            btn.textContent += '★';
         }
-
+       
+        function overChange(btn) {
+            btn.style.backgroundColor = "black";
+            btn.style.color = "white";
+        }
+ 
+        function outChange(btn) {
+            btn.style.backgroundColor = "lightgray";
+            btn.style.color = "black";
+        }
+ 
         let count = 1;
-        function changeimg(){
-            const img = document.getElementById('slideImg');
+        function changeImage(img){
             count++;
-            img.src = 'imgs/jjal0'+count+'.jpg';
-            if(count == 6) count = 0;
+            if(count ==6){
+                count = 1;
+            }
+            img.src = "imgs/jjal0" + count + ".jpg";
         }
-
-        window.addEventListener('DOMContentLoaded', function(){
-            setInterval(changeimg, 1000);
-        });
+ 
+        function showImageSlide(){
+            let img = document.getElementById("img2");
+            setInterval(function(){
+                count++;
+                if(count ==6){
+                    count = 1;
+                }
+                img.src = "imgs/jjal0" + count + ".jpg";
+            },1000);
+ 
+            let a1 = document.getElementById("a1");
+            a1.onclick = function(){
+                return false; // a 태그의 디폴트 이벤트 제거
+            }
+        }
+ 
+       
+       
     </script>
 </head>
-<body> 
-    <button onclick="alert('인라인 이벤트 모델')">인라인 이벤트 모델</button><br></br>
-    <button onclick="greet()">인라인 이벤트 모델2</button>
-    <button onclick="addStar(this)">엿 추가</button>
-    <button onmouseover="changeover(this)"onmouseout="changeout(this)">배경 및 글자색 변경</button><br><br>
-    <img id="slideImg" src="imgs/jjal01.jpg" width="400" height="300"><br><br>
+<body onload = "showImageSlide()">
+    <button onclick="alert('인라인 이벤트 모델 1')">인라인 이벤트 모델</button><br><br>
+    <button onclick="greet()">인라인 이벤트 모델 2</button><br><br>
+    <button onclick="addStar(this)">별 추가</button>
+    <button onmouseover = "overChange(this)" onmouseout = "outChange(this)"> 배경 및 글자색 변경</button>
+    <img src = "imgs/jjal01.jpg" width = "400" height = "300" onclick="changeImage(this)" style = "cursor: pointer;">
+    <img src = "imgs/jjal02.jpg" width = "400" height = "300" id = "img2">
+    <a href = "https://www.google.com" id = "a1">디폴트 이벤트 제거</a>
 </body>
 </html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src ="https://code.jquery.com/jquery-4.0.0.js"></script>
+     <script>
+        $(document).ready(function(){
+            let srcPath = $("#img1").attr("src");
+            $("#h2").text(srcPath);
+            $("#h2").css("color", "white");
+            $("#h2").css("background", "black");
+        });
+     </script>
+</head>
+<body>
+    <img src = "imgs/jjal01.jpg" id = "img1" width = "400" height = "300"><br><br>
+    <h2 id = "h2"></h2>
+</body>
+</html>
