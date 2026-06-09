@@ -12,11 +12,25 @@
         function addStar(btn){
             btn.textContent += '凸';
         }
+
+        let count = 1;
+        function changeimg(){
+            const img = document.getElementById('slideImg');
+            count++;
+            img.src = 'imgs/jjal0'+count+'.jpg';
+            if(count == 6) count = 0;
+        }
+
+        window.addEventListener('DOMContentLoaded', function(){
+            setInterval(changeimg, 1000);
+        });
     </script>
 </head>
 <body> 
     <button onclick="alert('인라인 이벤트 모델')">인라인 이벤트 모델</button><br></br>
     <button onclick="greet()">인라인 이벤트 모델2</button>
-    <button onclick="addStar(this)">별 추가</button>
+    <button onclick="addStar(this)">엿 추가</button>
+    <button onmouseover="changeover(this)"onmouseout="changeout(this)">배경 및 글자색 변경</button><br><br>
+    <img id="slideImg" src="imgs/jjal01.jpg" width="400" height="300"><br><br>
 </body>
 </html>
