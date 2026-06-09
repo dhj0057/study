@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인라인 이벤트 모델</title>
+    <script>
+        function greet() {
+            alert('안녕하세요~ 인라인 이벤트 모델2');
+        }
+
+        function addStar(btn){
+            btn.textContent += '凸';
+        }
+    </script>
+</head>
+<body> 
+    <button onclick="alert('인라인 이벤트 모델')">인라인 이벤트 모델</button><br></br>
+    <button onclick="greet()">인라인 이벤트 모델2</button>
+    <button onclick="addStar(this)">별 추가</button>
+</body>
+</html>
