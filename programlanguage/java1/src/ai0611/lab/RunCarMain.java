@@ -23,8 +23,8 @@ public class RunCarMain {
             schoolBus.upSpeed(speed);
             sportsCar.upSpeed(speed);
 
-            System.out.printf("☆ 스쿨버스의 현재 속도: %d\n", schoolBus.speed);
-            System.out.printf("☆ 스포츠 카의 현재 속도: %d\n", sportsCar.speed);
+            System.out.printf("☆ 스쿨버스의 현재 속도: %d\n", schoolBus.getSpeed());
+            System.out.printf("☆ 스포츠 카의 현재 속도: %d\n", sportsCar.getSpeed());
         }
 
         s1.close();
