@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+    <script>
+        $(document).ready(
+            function () {
+                $("#btn_fadetoggle").click(function () {
+                    $(".page").fadeToggle("slow");
+                });
+            }
+        );
+        $(document).ready(
+            function () {
+                $("#btn_toggle").click(function () {
+                    $(".page").Toggle("2000");
+                });
+            }
+        );
+        $(document).ready(
+            function () {
+                $("#btn_slidetoggle").click(function () {
+                    $(".page").slideToggle("slow");
+                });
+            }
+        );
+    </script>
+</head>
+<body>
+    <button id="btn_fadetoggle">Show Fade Toggle</button>&nbsp;
+
+    <div class="page">
+        <h1>jQuery Fade Toggle</h1>
+        <p>jQuery fadeToggle() method is used to toggle between fadeIn() and fadeOut() for the selected elements.</p>
+        <p>When fadeToggle() is called on an element, it checks the current visibility of the element. If the element is visible, it will be hidden using fadeOut(). If the element is hidden, it will be shown using fadeIn().</p>
+        <p>Syntax: $(selector).fadeToggle(speed, callback);</p>
+        <p>Parameters:</p>
+    </div>
+</body>
+</html>
