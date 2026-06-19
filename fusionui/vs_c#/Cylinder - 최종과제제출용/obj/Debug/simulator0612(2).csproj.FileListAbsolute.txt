@@ -1,0 +1,13 @@
+D:\study\fusionui\vs_c#\simulator0612(2)\bin\Debug\simulator0612(2).exe.config
+D:\study\fusionui\vs_c#\simulator0612(2)\bin\Debug\simulator0612(2).exe
+D:\study\fusionui\vs_c#\simulator0612(2)\bin\Debug\simulator0612(2).pdb
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulator0612(2).csproj.AssemblyReference.cache
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulator0612_2_.Form1.resources
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulator0612_2_.Properties.Resources.resources
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulator0612(2).csproj.GenerateResource.cache
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulator0612(2).csproj.CoreCompileInputs.cache
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulator0612(2).exe
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulator0612(2).pdb
+D:\study\fusionui\vs_c#\simulator0612(2)\bin\Debug\ACTMULTILIB_K.dll
+D:\study\fusionui\vs_c#\simulator0612(2)\bin\Debug\ACTMULTILIB_K.pdb
+D:\study\fusionui\vs_c#\simulator0612(2)\obj\Debug\simulato.44D9AE1E.Up2Date

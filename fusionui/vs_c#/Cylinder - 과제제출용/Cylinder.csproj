@@ -36,7 +36,9 @@
     <Reference Include="ACTMULTILIB_K">
       <HintPath>C:\Users\AISW-510-125\Desktop\수업자료\융합UI실습\out\ACTMULTILIB_K.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />

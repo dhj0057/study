@@ -1,0 +1,19 @@
+﻿  소스.c
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(137,79): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(140,68): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(141,102): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(143,91): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(145,86): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(146,68): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(149,89): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(151,89): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(152,89): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(155,91): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(511,78): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(512,66): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(513,66): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(514,67): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(517,25): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(588,25): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+D:\study\fusionui\vs_c#\CLanguageGame2\소스.c(648,107): warning C5297: 문자열 리터럴의 값이 코드 페이지 949에서 유효한 문자가 아니거나 코드 페이지 65001에서 다시 인코딩할 수 없습니다. 허용되는 문자 번역으로 전환합니다.
+  CLanguageGame2.vcxproj -> D:\study\fusionui\vs_c#\CLanguageGame2\x64\Debug\CLanguageGame2.exe
