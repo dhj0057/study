@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function() {
+            let count = 0;
+            let image = document.getElementById("image");
+            let frames = ["imgs/0.png", "imgs/1.png", "imgs/2.png", "imgs/3.png", "imgs/4.png", "imgs/5.png", "imgs/6.png", "imgs/7.png", "imgs/8.png", "imgs/9.png",
+            "imgs/10.png", "imgs/11.png", "imgs/12.png", "imgs/13.png", "imgs/14.png"];
+        
+        
+        setInterval(function() {
+           image.src = frames[count % frames.length];
+           count++;
+        }, 1000/20);
+    
+        };
+    </script>
+</head>
+<body>
+    <img id="image">
+</body>
+</html>
