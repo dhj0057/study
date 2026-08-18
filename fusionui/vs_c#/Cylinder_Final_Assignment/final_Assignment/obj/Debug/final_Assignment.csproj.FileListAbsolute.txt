@@ -1,0 +1,13 @@
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\bin\Debug\final_Assignment.exe.config
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\bin\Debug\final_Assignment.exe
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\bin\Debug\final_Assignment.pdb
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\bin\Debug\ACTMULTILIB_K.dll
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\bin\Debug\ACTMULTILIB_K.pdb
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_Assignment.csproj.AssemblyReference.cache
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_Assignment.Form1.resources
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_Assignment.Properties.Resources.resources
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_Assignment.csproj.GenerateResource.cache
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_Assignment.csproj.CoreCompileInputs.cache
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_As.EDFF1049.Up2Date
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_Assignment.exe
+D:\study\fusionui\vs_c#\Cylinder_Final_Assignment\final_Assignment\obj\Debug\final_Assignment.pdb
