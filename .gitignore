@@ -1,0 +1,18 @@
+# Visual Studio / MSVC 빌드 산출물
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.aps
+*.pch
+*.tlog
+*.log
+*.recipe
+*.vcxproj.user
+*.suo
