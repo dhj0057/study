@@ -1,19 +1,29 @@
-import React from 'react';
+import React, {Children} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import App from './App';
-//import TodoApp from "./01/TodoApp";
-import reportWebVitals from './reportWebVitals';
-import Library from "./03/Library";
-import './03/Book.css'
+//  import App from './App';
+//  import TodolistApp from './01/TodoListApp';
+// import Library from "./03/enhanced_css/Library";
+// import "./03/enhanced_css/Book.css";
+//import Clock from "./04/Clock";
+import reportWebVitals from './reportWebVitals'
+//import ConfirmDialog from "./04/ConfirmDialog";
+//import ConfirmDialogList from "./04/ConfirmDialogList";
+import WelcomeList from "./05/WelcomeList";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Library />
-  </React.StrictMode>
-);
+
+setInterval(() => {
+        root.render(
+            <React.StrictMode>
+                <WelcomeList />
+            </React.StrictMode>
+        );
+    }, 1000
+)
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

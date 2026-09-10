@@ -1,0 +1,18 @@
+button{
+    color: white;
+    margin: 5px;
+    padding: 7px;
+    width: 70px;
+}
+.bg-green{
+    background-color: #389927;
+    border: 3px inset #9900ff;
+}
+.bg-red{
+    background-color: #fc0e31;
+    border: 3px ridge #00ffc4;
+}
+.bg-blue{
+    background-color: #0d53ea;
+    border: 3px dotted orange;
+}

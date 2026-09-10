@@ -1,0 +1,10 @@
+div{
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+}
+
+.div-bg-ivory{
+    background-color: #fbf9ec;
+    border: 5px groove #bc3eca;
+}
