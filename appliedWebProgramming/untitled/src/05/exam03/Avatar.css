@@ -1,0 +1,13 @@
+.avatar {
+
+    width: 80px; /* 아바타 이미지의 너비 */
+
+    height: 80px; /* 아바타 이미지의 높이 */
+
+    border-radius: 50%; /* 원형 아바타를 위한 border-radius */
+
+    object-fit: cover; /* 이미지가 잘리지 않도록 채우고 비율 유지 */
+
+    border: 1px solid #eee; /* 테두리 추가 */
+
+}

@@ -1,0 +1,12 @@
+.user-info {
+    display: flex; /* 자식 요소들을 가로로 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    gap: 10px; /* 아바타와 이름 사이 간격 */
+    margin-bottom: 8px; /* 아래쪽 여백 */
+}
+
+.user-info-name {
+    font-weight: bold; /* 이름 텍스트 굵게 */
+    color: #333; /* 이름 텍스트 색상 */
+    font-size: 20px; /* 이름 텍스트 크기 */
+}

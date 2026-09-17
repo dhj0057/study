@@ -1,0 +1,58 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    min-height: 100vh; /* 브라우저 화면의 100% 높이를 차지하도록 설정 */
+
+    display: flex; /* 플렉스박스 사용 */
+
+    justify-content: center; /* 수평(가로) 가운데 정렬 */
+
+    align-items: center; /* ️ 수직(세로) 가운데 정렬 */
+
+}
+
+/* 기존 BookList.css 의 .bookListWrapper 코드 (그대로 유지해도 됨) */
+
+.bookListWrapper {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    padding: 16px;
+
+    max-width: 900px;
+
+    /* margin: 0 auto; (body에서 정렬해주므로 지워도 되고 남겨둬도 무방) 가로 방향만 가운데 정렬*/
+
+}
+
+/* 768px 이하 화면에서 2열로 변경 */
+
+@media (max-width: 800px) {
+
+    .bookListWrapper {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+/* 480px 이하 화면에서 1열로 변경 */
+
+@media (max-width: 580px) {
+
+    .bookListWrapper {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
+ 
