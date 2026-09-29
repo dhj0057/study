@@ -3,7 +3,7 @@ package ai0929.gui;
 import java.awt.*;
 
 public class CenterFrame {
-    public static Dimension getLocation(int w, int h){
+    public static int[] getLocation(int w, int h){
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension screenSizeDim = toolkit.getScreenSize();
         int sw = screenSizeDim.width;
@@ -11,7 +11,7 @@ public class CenterFrame {
         int x = (sw-w)/2;
         int y = (sh-h)/2;
 
-        Dimension locationDim = new Dimension(x, y);
+        int[] locationDim = {x , y};
 
         return locationDim;
     }
