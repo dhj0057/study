@@ -10,9 +10,12 @@ public class ButtonTest2 extends JFrame{
         int w = 500;
         int h = 200;
 
-        Dimension locationDim = CenterFrame.getLocation(w, h);
-        int x = locationDim.width;
-        int y = locationDim.height;
+//        Dimension locationDim = CenterFrame.getLocation(w, h);
+//        int x = locationDim.width;
+//        int y = locationDim.height;
+        int[] location = CenterFrame.getLocation(w,h);
+        int x = location[0];
+        int y = location[1];
 
         setLayout(new FlowLayout());
         setTitle("Button 컴포넌트");
