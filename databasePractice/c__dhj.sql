@@ -112,7 +112,7 @@ GROUP BY 직업;
 SELECT * FROM 고객;
 
 SELECT 직업,
-MAX(나이) 최고령나이,
+MAX(나이) 최고령나이,ㄴ
 MIN(나이) 최연소나이
 FROM 고객
 GROUP BY 직업
