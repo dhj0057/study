@@ -1,4 +1,4 @@
-import React, {Children} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //  import App from './App';
@@ -12,13 +12,19 @@ import reportWebVitals from './reportWebVitals'
 //import ConfirmDialogList from "./04/ConfirmDialogList";
 //import WelcomeList from "./05/exam01/WelcomeList";
 //import BookList from "./05/exam02/BookList"
-import NotificationList from "./06/NotificationList";
+//import NotificationList from "./06/NotificationList";
+//import UseState from "./07/useState";
+//import UseState from "./07/01/useState";
+//import UseState2 from "./07/01/useState2";
+//import TextingWithFocusButton from "./07/02/TextinputWithFocusButton";
+import TextinputWithFocusButton from "./07/02/TextinputWithFocusButton";
+import Accommodate from "./07/Accommodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <NotificationList/>
+        <Accommodate/>
     </React.StrictMode>
 );
 

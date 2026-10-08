@@ -1,0 +1,172 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* ===== 색상·간격 토큰 ===== */
+.acc {
+    --bg: #0f1419;
+    --card: #171e26;
+    --line: #26303b;
+    --text: #e8edf2;
+    --muted: #8796a5;
+    --ok: #3ddc97;
+    --warn: #ffb547;
+    --full: #ff5d5d;
+    --accent: var(--ok);
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background:
+            radial-gradient(circle at 20% 0%, #1d2a36 0%, transparent 55%),
+            var(--bg);
+    font-family: "Pretendard", "Noto Sans KR", system-ui, sans-serif;
+    color: var(--text);
+}
+
+/* 상태에 따라 강조색만 바뀜 */
+.acc[data-level="warn"] { --accent: var(--warn); }
+.acc[data-level="full"] { --accent: var(--full); }
+
+/* ===== 카드 ===== */
+.acc__card {
+    width: min(420px, 100%);
+    padding: 28px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    background: var(--card);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    transition: box-shadow 0.3s;
+}
+.acc[data-level="full"] .acc__card {
+    box-shadow: 0 0 0 1px var(--full), 0 20px 60px rgba(255, 93, 93, 0.25);
+}
+
+.acc__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.acc__title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--muted);
+}
+
+/* 상태 배지 */
+.acc__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+.acc__badge::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    animation: blink 1.6s infinite;
+}
+
+/* ===== 큰 숫자 ===== */
+.acc__count {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin: 0 0 4px;
+}
+.acc__num {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent);
+    transition: color 0.3s;
+}
+.acc__max {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--muted);
+}
+.acc__desc {
+    margin: 0 0 20px;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+/* ===== 좌석 10칸 ===== */
+.acc__seats {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 6px;
+    margin-bottom: 24px;
+}
+.acc__seat {
+    height: 34px;
+    border-radius: 8px;
+    background: var(--line);
+    transition: background 0.25s, transform 0.25s;
+}
+.acc__seat--on {
+    background: var(--accent);
+    transform: translateY(-2px);
+}
+
+/* ===== 버튼 ===== */
+.acc__actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.acc__btn {
+    padding: 14px 0;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: transparent;
+    color: var(--text);
+    font: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, transform 0.1s;
+}
+.acc__btn:hover:not(:disabled) { border-color: var(--muted); }
+.acc__btn:active:not(:disabled) { transform: scale(0.97); }
+.acc__btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.acc__btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.acc__btn--in {
+    border-color: transparent;
+    background: var(--accent);
+    color: #0f1419;
+}
+.acc__btn--in:hover:not(:disabled) {
+    border-color: transparent;
+    filter: brightness(1.08);
+}
+
+/* ===== 만석 알림 ===== */
+.acc__alert {
+    margin: 18px 0 0;
+    padding: 12px 14px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--full);
+    background: rgba(255, 93, 93, 0.1);
+    animation: pop 0.3s ease-out;
+}
+
+@keyframes blink { 50% { opacity: 0.3; } }
+@keyframes pop {
+    from { opacity: 0; transform: translateY(-6px); }
+    to   { opacity: 1; transform: none; }
+}
