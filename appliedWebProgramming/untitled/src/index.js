@@ -21,11 +21,14 @@ import reportWebVitals from './reportWebVitals'
 //import Accommodate from "./07/Accommodate";
 import Toggle from "./08/01/Toggle";
 import MyButton from "./08/01/MyButton";
+import ConfirmButton from "./08/01/ConfirmButton";
+import ConfirmButton2 from "./08/01/ConfirmButton2";
+import MessageSender from "./08/01/MessageSender";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <MyButton/>
+        <MessageSender/>
     </React.StrictMode>
 );
 
