@@ -1,0 +1,90 @@
+{
+  "project": {
+    "id": "P-NONONO-3",
+    "uuid": "367c0728-79f9-44b3-886e-0b33be3b2c38",
+    "name": "AI Smart Help Desk · 인공지능플랫폼실습 팀 프로젝트",
+    "url": "https://linear.app/ade0033/project/ai-smart-help-desk-인공지능플랫폼실습-팀-프로젝트-4eb37e9b9973",
+    "lead": {
+      "id": "84b2ff0a-6839-4637-ad38-f0ed7439ceef",
+      "name": "도형준"
+    },
+    "team": {
+      "id": "68baab81-5e37-467c-8b3f-1a365f86532a",
+      "name": "문의하지마세요",
+      "key": "NONONO"
+    }
+  },
+  "workspace": {
+    "id": "90ffa8cf-7824-4f95-89a3-6a602f3020bd",
+    "name": "ade0033",
+    "url": "https://linear.app/ade0033"
+  },
+  "issueCount": 26,
+  "teamCounts": {
+    "문의하지마세요": 26
+  },
+  "oldReferenceSearchResults": [
+    "NONONO-25",
+    "NONONO-23",
+    "NONONO-26",
+    "NONONO-18",
+    "NONONO-1",
+    "NONONO-15",
+    "NONONO-9",
+    "NONONO-19",
+    "NONONO-20",
+    "NONONO-16",
+    "NONONO-12",
+    "NONONO-21",
+    "NONONO-11",
+    "NONONO-17",
+    "NONONO-14",
+    "NONONO-3",
+    "NONONO-2",
+    "NONONO-13",
+    "NONONO-10",
+    "NONONO-4",
+    "NONONO-5",
+    "NONONO-6",
+    "NONONO-8",
+    "NONONO-24",
+    "NONONO-7"
+  ],
+  "sampledDescriptions": [
+    "NONONO-7",
+    "NONONO-5",
+    "NONONO-1",
+    "NONONO-26"
+  ],
+  "errors": [],
+  "documents": 6,
+  "milestones": 5,
+  "mapping": {
+    "ADE-104": "NONONO-26",
+    "ADE-105": "NONONO-25",
+    "ADE-106": "NONONO-24",
+    "ADE-107": "NONONO-23",
+    "ADE-108": "NONONO-22",
+    "ADE-116": "NONONO-21",
+    "ADE-117": "NONONO-20",
+    "ADE-118": "NONONO-19",
+    "ADE-119": "NONONO-18",
+    "ADE-120": "NONONO-17",
+    "ADE-121": "NONONO-16",
+    "ADE-122": "NONONO-15",
+    "ADE-123": "NONONO-14",
+    "ADE-124": "NONONO-13",
+    "ADE-125": "NONONO-12",
+    "ADE-126": "NONONO-11",
+    "ADE-127": "NONONO-10",
+    "ADE-128": "NONONO-9",
+    "ADE-129": "NONONO-8",
+    "ADE-109": "NONONO-7",
+    "ADE-110": "NONONO-6",
+    "ADE-111": "NONONO-5",
+    "ADE-112": "NONONO-4",
+    "ADE-113": "NONONO-3",
+    "ADE-114": "NONONO-2",
+    "ADE-115": "NONONO-1"
+  }
+}

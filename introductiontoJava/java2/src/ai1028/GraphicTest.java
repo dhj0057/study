@@ -1,0 +1,17 @@
+package ai1028;
+
+import center.SetFrame;
+
+import javax.swing.*;
+
+public class GraphicTest extends JFrame {
+
+    public GraphicTest() {
+        add("Center", new GraphicPanel());
+        SetFrame.setFrame(this, "도형 그리기 연습", 500, 500);
+    }
+
+    public static void main(String[] args) {
+        new GraphicTest();
+    }
+}
