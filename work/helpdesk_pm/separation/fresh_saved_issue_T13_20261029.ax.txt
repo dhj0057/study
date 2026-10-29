@@ -1,0 +1,376 @@
+Browser tab: 4, Title: "NONONO-15 T13 · 모델 실패 처리와 같은 접수번호 재시도 구현", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84?noRedirect=1".
+1 AXWebArea NONONO-15 T13 · 모델 실패 처리와 같은 접수번호 재시도 구현, URL: linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								52 container
+									53 container Invite to 도형준 · 문의하지마세요…
+										54 text Invite people
+									55 button Dismiss
+										56 image Dismiss
+								57 container
+									58 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									59 button Dismiss
+										60 image Dismiss
+					61 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				62 container
+					63 container
+						64 container
+							65 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							66 link Description: NONONO-15 T13 · 모델 실패 처리와 같은 접수번호 재시도 구현, Value: linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84
+							67 switch Description: Add to favorites, Value: 0
+							68 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							69 button Copy issue URL
+							70 button Copy issue ID
+							71 button Copy branch name
+							72 container
+								73 button Copy as prompt
+								74 button Choose coding tool
+							75 container
+								76 container
+									77 text field (settable) Description: Issue title, Value: T13 · 모델 실패 처리와 같은 접수번호 재시도 구현
+										78 text T13 · 모델 실패 처리와 같은 접수번호 재시도 구현
+									79 text Sub-issue of
+									80 link Description: NONONO-6 [A·팀장 도형준] 기획·공통 처리·전체 통합, Value: linear.app/dhj00570-helpdesk/issue/NONONO-6/a%ED%8C%80%EC%9E%A5-%EB%8F%84%ED%98%95%EC%A4%80-%EA%B8%B0%ED%9A%8D%EA%B3%B5%ED%86%B5-%EC%B2%98%EB%A6%AC%EC%A0%84%EC%B2%B4-%ED%86%B5%ED%95%A9
+									81 container Open sub-issues of NONONO-6
+										82 text 0/7
+									83 text entry area (settable) Description: Issue description, Value: 여기부터 시작 · T13
+
+처음 할 일: 이슈 댓글에 A=접수 보존·재시도, B=분류 오류, C=생성 오류, D=오류 화면·버튼이라는 작업 구분을 적는다.
+
+진행 순서
+
+T08·T09와 실제 프로젝트 폴더를 확인한다. A는 저장·처리, B는 분류, C는 답변, D는 화면 모듈의 자기 담당 범위를 수정하고 없는 파일은 생성 전 팀장에게 확인한다.
+
+B·C는 실패·잘못된 형식을 표준 오류로 반환하고 A는 기존 원문·접수번호를 남겨 검토 필수로 전환한다. 계약에 없는 값은 임의 추가하지 않는다.
+
+A가 같은 접수번호 갱신을 연결하고 D가 오류 안내·재시도 버튼·진행 표시·연속 클릭 제한을 연결한다. D가 모델이나 저장소 전체를 대신 구현하지 않는다.
+
+합의한 실패 응답 주입 방법으로 인증 실패·한도 초과·시간 초과·형식 오류를 재현한다. 실제 키를 노출하거나 유료 요청으로 실패를 만들지 않는다.
+
+남길 결과물: 오류 재현표: 실패 종류 / 접수 전후 번호·원문 / 검토 표시 / 재시도 후 같은 번호 여부 / 중복 클릭 결과 / 키 미노출 확인. 담당별 수정과 단순 제안을 구분한다.
+
+직접 확인할 것: 실패 전후 접수번호·원문이 유지되고 재시도 후 새 번호가 생기지 않는지 직접 확인한다. 실패 예시만 출력하거나 호출 성공을 꾸며 완료 처리하지 않는다.
+
+AI에게 그대로 복사할 요청
+TOML
+1
+2
+3
+4
+5
+6
+7
+현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T13) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+코드 작업 전 실제 팀 저장소와 작업 폴더, 공통 계약을 확인해줘. 이 작업의 예정 관련 파일은 store.py, routing.py, triage.py, reply.py, app.py야. 실제 경로와 소유 담당자를 확인하고 내 담당 범위의 최소 변경부터 진행해줘. 다른 담당자 파일이 필요하면 변경 전에 협업 범위를 정리해줘. 연결된 폴더가 없으면 무엇이 필요한지 알려주고 실행했다고 말하지 마.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+
+
+결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+
+가입·AI 연결이 막히면 처음 30분 안내
+
+역할과 일정
+
+주 역할: A · 팀장 도형준
+
+협업 역할: B · C · D
+
+완료 목표: 2026-11-17
+
+단계: Week 3
+
+목표
+
+분류·생성 실패에도 접수를 보존하고 중복 없이 같은 문의를 재시도하게 한다.
+
+할 일
+
+B·C의 분류 실패·생성 실패·허용되지 않은 응답 형식 오류를 표준 오류로 전달한다.
+
+A가 원문과 접수번호를 보존하고 실패 문의를 검토 필수로 남긴다.
+
+같은 접수번호의 결과를 갱신하는 재시도 처리를 연결한다.
+
+D가 오류 안내·재시도 버튼·진행 표시를 연결하고 연속 클릭 중복 제출을 제한한다.
+
+인증 실패·한도 초과·시간 초과·형식 오류를 키 값 노출 없이 재현한다.
+
+완료 기준
+
+분류·생성 실패와 형식 오류가 정상 답변으로 표시되지 않는다.
+
+실패 후에도 원문과 접수번호가 남고 검토 필수로 표시된다.
+
+재시도가 기존 문의를 갱신하며 연속 클릭으로 새 접수번호를 중복 발급하지 않는다.
+
+화면과 로그에 키나 원본 인증 응답이 노출되지 않는다.
+
+선행 작업
+
+T08 · T08
+
+T09 · T09
+
+결과 기록
+
+실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명의 확인과 통합판 재현 후 Done으로 변경한다.
+
+팀 실행 계획서 · 공통 계약과 검증 기준
+
+A는 팀장 도형준, B\~E는 합류 후 배정 예정이며, 실제 호출·배포·검증 완료는 증거 확인 후 기록한다.
+										84 heading Heading actions 여기부터 시작 · T13, Value: 2, ID: 87f91d07-2366-4735-9edb-71d51817026b
+											85 container
+												86 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											87 text 여기부터 시작 · T13
+										88 container
+											89 text 처음 할 일:  이슈 댓글에 A=접수 보존·재시도, B=분류 오류, C=생성 오류, D=오류 화면·버튼이라는 작업 구분을 적는다.
+										90 heading Heading actions 진행 순서, Value: 3, ID: 7828271d-1248-4253-a3ae-2cb3e555e004
+											91 container
+												92 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											93 text 진행 순서
+										94 content list
+											95 container
+												96 text 1 . T08·T09와 실제 프로젝트 폴더를 확인한다. A는 저장·처리, B는 분류, C는 답변, D는 화면 모듈의 자기 담당 범위를 수정하고 없는 파일은 생성 전 팀장에게 확인한다.
+											97 container
+												98 text 2 . B·C는 실패·잘못된 형식을 표준 오류로 반환하고 A는 기존 원문·접수번호를 남겨 검토 필수로 전환한다. 계약에 없는 값은 임의 추가하지 않는다.
+											99 container
+												100 text 3 . A가 같은 접수번호 갱신을 연결하고 D가 오류 안내·재시도 버튼·진행 표시·연속 클릭 제한을 연결한다. D가 모델이나 저장소 전체를 대신 구현하지 않는다.
+											101 container
+												102 text 4 . 합의한 실패 응답 주입 방법으로 인증 실패·한도 초과·시간 초과·형식 오류를 재현한다. 실제 키를 노출하거나 유료 요청으로 실패를 만들지 않는다.
+										103 container
+											104 text 남길 결과물:  오류 재현표: 실패 종류 / 접수 전후 번호·원문 / 검토 표시 / 재시도 후 같은 번호 여부 / 중복 클릭 결과 / 키 미노출 확인. 담당별 수정과 단순 제안을 구분한다.
+										105 container
+											106 text 직접 확인할 것:  실패 전후 접수번호·원문이 유지되고 재시도 후 새 번호가 생기지 않는지 직접 확인한다. 실패 예시만 출력하거나 호출 성공을 꾸며 완료 처리하지 않는다.
+										107 heading Heading actions AI에게 그대로 복사할 요청, Value: 3, ID: 501d258b-6612-4925-9e2a-6a21cbe1b89c
+											108 container
+												109 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											110 text AI에게 그대로 복사할 요청
+										111 container 7f0bdde5-bc20-4e51-9d4b-5ddbcdafc72e
+											112 container
+												113 container Change language
+													114 text TOML
+												115 image Display options
+												116 image Copy content
+												117 button Delete
+													118 image Delete
+											119 container
+												120 text 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T13) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+코드 작업 전 실제 팀 저장소와 작업 폴더, 공통 계약을 확인해줘. 이 작업의 예정 관련 파일은 store.py, routing.py, triage.py, reply.py, app.py야. 실제 경로와 소유 담당자를 확인하고 내 담당 범위의 최소 변경부터 진행해줘. 다른 담당자 파일이 필요하면 변경 전에 협업 범위를 정리해줘. 연결된 폴더가 없으면 무엇이 필요한지 알려주고 실행했다고 말하지 마.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+										121 container
+											122 text 결과 보고:  이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+										123 link Description: 가입·AI 연결이 막히면 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										124 heading Heading actions 역할과 일정, Value: 2, ID: 28c06f54-e007-402e-a7ed-26dc2684e5a4
+											125 container
+												126 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											127 text 역할과 일정
+										128 content list
+											129 container
+												130 text • 주 역할: 
+												131 text A · 팀장 도형준
+											132 container
+												133 text • 협업 역할: B · C · D
+											134 container
+												135 text • 완료 목표: 2026-11-17
+											136 container
+												137 text • 단계: Week 3
+										138 heading Heading actions 목표, Value: 2, ID: 448e10da-a97d-4beb-8c9d-9a0d65f5a7c1
+											139 container
+												140 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											141 text 목표
+										142 text 분류·생성 실패에도 접수를 보존하고 중복 없이 같은 문의를 재시도하게 한다.
+										143 heading Heading actions 할 일, Value: 2, ID: 3053b372-03de-4e80-a5fb-2449d9ef471b
+											144 container
+												145 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											146 text 할 일
+										147 content list
+											148 container
+												149 image
+												150 checkbox Description: B·C의 분류 실패·생성 실패·허용되지 않은 응답 형식 오류를 표준 오류로 전달한다., Value: 0
+												151 text B·C의 분류 실패·생성 실패·허용되지 않은 응답 형식 오류를 표준 오류로 전달한다.
+											152 container
+												153 image
+												154 checkbox Description: A가 원문과 접수번호를 보존하고 실패 문의를 검토 필수로 남긴다., Value: 0
+												155 text A가 원문과 접수번호를 보존하고 실패 문의를 검토 필수로 남긴다.
+											156 container
+												157 image
+												158 checkbox Description: 같은 접수번호의 결과를 갱신하는 재시도 처리를 연결한다., Value: 0
+												159 text 같은 접수번호의 결과를 갱신하는 재시도 처리를 연결한다.
+											160 container
+												161 image
+												162 checkbox Description: D가 오류 안내·재시도 버튼·진행 표시를 연결하고 연속 클릭 중복 제출을 제한한다., Value: 0
+												163 text D가 오류 안내·재시도 버튼·진행 표시를 연결하고 연속 클릭 중복 제출을 제한한다.
+											164 container
+												165 image
+												166 checkbox Description: 인증 실패·한도 초과·시간 초과·형식 오류를 키 값 노출 없이 재현한다., Value: 0
+												167 text 인증 실패·한도 초과·시간 초과·형식 오류를 키 값 노출 없이 재현한다.
+										168 heading Heading actions 완료 기준, Value: 2, ID: 552aac74-6310-4840-a0fa-dd93bb0fe841
+											169 container
+												170 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											171 text 완료 기준
+										172 content list
+											173 container
+												174 image
+												175 checkbox Description: 분류·생성 실패와 형식 오류가 정상 답변으로 표시되지 않는다., Value: 0
+												176 text 분류·생성 실패와 형식 오류가 정상 답변으로 표시되지 않는다.
+											177 container
+												178 image
+												179 checkbox Description: 실패 후에도 원문과 접수번호가 남고 검토 필수로 표시된다., Value: 0
+												180 text 실패 후에도 원문과 접수번호가 남고 검토 필수로 표시된다.
+											181 container
+												182 image
+												183 checkbox Description: 재시도가 기존 문의를 갱신하며 연속 클릭으로 새 접수번호를 중복 발급하지 않는다., Value: 0
+												184 text 재시도가 기존 문의를 갱신하며 연속 클릭으로 새 접수번호를 중복 발급하지 않는다.
+											185 container
+												186 image
+												187 checkbox Description: 화면과 로그에 키나 원본 인증 응답이 노출되지 않는다., Value: 0
+												188 text 화면과 로그에 키나 원본 인증 응답이 노출되지 않는다.
+										189 heading Heading actions 선행 작업, Value: 2, ID: cebf45a4-b070-4d90-aa9f-4c4bed5c9d53
+											190 container
+												191 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											192 text 선행 작업
+										193 content list
+											194 container
+												195 text •
+												196 link Description: T08, Value: linear.app/dhj00570-helpdesk/issue/NONONO-19
+												197 text  · T08
+											198 container
+												199 text •
+												200 link Description: T09, Value: linear.app/dhj00570-helpdesk/issue/NONONO-22
+												201 text  · T09
+										202 heading Heading actions 결과 기록, Value: 2, ID: 0736be07-624f-47fe-950e-3b3f2a87aef8
+											203 container
+												204 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											205 text 결과 기록
+										206 text 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명의 확인과 통합판 재현 후 Done으로 변경한다.
+										207 container
+											208 link Description: 팀 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+											209 text  · 
+											210 link Description: 공통 계약과 검증 기준, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+										211 text A는 팀장 도형준, B\~E는 합류 후 배정 예정이며, 실제 호출·배포·검증 완료는 증거 확인 후 기록한다.
+									212 button Add reaction
+									213 button Attach images, files, or videos
+									214 button Add sub-issues
+									215 heading Activity, Value: 3
+										216 text Activity
+									217 button (disabled) Unsubscribe from issue
+									218 button Change subscribers
+										219 image 도형준
+									220 container
+										221 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										222 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										223 text created the  issue
+										224 text ·
+										225 link Description: Thu Oct 29, 2026, 오전 9:48:51, Value: linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84#update-00bdf028-5857-4b4d-8070-391d2e67ab7f-issue-created
+										226 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										227 text added related issue 
+										228 link Description: NONONO-27 T14 · 30건 1차 통합 검증과 결함 우선순위 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-27/t14-30%EA%B1%B4-1%EC%B0%A8-%ED%86%B5%ED%95%A9-%EA%B2%80%EC%A6%9D%EA%B3%BC-%EA%B2%B0%ED%95%A8-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%99%95%EC%A0%95
+										229 text ·
+										230 link Description: Thu Oct 29, 2026, 오전 9:55:11, Value: linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84#update-e6102649-cc9e-42ac-9028-33f80f087bc0-relationship-ar-NONONO-27
+										276 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										277 text marked this issue as blocked by 
+										278 link Description: NONONO-22 T09 · FAQ 후보 조회와 근거 기반 답변 생성 완성, Value: linear.app/dhj00570-helpdesk/issue/NONONO-22/t09-faq-%ED%9B%84%EB%B3%B4-%EC%A1%B0%ED%9A%8C%EC%99%80-%EA%B7%BC%EA%B1%B0-%EA%B8%B0%EB%B0%98-%EB%8B%B5%EB%B3%80-%EC%83%9D%EC%84%B1-%EC%99%84%EC%84%B1
+										279 text ·
+										280 link Description: Thu Oct 29, 2026, 오전 9:55:11, Value: linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84#update-e6102649-cc9e-42ac-9028-33f80f087bc0-relationship-ab-NONONO-22
+									231 container
+										232 text Leave a comment…
+										233 button Submit comment
+										234 button Attach images, files, or videos
+								235 container
+									236 heading Properties, Value: 3
+										237 text Properties
+									238 button Backlog
+										267 image
+										240 text Backlog
+									241 button High Priority High
+										242 image High Priority
+										243 text High
+									244 button 도형준 도형준
+										245 image 도형준
+										246 text 도형준
+									247 link Description: Go to user, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+									248 button 2026. 11. 17.
+										249 container
+											250 text field (settable) 2026. 11. 17.
+									251 heading Labels, Value: 3
+										252 text Labels
+									253 container Add labels
+										254 button Add labels
+									255 heading Project, Value: 3
+										256 text Project
+									257 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									258 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									259 button Week 3 · 관리자 처리와 오류 대응
+									260 button
+									268 heading Blocked by, Value: 3
+										269 text Blocked by
+									281 container
+										282 container
+											283 link Description: T08 · 분류 결과와 부서 매핑·검토 규칙 연결, Value: linear.app/dhj00570-helpdesk/issue/NONONO-19/t08-%EB%B6%84%EB%A5%98-%EA%B2%B0%EA%B3%BC%EC%99%80-%EB%B6%80%EC%84%9C-%EB%A7%A4%ED%95%91%EA%B2%80%ED%86%A0-%EA%B7%9C%EC%B9%99-%EC%97%B0%EA%B2%B0
+											284 button Remove relation
+										285 container
+											286 link Description: T09 · FAQ 후보 조회와 근거 기반 답변 생성 완성, Value: linear.app/dhj00570-helpdesk/issue/NONONO-22/t09-faq-%ED%9B%84%EB%B3%B4-%EC%A1%B0%ED%9A%8C%EC%99%80-%EA%B7%BC%EA%B1%B0-%EA%B8%B0%EB%B0%98-%EB%8B%B5%EB%B3%80-%EC%83%9D%EC%84%B1-%EC%99%84%EC%84%B1
+											287 button Remove relation
+									261 heading Related, Value: 3
+										262 text Related
+									263 container
+										264 link Description: T14 · 30건 1차 통합 검증과 결함 우선순위 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-27/t14-30%EA%B1%B4-1%EC%B0%A8-%ED%86%B5%ED%95%A9-%EA%B2%80%EC%A6%9D%EA%B3%BC-%EA%B2%B0%ED%95%A8-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%99%95%EC%A0%95
+										265 button Remove relation
+					273 container
+						274 button Agent
+						275 button Chat history
+			266 container Notifications alt+T
+
+The focused UI element is 1 AXWebArea NONONO-15 T13 · 모델 실패 처리와 같은 접수번호 재시도 구현, URL: linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84?noRedirect=1

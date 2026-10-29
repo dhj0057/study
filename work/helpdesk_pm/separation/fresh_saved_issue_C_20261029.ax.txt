@@ -1,0 +1,240 @@
+Browser tab: 4, Title: "NONONO-8 [C·배정 예정] FAQ·Gemini 답변·근거 관리", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-8/c%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-faqgemini-%EB%8B%B5%EB%B3%80%EA%B7%BC%EA%B1%B0-%EA%B4%80%EB%A6%AC?noRedirect=1".
+1 AXWebArea NONONO-8 [C·배정 예정] FAQ·Gemini 답변·근거 관리, URL: linear.app/dhj00570-helpdesk/issue/NONONO-8/c%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-faqgemini-%EB%8B%B5%EB%B3%80%EA%B7%BC%EA%B1%B0-%EA%B4%80%EB%A6%AC?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-8/c%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-faqgemini-%EB%8B%B5%EB%B3%80%EA%B7%BC%EA%B1%B0-%EA%B4%80%EB%A6%AC?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						173 container
+							174 button (expanded) Your teams, Secondary Actions: Collapse
+							175 button Join a team
+							176 content list teams-boundary-container
+								177 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									178 container
+										179 container
+											180 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												181 text 문의하지마세요
+											182 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										183 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											184 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											185 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											186 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											187 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							188 button (expanded) Try, Secondary Actions: Collapse
+							189 container sidebarTry
+								190 container
+									191 container Invite to 도형준 · 문의하지마세요…
+										192 text Invite people
+									193 button Dismiss
+										194 image Dismiss
+								195 container
+									196 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									197 button Dismiss
+										198 image Dismiss
+					46 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				47 container
+					48 container
+						49 container
+							50 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							51 link Description: NONONO-8 [C·배정 예정] FAQ·Gemini 답변·근거 관리, Value: linear.app/dhj00570-helpdesk/issue/NONONO-8/c%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-faqgemini-%EB%8B%B5%EB%B3%80%EA%B7%BC%EA%B1%B0-%EA%B4%80%EB%A6%AC
+							52 switch Description: Add to favorites, Value: 0
+							53 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							54 button Copy issue URL
+							55 button Copy issue ID
+							56 button Copy branch name
+							57 container
+								58 button Copy as prompt
+								59 button Choose coding tool
+							60 container [C·배정 예정] FAQ·Gemini 답변·근거 관리 이 역할을 쉽게 설명하면 담당: 합류 후 배정 시연용 FAQ를 만들고, 그 FAQ를 근거로 안내문이 나오게 한다. 첫 행동: T04에서 가상 FAQ 1개와 Gemini 실제 호출 가능 여부부터 확인한다. 첫 작업 T04을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다. 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다. 작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다. 가입·AI 연결·내 작업 찾기 · 처음 30분 안내 역할과 배정 상태 주 역할: C. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다. 소유 범위 시연용 FAQ12개, 관련 FAQ 선택, Gemini 무료 호출과 답변 생성, 근거 부족·개인별 확인 안내 주요 결과물 아래는 저장소 안에서 작성할 코드·자료 파일 이름이다. Plaintext 1 2 3 reply.py faqs.json 프롬프트·FAQ 규칙을 함께 남긴다. 완료 기준 FAQ 번호·분야·질문·답과 시연용 표시가 있다. FAQ 근거 밖의 정책·날짜·개인별 결과를 단정하지 않고, 불충분한 경우 검토 안내를 제공한다. 하위 이슈의 완료 기준과 선행 관계를 따른다. 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다. 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다. 협업 A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다. Add reaction Attach images, files, or videos Collapse sub-issues section 0/3 Display options Create new sub-issue Select issue Backlog T09 · FAQ 후보 조회와 근거 기반 답변 생성 완성 Nov 6 2 3 Select issue Todo T04 · Gemini 무료 호출과 FAQ 초안 6개 준비
+								61 container
+									62 text field (settable) Description: Issue title, Value: [C·배정 예정] FAQ·Gemini 답변·근거 관리
+										63 text [C·배정 예정] FAQ·Gemini 답변·근거 관리
+									64 text entry area (settable) Description: Issue description, Value: 이 역할을 쉽게 설명하면
+
+담당: 합류 후 배정
+
+시연용 FAQ를 만들고, 그 FAQ를 근거로 안내문이 나오게 한다.
+
+첫 행동: T04에서 가상 FAQ 1개와 Gemini 실제 호출 가능 여부부터 확인한다. 첫 작업 T04을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다.
+
+이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다.
+
+작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다.
+
+가입·AI 연결·내 작업 찾기 · 처음 30분 안내
+
+역할과 배정 상태
+
+주 역할: C. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다.
+
+소유 범위
+
+시연용 FAQ12개, 관련 FAQ 선택, Gemini 무료 호출과 답변 생성, 근거 부족·개인별 확인 안내
+
+주요 결과물
+
+아래는 저장소 안에서 작성할 코드·자료 파일 이름이다.
+
+Plaintext
+1
+2
+3
+reply.py
+faqs.json
+
+
+
+프롬프트·FAQ 규칙을 함께 남긴다.
+
+완료 기준
+
+FAQ 번호·분야·질문·답과 시연용 표시가 있다. FAQ 근거 밖의 정책·날짜·개인별 결과를 단정하지 않고, 불충분한 경우 검토 안내를 제공한다.
+
+하위 이슈의 완료 기준과 선행 관계를 따른다.
+
+구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다.
+
+고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다.
+
+협업
+
+A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다.
+										65 heading Heading actions 이 역할을 쉽게 설명하면, Value: 2, ID: 9ef04cd7-b8c1-42e4-b4fd-85142031e1d0
+											66 container
+												67 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											68 text 이 역할을 쉽게 설명하면
+										69 container
+											70 text 담당:  합류 후 배정
+										71 text 시연용 FAQ를 만들고, 그 FAQ를 근거로 안내문이 나오게 한다.
+										72 container
+											73 text 첫 행동:  T04에서 가상 FAQ 1개와 Gemini 실제 호출 가능 여부부터 확인한다. 
+											74 link Description: 첫 작업 T04, Value: linear.app/dhj00570-helpdesk/issue/NONONO-20
+											75 text 을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다.
+										76 text 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다.
+										77 container
+											78 text 작업한 날의 보고:  ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다.
+										79 link Description: 가입·AI 연결·내 작업 찾기 · 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										80 heading Heading actions 역할과 배정 상태, Value: 2, ID: 38593fc3-fa22-43cb-932c-fda567e2571a
+											81 container
+												82 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											83 text 역할과 배정 상태
+										84 container
+											85 text 주 역할:  C . 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다.
+										86 heading Heading actions 소유 범위, Value: 2, ID: 9400a91d-28d8-4f1f-bcb1-11bd31afedab
+											87 container
+												88 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											89 text 소유 범위
+										90 text 시연용 FAQ12개, 관련 FAQ 선택, Gemini 무료 호출과 답변 생성, 근거 부족·개인별 확인 안내
+										91 heading Heading actions 주요 결과물, Value: 2, ID: 560aadbe-ae78-4871-b0e2-67390f0ebc7b
+											92 container
+												93 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											94 text 주요 결과물
+										95 text 아래는 저장소 안에서 작성할 코드·자료 파일 이름이다.
+										96 container e6e74948-f5c8-461c-ac68-d530a8c14f6d
+											97 container
+												98 container Change language
+													99 text Plaintext
+												100 image Display options
+												101 image Copy content
+												102 button Delete
+													103 image Delete
+											104 container
+												105 text reply.py
+faqs.json
+
+										106 text 프롬프트·FAQ 규칙을 함께 남긴다.
+										107 heading Heading actions 완료 기준, Value: 2, ID: 687b9a4c-f8fc-44db-a1d9-1f4c9cc885f2
+											108 container
+												109 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											110 text 완료 기준
+										111 text FAQ 번호·분야·질문·답과 시연용 표시가 있다. FAQ 근거 밖의 정책·날짜·개인별 결과를 단정하지 않고, 불충분한 경우 검토 안내를 제공한다.
+										112 content list
+											113 container
+												114 text • 하위 이슈의 완료 기준과 선행 관계를 따른다.
+											115 container
+												116 text • 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다.
+											117 container
+												118 text • 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다.
+										119 heading Heading actions 협업, Value: 2, ID: 2e662213-13a6-4bd0-b2e6-ebe9e636cf66
+											120 container
+												121 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											122 text 협업
+										123 text A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다.
+									124 button Add reaction
+									125 button Attach images, files, or videos
+									126 button (expanded) Description: Collapse sub-issues section, Secondary Actions: Collapse
+									127 text 0 / 3
+									128 button Display options
+									129 button Create new sub-issue
+									130 container
+										131 link Description: Select issue Backlog T09 · FAQ 후보 조회와 근거 기반 답변 생성 완성 Nov 6 2 3, Value: linear.app/dhj00570-helpdesk/issue/NONONO-22/t09-faq-%ED%9B%84%EB%B3%B4-%EC%A1%B0%ED%9A%8C%EC%99%80-%EA%B7%BC%EA%B1%B0-%EA%B8%B0%EB%B0%98-%EB%8B%B5%EB%B3%80-%EC%83%9D%EC%84%B1-%EC%99%84%EC%84%B1
+										132 link Description: Select issue Todo T04 · Gemini 무료 호출과 FAQ 초안 6개 준비 Tomorrow 1 1, Value: linear.app/dhj00570-helpdesk/issue/NONONO-20/t04-gemini-%EB%AC%B4%EB%A3%8C-%ED%98%B8%EC%B6%9C%EA%B3%BC-faq-%EC%B4%88%EC%95%88-6%EA%B0%9C-%EC%A4%80%EB%B9%84
+										133 link Description: Select issue Todo T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정 Nov 3 1 1, Value: linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95
+									134 heading Activity, Value: 3
+										135 text Activity
+									136 button Unsubscribe from issue
+									137 button Change subscribers
+										138 image 도형준
+									139 container
+										140 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										141 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										142 text created the  issue ·
+										143 link Description: Thu Oct 29, 2026, 오전 9:43:02, Value: linear.app/dhj00570-helpdesk/issue/NONONO-8/c%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-faqgemini-%EB%8B%B5%EB%B3%80%EA%B7%BC%EA%B1%B0-%EA%B4%80%EB%A6%AC#update-72541ed8-f723-4b42-b919-290502b51065-issue-created
+									144 container
+										145 text Leave a comment…
+										146 button Submit comment
+										147 button Attach images, files, or videos
+								148 container
+									149 heading Properties, Value: 3
+										150 text Properties
+									151 button Backlog
+										152 image
+										153 text Backlog
+									154 button High Priority High
+										155 image High Priority
+										156 text High
+									157 button Assign
+									158 button 2026. 11. 24.
+										159 container
+											160 text field (settable) 2026. 11. 24.
+									161 heading Labels, Value: 3
+										162 text Labels
+									163 container Add labels
+										164 button Add labels
+									165 heading Project, Value: 3
+										166 text Project
+									167 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									168 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									169 button Week 4 · 무료 배포와 기능 동결
+									170 button
+					199 container
+						200 button Agent
+						201 button Chat history
+			171 container Notifications alt+T
+			172 text Navigated to NONONO-8 [C·배정 예정] FAQ·Gemini 답변·근거 관리
+
+The focused UI element is 60 container [C·배정 예정] FAQ·Gemini 답변·근거 관리 이 역할을 쉽게 설명하면 담당: 합류 후 배정 시연용 FAQ를 만들고, 그 FAQ를 근거로 안내문이 나오게 한다. 첫 행동: T04에서 가상 FAQ 1개와 Gemini 실제 호출 가능 여부부터 확인한다. 첫 작업 T04을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다. 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다. 작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다. 가입·AI 연결·내 작업 찾기 · 처음 30분 안내 역할과 배정 상태 주 역할: C. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다. 소유 범위 시연용 FAQ12개, 관련 FAQ 선택, Gemini 무료 호출과 답변 생성, 근거 부족·개인별 확인 안내 주요 결과물 아래는 저장소 안에서 작성할 코드·자료 파일 이름이다. Plaintext 1 2 3 reply.py faqs.json 프롬프트·FAQ 규칙을 함께 남긴다. 완료 기준 FAQ 번호·분야·질문·답과 시연용 표시가 있다. FAQ 근거 밖의 정책·날짜·개인별 결과를 단정하지 않고, 불충분한 경우 검토 안내를 제공한다. 하위 이슈의 완료 기준과 선행 관계를 따른다. 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다. 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다. 협업 A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다. Add reaction Attach images, files, or videos Collapse sub-issues section 0/3 Display options Create new sub-issue Select issue Backlog T09 · FAQ 후보 조회와 근거 기반 답변 생성 완성 Nov 6 2 3 Select issue Todo T04 · Gemini 무료 호출과 FAQ 초안 6개 준비

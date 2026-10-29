@@ -1,0 +1,888 @@
+Browser tab: 4, Title: "00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업", URL: "https://linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3?noRedirect=1".
+1 AXWebArea 00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업, URL: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox
+								14 link Description: Inbox, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								48 container
+									49 container Invite to 도형준 · 문의하지마세요…
+										50 text Invite people
+									51 button Dismiss
+										52 image Dismiss
+								53 container
+									54 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									55 button Dismiss
+										56 image Dismiss
+					57 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				58 container
+					59 container
+						60 container
+							61 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview
+							62 text 00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업
+							63 switch Description: Add to favorites, Value: 0
+							64 pop up button (collapsed) Description: Document options, Secondary Actions: Expand
+							65 pop up button (collapsed) Description: Document display options and metadata; Edited Oct 29, Secondary Actions: Expand
+							66 button Copy document URL
+							67 button Change document subscribers
+							68 container
+								69 button Document icon
+								70 text field (settable) Description: Document title, Value: 00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업
+									71 text 00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업
+								72 text entry area (settable) Description: Document content, Value: 소속 팀: 문의하지마세요 · 팀 코드 NONONO / 팀장: 도형준
+
+AI Smart Help Desk · 처음 30분 시작 안내
+
+처음에는 프로젝트를 열고, 본인 작업 한 개를 찾고, 도움을 요청하는 방법까지 익히면 됩니다. 코딩이나 Linear 사용 경험이 없어도 이 순서대로 진행할 수 있습니다. 팀장 도형준이 A 역할과 전체 통합을 맡고, B\~E는 팀원과 상의해 배정합니다.
+
+우리 프로젝트: AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+
+일정: 외부 마감 2026년 12월 2일 / 팀 내부 최종 제출 12월 1일 21:00 / 기능 동결 11월 24일. 외부 제출 시각과 발표일은 공지 확인 기준입니다.
+
+이 시작 과정에서는 유료 결제나 API 키 입력을 진행하지 않습니다. 계정에서 플러그인을 사용할 수 없다면 아래의 ‘본문 복사 방법’으로 참여하면 됩니다. 이 문서는 설치와 연결을 안내하며, 팀원 계정의 설치가 이미 완료되었다는 뜻은 아닙니다.
+
+이후 B·C의 실제 모델 연결에 필요한 API 키는 도형준과 발급·관리 방식을 정합니다. 키 값은 채팅·Linear 댓글·캡처로 공유하지 않습니다.
+
+0\~5분 · Linear에 가입하고 우리 프로젝트만 열기
+
+도형준에게 받은 팀 초대 링크를 엽니다. 초대를 받지 않았다면 먼저 초대를 요청합니다.
+
+본인이 사용할 계정으로 가입하거나 로그인하고 초대를 수락합니다. 계정이 있다는 것과 팀 프로젝트에 접근할 수 있다는 것은 별개입니다.
+
+위의 우리 프로젝트 링크를 엽니다. 화면의 프로젝트 이름이 AI Smart Help Desk · 문의하지마세요 · 10/29 시작인지 확인합니다.
+
+프로젝트 설명과 작업 목록을 읽습니다. 지금은 상태·담당자·마감일을 바꾸지 않습니다.
+
+Linear의 이슈(issue)는 ‘해야 할 일 한 개’입니다. B\~E의 큰 역할 아래에 T03, T04 같은 개별 작업이 있습니다. 처음에는 큰 역할 전체를 끝내려 하지 않고, 배정받은 개별 작업 한 개를 진행합니다. 다른 프로젝트의 작업은 건드리지 않습니다.
+
+프로젝트가 보이지 않으면 새 프로젝트를 만들지 말고 도형준에게 ‘가입한 계정 이름’과 ‘우리 프로젝트가 열리지 않는 상황’을 알려주세요.
+
+5\~12분 · ChatGPT 또는 Codex에 Linear 연결하기
+
+본인이 사용 가능한 ChatGPT 또는 Codex 화면에서 진행합니다. 공식 기본 절차는 Plugins → 검색 → 상세 → 설치 → 연결입니다. 공식 Plugins 안내
+
+Plugins 탭을 엽니다.
+
+검색창에서 Linear를 찾습니다.
+
+Linear 플러그인의 상세 화면을 열고 설치 버튼을 선택합니다. 공식 안내에서는 더하기(+) 버튼으로 표시됩니다.
+
+연결 안내가 나오면 본인의 Linear 계정으로 로그인합니다. 방금 초대를 수락한 계정과 같은지 확인합니다.
+
+요청되는 연결 권한과 대상 계정을 확인하고 연결을 마칩니다. 설치할 때 연결 안내가 없으면 처음 사용할 때 나타날 수 있습니다.
+
+새 채팅을 열고 아래 ‘복사할 질문 1’을 보냅니다. 설치한 플러그인의 기능은 새 채팅에서 사용할 수 있습니다. 설치·연결 공식 절차
+
+설치 메뉴가 없거나 계정에서 사용이 제한되면 결제나 별도 API 키 발급으로 해결하지 않습니다. 화면에 나온 문구를 기록하고 아래 본문 복사 방법으로 진행합니다. 제공되는 기능은 계정·작업 공간에 따라 다를 수 있습니다.
+
+Linear 플러그인으로 할 수 있는 일: 접근 권한이 있는 이슈를 읽고, 요청한 범위에서 설명·상태·기록 등을 관리하는 일입니다. 실제 코드 수정을 하려면 별도로 프로젝트 코드가 있는 로컬 폴더나 공유 저장소가 작업 환경에 연결되어 있어야 합니다. Linear 연결만으로 팀 코드 폴더가 자동으로 생기지는 않습니다.
+
+코드 작업을 맡은 뒤 · GitHub 추가 연결
+
+AI에게 GitHub 이슈·PR·저장소 조회를 맡길 때 선택적으로 연결합니다. 팀 저장소를 받은 로컬 폴더가 준비되어 있다면 GitHub 플러그인 연결 없이도 코드 작업을 시작할 수 있습니다.
+
+도형준이 실제 팀 저장소 주소와 초대를 공유한 뒤 진행합니다.
+
+본인 GitHub 계정으로 저장소 초대를 수락하고, 브라우저에서 팀 저장소가 열리는지 확인합니다.
+
+AI 도구의 Plugins에서 GitHub를 검색해 설치하고 본인 GitHub 계정으로 연결합니다.
+
+연결 대상에 팀 저장소가 포함되어 있는지 확인합니다. 권한이 없으면 도형준에게 저장소 접근을 요청합니다.
+
+AI에게 “팀 저장소 [실제 주소]에 접근 가능한지 읽기만 확인하고, 현재 작업 폴더가 그 저장소인지 확인해줘”라고 요청합니다.
+
+로컬에서 코드를 수정·실행할 도구라면 팀 저장소를 내려받은 폴더를 작업 공간으로 엽니다. 저장소 연결과 로컬 폴더 연결은 각각 확인합니다.
+
+GitHub 연결만으로 로컬 실행 환경이 준비되는 것은 아닙니다. 폴더가 없거나 실행 방법이 불명확하면 README와 설치 순서를 도형준에게 확인합니다. 지금은 임의의 저장소나 다른 수업 폴더로 대신하지 않습니다. 설치 방식은 Linear와 같은 공식 Plugins 절차를 따릅니다.
+
+12\~16분 · 읽기만 되는지 먼저 확인하기
+
+새 채팅에 다음 내용을 그대로 복사합니다. 첫 테스트에서는 내용을 바꾸지 않습니다.
+
+복사할 질문 1 · 내 계정과 우리 프로젝트 읽기 확인
+Detecting…
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+Linear 플러그인으로 읽기 확인만 해줘.
+
+대상 프로젝트:
+https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+
+1. 현재 연결된 내 Linear 계정 이름을 확인해줘.
+2. 위 프로젝트에 접근할 수 있는지 확인하고 프로젝트 이름·팀장·소속 팀을 알려줘. 팀장은 도형준, 소속 팀 코드는 NONONO인지 확인해줘.
+3. 이 프로젝트 안에서 내 계정에 배정된 이슈만 알려줘. 없으면 미배정이라고 알려줘.
+
+계정이나 접근 여부를 확인할 수 없으면 추정하지 말고 멈춰서 필요한 내용을 물어봐.
+다른 프로젝트를 읽거나 변경하지 마.
+프로젝트·이슈·문서·댓글·담당자·상태·마감일·코드를 수정하지 마.
+검증 전에는 어떤 작업도 Done으로 바꾸지 마.
+
+
+
+답변의 계정 이름이 본인과 맞고 우리 프로젝트가 확인되면 읽기 테스트가 된 것입니다. 이슈가 없다고 나오면 역할 배정 전일 수 있으므로 다음 단계에서 도형준에게 확인합니다. 다른 계정이 나오면 그 상태로 작업하지 말고 본인 계정 연결을 다시 확인합니다.
+
+16\~20분 · 도형준에게 이름·희망 역할·가능 시간 알려주기
+
+아래 내용을 팀에서 정한 대화 채널에 본인이 직접 보냅니다. AI에게 다른 팀원에게 연락하도록 맡길 필요는 없습니다.
+
+Detecting…
+1
+2
+3
+4
+5
+6
+7
+8
+9
+이름: [실명]
+Linear에 표시되는 내 계정 이름: [이름]
+프로젝트 열기: [가능 / 안 됨]
+AI의 Linear 읽기 테스트: [성공 / 본문 복사로 진행 / 막힌 내용]
+희망 역할: [B / C / D / E, 가능하면 1·2순위]
+주당 가능한 시간: [예: 4시간]
+작업 가능한 시간대: [요일과 시간]
+처음에 도움이 필요한 부분: [없음 또는 한 문장]
+
+
+
+역할
+
+	
+
+맡을 일
+
+	
+
+처음 해볼 일
+
+
+
+
+B · 문의 분류
+
+	
+
+Jev 사용 가능 여부와 문의 분야·긴급도 판단
+
+	
+
+가상 문의 1건의 분류 결과 확인
+
+
+
+
+C · FAQ와 답변
+
+	
+
+시연용 FAQ와 Gemini 안내 답변
+
+	
+
+FAQ 초안과 답변 근거 정리
+
+
+
+
+D · 화면과 배포
+
+	
+
+사용자·관리자 화면, 무료 데모 실행
+
+	
+
+고정 예시를 보여주는 기본 화면
+
+
+
+
+E · 검증과 발표
+
+	
+
+예상 정답, 오류 재현, 발표 자료
+
+	
+
+가상 문의와 기대 결과 작성
+
+도형준이 역할과 개별 작업을 배정한 뒤 시작합니다. 배정 전에는 역할 설명을 읽고 궁금한 점을 정리하면 됩니다. 다른 사람의 이슈를 본인에게 임의로 가져오지 않습니다.
+
+20\~30분 · 배정된 이슈 한 개로 첫 작업 시작하기
+
+왼쪽 My issues(내 작업)를 열거나, 우리 프로젝트의 이슈 목록에서 Assignee(담당자) → 본인으로 좁힙니다. 그중 T번호가 붙은 개별 이슈 한 개를 엽니다. 목록이 비어 있으면 도형준에게 배정을 요청합니다.
+
+이슈의 목표·마감·선행 작업·완료 조건을 읽습니다. 선행 작업은 ‘이 일이 끝나야 내 작업을 마칠 수 있는 앞선 일’입니다.
+
+선행 작업이 막혀 있으면 도형준에게 알립니다. 지금 준비할 수 있는 자료나 고정 예시가 있는지도 확인합니다.
+
+시작할 수 있으면 해당 이슈만 In Progress(진행 중)로 옮깁니다. AI가 생성한 글만 보고 완료로 바꾸지 않습니다.
+
+이슈 링크를 복사해 아래 질문의 대괄호 부분을 채웁니다.
+
+복사할 질문 2 · 내 이슈 한 개에 대한 작업 도움
+Detecting…
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+나는 AI Smart Help Desk 프로젝트에서 [B/C/D/E] 역할을 맡았어.
+내게 배정된 개별 이슈는 [여기에 이슈 링크]야.
+
+이 프로젝트와 내 이슈 한 개만 대상으로 도와줘.
+먼저 목표·선행 작업·마감·완료 조건을 읽고, 내가 지금 할 일을 3단계 이내로 정리해줘.
+자료가 충분하면 내 역할의 작은 산출물부터 함께 만들어줘.
+모르는 조건이나 필요한 자료가 없으면 추정하지 말고 멈춰서 물어봐.
+
+코드 작업이면 프로젝트 코드 폴더나 공유 저장소가 현재 작업 환경에 연결되어 있는지 먼저 확인해줘.
+없으면 폴더·저장소 연결에 무엇이 필요한지 물어보고, 코드를 이미 수정했다고 말하지 마.
+코드 수정은 내가 연결한 팀 프로젝트 코드와 이 이슈 범위에서만 해줘.
+공통 데이터 형식이나 다른 담당자의 모듈을 임의로 바꾸지 마.
+
+실제로 확인한 결과와 아직 확인하지 않은 부분을 구분해줘.
+다른 프로젝트·다른 사람의 이슈·담당자·마감일은 변경하지 마.
+검증과 다른 팀원의 확인 전에는 Done으로 바꾸지 마.
+
+
+
+첫 결과는 작아도 괜찮습니다. FAQ 초안, 가상 문의와 예상 결과, 화면 캡처, 실제 호출 기록, 코드 변경과 실행 결과 중 본인 이슈에 맞는 한 가지를 남깁니다. 작업 전체가 끝나지 않았다면 진행 내용을 기록하고 다음 할 일을 적습니다.
+
+결과가 준비되면 · 증거를 붙이고 검토 요청하기
+
+AI 답변은 작업을 돕는 초안입니다. 본인이 실제 파일을 열거나 화면을 실행해 이슈의 완료 조건을 확인합니다. 실행하지 않은 결과를 성공했다고 적지 않습니다.
+
+복사할 질문 3 · 검토 요청 댓글 초안 만들기
+Detecting…
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+대상은 AI Smart Help Desk의 내 이슈 [이슈 링크] 한 개야.
+내가 한 일: [한두 문장]
+실제로 확인한 증거: [실행 결과·가상 입력·화면 캡처·파일 또는 PR 링크]
+아직 확인하지 못한 점: [없음 또는 내용]
+
+이슈의 완료 조건과 내 증거를 비교해줘.
+부족한 조건이 있으면 구체적으로 알려주고, 모르는 내용은 추정하지 말고 질문해줘.
+조건을 충족했다면 검토자에게 보여줄 짧은 댓글 초안을 작성해줘.
+실행하지 않은 테스트를 통과했다고 쓰지 마.
+댓글 게시와 상태 변경은 하지 말고 초안만 보여줘.
+다른 프로젝트나 다른 이슈는 변경하지 마.
+검증과 다른 팀원의 확인 전에는 Done으로 바꾸지 마.
+
+
+
+초안을 읽고 실제 증거와 맞으면 본인 이슈에 직접 댓글로 남깁니다. 완료 조건을 확인했다면 In Review(검토 중)로 옮기고 도형준 또는 정해진 검토자에게 확인을 요청합니다. 다른 팀원의 검토와 통합 재현을 마친 뒤 Done(완료)으로 바꿉니다.
+
+진행 상태는 대기 → 진행 중 → 검토 중 → 완료라고 생각하면 됩니다. 막혔을 때는 완료로 넘기지 않고 필요한 도움을 기록합니다.
+
+매일 작업을 마칠 때 · 3줄 기록
+
+작업한 날에는 본인 이슈 댓글에 아래 세 줄을 남깁니다. 결과가 완성되지 않아도 현재 상황을 남기면 다음 사람이 이어서 도울 수 있습니다.
+
+Detecting…
+1
+2
+3
+4
+오늘 한 일: [실제 수행한 일 한 문장]
+확인한 결과: [파일·화면·실행 결과 링크 또는 아직 미실행]
+다음 할 일 / 필요한 도움: [다음 행동 또는 막힌 단계]
+
+
+
+작업을 못 하는 날은 가능한 다음 작업 시점을 도형준에게 알려주세요. 자세한 보고서보다 사실과 다음 행동이 보이는 짧은 기록이면 됩니다.
+
+플러그인을 쓸 수 없을 때 · 본문 복사로 진행하기
+
+브라우저에서 본인에게 배정된 Linear 이슈를 엽니다.
+
+목표·기한·선행 작업·할 일·완료 조건을 복사합니다.
+
+일반 AI 채팅에 위 ‘질문 2’와 이슈 본문을 함께 붙입니다. “Linear에 직접 연결되어 있지 않으니 붙인 본문만 근거로 도와줘”라고 덧붙입니다.
+
+AI가 제안한 결과를 직접 확인하고, 진행 기록과 증거는 본인이 Linear에 옮깁니다.
+
+프로젝트 초대 자체가 안 되었다면 도형준에게 배정할 이슈 본문을 공유해 달라고 요청합니다. API 키·계정 비밀번호·다른 프로젝트 자료를 AI 채팅에 붙일 필요는 없습니다.
+
+첫날 완료 확인 · 다섯 개
+
+본인 Linear 계정으로 우리 프로젝트를 열었다. 접근이 막히면 계정 이름과 상황을 도형준에게 알렸다.
+
+Linear 읽기 테스트를 했거나, 사용할 수 없어 본문 복사 방법으로 진행하기로 정했다.
+
+도형준에게 실명·희망 역할 B\~E·가능 시간·도움이 필요한 부분을 전달했다.
+
+배정된 이슈 한 개의 목표·마감·선행 작업·완료 조건을 확인했다. 배정 전이면 배정 요청을 남겼다.
+
+작은 산출물과 실제 확인 결과를 남겼거나, 막힌 단계와 필요한 도움을 구체적으로 보고했다.
+
+첫날 모든 작업을 Done으로 만들 필요는 없습니다. 결과물이 완료 조건을 충족한 경우에만 검토를 신청합니다.
+
+막혔을 때 이렇게 알려주세요
+
+아래는 보고 예시입니다. 실제 본인 상황에 맞게 바꿔 보냅니다.
+
+프로젝트 접근이 안 되는 경우
+
+Detecting…
+1
+2
+3
+4
+5
+6
+이름: [실명]
+막힌 단계: Linear 가입 후 우리 프로젝트 열기
+확인한 것: 본인 계정 로그인은 됐지만 프로젝트 목록과 링크가 열리지 않습니다.
+화면에 보이는 문구: [실제 문구]
+필요한 도움: 제 계정으로 팀 초대가 되었는지 확인 부탁드립니다.
+
+
+
+코드 폴더가 없는 경우
+
+Detecting…
+1
+2
+3
+4
+5
+6
+내 이슈: [배정된 이슈 링크]
+하려던 일: 기본 화면을 실행해 보려고 했습니다.
+막힌 점: Linear 내용은 읽히지만 팀 저장소 주소와 로컬 코드 폴더가 없습니다.
+지금 준비한 것: 이슈 완료 조건과 화면에 표시할 항목을 정리했습니다.
+필요한 도움: 팀 저장소 초대와 사용할 코드 폴더를 알려주세요.
+
+
+
+AI 답변과 실제 결과가 다른 경우
+
+Detecting…
+1
+2
+3
+4
+5
+6
+7
+8
+내 이슈: [배정된 이슈 링크]
+입력 또는 실행 순서: [가상 문의나 실행 단계]
+기대 결과: [완료 조건에 있는 결과]
+실제 결과: [화면 문구·오류 내용·캡처]
+시도한 일: [확인하거나 바꾼 것]
+필요한 도움: 어느 모듈에서 확인해야 하는지 같이 봐주세요.
+현재 상태: 진행 중, 완료 처리하지 않았습니다.
+
+
+공식 사용 안내
+
+Plugins · 설치·연결·사용의 기본 절차
+
+ChatGPT desktop app Commands · 지원되는 플러그인 설치 링크와 접근 조건
+
+위 공식 문서는 기능의 기본 절차를 확인하는 자료입니다. 본인 계정에 메뉴나 플러그인이 보이지 않으면 화면에 나타난 조건을 우선 확인하고, 결제를 진행하지 말고 본문 복사 방법을 사용합니다.
+									73 text 소속 팀: 문의하지마세요 · 팀 코드 NONONO / 팀장: 도형준
+									74 heading Heading actions AI Smart Help Desk · 처음 30분 시작 안내, Value: 1, ID: a2a33c4a-74f5-40f5-8d2b-bd2e9fea12d9
+										75 container
+											76 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										77 text AI Smart Help Desk · 처음 30분 시작 안내
+									78 container
+										79 text 처음에는 프로젝트를 열고, 본인 작업 한 개를 찾고, 도움을 요청하는 방법까지 익히면 됩니다. 코딩이나 Linear 사용 경험이 없어도 이 순서대로 진행할 수 있습니다. 팀장  도형준 이 A 역할과 전체 통합을 맡고, B\~E는 팀원과 상의해 배정합니다.
+									80 container
+										81 text 우리 프로젝트:
+										82 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									83 container
+										84 text 일정:  외부 마감 2026년 12월 2일 / 팀 내부 최종 제출 12월 1일 21:00 / 기능 동결 11월 24일. 외부 제출 시각과 발표일은 공지 확인 기준입니다.
+									85 container
+										86 text 이 시작 과정에서는  유료 결제나 API 키 입력을 진행하지 않습니다.  계정에서 플러그인을 사용할 수 없다면 아래의 ‘본문 복사 방법’으로 참여하면 됩니다. 이 문서는 설치와 연결을 안내하며, 팀원 계정의 설치가 이미 완료되었다는 뜻은 아닙니다.
+									87 text 이후 B·C의 실제 모델 연결에 필요한 API 키는 도형준과 발급·관리 방식을 정합니다. 키 값은 채팅·Linear 댓글·캡처로 공유하지 않습니다.
+									88 heading Heading actions 0\~5분 · Linear에 가입하고 우리 프로젝트만 열기, Value: 2, ID: 5f5185d9-cdc0-45bc-a6ce-f0d249dd0d3d
+										89 container
+											90 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										91 text 0\~5분 · Linear에 가입하고 우리 프로젝트만 열기
+									92 content list
+										93 container
+											94 text 1 . 도형준에게 받은 
+											95 text 팀 초대 링크
+											96 text 를 엽니다. 초대를 받지 않았다면 먼저 초대를 요청합니다.
+										97 container
+											98 text 2 . 본인이 사용할 계정으로 가입하거나 로그인하고 초대를 수락합니다. 계정이 있다는 것과 팀 프로젝트에 접근할 수 있다는 것은 별개입니다.
+										99 container
+											100 text 3 . 위의 우리 프로젝트 링크를 엽니다. 화면의 프로젝트 이름이 
+											101 text AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+											102 text 인지 확인합니다.
+										103 container
+											104 text 4 . 프로젝트 설명과 작업 목록을 읽습니다. 지금은 상태·담당자·마감일을 바꾸지 않습니다.
+									105 container
+										106 text Linear의 이슈(issue)는 ‘해야 할 일 한 개’입니다. B\~E의 큰 역할 아래에  T03, T04 같은 개별 작업 이 있습니다. 처음에는 큰 역할 전체를 끝내려 하지 않고, 배정받은 개별 작업 한 개를 진행합니다. 다른 프로젝트의 작업은 건드리지 않습니다.
+									107 text 프로젝트가 보이지 않으면 새 프로젝트를 만들지 말고 도형준에게 ‘가입한 계정 이름’과 ‘우리 프로젝트가 열리지 않는 상황’을 알려주세요.
+									108 heading Heading actions 5\~12분 · ChatGPT 또는 Codex에 Linear 연결하기, Value: 2, ID: 43f1f113-98b3-4aa9-b150-04273dde0069
+										109 container
+											110 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										111 text 5\~12분 · ChatGPT 또는 Codex에 Linear 연결하기
+									112 container
+										113 text 본인이 사용 가능한 ChatGPT 또는 Codex 화면에서 진행합니다. 공식 기본 절차는  Plugins → 검색 → 상세 → 설치 → 연결 입니다. 
+										114 link Description: 공식 Plugins 안내, Value: learn.chatgpt.com/docs/plugins
+									115 content list
+										116 container
+											117 text 1 .
+											118 text Plugins
+											119 text  탭을 엽니다.
+										120 container
+											121 text 2 . 검색창에서 
+											122 text Linear
+											123 text 를 찾습니다.
+										124 container
+											125 text 3 . Linear 플러그인의 상세 화면을 열고 설치 버튼을 선택합니다. 공식 안내에서는 더하기(+) 버튼으로 표시됩니다.
+										126 container
+											127 text 4 . 연결 안내가 나오면 
+											128 text 본인의 Linear 계정
+											129 text 으로 로그인합니다. 방금 초대를 수락한 계정과 같은지 확인합니다.
+										130 container
+											131 text 5 . 요청되는 연결 권한과 대상 계정을 확인하고 연결을 마칩니다. 설치할 때 연결 안내가 없으면 처음 사용할 때 나타날 수 있습니다.
+										132 container
+											133 text 6 . 새 채팅을 열고 아래 ‘복사할 질문 1’을 보냅니다. 설치한 플러그인의 기능은 새 채팅에서 사용할 수 있습니다. 
+											134 link Description: 설치·연결 공식 절차, Value: learn.chatgpt.com/docs/plugins
+									135 text 설치 메뉴가 없거나 계정에서 사용이 제한되면 결제나 별도 API 키 발급으로 해결하지 않습니다. 화면에 나온 문구를 기록하고 아래 본문 복사 방법으로 진행합니다. 제공되는 기능은 계정·작업 공간에 따라 다를 수 있습니다.
+									136 container
+										137 text Linear 플러그인으로 할 수 있는 일:  접근 권한이 있는 이슈를 읽고, 요청한 범위에서 설명·상태·기록 등을 관리하는 일입니다.  실제 코드 수정 을 하려면 별도로 프로젝트 코드가 있는 로컬 폴더나 공유 저장소가 작업 환경에 연결되어 있어야 합니다. Linear 연결만으로 팀 코드 폴더가 자동으로 생기지는 않습니다.
+									138 heading Heading actions 코드 작업을 맡은 뒤 · GitHub 추가 연결, Value: 3, ID: bf0efe11-b819-4c74-8b19-e9fc237b8427
+										139 container
+											140 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										141 text 코드 작업을 맡은 뒤 · GitHub 추가 연결
+									142 text AI에게 GitHub 이슈·PR·저장소 조회를 맡길 때 선택적으로 연결합니다. 팀 저장소를 받은 로컬 폴더가 준비되어 있다면 GitHub 플러그인 연결 없이도 코드 작업을 시작할 수 있습니다.
+									143 text 도형준이 실제 팀 저장소 주소와 초대를 공유한 뒤 진행합니다.
+									144 content list
+										145 container
+											146 text 1 . 본인 GitHub 계정으로 저장소 초대를 수락하고, 브라우저에서 팀 저장소가 열리는지 확인합니다.
+										147 container
+											148 text 2 . AI 도구의 
+											149 text Plugins
+											150 text 에서 
+											151 text GitHub
+											152 text 를 검색해 설치하고 본인 GitHub 계정으로 연결합니다.
+										153 container
+											154 text 3 . 연결 대상에 팀 저장소가 포함되어 있는지 확인합니다. 권한이 없으면 도형준에게 저장소 접근을 요청합니다.
+										155 container
+											156 text 4 . AI에게 “팀 저장소 [실제 주소]에 접근 가능한지 읽기만 확인하고, 현재 작업 폴더가 그 저장소인지 확인해줘”라고 요청합니다.
+										157 container
+											158 text 5 . 로컬에서 코드를 수정·실행할 도구라면 팀 저장소를 내려받은 폴더를 작업 공간으로 엽니다. 저장소 연결과 로컬 폴더 연결은 각각 확인합니다.
+									159 container
+										160 text GitHub 연결만으로 로컬 실행 환경이 준비되는 것은 아닙니다. 폴더가 없거나 실행 방법이 불명확하면 README와 설치 순서를 도형준에게 확인합니다. 지금은 임의의 저장소나 다른 수업 폴더로 대신하지 않습니다. 설치 방식은 Linear와 같은 
+										161 link Description: 공식 Plugins 절차, Value: learn.chatgpt.com/docs/plugins
+										162 text 를 따릅니다.
+									163 heading Heading actions 12\~16분 · 읽기만 되는지 먼저 확인하기, Value: 2, ID: 12ec4e0e-b423-4006-9b0e-9519ce6caa32
+										164 container
+											165 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										166 text 12\~16분 · 읽기만 되는지 먼저 확인하기
+									167 text 새 채팅에 다음 내용을 그대로 복사합니다. 첫 테스트에서는 내용을 바꾸지 않습니다.
+									168 heading Heading actions 복사할 질문 1 · 내 계정과 우리 프로젝트 읽기 확인, Value: 3, ID: 72a9f7e8-fadc-40ed-8afd-a67bebca4ba2
+										169 container
+											170 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										171 text 복사할 질문 1 · 내 계정과 우리 프로젝트 읽기 확인
+									172 container 86daa0df-5953-487b-b114-8ee64232b9c7
+										173 container
+											174 container Change language
+												175 text Detecting…
+											176 image Display options
+											177 image Copy content
+											178 button Delete
+												179 image Delete
+										180 container
+											181 text Linear 플러그인으로 읽기 확인만 해줘.
+
+대상 프로젝트:
+https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+
+1. 현재 연결된 내 Linear 계정 이름을 확인해줘.
+2. 위 프로젝트에 접근할 수 있는지 확인하고 프로젝트 이름·팀장·소속 팀을 알려줘. 팀장은 도형준, 소속 팀 코드는 NONONO인지 확인해줘.
+3. 이 프로젝트 안에서 내 계정에 배정된 이슈만 알려줘. 없으면 미배정이라고 알려줘.
+
+계정이나 접근 여부를 확인할 수 없으면 추정하지 말고 멈춰서 필요한 내용을 물어봐.
+다른 프로젝트를 읽거나 변경하지 마.
+프로젝트·이슈·문서·댓글·담당자·상태·마감일·코드를 수정하지 마.
+검증 전에는 어떤 작업도 Done으로 바꾸지 마.
+
+									182 text 답변의 계정 이름이 본인과 맞고 우리 프로젝트가 확인되면 읽기 테스트가 된 것입니다. 이슈가 없다고 나오면 역할 배정 전일 수 있으므로 다음 단계에서 도형준에게 확인합니다. 다른 계정이 나오면 그 상태로 작업하지 말고 본인 계정 연결을 다시 확인합니다.
+									183 heading Heading actions 16\~20분 · 도형준에게 이름·희망 역할·가능 시간 알려주기, Value: 2, ID: 5bdf6772-61e9-4c6d-90c4-6b85bbd03674
+										184 container
+											185 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										186 text 16\~20분 · 도형준에게 이름·희망 역할·가능 시간 알려주기
+									187 container
+										188 text 아래 내용을 팀에서 정한 대화 채널에  본인이 직접  보냅니다. AI에게 다른 팀원에게 연락하도록 맡길 필요는 없습니다.
+									189 container 18920898-c0b2-4c32-a48f-41c39ffc179a
+										190 container
+											191 container Change language
+												192 text Detecting…
+											193 image Display options
+											194 image Copy content
+											195 button Delete
+												196 image Delete
+										197 container
+											198 text 이름: [실명]
+Linear에 표시되는 내 계정 이름: [이름]
+프로젝트 열기: [가능 / 안 됨]
+AI의 Linear 읽기 테스트: [성공 / 본문 복사로 진행 / 막힌 내용]
+희망 역할: [B / C / D / E, 가능하면 1·2순위]
+주당 가능한 시간: [예: 4시간]
+작업 가능한 시간대: [요일과 시간]
+처음에 도움이 필요한 부분: [없음 또는 한 문장]
+
+									199 container
+										200 table
+											201 container
+												202 row
+													203 cell
+														204 text 역할
+													205 cell
+														206 text 맡을 일
+													207 cell
+														208 text 처음 해볼 일
+												209 row
+													210 cell
+														211 text B · 문의 분류
+													212 cell
+														213 text Jev 사용 가능 여부와 문의 분야·긴급도 판단
+													214 cell
+														215 text 가상 문의 1건의 분류 결과 확인
+												216 row
+													217 cell
+														218 text C · FAQ와 답변
+													219 cell
+														220 text 시연용 FAQ와 Gemini 안내 답변
+													221 cell
+														222 text FAQ 초안과 답변 근거 정리
+												223 row
+													224 cell
+														225 text D · 화면과 배포
+													226 cell
+														227 text 사용자·관리자 화면, 무료 데모 실행
+													228 cell
+														229 text 고정 예시를 보여주는 기본 화면
+												230 row
+													231 cell
+														232 text E · 검증과 발표
+													233 cell
+														234 text 예상 정답, 오류 재현, 발표 자료
+													235 cell
+														236 text 가상 문의와 기대 결과 작성
+										237 container
+											238 pop up button (collapsed) Description: Table actions, Secondary Actions: Expand
+									239 text 도형준이 역할과 개별 작업을 배정한 뒤 시작합니다. 배정 전에는 역할 설명을 읽고 궁금한 점을 정리하면 됩니다. 다른 사람의 이슈를 본인에게 임의로 가져오지 않습니다.
+									240 heading Heading actions 20\~30분 · 배정된 이슈 한 개로 첫 작업 시작하기, Value: 2, ID: d1f8e14c-7460-40d5-bdcc-8ca598aa2dc0
+										241 container
+											242 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										243 text 20\~30분 · 배정된 이슈 한 개로 첫 작업 시작하기
+									244 content list
+										245 container
+											246 text 1 . 왼쪽 My issues(내 작업)를 열거나, 우리 프로젝트의 이슈 목록에서 
+											247 text Assignee(담당자) → 본인
+											248 text 으로 좁힙니다. 그중 
+											249 text T번호가 붙은 개별 이슈 한 개
+											250 text 를 엽니다. 목록이 비어 있으면 도형준에게 배정을 요청합니다.
+										251 container
+											252 text 2 . 이슈의 
+											253 text 목표·마감·선행 작업·완료 조건
+											254 text 을 읽습니다. 선행 작업은 ‘이 일이 끝나야 내 작업을 마칠 수 있는 앞선 일’입니다.
+										255 container
+											256 text 3 . 선행 작업이 막혀 있으면 도형준에게 알립니다. 지금 준비할 수 있는 자료나 고정 예시가 있는지도 확인합니다.
+										257 container
+											258 text 4 . 시작할 수 있으면 해당 이슈만 In Progress(진행 중)로 옮깁니다. AI가 생성한 글만 보고 완료로 바꾸지 않습니다.
+										259 container
+											260 text 5 . 이슈 링크를 복사해 아래 질문의 대괄호 부분을 채웁니다.
+									261 heading Heading actions 복사할 질문 2 · 내 이슈 한 개에 대한 작업 도움, Value: 3, ID: c1e09f2a-7c00-4dcf-bece-3e7f2e4ecccf
+										262 container
+											263 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										264 text 복사할 질문 2 · 내 이슈 한 개에 대한 작업 도움
+									265 container dcc4e34e-7b42-46d6-947f-6209f82b9f7d
+										266 container
+											267 container Change language
+												268 text Detecting…
+											269 image Display options
+											270 image Copy content
+											271 button Delete
+												272 image Delete
+										273 container
+											274 text 나는 AI Smart Help Desk 프로젝트에서 [B/C/D/E] 역할을 맡았어.
+내게 배정된 개별 이슈는 [여기에 이슈 링크]야.
+
+이 프로젝트와 내 이슈 한 개만 대상으로 도와줘.
+먼저 목표·선행 작업·마감·완료 조건을 읽고, 내가 지금 할 일을 3단계 이내로 정리해줘.
+자료가 충분하면 내 역할의 작은 산출물부터 함께 만들어줘.
+모르는 조건이나 필요한 자료가 없으면 추정하지 말고 멈춰서 물어봐.
+
+코드 작업이면 프로젝트 코드 폴더나 공유 저장소가 현재 작업 환경에 연결되어 있는지 먼저 확인해줘.
+없으면 폴더·저장소 연결에 무엇이 필요한지 물어보고, 코드를 이미 수정했다고 말하지 마.
+코드 수정은 내가 연결한 팀 프로젝트 코드와 이 이슈 범위에서만 해줘.
+공통 데이터 형식이나 다른 담당자의 모듈을 임의로 바꾸지 마.
+
+실제로 확인한 결과와 아직 확인하지 않은 부분을 구분해줘.
+다른 프로젝트·다른 사람의 이슈·담당자·마감일은 변경하지 마.
+검증과 다른 팀원의 확인 전에는 Done으로 바꾸지 마.
+
+									275 container
+										276 text 첫 결과는 작아도 괜찮습니다. FAQ 초안, 가상 문의와 예상 결과, 화면 캡처, 실제 호출 기록, 코드 변경과 실행 결과 중  본인 이슈에 맞는 한 가지 를 남깁니다. 작업 전체가 끝나지 않았다면 진행 내용을 기록하고 다음 할 일을 적습니다.
+									277 heading Heading actions 결과가 준비되면 · 증거를 붙이고 검토 요청하기, Value: 2, ID: 76337f43-2061-4e73-a26c-ae12ae0bbb24
+										278 container
+											279 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										280 text 결과가 준비되면 · 증거를 붙이고 검토 요청하기
+									281 text AI 답변은 작업을 돕는 초안입니다. 본인이 실제 파일을 열거나 화면을 실행해 이슈의 완료 조건을 확인합니다. 실행하지 않은 결과를 성공했다고 적지 않습니다.
+									282 heading Heading actions 복사할 질문 3 · 검토 요청 댓글 초안 만들기, Value: 3, ID: 4f45d003-bebf-43aa-ae8e-3061c72bfed4
+										283 container
+											284 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										285 text 복사할 질문 3 · 검토 요청 댓글 초안 만들기
+									286 container 0be1e4fc-c62c-4ddc-9bc0-47d83364ea76
+										287 container
+											288 container Change language
+												289 text Detecting…
+											290 image Display options
+											291 image Copy content
+											292 button Delete
+												293 image Delete
+										294 container
+											295 text 대상은 AI Smart Help Desk의 내 이슈 [이슈 링크] 한 개야.
+내가 한 일: [한두 문장]
+실제로 확인한 증거: [실행 결과·가상 입력·화면 캡처·파일 또는 PR 링크]
+아직 확인하지 못한 점: [없음 또는 내용]
+
+이슈의 완료 조건과 내 증거를 비교해줘.
+부족한 조건이 있으면 구체적으로 알려주고, 모르는 내용은 추정하지 말고 질문해줘.
+조건을 충족했다면 검토자에게 보여줄 짧은 댓글 초안을 작성해줘.
+실행하지 않은 테스트를 통과했다고 쓰지 마.
+댓글 게시와 상태 변경은 하지 말고 초안만 보여줘.
+다른 프로젝트나 다른 이슈는 변경하지 마.
+검증과 다른 팀원의 확인 전에는 Done으로 바꾸지 마.
+
+									296 container
+										297 text 초안을 읽고 실제 증거와 맞으면  본인 이슈에 직접 댓글로 남깁니다.  완료 조건을 확인했다면 In Review(검토 중)로 옮기고 도형준 또는 정해진 검토자에게 확인을 요청합니다. 다른 팀원의 검토와 통합 재현을 마친 뒤 Done(완료)으로 바꿉니다.
+									298 container
+										299 text 진행 상태는  대기 → 진행 중 → 검토 중 → 완료 라고 생각하면 됩니다. 막혔을 때는 완료로 넘기지 않고 필요한 도움을 기록합니다.
+									300 heading Heading actions 매일 작업을 마칠 때 · 3줄 기록, Value: 2, ID: 1bd97b98-a323-496f-aee4-80520212e34a
+										301 container
+											302 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										303 text 매일 작업을 마칠 때 · 3줄 기록
+									304 text 작업한 날에는 본인 이슈 댓글에 아래 세 줄을 남깁니다. 결과가 완성되지 않아도 현재 상황을 남기면 다음 사람이 이어서 도울 수 있습니다.
+									305 container 7f1f65ec-c062-435a-b37f-dd411d6acb4f
+										306 container
+											307 container Change language
+												308 text Detecting…
+											309 image Display options
+											310 image Copy content
+											311 button Delete
+												312 image Delete
+										313 container
+											314 text 오늘 한 일: [실제 수행한 일 한 문장]
+확인한 결과: [파일·화면·실행 결과 링크 또는 아직 미실행]
+다음 할 일 / 필요한 도움: [다음 행동 또는 막힌 단계]
+
+									315 text 작업을 못 하는 날은 가능한 다음 작업 시점을 도형준에게 알려주세요. 자세한 보고서보다 사실과 다음 행동이 보이는 짧은 기록이면 됩니다.
+									316 heading Heading actions 플러그인을 쓸 수 없을 때 · 본문 복사로 진행하기, Value: 2, ID: 0bac3bd5-768c-4c5f-af63-7c9b4b48055a
+										317 container
+											318 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										319 text 플러그인을 쓸 수 없을 때 · 본문 복사로 진행하기
+									320 content list
+										321 container
+											322 text 1 . 브라우저에서 본인에게 배정된 Linear 이슈를 엽니다.
+										323 container
+											324 text 2 . 목표·기한·선행 작업·할 일·완료 조건을 복사합니다.
+										325 container
+											326 text 3 . 일반 AI 채팅에 위 ‘질문 2’와 이슈 본문을 함께 붙입니다. “Linear에 직접 연결되어 있지 않으니 붙인 본문만 근거로 도와줘”라고 덧붙입니다.
+										327 container
+											328 text 4 . AI가 제안한 결과를 직접 확인하고, 진행 기록과 증거는 본인이 Linear에 옮깁니다.
+									329 text 프로젝트 초대 자체가 안 되었다면 도형준에게 배정할 이슈 본문을 공유해 달라고 요청합니다. API 키·계정 비밀번호·다른 프로젝트 자료를 AI 채팅에 붙일 필요는 없습니다.
+									330 heading Heading actions 첫날 완료 확인 · 다섯 개, Value: 2, ID: 1d40a2e0-c24d-4570-a148-3d3b2cb17904
+										331 container
+											332 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										333 text 첫날 완료 확인 · 다섯 개
+									334 content list
+										335 container
+											336 image
+											337 checkbox Description: 본인 Linear 계정으로 우리 프로젝트를 열었다. 접근이 막히면 계정 이름과 상황을 도형준에게 알렸다., Value: 0
+											338 text 본인 Linear 계정으로 우리 프로젝트를 열었다. 접근이 막히면 계정 이름과 상황을 도형준에게 알렸다.
+										339 container
+											340 image
+											341 checkbox Description: Linear 읽기 테스트를 했거나, 사용할 수 없어 본문 복사 방법으로 진행하기로 정했다., Value: 0
+											342 text Linear 읽기 테스트를 했거나, 사용할 수 없어 본문 복사 방법으로 진행하기로 정했다.
+										343 container
+											344 image
+											345 checkbox Description: 도형준에게 실명·희망 역할 B\~E·가능 시간·도움이 필요한 부분을 전달했다., Value: 0
+											346 text 도형준에게 실명·희망 역할 B\~E·가능 시간·도움이 필요한 부분을 전달했다.
+										347 container
+											348 image
+											349 checkbox Description: 배정된 이슈 한 개의 목표·마감·선행 작업·완료 조건을 확인했다. 배정 전이면 배정 요청을 남겼다., Value: 0
+											350 text 배정된 이슈 한 개의 목표·마감·선행 작업·완료 조건을 확인했다. 배정 전이면 배정 요청을 남겼다.
+										351 container
+											352 image
+											353 checkbox Description: 작은 산출물과 실제 확인 결과를 남겼거나, 막힌 단계와 필요한 도움을 구체적으로 보고했다., Value: 0
+											354 text 작은 산출물과 실제 확인 결과를 남겼거나, 막힌 단계와 필요한 도움을 구체적으로 보고했다.
+									355 text 첫날 모든 작업을 Done으로 만들 필요는 없습니다. 결과물이 완료 조건을 충족한 경우에만 검토를 신청합니다.
+									356 heading Heading actions 막혔을 때 이렇게 알려주세요, Value: 2, ID: c1c42074-5d54-4660-beb1-1d6943320c22
+										357 container
+											358 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										359 text 막혔을 때 이렇게 알려주세요
+									360 container
+										361 text 아래는  보고 예시 입니다. 실제 본인 상황에 맞게 바꿔 보냅니다.
+									362 text 프로젝트 접근이 안 되는 경우
+									363 container 638c2f55-6eba-4778-863b-647380e01954
+										364 container
+											365 container Change language
+												366 text Detecting…
+											367 image Display options
+											368 image Copy content
+											369 button Delete
+												370 image Delete
+										371 container
+											372 text 이름: [실명]
+막힌 단계: Linear 가입 후 우리 프로젝트 열기
+확인한 것: 본인 계정 로그인은 됐지만 프로젝트 목록과 링크가 열리지 않습니다.
+화면에 보이는 문구: [실제 문구]
+필요한 도움: 제 계정으로 팀 초대가 되었는지 확인 부탁드립니다.
+
+									373 text 코드 폴더가 없는 경우
+									374 container b1f3aac9-d911-4c0d-9888-d957ff95737c
+										375 container
+											376 container Change language
+												377 text Detecting…
+											378 image Display options
+											379 image Copy content
+											380 button Delete
+												381 image Delete
+										382 container
+											383 text 내 이슈: [배정된 이슈 링크]
+하려던 일: 기본 화면을 실행해 보려고 했습니다.
+막힌 점: Linear 내용은 읽히지만 팀 저장소 주소와 로컬 코드 폴더가 없습니다.
+지금 준비한 것: 이슈 완료 조건과 화면에 표시할 항목을 정리했습니다.
+필요한 도움: 팀 저장소 초대와 사용할 코드 폴더를 알려주세요.
+
+									384 text AI 답변과 실제 결과가 다른 경우
+									385 container c0652715-919f-446b-a39a-da82fa705008
+										386 container
+											387 container Change language
+												388 text Detecting…
+											389 image Display options
+											390 image Copy content
+											391 button Delete
+												392 image Delete
+										393 container
+											394 text 내 이슈: [배정된 이슈 링크]
+입력 또는 실행 순서: [가상 문의나 실행 단계]
+기대 결과: [완료 조건에 있는 결과]
+실제 결과: [화면 문구·오류 내용·캡처]
+시도한 일: [확인하거나 바꾼 것]
+필요한 도움: 어느 모듈에서 확인해야 하는지 같이 봐주세요.
+현재 상태: 진행 중, 완료 처리하지 않았습니다.
+
+									395 heading Heading actions 공식 사용 안내, Value: 2, ID: 3d3bd13c-1bf0-43a8-ac04-bb34be4e84d4
+										396 container
+											397 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										398 text 공식 사용 안내
+									399 content list
+										400 container
+											401 text •
+											402 link Description: Plugins · 설치·연결·사용의 기본 절차, Value: learn.chatgpt.com/docs/plugins
+										403 container
+											404 text •
+											405 link Description: ChatGPT desktop app Commands · 지원되는 플러그인 설치 링크와 접근 조건, Value: learn.chatgpt.com/docs/app/commands
+									406 text 위 공식 문서는 기능의 기본 절차를 확인하는 자료입니다. 본인 계정에 메뉴나 플러그인이 보이지 않으면 화면에 나타난 조건을 우선 확인하고, 결제를 진행하지 말고 본문 복사 방법을 사용합니다.
+							407 link Description: AI Smart Help Desk · 처음 30분 시작 안내, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-a2a33c4a
+							408 link Description: 0\~5분 · Linear에 가입하고 우리 프로젝트만 열기, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-5f5185d9
+							409 link Description: 5\~12분 · ChatGPT 또는 Codex에 Linear 연결하기, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-43f1f113
+							410 link Description: 코드 작업을 맡은 뒤 · GitHub 추가 연결, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-bf0efe11
+							411 link Description: 12\~16분 · 읽기만 되는지 먼저 확인하기, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-12ec4e0e
+							412 link Description: 복사할 질문 1 · 내 계정과 우리 프로젝트 읽기 확인, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-72a9f7e8
+							413 link Description: 16\~20분 · 도형준에게 이름·희망 역할·가능 시간 알려주기, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-5bdf6772
+							414 link Description: 20\~30분 · 배정된 이슈 한 개로 첫 작업 시작하기, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-d1f8e14c
+							415 link Description: 복사할 질문 2 · 내 이슈 한 개에 대한 작업 도움, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-c1e09f2a
+							416 link Description: 결과가 준비되면 · 증거를 붙이고 검토 요청하기, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-76337f43
+							417 link Description: 복사할 질문 3 · 검토 요청 댓글 초안 만들기, Value: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3#heading-untitled-4f45d003
+							418 link Description: 매일 작업을 마칠 때 · 3줄 기록, Value: …
+							419 link Description: 플러그인을 쓸 수 없을 때 · 본문 복사로 진행하기, Value: …
+							420 link Description: 첫날 완료 확인 · 다섯 개, Value: …
+							421 link Description: 막혔을 때 이렇게 알려주세요, Value: …
+							422 link Description: 공식 사용 안내, Value: …
+					423 container
+						424 button Agent
+						425 button Chat history
+			426 container Notifications alt+T
+
+The focused UI element is 1 AXWebArea 00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업, URL: linear.app/dhj00570-helpdesk/document/00-%EC%B2%98%EC%9D%8C-%ED%95%A9%EB%A5%98%ED%95%98%EB%A9%B4-%EC%97%AC%EA%B8%B0%EB%B6%80%ED%84%B0-%EA%B0%80%EC%9E%85ai-%EC%97%B0%EA%B2%B0%EC%B2%AB-%EC%9E%91%EC%97%85-8d777c3d6ac3?noRedirect=1

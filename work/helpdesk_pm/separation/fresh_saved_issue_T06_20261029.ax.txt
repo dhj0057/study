@@ -1,0 +1,361 @@
+Browser tab: 4, Title: "NONONO-21 T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95?noRedirect=1".
+1 AXWebArea NONONO-21 T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정, URL: linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						248 container
+							249 button (expanded) Your teams, Secondary Actions: Collapse
+							250 button Join a team
+							251 content list teams-boundary-container
+								252 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									253 container
+										254 container
+											255 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												256 text 문의하지마세요
+											257 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										258 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											259 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											260 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											261 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											262 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							263 button (expanded) Try, Secondary Actions: Collapse
+							264 container sidebarTry
+								265 container
+									266 container Invite to 도형준 · 문의하지마세요…
+										267 text Invite people
+									268 button Dismiss
+										269 image Dismiss
+								270 container
+									271 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									272 button Dismiss
+										273 image Dismiss
+					46 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				47 container
+					48 container
+						49 container
+							50 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							51 link Description: NONONO-21 T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95
+							52 switch Description: Add to favorites, Value: 0
+							53 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							54 button Copy issue URL
+							55 button Copy issue ID
+							56 button Copy branch name
+							57 container
+								58 button Copy as prompt
+								59 button Choose coding tool
+							60 container
+								61 container
+									62 text field (settable) Description: Issue title, Value: T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정
+										63 text T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정
+									64 text Sub-issue of
+									65 link Description: NONONO-8 [C·배정 예정] FAQ·Gemini 답변·근거 관리, Value: linear.app/dhj00570-helpdesk/issue/NONONO-8/c%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-faqgemini-%EB%8B%B5%EB%B3%80%EA%B7%BC%EA%B1%B0-%EA%B4%80%EB%A6%AC
+									66 container Open sub-issues of NONONO-8
+										67 text 0/3
+									68 text entry area (settable) Description: Issue description, Value: 여기부터 시작 · T06
+
+처음 할 일: 이슈 댓글에 일반 FAQ·개인별 확인·모호함·근거 없음의 네 묶음과 12·6·6·6건이라는 수를 적는다.
+
+진행 순서
+
+C와 E가 T02의 공통 값과 실제 프로젝트 폴더를 확인한다. faqs.json·cases.json이 없으면 생성 전에 팀장에게 위치를 확인하고 먼저 이슈 댓글에 자료 초안을 작성한다.
+
+장학금·학사·시설별 시연용 FAQ 4개씩 총 12개를 작성한다. 번호·분야·질문·답을 넣고 실제 학교 규정인 것처럼 표현하지 않는다.
+
+가상 문의 30건에 예상 분야·긴급도·부서·검토 여부·FAQ 번호를 적는다. 검토 필수 18건 안에 HIGH 6건을 넣고 모호한 사례의 미분류 허용 기준도 적는다.
+
+전원에게 기준 확인을 요청하고 기준본을 기록한다. 이후 정답 수정에는 이유를 남기며 실행 결과를 보고 정답을 몰래 바꾸지 않는다.
+
+남길 결과물: FAQ 12개와 정답 문의 30건의 기준본. 예: CASE-01 / 가상 문의 / 예상 ACADEMIC·LOW·매핑 부서·review=false·FAQ-A01. 승인 전이면 정답 초안으로 표시한다.
+
+직접 확인할 것: 12개 FAQ, 30개 문의, 검토 필수 18개, 그 안의 HIGH 6개가 맞는지 직접 세고 각 문의의 필수 항목과 FAQ 번호를 확인한다.
+
+AI에게 그대로 복사할 요청
+TOML
+1
+2
+3
+4
+5
+6
+7
+현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T06) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+
+
+결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+
+가입·AI 연결이 막히면 처음 30분 안내
+
+역할과 일정
+
+주 역할: C · 실제 담당자 배정 예정
+
+협업 역할: E
+
+완료 목표: 2026-11-03
+
+단계: Week 1
+
+목표
+
+답변 근거와 검증 정답을 미리 고정해 개발과 검증이 같은 기준을 사용하게 한다.
+
+할 일
+
+장학금·학사·시설별 4개씩 시연용 가상 FAQ 12개를 작성한다.
+
+일반 FAQ 12건·개인별 확인 6건·모호함 6건·FAQ 근거 없음 6건의 가상 문의를 준비한다.
+
+검토 필수 18건 안에 긴급도 HIGH 사례 6건을 포함한다.
+
+각 문의의 예상 분야·긴급도·부서·검토 여부·FAQ 번호를 기록한다.
+
+전원이 기준을 검토하고 11/3 기준본을 고정하며 이후 정답 변경 이유를 기록하도록 합의한다.
+
+완료 기준
+
+시연용 표시와 식별번호가 있는 FAQ가 12개다.
+
+가상 문의 30건에 필수 정답 항목이 빠짐없이 기록되어 있다.
+
+검토 필수 18건·HIGH 6건과 모호한 사례의 미분류 허용 기준을 확인할 수 있다.
+
+팀이 검토한 기준본과 변경 기록 방식이 공유되어 있다.
+
+선행 작업
+
+T02 · T02
+
+결과를 남길 곳
+
+완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+
+팀 실행 계획서 · 공통 계약과 검증 기준
+
+A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+										69 heading Heading actions 여기부터 시작 · T06, Value: 2, ID: d9c9ddc5-374c-4876-8921-d105cf48ff99
+											70 container
+												71 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											72 text 여기부터 시작 · T06
+										73 container
+											74 text 처음 할 일:  이슈 댓글에 일반 FAQ·개인별 확인·모호함·근거 없음의 네 묶음과 12·6·6·6건이라는 수를 적는다.
+										75 heading Heading actions 진행 순서, Value: 3, ID: 1235f1d5-1d90-41bb-81c8-68319d9f443f
+											76 container
+												77 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											78 text 진행 순서
+										79 content list
+											80 container
+												81 text 1 . C와 E가 T02의 공통 값과 실제 프로젝트 폴더를 확인한다. faqs.json·cases.json이 없으면 생성 전에 팀장에게 위치를 확인하고 먼저 이슈 댓글에 자료 초안을 작성한다.
+											82 container
+												83 text 2 . 장학금·학사·시설별 시연용 FAQ 4개씩 총 12개를 작성한다. 번호·분야·질문·답을 넣고 실제 학교 규정인 것처럼 표현하지 않는다.
+											84 container
+												85 text 3 . 가상 문의 30건에 예상 분야·긴급도·부서·검토 여부·FAQ 번호를 적는다. 검토 필수 18건 안에 HIGH 6건을 넣고 모호한 사례의 미분류 허용 기준도 적는다.
+											86 container
+												87 text 4 . 전원에게 기준 확인을 요청하고 기준본을 기록한다. 이후 정답 수정에는 이유를 남기며 실행 결과를 보고 정답을 몰래 바꾸지 않는다.
+										88 container
+											89 text 남길 결과물:  FAQ 12개와 정답 문의 30건의 기준본. 예: CASE-01 / 가상 문의 / 예상 ACADEMIC·LOW·매핑 부서·review=false·FAQ-A01. 승인 전이면 정답 초안으로 표시한다.
+										90 container
+											91 text 직접 확인할 것:  12개 FAQ, 30개 문의, 검토 필수 18개, 그 안의 HIGH 6개가 맞는지 직접 세고 각 문의의 필수 항목과 FAQ 번호를 확인한다.
+										92 heading Heading actions AI에게 그대로 복사할 요청, Value: 3, ID: a3c664b5-6cac-49f4-be8a-66744da9108c
+											93 container
+												94 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											95 text AI에게 그대로 복사할 요청
+										96 container 25424274-4ba5-411a-8884-e37832805f4e
+											97 container
+												98 container Change language
+													99 text TOML
+												100 image Display options
+												101 image Copy content
+												102 button Delete
+													103 image Delete
+											104 container
+												105 text 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T06) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+										106 container
+											107 text 결과 보고:  이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+										108 link Description: 가입·AI 연결이 막히면 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										109 heading Heading actions 역할과 일정, Value: 2, ID: 47e71bf9-110d-4d72-9f64-d11e30e0408b
+											110 container
+												111 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											112 text 역할과 일정
+										113 content list
+											114 container
+												115 text • 주 역할: 
+												116 text C · 실제 담당자 배정 예정
+											117 container
+												118 text • 협업 역할: E
+											119 container
+												120 text • 완료 목표: 2026-11-03
+											121 container
+												122 text • 단계: Week 1
+										123 heading Heading actions 목표, Value: 2, ID: 432e7df3-4bc2-44af-80b5-3d4330fc00ec
+											124 container
+												125 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											126 text 목표
+										127 text 답변 근거와 검증 정답을 미리 고정해 개발과 검증이 같은 기준을 사용하게 한다.
+										128 heading Heading actions 할 일, Value: 2, ID: 7ed4e483-f299-4fcb-8626-716407f16c06
+											129 container
+												130 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											131 text 할 일
+										132 content list
+											133 container
+												134 image
+												135 checkbox Description: 장학금·학사·시설별 4개씩 시연용 가상 FAQ 12개를 작성한다., Value: 0
+												136 text 장학금·학사·시설별 4개씩 시연용 가상 FAQ 12개를 작성한다.
+											137 container
+												138 image
+												139 checkbox Description: 일반 FAQ 12건·개인별 확인 6건·모호함 6건·FAQ 근거 없음 6건의 가상 문의를 준비한다., Value: 0
+												140 text 일반 FAQ 12건·개인별 확인 6건·모호함 6건·FAQ 근거 없음 6건의 가상 문의를 준비한다.
+											141 container
+												142 image
+												143 checkbox Description: 검토 필수 18건 안에 긴급도 HIGH 사례 6건을 포함한다., Value: 0
+												144 text 검토 필수 18건 안에 긴급도 HIGH 사례 6건을 포함한다.
+											145 container
+												146 image
+												147 checkbox Description: 각 문의의 예상 분야·긴급도·부서·검토 여부·FAQ 번호를 기록한다., Value: 0
+												148 text 각 문의의 예상 분야·긴급도·부서·검토 여부·FAQ 번호를 기록한다.
+											149 container
+												150 image
+												151 checkbox Description: 전원이 기준을 검토하고 11/3 기준본을 고정하며 이후 정답 변경 이유를 기록하도록 합의한다., Value: 0
+												152 text 전원이 기준을 검토하고 11/3 기준본을 고정하며 이후 정답 변경 이유를 기록하도록 합의한다.
+										153 heading Heading actions 완료 기준, Value: 2, ID: d99fc431-541a-4e2b-a1e0-dfa1dafe6e10
+											154 container
+												155 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											156 text 완료 기준
+										157 content list
+											158 container
+												159 image
+												160 checkbox Description: 시연용 표시와 식별번호가 있는 FAQ가 12개다., Value: 0
+												161 text 시연용 표시와 식별번호가 있는 FAQ가 12개다.
+											162 container
+												163 image
+												164 checkbox Description: 가상 문의 30건에 필수 정답 항목이 빠짐없이 기록되어 있다., Value: 0
+												165 text 가상 문의 30건에 필수 정답 항목이 빠짐없이 기록되어 있다.
+											166 container
+												167 image
+												168 checkbox Description: 검토 필수 18건·HIGH 6건과 모호한 사례의 미분류 허용 기준을 확인할 수 있다., Value: 0
+												169 text 검토 필수 18건·HIGH 6건과 모호한 사례의 미분류 허용 기준을 확인할 수 있다.
+											170 container
+												171 image
+												172 checkbox Description: 팀이 검토한 기준본과 변경 기록 방식이 공유되어 있다., Value: 0
+												173 text 팀이 검토한 기준본과 변경 기록 방식이 공유되어 있다.
+										174 heading Heading actions 선행 작업, Value: 2, ID: 890fd1f5-b445-42b8-ad7e-3ea3a3fd1f9c
+											175 container
+												176 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											177 text 선행 작업
+										178 content list
+											179 container
+												180 text •
+												181 link Description: T02, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12
+												182 text  · T02
+										183 heading Heading actions 결과를 남길 곳, Value: 2, ID: 88cb329c-e643-4e1c-92c2-2c62e6bd4d1b
+											184 container
+												185 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											186 text 결과를 남길 곳
+										187 text 완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+										188 container
+											189 link Description: 팀 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+											190 text  · 
+											191 link Description: 공통 계약과 검증 기준, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+										192 text A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+									193 button Add reaction
+									194 button Attach images, files, or videos
+									195 button Add sub-issues
+									196 heading Activity, Value: 3
+										197 text Activity
+									198 button Unsubscribe from issue
+									199 button Change subscribers
+										200 image 도형준
+									201 container
+										202 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										203 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										204 text created the  issue
+										205 text ·
+										206 link Description: Thu Oct 29, 2026, 오전 9:53:43, Value: linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95#update-00a4ea5f-72ae-46f4-9913-07b3ff1e8415-issue-created
+										207 button NONONO-22 and NONONO-12 added to related issues
+											208 text NONONO-22  and  NONONO-12  added to  related  issues
+										209 text ·
+										210 link Description: Thu Oct 29, 2026, 오전 9:53:43, Value: linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95#update-6eaf6394-b318-4918-811b-149fe1b87a73-relationship-ar-NONONO-22
+									211 container
+										212 text Leave a comment…
+										213 button Submit comment
+										214 button Attach images, files, or videos
+								215 container
+									216 heading Properties, Value: 3
+										217 text Properties
+									218 button Todo
+										274 image
+										220 text Todo
+									221 button Medium Priority Medium
+										222 image Medium Priority
+										223 text Medium
+									224 button Assign
+									225 button 2026. 11. 03.
+										226 container
+											227 text field (settable) 2026. 11. 03.
+									228 heading Labels, Value: 3
+										229 text Labels
+									230 container Add labels
+										231 button Add labels
+									232 heading Project, Value: 3
+										233 text Project
+									234 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									235 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									236 button Week 1 · 기술 검증과 첫 연결
+									237 button
+									275 heading Blocked by, Value: 3
+										276 text Blocked by
+									277 container
+										278 link Description: T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95
+										279 button Remove relation
+									238 heading Related, Value: 3
+										239 text Related
+									240 container
+										280 container
+											281 link Description: T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95
+											282 button Remove relation
+										244 container
+											245 link Description: T09 · FAQ 후보 조회와 근거 기반 답변 생성 완성, Value: linear.app/dhj00570-helpdesk/issue/NONONO-22/t09-faq-%ED%9B%84%EB%B3%B4-%EC%A1%B0%ED%9A%8C%EC%99%80-%EA%B7%BC%EA%B1%B0-%EA%B8%B0%EB%B0%98-%EB%8B%B5%EB%B3%80-%EC%83%9D%EC%84%B1-%EC%99%84%EC%84%B1
+											246 button Remove relation
+					283 container
+						284 button Agent
+						285 button Chat history
+			247 container Notifications alt+T
+
+The focused UI element is 53 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand

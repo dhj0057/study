@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "modifiedFields": [
+    {
+      "file": "fresh_project_ui_payloads_20261029.json",
+      "scope": "OPERATIONS.markdown/html only",
+      "before": "* PR 제목에 \\[ADE-번호\\] 표시.",
+      "after": "* PR 제목에 \\[NONONO-번호\\] 표시.",
+      "issuesAndProjectUnchanged": true
+    },
+    {
+      "file": "fresh_project_blueprint_20261029.json",
+      "scope": "OPERATIONS.markdown/html only",
+      "before": "* PR 제목에 \\[ADE-번호\\] 표시.",
+      "after": "* PR 제목에 \\[NONONO-번호\\] 표시.",
+      "issuesAndProjectUnchanged": true
+    }
+  ],
+  "legacyPattern": "(?<![A-Za-z])ADE(?![A-Za-z])|ade0033|강석현",
+  "remainingOldReferences": [],
+  "issueBodyOldReferences": [],
+  "checkedIssueCount": 26,
+  "checkedDocumentCount": 6,
+  "legitimateAcademicEnumOccurrences": [
+    {
+      "key": "PLAN",
+      "field": "markdown"
+    },
+    {
+      "key": "PLAN",
+      "field": "html"
+    },
+    {
+      "key": "CONTRACT",
+      "field": "markdown"
+    },
+    {
+      "key": "CONTRACT",
+      "field": "html"
+    },
+    {
+      "key": "T06",
+      "field": "markdown"
+    },
+    {
+      "key": "T06",
+      "field": "html"
+    }
+  ],
+  "remoteReadingPerformed": false,
+  "evidenceLimit": "Issue results apply to the local payload used for posting. Remote posted bodies were not separately queried.",
+  "progressUnchangedAtCheck": true
+}

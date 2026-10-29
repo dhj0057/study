@@ -1,0 +1,139 @@
+Browser tab: 4, Title: "문의하지마세요 › Issue statuses", URL: "https://linear.app/dhj00570-helpdesk/settings/teams/NONONO/statuses".
+1 AXWebArea 문의하지마세요 › Issue statuses, URL: linear.app/dhj00570-helpdesk/settings/teams/NONONO/statuses
+	2 container
+		3 container root
+			551 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/settings/teams/NONONO/statuses#skip-nav
+			552 container mainLayoutContainer
+				553 container
+					554 container
+						555 link Description: Back to app, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview
+						556 container Search settings
+							557 container Search…
+						558 heading Personal, Value: 2
+							559 text Personal
+						560 link Description: Preferences, Value: linear.app/dhj00570-helpdesk/settings/account/preferences
+						561 link Description: Profile, Value: linear.app/dhj00570-helpdesk/settings/account/profile
+						562 link Description: Notifications, Value: linear.app/dhj00570-helpdesk/settings/account/notifications
+						563 link Description: Code & reviews, Value: linear.app/dhj00570-helpdesk/settings/account/code-and-reviews
+						564 link Description: Security & access, Value: linear.app/dhj00570-helpdesk/settings/account/security
+						565 link Description: Connected accounts, Value: linear.app/dhj00570-helpdesk/settings/account/connections
+						566 link Description: Agent personalization, Value: linear.app/dhj00570-helpdesk/settings/account/agents
+						567 heading Issues, Value: 2
+							568 text Issues
+						569 link Description: Labels, Value: linear.app/dhj00570-helpdesk/settings/issue-labels
+						570 link Description: Templates, Value: linear.app/dhj00570-helpdesk/settings/issue-templates
+						571 link Description: SLAs, Value: linear.app/dhj00570-helpdesk/settings/sla
+						572 heading Projects, Value: 2
+							573 text Projects
+						574 link Description: Labels, Value: linear.app/dhj00570-helpdesk/settings/project-labels
+						575 link Description: Templates, Value: linear.app/dhj00570-helpdesk/settings/project-templates
+						576 link Description: Statuses, Value: linear.app/dhj00570-helpdesk/settings/project-statuses
+						577 link Description: Updates, Value: linear.app/dhj00570-helpdesk/settings/project-updates
+						578 heading Features, Value: 2
+							579 text Features
+						580 link Description: AI & agents, Value: linear.app/dhj00570-helpdesk/settings/ai
+						581 link Description: Loops, Value: linear.app/dhj00570-helpdesk/settings/loops
+						582 link Description: Initiatives, Value: linear.app/dhj00570-helpdesk/settings/initiatives
+						583 link Description: Documents, Value: linear.app/dhj00570-helpdesk/settings/documents
+						584 link Description: Customer requests, Value: linear.app/dhj00570-helpdesk/settings/customer-requests
+						585 link Description: Releases, Value: linear.app/dhj00570-helpdesk/settings/releases
+						586 link Description: Pulse, Value: linear.app/dhj00570-helpdesk/settings/pulse
+						587 link Description: Asks, Value: linear.app/dhj00570-helpdesk/settings/asks
+						588 link Description: Emojis, Value: linear.app/dhj00570-helpdesk/settings/emojis
+						589 heading Integrations, Value: 2
+							590 text Integrations
+						591 link Description: All integrations, Value: linear.app/dhj00570-helpdesk/settings/integrations
+						592 heading Administration, Value: 2
+							593 text Administration
+						594 link Description: Workspace, Value: linear.app/dhj00570-helpdesk/settings/workspace
+						595 link Description: Teams, Value: linear.app/dhj00570-helpdesk/settings/teams
+						596 link Description: Members, Value: linear.app/dhj00570-helpdesk/settings/members
+						597 link Description: Security, Value: linear.app/dhj00570-helpdesk/settings/security
+						598 link Description: API, Value: linear.app/dhj00570-helpdesk/settings/api
+						599 link Description: Applications, Value: linear.app/dhj00570-helpdesk/settings/applications
+						600 link Description: Billing, Value: linear.app/dhj00570-helpdesk/settings/billing
+						601 link Description: Usage & limits, Value: linear.app/dhj00570-helpdesk/settings/usage
+						602 link Description: Import & export, Value: linear.app/dhj00570-helpdesk/settings/import-export
+						603 heading Your teams, Value: 2
+							604 text Your teams
+						605 link Description: 문의하지마세요, Value: linear.app/dhj00570-helpdesk/settings/teams/NONONO
+						606 container Create a team
+							607 text Create a team
+					608 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				609 container
+					610 container
+						707 link Description: 문의하지마세요, Value: linear.app/dhj00570-helpdesk/settings/teams/NONONO
+						708 text Issue statuses
+						709 text Issue statuses define the workflow that issues go through from start to completion.
+						710 container Description: Settings, ID: team-status-list
+							711 content list
+								712 container
+									713 content list
+										714 container
+											715 heading Backlog, Value: 3
+												716 text Backlog
+											717 button Create new workflow state
+										718 container
+											772 image
+											720 text Backlog · Default
+											721 button View issues
+											722 pop up button (collapsed) Description: Open menu, Secondary Actions: Expand
+									723 content list
+										724 container
+											725 heading Unstarted, Value: 3
+												726 text Unstarted
+											727 button Create new workflow state
+										728 container
+											773 image
+											730 text Todo
+											731 button View issues
+											732 pop up button (collapsed) Description: Open menu, Secondary Actions: Expand
+									733 content list
+										734 container
+											735 heading Started, Value: 3
+												736 text Started
+											737 button Create new workflow state
+										766 container
+											767 sortable In Progress Open menu
+												768 container
+													774 image
+													770 text In Progress
+													771 pop up button (collapsed) Description: Open menu, Secondary Actions: Expand
+											775 sortable In Review 완료 조건과 증거를 제출하고 팀장 또는 검토자의 확인과 통합 재현을 기다리는 단계 Open menu
+												776 container
+													777 image
+													778 text In Review
+													779 container 완료 조건과 증거를 제출하고 팀장 또는 검토자의 확인과 통합 재현을 기다리는 단계
+														780 text 완료 조건과 증거를 제출하고 팀장 또는 검토자의 확인과 통합 재현을 기다리는 단계
+													781 pop up button (collapsed) Description: Open menu, Secondary Actions: Expand
+									742 content list
+										743 container
+											744 heading Completed, Value: 3
+												745 text Completed
+											746 button Create new workflow state
+										747 container
+											782 image
+											749 text Done
+											750 pop up button (collapsed) Description: Open menu, Secondary Actions: Expand
+									751 content list
+										752 container
+											753 heading Canceled, Value: 3
+												754 text Canceled
+											755 button Create new workflow state
+										756 container
+											783 image
+											758 text Canceled
+											759 pop up button (collapsed) Description: Open menu, Secondary Actions: Expand
+									760 content list
+										761 heading Duplicate, Value: 3
+											762 text Duplicate
+										763 container
+											784 image
+											765 text Duplicate
+					703 container
+						704 button Agent
+						705 button Chat history
+			550 container Notifications alt+T
+			706 text Navigated to 문의하지마세요 › Issue statuses
+
+The focused UI element is 1 AXWebArea 문의하지마세요 › Issue statuses, URL: linear.app/dhj00570-helpdesk/settings/teams/NONONO/statuses

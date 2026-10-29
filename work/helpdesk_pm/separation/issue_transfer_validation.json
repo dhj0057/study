@@ -1,0 +1,271 @@
+{
+  "renderer": "Python-Markdown",
+  "version": "3.11.2",
+  "count": 26,
+  "sourceIdOrder": [
+    "NONONO-1",
+    "NONONO-2",
+    "NONONO-3",
+    "NONONO-4",
+    "NONONO-5",
+    "NONONO-6",
+    "NONONO-7",
+    "NONONO-8",
+    "NONONO-9",
+    "NONONO-10",
+    "NONONO-11",
+    "NONONO-12",
+    "NONONO-13",
+    "NONONO-14",
+    "NONONO-15",
+    "NONONO-16",
+    "NONONO-17",
+    "NONONO-18",
+    "NONONO-19",
+    "NONONO-20",
+    "NONONO-21",
+    "NONONO-22",
+    "NONONO-23",
+    "NONONO-24",
+    "NONONO-25",
+    "NONONO-26"
+  ],
+  "outsideRelations": [],
+  "note": "sourceUuid, assigneeId and milestone.id remain source-workspace identifiers and require destination mapping where applicable.",
+  "issues": [
+    {
+      "sourceId": "NONONO-1",
+      "sourceCharacters": 3240,
+      "markdownCharacters": 2700,
+      "htmlCharacters": 3103,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-26",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-2",
+      "sourceCharacters": 2904,
+      "markdownCharacters": 2344,
+      "htmlCharacters": 2722,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-24",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-3",
+      "sourceCharacters": 2899,
+      "markdownCharacters": 2339,
+      "htmlCharacters": 2710,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-23",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-4",
+      "sourceCharacters": 2971,
+      "markdownCharacters": 2411,
+      "htmlCharacters": 2782,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-24",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-5",
+      "sourceCharacters": 2946,
+      "markdownCharacters": 2386,
+      "htmlCharacters": 2757,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-25",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-6",
+      "sourceCharacters": 3096,
+      "markdownCharacters": 2536,
+      "htmlCharacters": 2907,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-26",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-7",
+      "sourceCharacters": 2784,
+      "markdownCharacters": 2214,
+      "htmlCharacters": 2579,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-26",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-8",
+      "sourceCharacters": 2990,
+      "markdownCharacters": 2430,
+      "htmlCharacters": 2806,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-26",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-9",
+      "sourceCharacters": 2937,
+      "markdownCharacters": 2387,
+      "htmlCharacters": 2774,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-22",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-10",
+      "sourceCharacters": 2900,
+      "markdownCharacters": 2340,
+      "htmlCharacters": 2717,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-22",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-11",
+      "sourceCharacters": 2719,
+      "markdownCharacters": 2159,
+      "htmlCharacters": 2530,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-22",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-12",
+      "sourceCharacters": 2695,
+      "markdownCharacters": 2135,
+      "htmlCharacters": 2506,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-26",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-13",
+      "sourceCharacters": 2858,
+      "markdownCharacters": 2298,
+      "htmlCharacters": 2669,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-22",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-14",
+      "sourceCharacters": 2866,
+      "markdownCharacters": 2306,
+      "htmlCharacters": 2677,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-23",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-15",
+      "sourceCharacters": 2898,
+      "markdownCharacters": 2348,
+      "htmlCharacters": 2735,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-22",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-16",
+      "sourceCharacters": 3179,
+      "markdownCharacters": 2629,
+      "htmlCharacters": 3023,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-26",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-17",
+      "sourceCharacters": 2829,
+      "markdownCharacters": 2269,
+      "htmlCharacters": 2640,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-26",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-18",
+      "sourceCharacters": 3058,
+      "markdownCharacters": 2518,
+      "htmlCharacters": 2914,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-22",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-19",
+      "sourceCharacters": 2957,
+      "markdownCharacters": 2407,
+      "htmlCharacters": 2787,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-23",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-20",
+      "sourceCharacters": 3092,
+      "markdownCharacters": 2542,
+      "htmlCharacters": 2929,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-24",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-21",
+      "sourceCharacters": 2788,
+      "markdownCharacters": 2228,
+      "htmlCharacters": 2599,
+      "lineCountPreserved": true,
+      "parentId": "NONONO-25",
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-22",
+      "sourceCharacters": 1400,
+      "markdownCharacters": 1202,
+      "htmlCharacters": 1400,
+      "lineCountPreserved": true,
+      "parentId": null,
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-23",
+      "sourceCharacters": 1238,
+      "markdownCharacters": 1030,
+      "htmlCharacters": 1259,
+      "lineCountPreserved": true,
+      "parentId": null,
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-24",
+      "sourceCharacters": 1228,
+      "markdownCharacters": 1020,
+      "htmlCharacters": 1249,
+      "lineCountPreserved": true,
+      "parentId": null,
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-25",
+      "sourceCharacters": 1231,
+      "markdownCharacters": 1023,
+      "htmlCharacters": 1252,
+      "lineCountPreserved": true,
+      "parentId": null,
+      "metadataMatchesSource": true
+    },
+    {
+      "sourceId": "NONONO-26",
+      "sourceCharacters": 1258,
+      "markdownCharacters": 1050,
+      "htmlCharacters": 1279,
+      "lineCountPreserved": true,
+      "parentId": null,
+      "metadataMatchesSource": true
+    }
+  ]
+}

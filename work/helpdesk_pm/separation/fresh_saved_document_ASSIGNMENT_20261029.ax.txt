@@ -1,0 +1,976 @@
+Browser tab: 4, Title: "팀 작업 배정안 · A~E 역할과 T01~T21", URL: "https://linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65?noRedirect=1".
+1 AXWebArea 팀 작업 배정안 · A~E 역할과 T01~T21, URL: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox
+								14 link Description: Inbox, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								48 container
+									49 container Invite to 도형준 · 문의하지마세요…
+										50 text Invite people
+									51 button Dismiss
+										52 image Dismiss
+								53 container
+									54 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									55 button Dismiss
+										56 image Dismiss
+					57 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				58 container
+					59 container
+						60 container
+							61 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview
+							62 text 팀 작업 배정안 · A~E 역할과 T01~T21
+							63 switch Description: Add to favorites, Value: 0
+							64 pop up button (collapsed) Description: Document options, Secondary Actions: Expand
+							65 pop up button (collapsed) Description: Document display options and metadata; Edited Oct 29, Secondary Actions: Expand
+							66 button Copy document URL
+							67 button Change document subscribers
+							68 container
+								69 button Document icon
+								70 text field (settable) Description: Document title, Value: 팀 작업 배정안 · A~E 역할과 T01~T21
+									71 text 팀 작업 배정안 · A~E 역할과 T01~T21
+								72 text entry area (settable) Description: Document content, Value: 처음 합류한 팀원: 가입·AI 연결·첫 작업 안내부터 진행하세요. 팀장과 A 담당은 도형준이며, B\~E는 합류 후 배정합니다.
+
+팀 작업 배정안
+배정 상태
+
+A\~E는 역할 식별자다. A는 팀장 도형준으로 확정했다. B\~E의 실제 이름·개인별 가용 시간·담당자 계정은 T01 착수 회의에서 정한다. 팀원 배정은 실제 참여자와 역할 합의를 기준으로 진행한다. A의 상위 이슈와 A 주 담당 작업은 도형준에게 배정한다. B\~E 주 담당 작업은 팀원이 합류해 역할을 정한 뒤 본인 계정에 배정한다.
+
+역할별 상위 이슈
+A · 팀장 도형준 · 기획·공통 처리·전체 통합
+
+A
+
+소유 업무: 공통 데이터 계약, 접수 저장·조회, 부서 연결, 검토 규칙, 상태 전이, 모듈 통합, 일정·제출 확인
+
+결과물: 공통 데이터 계약·저장·처리 코드, README 통합 기준
+
+완료 기준: 모델 실패에도 원문·접수번호가 남고 두 창에서 같은 문의를 조회·갱신한다. 최종 답변과 처리 메모가 모두 비면 완료를 막고, 완료 문의는 읽기 전용이다. 실제 통합 검증과 제출 기록을 남긴다.
+
+B · Jev 검증·문의 분류·긴급도
+
+B
+
+소유 업무: 10/30까지 Jev 무료 실제 호출 검증, 불가 시 Gemini 분류 대체, 분야·긴급도·검토 기준, 응답 형식 검사
+
+결과물: 문의 분류 코드, 분류 설정·판단 기준
+
+완료 기준: 분류 결과가 공통 계약과 일치하고 모호함·HIGH·실패를 정상값으로 숨기지 않는다. 실제 엔진·버전과 원본 결과를 남기고 30건 최초 판단을 검증한다.
+
+C · FAQ·Gemini 답변·근거 관리
+
+C
+
+소유 업무: 시연용 FAQ12개, 관련 FAQ 선택, Gemini 무료 호출과 답변 생성, 근거 부족·개인별 확인 안내
+
+결과물: FAQ 자료·답변 코드, 프롬프트·FAQ 규칙
+
+완료 기준: FAQ 번호·분야·질문·답과 시연용 표시가 있다. FAQ 근거 밖의 정책·날짜·개인별 결과를 단정하지 않고, 불충분한 경우 검토 안내를 제공한다.
+
+D · 사용자·관리자 화면·무료 배포
+
+D
+
+소유 업무: 입력·결과·목록·상세, 필터·수정·상태·재시도 표시, 최소 무료 Space 확인, 실행 설정과 최종 배포
+
+결과물: 사용자·관리자 화면 코드, 설치 설정, README 배포·복구 방법
+
+완료 기준: 실제 공통 처리 모듈과 연결하고 별도 창에서 동일 접수번호를 확인한다. 재시도·진행·중복 방지와 오류 안내가 동작하고 새 환경에서 실행·배포를 재현한다.
+
+E · 검증·결함 관리·발표·백업
+
+E
+
+소유 업무: 30건 정답과 오류8종, 누적·회귀 검증, 결함 분류, 발표 초안·리허설·영상·제출 점검
+
+결과물: cases.json, 검증 결과표, 회귀 확인, 발표 자료·백업
+
+완료 기준: 검토18/18·긴급6/6·FAQ12건과 오류8종을 기록하고 최초 분류 결과를 관리자 수정과 구분한다. P0/P1 0건, 남은 P2와 실제 결과의 한계를 남긴다. 전원 발표 준비를 확인한다.
+
+작업 전체 목록
+
+주 역할 / 협업 역할 순서다. 공동 작업이어도 주 담당 1명을 먼저 확정한다.
+
+작업
+
+	
+
+내용
+
+	
+
+역할
+
+	
+
+완료 목표
+
+	
+
+단계
+
+
+
+
+T01 · T01
+
+	
+
+착수 회의와 역할·일정·공유 공간 확정
+
+	
+
+A / B·C·D·E
+
+	
+
+2026-10-29
+
+	
+
+Week 1
+
+
+
+
+T02 · T02
+
+	
+
+공통 계약 v1과 접수 저장·조회 기본 함수 확정
+
+	
+
+A
+
+	
+
+2026-10-29
+
+	
+
+Week 1
+
+
+
+
+T03 · T03
+
+	
+
+Jev 무료 호출 검증과 분류 엔진 결정
+
+	
+
+B
+
+	
+
+2026-10-30
+
+	
+
+Week 1
+
+
+
+
+T04 · T04
+
+	
+
+Gemini 무료 호출과 FAQ 초안 6개 준비
+
+	
+
+C
+
+	
+
+2026-10-30
+
+	
+
+Week 1
+
+
+
+
+T05 · T05
+
+	
+
+고정 예시 UI와 최소 무료 Space 실행 검증
+
+	
+
+D
+
+	
+
+2026-10-30
+
+	
+
+Week 1
+
+
+
+
+T06 · T06
+
+	
+
+FAQ 12개와 가상 문의 30건 정답 기준 확정
+
+	
+
+C / E
+
+	
+
+2026-11-03
+
+	
+
+Week 1
+
+
+
+
+T07 · T07
+
+	
+
+실제 AI 문의 1건의 접수부터 관리자 조회까지 연결
+
+	
+
+A / B·C·D·E
+
+	
+
+2026-11-03
+
+	
+
+Week 1
+
+
+
+
+T08 · T08
+
+	
+
+분류 결과와 부서 매핑·검토 규칙 연결
+
+	
+
+B / A
+
+	
+
+2026-11-06
+
+	
+
+Week 2
+
+
+
+
+T09 · T09
+
+	
+
+FAQ 후보 조회와 근거 기반 답변 생성 완성
+
+	
+
+C
+
+	
+
+2026-11-06
+
+	
+
+Week 2
+
+
+
+
+T10 · T10
+
+	
+
+접수 결과·관리자 목록·필터·새로고침 연결
+
+	
+
+D / A
+
+	
+
+2026-11-10
+
+	
+
+Week 2
+
+
+
+
+T11 · T11
+
+	
+
+주요 문의 유형별 사용자 흐름 검증
+
+	
+
+E
+
+	
+
+2026-11-10
+
+	
+
+Week 2
+
+
+
+
+T12 · T12
+
+	
+
+관리자 상세 수정과 처리 상태 전이 구현
+
+	
+
+A / D
+
+	
+
+2026-11-13
+
+	
+
+Week 3
+
+
+
+
+T13 · T13
+
+	
+
+모델 실패 처리와 같은 접수번호 재시도 구현
+
+	
+
+A / B·C·D
+
+	
+
+2026-11-17
+
+	
+
+Week 3
+
+
+
+
+T14 · T14
+
+	
+
+30건 1차 통합 검증과 결함 우선순위 확정
+
+	
+
+E / A
+
+	
+
+2026-11-17
+
+	
+
+Week 3
+
+
+
+
+T15 · T15
+
+	
+
+최종 기능의 Space 배포와 새 환경 실행 재현
+
+	
+
+D / A
+
+	
+
+2026-11-20
+
+	
+
+Week 4
+
+
+
+
+T16 · T16
+
+	
+
+배포 환경 30건·오류 8개 전체 예비 검증
+
+	
+
+E / B·C
+
+	
+
+2026-11-24
+
+	
+
+Week 4
+
+
+
+
+T17 · T17
+
+	
+
+필수 기능 완료 판정과 11월 24일 기능 동결
+
+	
+
+A / B·C·D·E
+
+	
+
+2026-11-24
+
+	
+
+Week 4
+
+
+
+
+T18 · T18
+
+	
+
+발표 초안과 개인별 설명·1차 리허설
+
+	
+
+E / A·B·C·D
+
+	
+
+2026-11-27
+
+	
+
+Week 5
+
+
+
+
+T19 · T19
+
+	
+
+치명·주요 결함 수정과 재검증 완료
+
+	
+
+E / A·B·C·D
+
+	
+
+2026-11-29
+
+	
+
+Week 5
+
+
+
+
+T20 · T20
+
+	
+
+최종 발표·질의 리허설과 시연 백업 준비
+
+	
+
+E / A·B·C·D
+
+	
+
+2026-11-30
+
+	
+
+Week 5
+
+
+
+
+T21 · T21
+
+	
+
+12월 1일 21시 내부 최종 제출·인계 점검
+
+	
+
+A / E
+
+	
+
+2026-12-01 21:00 KST
+
+	
+
+Week 5
+
+진행 순서와 인수인계
+
+T01에서 실제 역할과 시간 확정 → T02 공통 계약.
+
+B의 분류, C의 FAQ·생성, D의 UI는 고정 예시로 병렬 개발.
+
+10/30 무료 실제 호출·최소 배포 확인 → 11/3 실제 AI 1건 연결.
+
+11/10 두 창 조회 → 11/17 수정·상태·재시도 → 11/24 배포 예비 검증·동결.
+
+11/25 이후 결함 수정과 발표 준비 → 12/1 21:00 내부 제출 점검 → 12/2 외부 마감.
+
+변경 시 코드·형식·실행법·가상 입력·실제 결과·미해결 사항을 다음 담당자에게 남긴다. 구현자 외 확인과 통합 재현이 끝난 뒤 Linear Done으로 변경한다. T19의 E는 수정 조정·재검증을 맡으며 실제 코드 수정은 해당 모듈 담당자가 한다.
+
+전체 실행 계획서 · 공통 계약과 검증
+									73 container
+										74 text 처음 합류한 팀원:
+										75 link Description: 가입·AI 연결·첫 작업 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										76 text 부터 진행하세요. 팀장과 A 담당은  도형준 이며, B\~E는 합류 후 배정합니다.
+									77 heading Heading actions 팀 작업 배정안, Value: 1, ID: 6447285c-da0e-4845-96a6-01bf9bad2e28
+										78 container
+											79 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										80 text 팀 작업 배정안
+									81 heading Heading actions 배정 상태, Value: 2, ID: 517f6ed6-e433-4884-b33d-a5b013d5330a
+										82 container
+											83 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										84 text 배정 상태
+									85 container
+										86 text A\~E는 역할 식별자다.  A는 팀장 도형준으로 확정 했다. B\~E의 실제 이름·개인별 가용 시간·담당자 계정은 
+										87 link Description: T01, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11
+										88 text  착수 회의에서 정한다. 팀원 배정은 실제 참여자와 역할 합의를 기준으로 진행한다. A의 상위 이슈와 A 주 담당 작업은 도형준에게 배정한다. B\~E 주 담당 작업은 팀원이 합류해 역할을 정한 뒤 본인 계정에 배정한다.
+									89 heading Heading actions 역할별 상위 이슈, Value: 2, ID: 307072e4-a14b-4fc2-b4c9-449b3524b74f
+										90 container
+											91 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										92 text 역할별 상위 이슈
+									93 heading Heading actions A · 팀장 도형준 · 기획·공통 처리·전체 통합, Value: 3, ID: a3663ebf-9eb9-4ce1-b339-b56a5c270976
+										94 container
+											95 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										96 text A · 팀장 도형준 · 기획·공통 처리·전체 통합
+									97 link Description: A, Value: linear.app/dhj00570-helpdesk/issue/NONONO-6
+									98 content list
+										99 container
+											100 text • 소유 업무: 공통 데이터 계약, 접수 저장·조회, 부서 연결, 검토 규칙, 상태 전이, 모듈 통합, 일정·제출 확인
+										101 container
+											102 text • 결과물: 공통 데이터 계약·저장·처리 코드, README 통합 기준
+										103 container
+											104 text • 완료 기준: 모델 실패에도 원문·접수번호가 남고 두 창에서 같은 문의를 조회·갱신한다. 최종 답변과 처리 메모가 모두 비면 완료를 막고, 완료 문의는 읽기 전용이다. 실제 통합 검증과 제출 기록을 남긴다.
+									105 heading Heading actions B · Jev 검증·문의 분류·긴급도, Value: 3, ID: ebe92a2d-2d96-4ecf-a288-49c32cd367f3
+										106 container
+											107 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										108 text B · Jev 검증·문의 분류·긴급도
+									109 link Description: B, Value: linear.app/dhj00570-helpdesk/issue/NONONO-7
+									110 content list
+										111 container
+											112 text • 소유 업무: 10/30까지 Jev 무료 실제 호출 검증, 불가 시 Gemini 분류 대체, 분야·긴급도·검토 기준, 응답 형식 검사
+										113 container
+											114 text • 결과물: 문의 분류 코드, 분류 설정·판단 기준
+										115 container
+											116 text • 완료 기준: 분류 결과가 공통 계약과 일치하고 모호함·HIGH·실패를 정상값으로 숨기지 않는다. 실제 엔진·버전과 원본 결과를 남기고 30건 최초 판단을 검증한다.
+									117 heading Heading actions C · FAQ·Gemini 답변·근거 관리, Value: 3, ID: 89de1d75-bf28-415f-89f5-a83326ac4887
+										118 container
+											119 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										120 text C · FAQ·Gemini 답변·근거 관리
+									121 link Description: C, Value: linear.app/dhj00570-helpdesk/issue/NONONO-8
+									122 content list
+										123 container
+											124 text • 소유 업무: 시연용 FAQ12개, 관련 FAQ 선택, Gemini 무료 호출과 답변 생성, 근거 부족·개인별 확인 안내
+										125 container
+											126 text • 결과물: FAQ 자료·답변 코드, 프롬프트·FAQ 규칙
+										127 container
+											128 text • 완료 기준: FAQ 번호·분야·질문·답과 시연용 표시가 있다. FAQ 근거 밖의 정책·날짜·개인별 결과를 단정하지 않고, 불충분한 경우 검토 안내를 제공한다.
+									129 heading Heading actions D · 사용자·관리자 화면·무료 배포, Value: 3, ID: 2a999594-648f-4146-9018-9b47cc3f6c55
+										130 container
+											131 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										132 text D · 사용자·관리자 화면·무료 배포
+									133 link Description: D, Value: linear.app/dhj00570-helpdesk/issue/NONONO-9
+									134 content list
+										135 container
+											136 text • 소유 업무: 입력·결과·목록·상세, 필터·수정·상태·재시도 표시, 최소 무료 Space 확인, 실행 설정과 최종 배포
+										137 container
+											138 text • 결과물: 사용자·관리자 화면 코드, 설치 설정, README 배포·복구 방법
+										139 container
+											140 text • 완료 기준: 실제 공통 처리 모듈과 연결하고 별도 창에서 동일 접수번호를 확인한다. 재시도·진행·중복 방지와 오류 안내가 동작하고 새 환경에서 실행·배포를 재현한다.
+									141 heading Heading actions E · 검증·결함 관리·발표·백업, Value: 3, ID: 9e90b858-5583-4a4c-a518-79bfd8df1705
+										142 container
+											143 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										144 text E · 검증·결함 관리·발표·백업
+									145 link Description: E, Value: linear.app/dhj00570-helpdesk/issue/NONONO-10
+									146 content list
+										147 container
+											148 text • 소유 업무: 30건 정답과 오류8종, 누적·회귀 검증, 결함 분류, 발표 초안·리허설·영상·제출 점검
+										149 container
+											150 text • 결과물: cases.json, 검증 결과표, 회귀 확인, 발표 자료·백업
+										151 container
+											152 text • 완료 기준: 검토18/18·긴급6/6·FAQ12건과 오류8종을 기록하고 최초 분류 결과를 관리자 수정과 구분한다. P0/P1 0건, 남은 P2와 실제 결과의 한계를 남긴다. 전원 발표 준비를 확인한다.
+									153 heading Heading actions 작업 전체 목록, Value: 2, ID: 12b05bf3-0152-46e6-8562-b4fad1313bb0
+										154 container
+											155 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										156 text 작업 전체 목록
+									157 text 주 역할 / 협업 역할 순서다. 공동 작업이어도 주 담당 1명을 먼저 확정한다.
+									158 container
+										159 table
+											160 container
+												161 row
+													162 cell
+														163 text 작업
+													164 cell
+														165 text 내용
+													166 cell
+														167 text 역할
+													168 cell
+														169 text 완료 목표
+													170 cell
+														171 text 단계
+												172 row
+													173 cell
+														174 link Description: T01 · T01, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11
+													175 cell
+														176 text 착수 회의와 역할·일정·공유 공간 확정
+													177 cell
+														178 text A / B·C·D·E
+													179 cell
+														180 text 2026-10-29
+													181 cell
+														182 text Week 1
+												183 row
+													184 cell
+														185 link Description: T02 · T02, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12
+													186 cell
+														187 text 공통 계약 v1과 접수 저장·조회 기본 함수 확정
+													188 cell
+														189 text A
+													190 cell
+														191 text 2026-10-29
+													192 cell
+														193 text Week 1
+												194 row
+													195 cell
+														196 link Description: T03 · T03, Value: linear.app/dhj00570-helpdesk/issue/NONONO-18
+													197 cell
+														198 text Jev 무료 호출 검증과 분류 엔진 결정
+													199 cell
+														200 text B
+													201 cell
+														202 text 2026-10-30
+													203 cell
+														204 text Week 1
+												205 row
+													206 cell
+														207 link Description: T04 · T04, Value: linear.app/dhj00570-helpdesk/issue/NONONO-20
+													208 cell
+														209 text Gemini 무료 호출과 FAQ 초안 6개 준비
+													210 cell
+														211 text C
+													212 cell
+														213 text 2026-10-30
+													214 cell
+														215 text Week 1
+												216 row
+													217 cell
+														218 link Description: T05 · T05, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23
+													219 cell
+														220 text 고정 예시 UI와 최소 무료 Space 실행 검증
+													221 cell
+														222 text D
+													223 cell
+														224 text 2026-10-30
+													225 cell
+														226 text Week 1
+												227 row
+													228 cell
+														229 link Description: T06 · T06, Value: linear.app/dhj00570-helpdesk/issue/NONONO-21
+													230 cell
+														231 text FAQ 12개와 가상 문의 30건 정답 기준 확정
+													232 cell
+														233 text C / E
+													234 cell
+														235 text 2026-11-03
+													236 cell
+														237 text Week 1
+												238 row
+													239 cell
+														240 link Description: T07 · T07, Value: linear.app/dhj00570-helpdesk/issue/NONONO-13
+													241 cell
+														242 text 실제 AI 문의 1건의 접수부터 관리자 조회까지 연결
+													243 cell
+														244 text A / B·C·D·E
+													245 cell
+														246 text 2026-11-03
+													247 cell
+														248 text Week 1
+												249 row
+													250 cell
+														251 link Description: T08 · T08, Value: linear.app/dhj00570-helpdesk/issue/NONONO-19
+													252 cell
+														253 text 분류 결과와 부서 매핑·검토 규칙 연결
+													254 cell
+														255 text B / A
+													256 cell
+														257 text 2026-11-06
+													258 cell
+														259 text Week 2
+												260 row
+													261 cell
+														262 link Description: T09 · T09, Value: linear.app/dhj00570-helpdesk/issue/NONONO-22
+													263 cell
+														264 text FAQ 후보 조회와 근거 기반 답변 생성 완성
+													265 cell
+														266 text C
+													267 cell
+														268 text 2026-11-06
+													269 cell
+														270 text Week 2
+												271 row
+													272 cell
+														273 link Description: T10 · T10, Value: linear.app/dhj00570-helpdesk/issue/NONONO-24
+													274 cell
+														275 text 접수 결과·관리자 목록·필터·새로고침 연결
+													276 cell
+														277 text D / A
+													278 cell
+														279 text 2026-11-10
+													280 cell
+														281 text Week 2
+												282 row
+													283 cell
+														284 link Description: T11 · T11, Value: linear.app/dhj00570-helpdesk/issue/NONONO-26
+													285 cell
+														286 text 주요 문의 유형별 사용자 흐름 검증
+													287 cell
+														288 text E
+													289 cell
+														290 text 2026-11-10
+													291 cell
+														292 text Week 2
+												293 row
+													294 cell
+														295 link Description: T12 · T12, Value: linear.app/dhj00570-helpdesk/issue/NONONO-14
+													296 cell
+														297 text 관리자 상세 수정과 처리 상태 전이 구현
+													298 cell
+														299 text A / D
+													300 cell
+														301 text 2026-11-13
+													302 cell
+														303 text Week 3
+												304 row
+													305 cell
+														306 link Description: T13 · T13, Value: linear.app/dhj00570-helpdesk/issue/NONONO-15
+													307 cell
+														308 text 모델 실패 처리와 같은 접수번호 재시도 구현
+													309 cell
+														310 text A / B·C·D
+													311 cell
+														312 text 2026-11-17
+													313 cell
+														314 text Week 3
+												315 row
+													316 cell
+														317 link Description: T14 · T14, Value: linear.app/dhj00570-helpdesk/issue/NONONO-27
+													318 cell
+														319 text 30건 1차 통합 검증과 결함 우선순위 확정
+													320 cell
+														321 text E / A
+													322 cell
+														323 text 2026-11-17
+													324 cell
+														325 text Week 3
+												326 row
+													327 cell
+														328 link Description: T15 · T15, Value: linear.app/dhj00570-helpdesk/issue/NONONO-25
+													329 cell
+														330 text 최종 기능의 Space 배포와 새 환경 실행 재현
+													331 cell
+														332 text D / A
+													333 cell
+														334 text 2026-11-20
+													335 cell
+														336 text Week 4
+												337 row
+													338 cell
+														339 link Description: T16 · T16, Value: linear.app/dhj00570-helpdesk/issue/NONONO-28
+													340 cell
+														341 text 배포 환경 30건·오류 8개 전체 예비 검증
+													342 cell
+														343 text E / B·C
+													344 cell
+														345 text 2026-11-24
+													346 cell
+														347 text Week 4
+												348 row
+													349 cell
+														350 link Description: T17 · T17, Value: linear.app/dhj00570-helpdesk/issue/NONONO-16
+													351 cell
+														352 text 필수 기능 완료 판정과 11월 24일 기능 동결
+													353 cell
+														354 text A / B·C·D·E
+													355 cell
+														356 text 2026-11-24
+													357 cell
+														358 text Week 4
+												359 row
+													360 cell
+														361 link Description: T18 · T18, Value: linear.app/dhj00570-helpdesk/issue/NONONO-29
+													362 cell
+														363 text 발표 초안과 개인별 설명·1차 리허설
+													364 cell
+														365 text E / A·B·C·D
+													366 cell
+														367 text 2026-11-27
+													368 cell
+														369 text Week 5
+												370 row
+													371 cell
+														372 link Description: T19 · T19, Value: linear.app/dhj00570-helpdesk/issue/NONONO-30
+													373 cell
+														374 text 치명·주요 결함 수정과 재검증 완료
+													375 cell
+														376 text E / A·B·C·D
+													377 cell
+														378 text 2026-11-29
+													379 cell
+														380 text Week 5
+												381 row
+													382 cell
+														383 link Description: T20 · T20, Value: linear.app/dhj00570-helpdesk/issue/NONONO-31
+													384 cell
+														385 text 최종 발표·질의 리허설과 시연 백업 준비
+													386 cell
+														387 text E / A·B·C·D
+													388 cell
+														389 text 2026-11-30
+													390 cell
+														391 text Week 5
+												392 row
+													393 cell
+														394 link Description: T21 · T21, Value: linear.app/dhj00570-helpdesk/issue/NONONO-17
+													395 cell
+														396 text 12월 1일 21시 내부 최종 제출·인계 점검
+													397 cell
+														398 text A / E
+													399 cell
+														400 text 2026-12-01 21:00 KST
+													401 cell
+														402 text Week 5
+										403 container
+											404 pop up button (collapsed) Description: Table actions, Secondary Actions: Expand
+									405 heading Heading actions 진행 순서와 인수인계, Value: 2, ID: 1ed389ba-55cc-4660-8def-7c9eb8b0f528
+										406 container
+											407 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										408 text 진행 순서와 인수인계
+									409 content list
+										410 container
+											411 text 1 . T01에서 실제 역할과 시간 확정 → T02 공통 계약.
+										412 container
+											413 text 2 . B의 분류, C의 FAQ·생성, D의 UI는 고정 예시로 병렬 개발.
+										414 container
+											415 text 3 . 10/30 무료 실제 호출·최소 배포 확인 → 11/3 실제 AI 1건 연결.
+										416 container
+											417 text 4 . 11/10 두 창 조회 → 11/17 수정·상태·재시도 → 11/24 배포 예비 검증·동결.
+										418 container
+											419 text 5 . 11/25 이후 결함 수정과 발표 준비 → 12/1 21:00 내부 제출 점검 → 12/2 외부 마감.
+									420 text 변경 시 코드·형식·실행법·가상 입력·실제 결과·미해결 사항을 다음 담당자에게 남긴다. 구현자 외 확인과 통합 재현이 끝난 뒤 Linear Done으로 변경한다. T19의 E는 수정 조정·재검증을 맡으며 실제 코드 수정은 해당 모듈 담당자가 한다.
+									421 container
+										422 link Description: 전체 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+										423 text  · 
+										424 link Description: 공통 계약과 검증, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+							425 link Description: 팀 작업 배정안, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-6447285c
+							426 link Description: 배정 상태, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-517f6ed6
+							427 link Description: 역할별 상위 이슈, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-307072e4
+							428 link Description: A · 팀장 도형준 · 기획·공통 처리·전체 통합, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-a3663ebf
+							429 link Description: B · Jev 검증·문의 분류·긴급도, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-ebe92a2d
+							430 link Description: C · FAQ·Gemini 답변·근거 관리, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-89de1d75
+							431 link Description: D · 사용자·관리자 화면·무료 배포, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-2a999594
+							432 link Description: E · 검증·결함 관리·발표·백업, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-9e90b858
+							433 link Description: 작업 전체 목록, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-12b05bf3
+							434 link Description: 진행 순서와 인수인계, Value: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65#heading-untitled-1ed389ba
+					435 container
+						436 button Agent
+						437 button Chat history
+			438 container Notifications alt+T
+
+The focused UI element is 1 AXWebArea 팀 작업 배정안 · A~E 역할과 T01~T21, URL: linear.app/dhj00570-helpdesk/document/%ED%8C%80-%EC%9E%91%EC%97%85-%EB%B0%B0%EC%A0%95%EC%95%88-ae-%EC%97%AD%ED%95%A0%EA%B3%BC-t01t21-7e53c67f6b65?noRedirect=1

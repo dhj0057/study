@@ -1,0 +1,94 @@
+Browser tab: 4, Title: "Members", URL: "https://linear.app/dhj00570-helpdesk/settings/members".
+1 AXWebArea Members, URL: linear.app/dhj00570-helpdesk/settings/members
+	2 container
+		3 container root
+			551 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/settings/members#skip-nav
+			552 container mainLayoutContainer
+				553 container
+					554 container
+						555 link Description: Back to app, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview
+						556 container Search settings
+							557 container Search…
+						558 heading Personal, Value: 2
+							559 text Personal
+						560 link Description: Preferences, Value: linear.app/dhj00570-helpdesk/settings/account/preferences
+						561 link Description: Profile, Value: linear.app/dhj00570-helpdesk/settings/account/profile
+						562 link Description: Notifications, Value: linear.app/dhj00570-helpdesk/settings/account/notifications
+						563 link Description: Code & reviews, Value: linear.app/dhj00570-helpdesk/settings/account/code-and-reviews
+						564 link Description: Security & access, Value: linear.app/dhj00570-helpdesk/settings/account/security
+						565 link Description: Connected accounts, Value: linear.app/dhj00570-helpdesk/settings/account/connections
+						566 link Description: Agent personalization, Value: linear.app/dhj00570-helpdesk/settings/account/agents
+						567 heading Issues, Value: 2
+							568 text Issues
+						569 link Description: Labels, Value: linear.app/dhj00570-helpdesk/settings/issue-labels
+						570 link Description: Templates, Value: linear.app/dhj00570-helpdesk/settings/issue-templates
+						571 link Description: SLAs, Value: linear.app/dhj00570-helpdesk/settings/sla
+						572 heading Projects, Value: 2
+							573 text Projects
+						574 link Description: Labels, Value: linear.app/dhj00570-helpdesk/settings/project-labels
+						575 link Description: Templates, Value: linear.app/dhj00570-helpdesk/settings/project-templates
+						576 link Description: Statuses, Value: linear.app/dhj00570-helpdesk/settings/project-statuses
+						577 link Description: Updates, Value: linear.app/dhj00570-helpdesk/settings/project-updates
+						578 heading Features, Value: 2
+							579 text Features
+						580 link Description: AI & agents, Value: linear.app/dhj00570-helpdesk/settings/ai
+						581 link Description: Loops, Value: linear.app/dhj00570-helpdesk/settings/loops
+						582 link Description: Initiatives, Value: linear.app/dhj00570-helpdesk/settings/initiatives
+						583 link Description: Documents, Value: linear.app/dhj00570-helpdesk/settings/documents
+						584 link Description: Customer requests, Value: linear.app/dhj00570-helpdesk/settings/customer-requests
+						585 link Description: Releases, Value: linear.app/dhj00570-helpdesk/settings/releases
+						586 link Description: Pulse, Value: linear.app/dhj00570-helpdesk/settings/pulse
+						587 link Description: Asks, Value: linear.app/dhj00570-helpdesk/settings/asks
+						588 link Description: Emojis, Value: linear.app/dhj00570-helpdesk/settings/emojis
+						589 heading Integrations, Value: 2
+							590 text Integrations
+						591 link Description: All integrations, Value: linear.app/dhj00570-helpdesk/settings/integrations
+						592 heading Administration, Value: 2
+							593 text Administration
+						594 link Description: Workspace, Value: linear.app/dhj00570-helpdesk/settings/workspace
+						595 link Description: Teams, Value: linear.app/dhj00570-helpdesk/settings/teams
+						596 link Description: Members, Value: linear.app/dhj00570-helpdesk/settings/members
+						597 link Description: Security, Value: linear.app/dhj00570-helpdesk/settings/security
+						598 link Description: API, Value: linear.app/dhj00570-helpdesk/settings/api
+						599 link Description: Applications, Value: linear.app/dhj00570-helpdesk/settings/applications
+						600 link Description: Billing, Value: linear.app/dhj00570-helpdesk/settings/billing
+						601 link Description: Usage & limits, Value: linear.app/dhj00570-helpdesk/settings/usage
+						602 link Description: Import & export, Value: linear.app/dhj00570-helpdesk/settings/import-export
+						603 heading Your teams, Value: 2
+							604 text Your teams
+						605 link Description: 문의하지마세요, Value: linear.app/dhj00570-helpdesk/settings/teams/NONONO
+						606 container Create a team
+							607 text Create a team
+					608 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				609 container
+					610 container
+						707 text Members
+						708 container Search by name or email
+						709 combo box (collapsed) Description: Member filter, Value: All, ID: base-ui-_r_kh_, Secondary Actions: Expand
+							710 text All
+						711 button Export CSV
+						712 button Invite
+						713 container
+							714 button Order by Name, sorted ascending
+							715 button Order by Email
+							716 button Order by Role
+							717 text Teams
+							718 button Order by Joined
+							719 button Order by Last seen
+							720 container
+								721 text Active 1
+							722 link Value: linear.app/dhj00570-helpdesk/profiles/dhj00570, Description: Select dhj00570 도형준 도형준 dhj00570 dhj00570@gmail.com Admin 1 team Joined Oct 28, 오후 4:02:23 Online Open menu
+							723 container
+								724 text Invited 2
+							725 link Value: linear.app/dhj00570-helpdesk/profiles/a77677652, Description: Select a77677652 a77677652@gmail.com a77677652@gmail.com a77677652@gmail.com Admin (Invited) 1 team Invited Oct 29, 오전 10:09:55 Open menu
+							726 link Value: linear.app/dhj00570-helpdesk/profiles/kik6879123456, Description: Select kik6879123456 minseok Kim kik6879123456@gmail.com kik6879123456@gmail.com Admin (Invited) 1 team Invited Oct 29, 오전 10:09:20 Open menu
+							727 container
+								728 text Application 1
+							729 link Description: Linear Linear linear Application Joined Oct 28, 오후 4:02:23 Last seen Oct 28, 2026 Open menu, Value: linear.app/dhj00570-helpdesk/profiles/linear
+					703 container
+						704 button Agent
+						705 button Chat history
+			550 container Notifications alt+T
+			706 text Navigated to Members
+
+The focused UI element is 1 AXWebArea Members, URL: linear.app/dhj00570-helpdesk/settings/members

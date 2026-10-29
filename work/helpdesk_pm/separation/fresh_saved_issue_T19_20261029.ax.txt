@@ -1,0 +1,356 @@
+Browser tab: 4, Title: "NONONO-30 T19 · 치명·주요 결함 수정과 재검증 완료", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C?noRedirect=1".
+1 AXWebArea NONONO-30 T19 · 치명·주요 결함 수정과 재검증 완료, URL: linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								52 container
+									53 container Invite to 도형준 · 문의하지마세요…
+										54 text Invite people
+									55 button Dismiss
+										56 image Dismiss
+								57 container
+									58 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									59 button Dismiss
+										60 image Dismiss
+					61 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				62 container
+					63 container
+						64 container
+							65 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							66 link Description: NONONO-30 T19 · 치명·주요 결함 수정과 재검증 완료, Value: linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C
+							67 switch Description: Add to favorites, Value: 0
+							68 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							69 button Copy issue URL
+							70 button Copy issue ID
+							71 button Copy branch name
+							72 container
+								73 button Copy as prompt
+								74 button Choose coding tool
+							75 container
+								76 container
+									77 text field (settable) Description: Issue title, Value: T19 · 치명·주요 결함 수정과 재검증 완료
+										78 text T19 · 치명·주요 결함 수정과 재검증 완료
+									79 text Sub-issue of
+									80 link Description: NONONO-10 [E·배정 예정] 검증·결함 관리·발표·백업, Value: linear.app/dhj00570-helpdesk/issue/NONONO-10/e%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EA%B2%80%EC%A6%9D%EA%B2%B0%ED%95%A8-%EA%B4%80%EB%A6%AC%EB%B0%9C%ED%91%9C%EB%B0%B1%EC%97%85
+									81 container Open sub-issues of NONONO-10
+										82 text 0/6
+									83 text entry area (settable) Description: Issue description, Value: 여기부터 시작 · T19
+
+처음 할 일: T17의 P0·P1 결함을 이슈 댓글에 옮기고 각 수정 담당자 A\~D와 재현 입력을 표시한다.
+
+진행 순서
+
+E는 결함 조정과 재검증을 맡고 실제 코드 수정은 A\~D의 해당 모듈 담당자가 맡는다고 확인한다. E가 다른 사람 코드나 공통 계약을 임의로 고치지 않는다.
+
+A\~D에게 실제 프로젝트 폴더·소유 파일·수정 대상 확인 후 기존 범위에서 수정하도록 요청한다. 파일이 없으면 생성 전에 팀장 확인이 필요하며 불필요한 리팩터링은 하지 않는다.
+
+수정 담당자가 실행 버전·변경 내용·수정일을 남기면 E가 기존 재현 입력과 영향받는 흐름을 실제로 다시 실행한다. 수정 제안만 받은 건은 미수정으로 둔다.
+
+P0·P1 잔존 수와 P2 영향·대응을 기록한다. 실패가 남으면 차단 상태와 담당자를 알리고 최종 0건을 꾸며 쓰지 않는다.
+
+남길 결과물: 결함 재검증표: 결함 / A\~D 수정 담당 / 실행 버전 / 수정 내역 / 재현 입력 / E의 실제 결과 / P0·P1 잔존 수 / P2 영향·대응. 코드 수정과 확인 자료만 제출한 상태를 구분한다.
+
+직접 확인할 것: E 본인이 최종 후보에서 결함을 다시 재현해 P0·P1이 실제로 0건인지 확인한다. 코드 수정자의 해결 보고만으로 완료 처리하지 않는다.
+
+AI에게 그대로 복사할 요청
+TOML
+1
+2
+3
+4
+5
+6
+7
+현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T19) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+
+
+결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+
+가입·AI 연결이 막히면 처음 30분 안내
+
+역할과 일정
+
+주 역할: E · 실제 담당자 배정 예정
+
+협업 역할: A · B · C · D
+
+완료 목표: 2026-11-29
+
+단계: Week 5
+
+목표
+
+결함별 담당자가 수정하고 E가 재검증해 최종 P0·P1 결함을 0건으로 만든다.
+
+할 일
+
+T17에서 배정한 결함별 수정 담당자가 자신의 모듈을 수정한다.
+
+E가 기존 재현 입력과 영향받는 흐름으로 수정 결과를 다시 확인한다.
+
+검토 필수 누락·근거 없는 단정·핵심 흐름 중단과 노출·결제 조건 문제의 잔존 여부를 점검한다.
+
+실행 버전·수정 내용·수정일·재검증 결과를 결함 기록에 남긴다.
+
+남은 P2의 영향과 대응을 기록하고 11/30\~12/1을 추가 수정·검증 여유로 남긴다.
+
+완료 기준
+
+최종 후보 버전에서 P0·P1이 0건이다.
+
+수정한 결함마다 재현 입력·실행 버전·재검증 결과가 있다.
+
+남은 P2는 필수 흐름을 막지 않으며 영향과 대응이 기록되어 있다.
+
+선행 작업
+
+T17 · T17
+
+결과 기록
+
+실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명의 확인과 통합판 재현 후 Done으로 변경한다.
+
+E는 결함 수정의 조정·재검증 담당이다. 실제 코드는 각 결함의 소유자 A/B/C/D가 수정한다.
+
+팀 실행 계획서 · 공통 계약과 검증 기준
+
+11/24 기능 동결 이후 새 기능은 추가하지 않는다. 외부 마감은 12/2이며, 내부 제출 목표는 12/1 21:00 KST다. 실제 제출 시각·발표일은 공지 확인을 따른다.
+										84 heading Heading actions 여기부터 시작 · T19, Value: 2, ID: 3a6cae1f-0ef6-4033-b741-63567762a747
+											85 container
+												86 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											87 text 여기부터 시작 · T19
+										88 container
+											89 text 처음 할 일:  T17의 P0·P1 결함을 이슈 댓글에 옮기고 각 수정 담당자 A\~D와 재현 입력을 표시한다.
+										90 heading Heading actions 진행 순서, Value: 3, ID: a97c2e94-1cd5-476f-8964-2bd480a33859
+											91 container
+												92 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											93 text 진행 순서
+										94 content list
+											95 container
+												96 text 1 . E는 결함 조정과 재검증을 맡고 실제 코드 수정은 A\~D의 해당 모듈 담당자가 맡는다고 확인한다. E가 다른 사람 코드나 공통 계약을 임의로 고치지 않는다.
+											97 container
+												98 text 2 . A\~D에게 실제 프로젝트 폴더·소유 파일·수정 대상 확인 후 기존 범위에서 수정하도록 요청한다. 파일이 없으면 생성 전에 팀장 확인이 필요하며 불필요한 리팩터링은 하지 않는다.
+											99 container
+												100 text 3 . 수정 담당자가 실행 버전·변경 내용·수정일을 남기면 E가 기존 재현 입력과 영향받는 흐름을 실제로 다시 실행한다. 수정 제안만 받은 건은 미수정으로 둔다.
+											101 container
+												102 text 4 . P0·P1 잔존 수와 P2 영향·대응을 기록한다. 실패가 남으면 차단 상태와 담당자를 알리고 최종 0건을 꾸며 쓰지 않는다.
+										103 container
+											104 text 남길 결과물:  결함 재검증표: 결함 / A\~D 수정 담당 / 실행 버전 / 수정 내역 / 재현 입력 / E의 실제 결과 / P0·P1 잔존 수 / P2 영향·대응. 코드 수정과 확인 자료만 제출한 상태를 구분한다.
+										105 container
+											106 text 직접 확인할 것:  E 본인이 최종 후보에서 결함을 다시 재현해 P0·P1이 실제로 0건인지 확인한다. 코드 수정자의 해결 보고만으로 완료 처리하지 않는다.
+										107 heading Heading actions AI에게 그대로 복사할 요청, Value: 3, ID: 06c7d354-8d36-4608-bcf2-6a8ce386a7ba
+											108 container
+												109 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											110 text AI에게 그대로 복사할 요청
+										111 container d571fd76-b245-486b-9170-3b057d3a1d51
+											112 container
+												113 container Change language
+													114 text TOML
+												115 image Display options
+												116 image Copy content
+												117 button Delete
+													118 image Delete
+											119 container
+												120 text 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T19) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+										121 container
+											122 text 결과 보고:  이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+										123 link Description: 가입·AI 연결이 막히면 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										124 heading Heading actions 역할과 일정, Value: 2, ID: 3800726d-765b-45af-a969-d86284f9f5a3
+											125 container
+												126 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											127 text 역할과 일정
+										128 content list
+											129 container
+												130 text • 주 역할: 
+												131 text E · 실제 담당자 배정 예정
+											132 container
+												133 text • 협업 역할: A · B · C · D
+											134 container
+												135 text • 완료 목표: 2026-11-29
+											136 container
+												137 text • 단계: Week 5
+										138 heading Heading actions 목표, Value: 2, ID: f26db1fe-e2d9-4332-a0c5-a8bb4ce26f6e
+											139 container
+												140 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											141 text 목표
+										142 text 결함별 담당자가 수정하고 E가 재검증해 최종 P0·P1 결함을 0건으로 만든다.
+										143 heading Heading actions 할 일, Value: 2, ID: 3c65f690-49c2-41f3-9560-837441700bda
+											144 container
+												145 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											146 text 할 일
+										147 content list
+											148 container
+												149 image
+												150 checkbox Description: T17에서 배정한 결함별 수정 담당자가 자신의 모듈을 수정한다., Value: 0
+												151 text T17에서 배정한 결함별 수정 담당자가 자신의 모듈을 수정한다.
+											152 container
+												153 image
+												154 checkbox Description: E가 기존 재현 입력과 영향받는 흐름으로 수정 결과를 다시 확인한다., Value: 0
+												155 text E가 기존 재현 입력과 영향받는 흐름으로 수정 결과를 다시 확인한다.
+											156 container
+												157 image
+												158 checkbox Description: 검토 필수 누락·근거 없는 단정·핵심 흐름 중단과 노출·결제 조건 문제의 잔존 여부를 점검한다., Value: 0
+												159 text 검토 필수 누락·근거 없는 단정·핵심 흐름 중단과 노출·결제 조건 문제의 잔존 여부를 점검한다.
+											160 container
+												161 image
+												162 checkbox Description: 실행 버전·수정 내용·수정일·재검증 결과를 결함 기록에 남긴다., Value: 0
+												163 text 실행 버전·수정 내용·수정일·재검증 결과를 결함 기록에 남긴다.
+											164 container
+												165 image
+												166 checkbox Description: 남은 P2의 영향과 대응을 기록하고 11/30\~12/1을 추가 수정·검증 여유로 남긴다., Value: 0
+												167 text 남은 P2의 영향과 대응을 기록하고 11/30\~12/1을 추가 수정·검증 여유로 남긴다.
+										168 heading Heading actions 완료 기준, Value: 2, ID: 7e4355ec-a663-4e24-8de8-e00d7733c575
+											169 container
+												170 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											171 text 완료 기준
+										172 content list
+											173 container
+												174 image
+												175 checkbox Description: 최종 후보 버전에서 P0·P1이 0건이다., Value: 0
+												176 text 최종 후보 버전에서 P0·P1이 0건이다.
+											177 container
+												178 image
+												179 checkbox Description: 수정한 결함마다 재현 입력·실행 버전·재검증 결과가 있다., Value: 0
+												180 text 수정한 결함마다 재현 입력·실행 버전·재검증 결과가 있다.
+											181 container
+												182 image
+												183 checkbox Description: 남은 P2는 필수 흐름을 막지 않으며 영향과 대응이 기록되어 있다., Value: 0
+												184 text 남은 P2는 필수 흐름을 막지 않으며 영향과 대응이 기록되어 있다.
+										185 heading Heading actions 선행 작업, Value: 2, ID: 836edf9a-9fbb-409a-8c87-a0b8b9fa3757
+											186 container
+												187 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											188 text 선행 작업
+										189 content list
+											190 container
+												191 text •
+												192 link Description: T17, Value: linear.app/dhj00570-helpdesk/issue/NONONO-16
+												193 text  · T17
+										194 heading Heading actions 결과 기록, Value: 2, ID: 5560eae7-d184-46fb-b915-83b3681b1684
+											195 container
+												196 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											197 text 결과 기록
+										198 text 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명의 확인과 통합판 재현 후 Done으로 변경한다.
+										199 text E는 결함 수정의 조정·재검증 담당이다. 실제 코드는 각 결함의 소유자 A/B/C/D가 수정한다.
+										200 container
+											201 link Description: 팀 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+											202 text  · 
+											203 link Description: 공통 계약과 검증 기준, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+										204 text 11/24 기능 동결 이후 새 기능은 추가하지 않는다. 외부 마감은 12/2이며, 내부 제출 목표는 12/1 21:00 KST다. 실제 제출 시각·발표일은 공지 확인을 따른다.
+									205 button Add reaction
+									206 button Attach images, files, or videos
+									207 button Add sub-issues
+									208 heading Activity, Value: 3
+										209 text Activity
+									210 button Unsubscribe from issue
+									211 button Change subscribers
+										212 image 도형준
+									213 container
+										214 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										215 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										216 text created the  issue
+										217 text ·
+										218 link Description: Thu Oct 29, 2026, 오전 9:57:07, Value: linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C#update-6dd19344-e066-4d4d-80d9-713d8bf8c9c4-issue-created
+										272 link linear.app/dhj00570-helpdesk/profiles/dhj00570
+										273 link linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84
+										274 link linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C#update-0908c661-7c85-492d-a5ae-23dcaf994d82-relationship-ar-NONONO-31
+										275 link linear.app/dhj00570-helpdesk/profiles/dhj00570
+										276 link linear.app/dhj00570-helpdesk/issue/NONONO-16/t17-%ED%95%84%EC%88%98-%EA%B8%B0%EB%8A%A5-%EC%99%84%EB%A3%8C-%ED%8C%90%EC%A0%95%EA%B3%BC-11%EC%9B%94-24%EC%9D%BC-%EA%B8%B0%EB%8A%A5-%EB%8F%99%EA%B2%B0
+										277 link linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C#update-0908c661-7c85-492d-a5ae-23dcaf994d82-relationship-ab-NONONO-16
+									223 container
+										224 text Leave a comment…
+										225 button Submit comment
+										226 button Attach images, files, or videos
+								227 container
+									228 heading Properties, Value: 3
+										229 text Properties
+									230 button Backlog
+										260 image
+										232 text Backlog
+									233 button High Priority High
+										234 image High Priority
+										235 text High
+									236 button Assign
+									237 button 2026. 11. 29.
+										238 container
+											239 text field (settable) 2026. 11. 29.
+									240 heading Labels, Value: 3
+										241 text Labels
+									242 container Add labels
+										243 button Add labels
+									244 heading Project, Value: 3
+										245 text Project
+									246 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									247 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									248 button Week 5 · 안정화와 발표 및 제출
+									249 button
+									261 heading Blocked by, Value: 3
+										262 text Blocked by
+									263 container
+										264 link Description: T17 · 필수 기능 완료 판정과 11월 24일 기능 동결, Value: …
+										265 button Remove relation
+									250 heading Related, Value: 3
+										251 text Related
+									278 container
+										279 link Description: T20 · 최종 발표·질의 리허설과 시연 백업 준비, Value: …
+										280 button Remove relation
+					269 container
+						270 button Agent
+						271 button Chat history
+			259 container Notifications alt+T
+
+The focused UI element is 1 AXWebArea NONONO-30 T19 · 치명·주요 결함 수정과 재검증 완료, URL: linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C?noRedirect=1

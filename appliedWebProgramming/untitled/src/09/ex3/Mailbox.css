@@ -1,0 +1,23 @@
+.mailbox {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 24px 32px;
+    border-radius: 12px;
+    background-color: #f7f9fc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.mailbox h1 {
+    margin: 0 0 16px;
+    color: #333;
+}
+
+.mailbox h2 {
+    margin: 0;
+    padding: 12px;
+    font-size: 18px;
+    color: #4a7cf7;
+    background-color: #e8eefe;
+    border-radius: 8px;
+}

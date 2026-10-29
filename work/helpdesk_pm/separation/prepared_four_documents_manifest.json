@@ -1,0 +1,50 @@
+[
+  {
+    "sourceId": "91e3644f-a8b7-471d-a235-8076366471fb",
+    "title": "00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업",
+    "preparedContentPath": "D:\\study\\work\\helpdesk_pm\\separation\\prepared_four_documents\\91e3644f-a8b7-471d-a235-8076366471fb.md",
+    "destinationProjectId": "3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "destinationProjectUrl": "https://linear.app/dhj00570-helpdesk/project/3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "sourceLength": 8147,
+    "preparedLength": 8031,
+    "status": "prepared_not_created",
+    "newId": null,
+    "newUrl": null
+  },
+  {
+    "sourceId": "34e9641c-e66d-44f4-88df-1440875b0d3f",
+    "title": "팀 작업 배정안 · A~E 역할과 T01~T21",
+    "preparedContentPath": "D:\\study\\work\\helpdesk_pm\\separation\\prepared_four_documents\\34e9641c-e66d-44f4-88df-1440875b0d3f.md",
+    "destinationProjectId": "3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "destinationProjectUrl": "https://linear.app/dhj00570-helpdesk/project/3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "sourceLength": 9459,
+    "preparedLength": 9159,
+    "status": "prepared_not_created",
+    "newId": null,
+    "newUrl": null
+  },
+  {
+    "sourceId": "bfefc2ca-3156-4b72-91b8-ed4e57433592",
+    "title": "프로젝트 운영 규칙 · GitHub / Linear / 팀 공유",
+    "preparedContentPath": "D:\\study\\work\\helpdesk_pm\\separation\\prepared_four_documents\\bfefc2ca-3156-4b72-91b8-ed4e57433592.md",
+    "destinationProjectId": "3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "destinationProjectUrl": "https://linear.app/dhj00570-helpdesk/project/3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "sourceLength": 2844,
+    "preparedLength": 2056,
+    "status": "prepared_not_created",
+    "newId": null,
+    "newUrl": null
+  },
+  {
+    "sourceId": "d271d6ca-4612-45ee-8e99-ea41f97a383b",
+    "title": "회의록 허브 · 착수 안건과 주간 점검",
+    "preparedContentPath": "D:\\study\\work\\helpdesk_pm\\separation\\prepared_four_documents\\d271d6ca-4612-45ee-8e99-ea41f97a383b.md",
+    "destinationProjectId": "3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "destinationProjectUrl": "https://linear.app/dhj00570-helpdesk/project/3903fba1-33a6-4627-a25e-4481d65f7d35",
+    "sourceLength": 2610,
+    "preparedLength": 2060,
+    "status": "prepared_not_created",
+    "newId": null,
+    "newUrl": null
+  }
+]

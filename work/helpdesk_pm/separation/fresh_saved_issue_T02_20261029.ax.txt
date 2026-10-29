@@ -1,0 +1,369 @@
+Browser tab: 4, Title: "NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95?noRedirect=1".
+1 AXWebArea NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, URL: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								48 container
+									49 container Invite to 도형준 · 문의하지마세요…
+										50 text Invite people
+									51 button Dismiss
+										52 image Dismiss
+								53 container
+									54 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									55 button Dismiss
+										56 image Dismiss
+					57 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				58 container
+					59 container
+						60 container
+							61 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							62 link Description: NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95
+							63 switch Description: Add to favorites, Value: 0
+							64 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							65 button Copy issue URL
+							66 button Copy issue ID
+							67 button Copy branch name
+							68 container
+								69 button Copy as prompt
+								70 button Choose coding tool
+							71 container
+								72 container
+									73 text field (settable) Description: Issue title, Value: T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정
+										74 text T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정
+									75 text Sub-issue of
+									76 link Description: NONONO-6 [A·팀장 도형준] 기획·공통 처리·전체 통합, Value: linear.app/dhj00570-helpdesk/issue/NONONO-6/a%ED%8C%80%EC%9E%A5-%EB%8F%84%ED%98%95%EC%A4%80-%EA%B8%B0%ED%9A%8D%EA%B3%B5%ED%86%B5-%EC%B2%98%EB%A6%AC%EC%A0%84%EC%B2%B4-%ED%86%B5%ED%95%A9
+									77 container Open sub-issues of NONONO-6
+										78 text 0/7
+									79 text entry area (settable) Description: Issue description, Value: 여기부터 시작 · T02
+
+처음 할 일: 이 이슈 댓글에 접수번호·원문·분야·긴급도·검토 여부·상태를 넣은 가상 문의 한 건의 예시를 적는다.
+
+진행 순서
+
+T01에서 정한 실제 프로젝트 폴더를 확인하고 A의 공통 계약·저장·처리 모듈 위치와 소유 범위를 확인한다. 파일이 없으면 생성 전에 도형준(A)과 위치·이름을 확정한다.
+
+공통 계약 문서에서 허용 값과 null·UNASSIGNED·UNKNOWN을 확인한 뒤 정상·검토·실패 예시 3개를 같은 형식으로 정리한다. 계약 변경이 필요하면 먼저 제안으로 남긴다.
+
+확정된 범위에서 원문을 먼저 저장하는 접수 함수와 같은 번호로 찾는 조회 함수를 연결한다. 모델 호출은 고정 예시라고 표시해 분리한다.
+
+접수 1건을 저장하고 그 번호로 조회한 결과를 팀원 한 명에게 재현시킨 뒤 입력·출력·실행 방법을 기록한다.
+
+남길 결과물: 공통 계약 v1과 실행 예: 가상 문의 입력 → ticket_id 발급 → 같은 ticket_id 조회 시 원문 동일. 정상·검토·실패 예시 3종도 함께 남긴다. 실행하지 못했다면 계약 제안 초안으로 표시한다.
+
+직접 확인할 것: 직접 저장한 접수번호로 같은 원문이 조회되는지 실행한다. 예시 JSON만 작성한 결과를 저장 기능 구현 완료로 표시하지 않는다.
+
+AI에게 그대로 복사할 요청
+TOML
+1
+2
+3
+4
+5
+6
+7
+현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T02) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+코드 작업 전 실제 팀 저장소와 작업 폴더, 공통 계약을 확인해줘. 이 작업의 예정 관련 파일은 contracts.py, store.py, routing.py, README.md야. 실제 경로와 소유 담당자를 확인하고 내 담당 범위의 최소 변경부터 진행해줘. 다른 담당자 파일이 필요하면 변경 전에 협업 범위를 정리해줘. 연결된 폴더가 없으면 무엇이 필요한지 알려주고 실행했다고 말하지 마.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+
+
+결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+
+가입·AI 연결이 막히면 처음 30분 안내
+
+역할과 일정
+
+주 역할: A · 팀장 도형준
+
+협업 역할: 필요 시 A와 연결
+
+완료 목표: 2026-10-29
+
+단계: Week 1
+
+목표
+
+분류·답변·화면 담당자가 병렬 개발할 수 있도록 공통 접수 정보와 기본 함수를 고정한다.
+
+할 일
+
+ticket_id·message·category·department·urgency·review_required·faq_ids·reply·status·resolution_note·error_code·engine의 값과 규칙을 문서화한다.
+
+classify·build_reply와 create/get/list/update/retry_ticket의 입력·출력 계약을 합의한다.
+
+모호함 또는 분류 실패의 null/UNASSIGNED와 UNKNOWN, NEW·IN_REVIEW·DONE 상태를 구분한다.
+
+서버 공통 메모리에 원문과 접수번호를 먼저 저장하고 조회하는 기본 함수를 만든다.
+
+가짜 모델 결과 3종을 준비하고 팀원이 동일한 값으로 실행하도록 공유한다.
+
+완료 기준
+
+공통 계약 v1과 기본 함수의 사용 예시를 팀원이 확인할 수 있다.
+
+같은 접수번호로 원문을 저장하고 조회할 수 있다.
+
+팀원이 가짜 모델 결과 3종을 같은 공통 형식으로 실행한다.
+
+선행 작업
+
+T01 · T01
+
+결과를 남길 곳
+
+완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+
+팀 실행 계획서 · 공통 계약과 검증 기준
+
+A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+										80 heading Heading actions 여기부터 시작 · T02, Value: 2, ID: 755af321-ad71-4988-9a0c-b7ff9c99c327
+											81 container
+												82 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											83 text 여기부터 시작 · T02
+										84 container
+											85 text 처음 할 일:  이 이슈 댓글에 접수번호·원문·분야·긴급도·검토 여부·상태를 넣은 가상 문의 한 건의 예시를 적는다.
+										86 heading Heading actions 진행 순서, Value: 3, ID: 949532fc-840a-49d9-bb61-561f1d13a4ec
+											87 container
+												88 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											89 text 진행 순서
+										90 content list
+											91 container
+												92 text 1 . T01에서 정한 실제 프로젝트 폴더를 확인하고 A의 공통 계약·저장·처리 모듈 위치와 소유 범위를 확인한다. 파일이 없으면 생성 전에 도형준(A)과 위치·이름을 확정한다.
+											93 container
+												94 text 2 . 공통 계약 문서에서 허용 값과 null·UNASSIGNED·UNKNOWN을 확인한 뒤 정상·검토·실패 예시 3개를 같은 형식으로 정리한다. 계약 변경이 필요하면 먼저 제안으로 남긴다.
+											95 container
+												96 text 3 . 확정된 범위에서 원문을 먼저 저장하는 접수 함수와 같은 번호로 찾는 조회 함수를 연결한다. 모델 호출은 고정 예시라고 표시해 분리한다.
+											97 container
+												98 text 4 . 접수 1건을 저장하고 그 번호로 조회한 결과를 팀원 한 명에게 재현시킨 뒤 입력·출력·실행 방법을 기록한다.
+										99 container
+											100 text 남길 결과물:  공통 계약 v1과 실행 예: 가상 문의 입력 → ticket_id 발급 → 같은 ticket_id 조회 시 원문 동일. 정상·검토·실패 예시 3종도 함께 남긴다. 실행하지 못했다면 계약 제안 초안으로 표시한다.
+										101 container
+											102 text 직접 확인할 것:  직접 저장한 접수번호로 같은 원문이 조회되는지 실행한다. 예시 JSON만 작성한 결과를 저장 기능 구현 완료로 표시하지 않는다.
+										103 heading Heading actions AI에게 그대로 복사할 요청, Value: 3, ID: 86e88e8d-2198-452a-b5e2-6faf19f4fa32
+											104 container
+												105 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											106 text AI에게 그대로 복사할 요청
+										107 container e50f3a42-e902-49c7-b267-0b6bcc5ab898
+											108 container
+												109 container Change language
+													110 text TOML
+												111 image Display options
+												112 image Copy content
+												113 button Delete
+													114 image Delete
+											115 container
+												116 text 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T02) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+코드 작업 전 실제 팀 저장소와 작업 폴더, 공통 계약을 확인해줘. 이 작업의 예정 관련 파일은 contracts.py, store.py, routing.py, README.md야. 실제 경로와 소유 담당자를 확인하고 내 담당 범위의 최소 변경부터 진행해줘. 다른 담당자 파일이 필요하면 변경 전에 협업 범위를 정리해줘. 연결된 폴더가 없으면 무엇이 필요한지 알려주고 실행했다고 말하지 마.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+										117 container
+											118 text 결과 보고:  이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+										119 link Description: 가입·AI 연결이 막히면 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										120 heading Heading actions 역할과 일정, Value: 2, ID: 39c15342-0b54-402a-8ba1-5ef2f61bd4cb
+											121 container
+												122 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											123 text 역할과 일정
+										124 content list
+											125 container
+												126 text • 주 역할: 
+												127 text A · 팀장 도형준
+											128 container
+												129 text • 협업 역할: 필요 시 A와 연결
+											130 container
+												131 text • 완료 목표: 2026-10-29
+											132 container
+												133 text • 단계: Week 1
+										134 heading Heading actions 목표, Value: 2, ID: 19258e30-549c-4f6a-a70b-21aca388a352
+											135 container
+												136 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											137 text 목표
+										138 text 분류·답변·화면 담당자가 병렬 개발할 수 있도록 공통 접수 정보와 기본 함수를 고정한다.
+										139 heading Heading actions 할 일, Value: 2, ID: ec8c520b-609f-4a64-947d-ed7da28a5a8e
+											140 container
+												141 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											142 text 할 일
+										143 content list
+											144 container
+												145 image
+												146 checkbox Value: 0, Description: ticket_id·message·category·department·urgency·review_required·faq_ids·reply·status·resolution_note·error_code·engine의 값과 규칙을 문서화한다.
+												147 text ticket_id·message·category·department·urgency·review_required·faq_ids·reply·status·resolution_note·error_code·engine의 값과 규칙을 문서화한다.
+											148 container
+												149 image
+												150 checkbox Description: classify·build_reply와 create/get/list/update/retry_ticket의 입력·출력 계약을 합의한다., Value: 0
+												151 text classify·build_reply와 create/get/list/update/retry_ticket의 입력·출력 계약을 합의한다.
+											152 container
+												153 image
+												154 checkbox Description: 모호함 또는 분류 실패의 null/UNASSIGNED와 UNKNOWN, NEW·IN_REVIEW·DONE 상태를 구분한다., Value: 0
+												155 text 모호함 또는 분류 실패의 null/UNASSIGNED와 UNKNOWN, NEW·IN_REVIEW·DONE 상태를 구분한다.
+											156 container
+												157 image
+												158 checkbox Description: 서버 공통 메모리에 원문과 접수번호를 먼저 저장하고 조회하는 기본 함수를 만든다., Value: 0
+												159 text 서버 공통 메모리에 원문과 접수번호를 먼저 저장하고 조회하는 기본 함수를 만든다.
+											160 container
+												161 image
+												162 checkbox Description: 가짜 모델 결과 3종을 준비하고 팀원이 동일한 값으로 실행하도록 공유한다., Value: 0
+												163 text 가짜 모델 결과 3종을 준비하고 팀원이 동일한 값으로 실행하도록 공유한다.
+										164 heading Heading actions 완료 기준, Value: 2, ID: e7c263e3-6749-4f30-a366-06912968f70c
+											165 container
+												166 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											167 text 완료 기준
+										168 content list
+											169 container
+												170 image
+												171 checkbox Description: 공통 계약 v1과 기본 함수의 사용 예시를 팀원이 확인할 수 있다., Value: 0
+												172 text 공통 계약 v1과 기본 함수의 사용 예시를 팀원이 확인할 수 있다.
+											173 container
+												174 image
+												175 checkbox Description: 같은 접수번호로 원문을 저장하고 조회할 수 있다., Value: 0
+												176 text 같은 접수번호로 원문을 저장하고 조회할 수 있다.
+											177 container
+												178 image
+												179 checkbox Description: 팀원이 가짜 모델 결과 3종을 같은 공통 형식으로 실행한다., Value: 0
+												180 text 팀원이 가짜 모델 결과 3종을 같은 공통 형식으로 실행한다.
+										181 heading Heading actions 선행 작업, Value: 2, ID: 73f2a796-8215-4a13-a095-9190501798d0
+											182 container
+												183 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											184 text 선행 작업
+										185 content list
+											186 container
+												187 text •
+												188 link Description: T01, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11
+												189 text  · T01
+										190 heading Heading actions 결과를 남길 곳, Value: 2, ID: 8ef5ed88-de5e-406d-96c6-72df27717ede
+											191 container
+												192 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											193 text 결과를 남길 곳
+										194 text 완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+										195 container
+											196 link Description: 팀 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+											197 text  · 
+											198 link Description: 공통 계약과 검증 기준, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+										199 text A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+									200 button Add reaction
+									201 button Attach images, files, or videos
+									202 button Add sub-issues
+									203 heading Activity, Value: 3
+										204 text Activity
+									205 button (disabled) Unsubscribe from issue
+									206 button Change subscribers
+										207 image 도형준
+									208 container
+										209 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										210 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										211 text created the  issue
+										212 text ·
+										213 link Description: Thu Oct 29, 2026, 오전 9:48:17, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95#update-5c92cf91-a55f-49f0-8be5-af51a87f7d0b-issue-created
+										276 button Updated related issues
+											277 text Updated  related  issues
+										278 text ·
+										279 link Description: Thu Oct 29, 2026, 오전 9:48:17, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95#update-68bcfdb9-0916-4bce-93c1-349034f8310c-relationship-ar-NONONO-23
+										280 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										281 text marked this issue as blocked by 
+										282 link Description: NONONO-11 T01 · 착수 회의와 역할·일정·공유 공간 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95
+										283 text ·
+										284 link Description: Thu Oct 29, 2026, 오전 9:48:17, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95#update-68bcfdb9-0916-4bce-93c1-349034f8310c-relationship-ab-NONONO-11
+									218 container
+										219 text Leave a comment…
+										220 button Submit comment
+										221 button Attach images, files, or videos
+								222 container
+									223 heading Properties, Value: 3
+										224 text Properties
+									225 button Todo
+										270 image
+										227 text Todo
+									228 button High Priority High
+										229 image High Priority
+										230 text High
+									231 button 도형준 도형준
+										232 image 도형준
+										233 text 도형준
+									234 link Description: Go to user, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+									235 button Today
+										236 container
+											237 text field (settable) Today
+									238 heading Labels, Value: 3
+										239 text Labels
+									240 container Add labels
+										241 button Add labels
+									242 heading Project, Value: 3
+										243 text Project
+									244 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									245 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									246 button Week 1 · 기술 검증과 첫 연결
+									247 button
+									271 heading Blocked by, Value: 3
+										272 text Blocked by
+									273 container
+										274 link Description: T01 · 착수 회의와 역할·일정·공유 공간 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95
+										275 button Remove relation
+									248 heading Related, Value: 3
+										249 text Related
+									250 container
+										251 container
+											252 link Description: T05 · 고정 예시 UI와 최소 무료 Space 실행 검증, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D
+											253 button Remove relation
+										254 container
+											255 link Description: T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95
+											256 button Remove relation
+										257 container
+											258 link Description: T04 · Gemini 무료 호출과 FAQ 초안 6개 준비, Value: linear.app/dhj00570-helpdesk/issue/NONONO-20/t04-gemini-%EB%AC%B4%EB%A3%8C-%ED%98%B8%EC%B6%9C%EA%B3%BC-faq-%EC%B4%88%EC%95%88-6%EA%B0%9C-%EC%A4%80%EB%B9%84
+											259 button Remove relation
+										260 container
+											261 link Description: T03 · Jev 무료 호출 검증과 분류 엔진 결정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-18/t03-jev-%EB%AC%B4%EB%A3%8C-%ED%98%B8%EC%B6%9C-%EA%B2%80%EC%A6%9D%EA%B3%BC-%EB%B6%84%EB%A5%98-%EC%97%94%EC%A7%84-%EA%B2%B0%EC%A0%95
+											262 button Remove relation
+					266 container
+						267 button Agent
+						268 button Chat history
+			269 container Notifications alt+T
+
+The focused UI element is 1 AXWebArea NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, URL: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95?noRedirect=1

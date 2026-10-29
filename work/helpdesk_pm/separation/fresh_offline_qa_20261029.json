@@ -1,0 +1,219 @@
+{
+  "checkedAtUtc": "2026-10-29T00:59:32.434280+00:00",
+  "scope": "offline local progress and payload comparison; no live Linear query",
+  "passed": true,
+  "errors": [],
+  "checks": [
+    {
+      "name": "issue_count_26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "five_roles_twentyone_tasks",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_stable_issue_keys_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_planned_ids_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "project_identity_dates_lead",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "issue_dates_status_priority_parent_role_assignment_match",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "six_document_objects",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "document_titles_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "five_milestones_match",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "all_body_placeholders_resolve",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "no_source_instance_issue_ids_in_bodies",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "no_foreign_workspace_or_project_body_links",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "same_workspace_object_urls",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "issue_ids_and_urls_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "populated_issue_uuids_unique",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "counts": {
+    "roles": 5,
+    "tasks": 21,
+    "issues": 26,
+    "documents": 6,
+    "milestones": 5
+  },
+  "leadAssignedKeys": [
+    "A",
+    "T01",
+    "T02",
+    "T07",
+    "T12",
+    "T13",
+    "T17",
+    "T21"
+  ],
+  "expectedLeadAssignedKeys": [
+    "A",
+    "T01",
+    "T02",
+    "T07",
+    "T12",
+    "T13",
+    "T17",
+    "T21"
+  ],
+  "placeholderResolution": {
+    "occurrences": 316,
+    "uniqueReferenceKeys": [
+      "document.ASSIGNMENT.url",
+      "document.CONTRACT.url",
+      "document.MEETINGS.url",
+      "document.OPERATIONS.url",
+      "document.PLAN.url",
+      "document.START.url",
+      "issue.A.url",
+      "issue.B.url",
+      "issue.C.url",
+      "issue.D.url",
+      "issue.E.url",
+      "issue.T01.url",
+      "issue.T02.url",
+      "issue.T03.url",
+      "issue.T04.url",
+      "issue.T05.url",
+      "issue.T06.url",
+      "issue.T07.url",
+      "issue.T08.url",
+      "issue.T09.url",
+      "issue.T10.url",
+      "issue.T11.url",
+      "issue.T12.url",
+      "issue.T13.url",
+      "issue.T14.url",
+      "issue.T15.url",
+      "issue.T16.url",
+      "issue.T17.url",
+      "issue.T18.url",
+      "issue.T19.url",
+      "issue.T20.url",
+      "issue.T21.url",
+      "project.url"
+    ],
+    "unresolved": [],
+    "foreignLinks": []
+  },
+  "expectedPendingWork": {
+    "issueRelations": [
+      "T02",
+      "T07",
+      "T12",
+      "T13",
+      "T17",
+      "T21",
+      "T03",
+      "T08",
+      "T04",
+      "T06",
+      "T09",
+      "T05",
+      "T10",
+      "T15",
+      "T11",
+      "T14",
+      "T16",
+      "T18",
+      "T19",
+      "T20"
+    ],
+    "documentBodies": [
+      "ASSIGNMENT",
+      "OPERATIONS",
+      "MEETINGS"
+    ]
+  },
+  "additionalPendingFlags": {
+    "issueBodies": [],
+    "issueProperties": []
+  },
+  "inputSnapshotHashes": {
+    "payloadSha256": "6e443a0620166c15e8d1b2d69679af7596ef30a68357fa7074857c9fa11c7788",
+    "progressSha256": "e27bfd30876ad34e31338b20c751e5f4d4eb9e81e7f297411ae6f4fc0dd65ab3"
+  },
+  "sourceFilesWritten": false,
+  "warnings": [
+    {
+      "type": "task_uuids_not_recorded",
+      "keys": [
+        "T01",
+        "T02",
+        "T07",
+        "T12",
+        "T13",
+        "T17",
+        "T21",
+        "T03",
+        "T08",
+        "T04",
+        "T06",
+        "T09",
+        "T05",
+        "T10",
+        "T15",
+        "T11",
+        "T14",
+        "T16",
+        "T18",
+        "T19",
+        "T20"
+      ],
+      "blocksUiOrBodyLinking": false,
+      "explanation": "21 tasks use recorded NONONO ID URLs; these IDs and URLs are unique. A null UUID is missing optional metadata, not a duplicate object."
+    }
+  ],
+  "progressAtSummarySha256": "a500b5c8355d83734fdf984692d13e1a2f1dfbe36306879bf57c22984dfdbb69"
+}

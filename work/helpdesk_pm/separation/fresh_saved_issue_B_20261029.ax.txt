@@ -1,0 +1,236 @@
+Browser tab: 4, Title: "NONONO-7 [B·배정 예정] Jev 검증·문의 분류·긴급도", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-7/b%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-jev-%EA%B2%80%EC%A6%9D%EB%AC%B8%EC%9D%98-%EB%B6%84%EB%A5%98%EA%B8%B4%EA%B8%89%EB%8F%84?noRedirect=1".
+1 AXWebArea NONONO-7 [B·배정 예정] Jev 검증·문의 분류·긴급도, URL: linear.app/dhj00570-helpdesk/issue/NONONO-7/b%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-jev-%EA%B2%80%EC%A6%9D%EB%AC%B8%EC%9D%98-%EB%B6%84%EB%A5%98%EA%B8%B4%EA%B8%89%EB%8F%84?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-7/b%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-jev-%EA%B2%80%EC%A6%9D%EB%AC%B8%EC%9D%98-%EB%B6%84%EB%A5%98%EA%B8%B4%EA%B8%89%EB%8F%84?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						172 container
+							173 button (expanded) Your teams, Secondary Actions: Collapse
+							174 button Join a team
+							175 content list teams-boundary-container
+								176 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									177 container
+										178 container
+											179 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												180 text 문의하지마세요
+											181 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										182 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											183 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											184 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											185 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											186 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							187 button (expanded) Try, Secondary Actions: Collapse
+							188 container sidebarTry
+								189 container
+									190 container Invite to 도형준 · 문의하지마세요…
+										191 text Invite people
+									192 button Dismiss
+										193 image Dismiss
+								194 container
+									195 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									196 button Dismiss
+										197 image Dismiss
+					46 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				47 container
+					48 container
+						49 container
+							50 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							51 link Description: NONONO-7 [B·배정 예정] Jev 검증·문의 분류·긴급도, Value: linear.app/dhj00570-helpdesk/issue/NONONO-7/b%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-jev-%EA%B2%80%EC%A6%9D%EB%AC%B8%EC%9D%98-%EB%B6%84%EB%A5%98%EA%B8%B4%EA%B8%89%EB%8F%84
+							52 switch Description: Add to favorites, Value: 0
+							53 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							54 button Copy issue URL
+							55 button Copy issue ID
+							56 button Copy branch name
+							57 container
+								58 button Copy as prompt
+								59 button Choose coding tool
+							60 container [B·배정 예정] Jev 검증·문의 분류·긴급도 이 역할을 쉽게 설명하면 담당: 합류 후 배정 문의가 무슨 분야인지, 얼마나 급한지, 사람이 확인해야 하는지 판단하는 부분을 맡는다. 첫 행동: T03에서 무료로 실제 모델 1건을 호출할 수 있는지부터 확인한다. 첫 작업 T03을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다. 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다. 작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다. 가입·AI 연결·내 작업 찾기 · 처음 30분 안내 역할과 배정 상태 주 역할: B. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다. 소유 범위 10/30까지 Jev 무료 실제 호출 검증, 불가 시 Gemini 분류 대체, 분야·긴급도·검토 기준, 응답 형식 검사 주요 결과물 아래는 저장소 안에서 작성할 코드 파일 이름이다. Plaintext 1 2 triage.py 분류 설정·판단 기준을 함께 남긴다. 완료 기준 분류 결과가 공통 계약과 일치하고 모호함·HIGH·실패를 정상값으로 숨기지 않는다. 실제 엔진·버전과 원본 결과를 남기고 30건 최초 판단을 검증한다. 하위 이슈의 완료 기준과 선행 관계를 따른다. 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다. 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다. 협업 A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다. Add reaction Attach images, files, or videos Collapse sub-issues section 0/2 Display options Create new sub-issue Select issue Backlog T08 · 분류 결과와 부서 매핑·검토 규칙 연결 Nov 6 1 3 Select issue Todo T03 · Jev 무료 호출 검증과 분류 엔진 결정
+								61 container
+									62 text field (settable) Description: Issue title, Value: [B·배정 예정] Jev 검증·문의 분류·긴급도
+										63 text [B·배정 예정] Jev 검증·문의 분류·긴급도
+									64 text entry area (settable) Description: Issue description, Value: 이 역할을 쉽게 설명하면
+
+담당: 합류 후 배정
+
+문의가 무슨 분야인지, 얼마나 급한지, 사람이 확인해야 하는지 판단하는 부분을 맡는다.
+
+첫 행동: T03에서 무료로 실제 모델 1건을 호출할 수 있는지부터 확인한다. 첫 작업 T03을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다.
+
+이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다.
+
+작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다.
+
+가입·AI 연결·내 작업 찾기 · 처음 30분 안내
+
+역할과 배정 상태
+
+주 역할: B. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다.
+
+소유 범위
+
+10/30까지 Jev 무료 실제 호출 검증, 불가 시 Gemini 분류 대체, 분야·긴급도·검토 기준, 응답 형식 검사
+
+주요 결과물
+
+아래는 저장소 안에서 작성할 코드 파일 이름이다.
+
+Plaintext
+1
+2
+triage.py
+
+
+
+분류 설정·판단 기준을 함께 남긴다.
+
+완료 기준
+
+분류 결과가 공통 계약과 일치하고 모호함·HIGH·실패를 정상값으로 숨기지 않는다. 실제 엔진·버전과 원본 결과를 남기고 30건 최초 판단을 검증한다.
+
+하위 이슈의 완료 기준과 선행 관계를 따른다.
+
+구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다.
+
+고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다.
+
+협업
+
+A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다.
+										65 heading Heading actions 이 역할을 쉽게 설명하면, Value: 2, ID: e4de9e06-df18-4a5a-b256-15585b012c16
+											66 container
+												67 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											68 text 이 역할을 쉽게 설명하면
+										69 container
+											70 text 담당:  합류 후 배정
+										71 text 문의가 무슨 분야인지, 얼마나 급한지, 사람이 확인해야 하는지 판단하는 부분을 맡는다.
+										72 container
+											73 text 첫 행동:  T03에서 무료로 실제 모델 1건을 호출할 수 있는지부터 확인한다. 
+											74 link Description: 첫 작업 T03, Value: linear.app/dhj00570-helpdesk/issue/NONONO-18
+											75 text 을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다.
+										76 text 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다.
+										77 container
+											78 text 작업한 날의 보고:  ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다.
+										79 link Description: 가입·AI 연결·내 작업 찾기 · 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										80 heading Heading actions 역할과 배정 상태, Value: 2, ID: c47db0b0-ba17-4ca0-90a9-d8bd752d4e3e
+											81 container
+												82 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											83 text 역할과 배정 상태
+										84 container
+											85 text 주 역할:  B . 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다.
+										86 heading Heading actions 소유 범위, Value: 2, ID: 82fb0026-0eff-4edc-8fd6-970480d03d18
+											87 container
+												88 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											89 text 소유 범위
+										90 text 10/30까지 Jev 무료 실제 호출 검증, 불가 시 Gemini 분류 대체, 분야·긴급도·검토 기준, 응답 형식 검사
+										91 heading Heading actions 주요 결과물, Value: 2, ID: 5e099126-8c4a-4712-bf08-7aaa508c75cc
+											92 container
+												93 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											94 text 주요 결과물
+										95 text 아래는 저장소 안에서 작성할 코드 파일 이름이다.
+										96 container c0028fae-f9ee-4e8d-9c84-890764e3cdc5
+											97 container
+												98 container Change language
+													99 text Plaintext
+												100 image Display options
+												101 image Copy content
+												102 button Delete
+													103 image Delete
+											104 container
+												105 text triage.py
+
+										106 text 분류 설정·판단 기준을 함께 남긴다.
+										107 heading Heading actions 완료 기준, Value: 2, ID: 683aab6c-5b78-4be4-bd01-aafedb578a45
+											108 container
+												109 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											110 text 완료 기준
+										111 text 분류 결과가 공통 계약과 일치하고 모호함·HIGH·실패를 정상값으로 숨기지 않는다. 실제 엔진·버전과 원본 결과를 남기고 30건 최초 판단을 검증한다.
+										112 content list
+											113 container
+												114 text • 하위 이슈의 완료 기준과 선행 관계를 따른다.
+											115 container
+												116 text • 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다.
+											117 container
+												118 text • 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다.
+										119 heading Heading actions 협업, Value: 2, ID: 5d258d9d-1cea-4311-ba05-3d52a964591d
+											120 container
+												121 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											122 text 협업
+										123 text A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다.
+									124 button Add reaction
+									125 button Attach images, files, or videos
+									126 button (expanded) Description: Collapse sub-issues section, Secondary Actions: Collapse
+									127 text 0 / 2
+									128 button Display options
+									129 button Create new sub-issue
+									130 container
+										131 link Description: Select issue Backlog T08 · 분류 결과와 부서 매핑·검토 규칙 연결 Nov 6 1 3, Value: linear.app/dhj00570-helpdesk/issue/NONONO-19/t08-%EB%B6%84%EB%A5%98-%EA%B2%B0%EA%B3%BC%EC%99%80-%EB%B6%80%EC%84%9C-%EB%A7%A4%ED%95%91%EA%B2%80%ED%86%A0-%EA%B7%9C%EC%B9%99-%EC%97%B0%EA%B2%B0
+										132 link Description: Select issue Todo T03 · Jev 무료 호출 검증과 분류 엔진 결정 Tomorrow 1 1, Value: linear.app/dhj00570-helpdesk/issue/NONONO-18/t03-jev-%EB%AC%B4%EB%A3%8C-%ED%98%B8%EC%B6%9C-%EA%B2%80%EC%A6%9D%EA%B3%BC-%EB%B6%84%EB%A5%98-%EC%97%94%EC%A7%84-%EA%B2%B0%EC%A0%95
+									133 heading Activity, Value: 3
+										134 text Activity
+									135 button Unsubscribe from issue
+									136 button Change subscribers
+										137 image 도형준
+									138 container
+										139 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										140 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										141 text created the  issue ·
+										142 link Description: Thu Oct 29, 2026, 오전 9:39:02, Value: linear.app/dhj00570-helpdesk/issue/NONONO-7/b%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-jev-%EA%B2%80%EC%A6%9D%EB%AC%B8%EC%9D%98-%EB%B6%84%EB%A5%98%EA%B8%B4%EA%B8%89%EB%8F%84#update-e36d90d9-8389-4768-96d3-7072eeca41b5-issue-created
+									143 container
+										144 text Leave a comment…
+										145 button Submit comment
+										146 button Attach images, files, or videos
+								147 container
+									148 heading Properties, Value: 3
+										149 text Properties
+									150 button Backlog
+										151 image
+										152 text Backlog
+									153 button High Priority High
+										154 image High Priority
+										155 text High
+									156 button Assign
+									157 button 2026. 11. 24.
+										158 container
+											159 text field (settable) 2026. 11. 24.
+									160 heading Labels, Value: 3
+										161 text Labels
+									162 container Add labels
+										163 button Add labels
+									164 heading Project, Value: 3
+										165 text Project
+									166 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									167 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									168 button Week 4 · 무료 배포와 기능 동결
+									169 button
+					198 container
+						199 button Agent
+						200 button Chat history
+			170 container Notifications alt+T
+			171 text Navigated to NONONO-7 [B·배정 예정] Jev 검증·문의 분류·긴급도
+
+The focused UI element is 60 container [B·배정 예정] Jev 검증·문의 분류·긴급도 이 역할을 쉽게 설명하면 담당: 합류 후 배정 문의가 무슨 분야인지, 얼마나 급한지, 사람이 확인해야 하는지 판단하는 부분을 맡는다. 첫 행동: T03에서 무료로 실제 모델 1건을 호출할 수 있는지부터 확인한다. 첫 작업 T03을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다. 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다. 작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다. 가입·AI 연결·내 작업 찾기 · 처음 30분 안내 역할과 배정 상태 주 역할: B. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다. 소유 범위 10/30까지 Jev 무료 실제 호출 검증, 불가 시 Gemini 분류 대체, 분야·긴급도·검토 기준, 응답 형식 검사 주요 결과물 아래는 저장소 안에서 작성할 코드 파일 이름이다. Plaintext 1 2 triage.py 분류 설정·판단 기준을 함께 남긴다. 완료 기준 분류 결과가 공통 계약과 일치하고 모호함·HIGH·실패를 정상값으로 숨기지 않는다. 실제 엔진·버전과 원본 결과를 남기고 30건 최초 판단을 검증한다. 하위 이슈의 완료 기준과 선행 관계를 따른다. 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다. 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다. 협업 A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다. Add reaction Attach images, files, or videos Collapse sub-issues section 0/2 Display options Create new sub-issue Select issue Backlog T08 · 분류 결과와 부서 매핑·검토 규칙 연결 Nov 6 1 3 Select issue Todo T03 · Jev 무료 호출 검증과 분류 엔진 결정

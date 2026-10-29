@@ -1,0 +1,73 @@
+{
+  "renderer": "Python-Markdown",
+  "version": "3.11.2",
+  "count": 6,
+  "documents": [
+    {
+      "sourceId": "91e3644f-a8b7-471d-a235-8076366471fb",
+      "title": "00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업",
+      "sourceCharacters": 8147,
+      "markdownCharacters": 8031,
+      "htmlCharacters": 9416,
+      "tableCount": 1,
+      "codeBlockCount": 8,
+      "listCount": 7,
+      "lineCountPreserved": true
+    },
+    {
+      "sourceId": "832e0c42-8bf7-4fd6-ad30-b7a51ea89531",
+      "title": "팀 실행 계획서 · 12월 2일 마감 · 2026-10-28",
+      "sourceCharacters": 14411,
+      "markdownCharacters": 14193,
+      "htmlCharacters": 17817,
+      "tableCount": 14,
+      "codeBlockCount": 1,
+      "listCount": 0,
+      "lineCountPreserved": true
+    },
+    {
+      "sourceId": "09fbfb8e-99a4-4314-a1f2-143912a2d638",
+      "title": "공통 데이터·처리 규칙과 검증 기준 v1",
+      "sourceCharacters": 4056,
+      "markdownCharacters": 3838,
+      "htmlCharacters": 5112,
+      "tableCount": 2,
+      "codeBlockCount": 0,
+      "listCount": 2,
+      "lineCountPreserved": true
+    },
+    {
+      "sourceId": "34e9641c-e66d-44f4-88df-1440875b0d3f",
+      "title": "팀 작업 배정안 · A~E 역할과 T01~T21",
+      "sourceCharacters": 9459,
+      "markdownCharacters": 9159,
+      "htmlCharacters": 10759,
+      "tableCount": 1,
+      "codeBlockCount": 0,
+      "listCount": 6,
+      "lineCountPreserved": true
+    },
+    {
+      "sourceId": "bfefc2ca-3156-4b72-91b8-ed4e57433592",
+      "title": "프로젝트 운영 규칙 · GitHub / Linear / 팀 공유",
+      "sourceCharacters": 2844,
+      "markdownCharacters": 2056,
+      "htmlCharacters": 2412,
+      "tableCount": 0,
+      "codeBlockCount": 0,
+      "listCount": 4,
+      "lineCountPreserved": true
+    },
+    {
+      "sourceId": "d271d6ca-4612-45ee-8e99-ea41f97a383b",
+      "title": "회의록 허브 · 착수 안건과 주간 점검",
+      "sourceCharacters": 2610,
+      "markdownCharacters": 2060,
+      "htmlCharacters": 2861,
+      "tableCount": 2,
+      "codeBlockCount": 0,
+      "listCount": 2,
+      "lineCountPreserved": true
+    }
+  ]
+}

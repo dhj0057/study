@@ -19,16 +19,24 @@ import reportWebVitals from './reportWebVitals'
 //import TextingWithFocusButton from "./07/02/TextinputWithFocusButton";
 //import TextinputWithFocusButton from "./07/02/TextinputWithFocusButton";
 //import Accommodate from "./07/Accommodate";
-import Toggle from "./08/01/Toggle";
-import MyButton from "./08/01/MyButton";
-import ConfirmButton from "./08/01/ConfirmButton";
-import ConfirmButton2 from "./08/01/ConfirmButton2";
-import MessageSender from "./08/01/MessageSender";
+//import Toggle from "./08/01/Toggle";
+//import MyButton from "./08/01/MyButton";
+//import ConfirmButton from "./08/01/ConfirmButton";
+//import ConfirmButton2 from "./08/01/ConfirmButton2";
+//import MessageSender from "./08/01/MessageSender";
+//import Greeting from "./09/ex1/UserGreeting";
+//import LogInControl from "./09/ex2/LogInControl";
+//import MailBox from "./09/ex3/MailBox";
+//import LogInControl2 from "./09/ex3/LogInControl2";
+import MainPage from "./09/ex4/MainPage";
+import LandingPage from "./09/finalEX/LandingPage";
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <MessageSender/>
+        <LandingPage/>
     </React.StrictMode>
 );
 

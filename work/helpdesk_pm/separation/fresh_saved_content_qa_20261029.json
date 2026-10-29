@@ -1,0 +1,755 @@
+{
+  "checkedAtUtc": "2026-10-29T01:28:52.351302+00:00",
+  "evidence": "Saved document innerText/AX snapshots, saved issue AX snapshots, actual DOM link captures recorded in progress; no remote calls",
+  "passedImportantChecks": true,
+  "errors": [],
+  "formatMatchingWarnings": [],
+  "documents": [
+    {
+      "key": "START",
+      "characters": 7737,
+      "headingsChecked": 16,
+      "missingHeadings": [],
+      "textUnitsChecked": 101,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0,
+      "operationsPrCorrect": true
+    },
+    {
+      "key": "PLAN",
+      "characters": 13810,
+      "headingsChecked": 32,
+      "missingHeadings": [],
+      "textUnitsChecked": 337,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0,
+      "operationsPrCorrect": true
+    },
+    {
+      "key": "CONTRACT",
+      "characters": 3682,
+      "headingsChecked": 7,
+      "missingHeadings": [],
+      "textUnitsChecked": 65,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0,
+      "operationsPrCorrect": true
+    },
+    {
+      "key": "ASSIGNMENT",
+      "characters": 3627,
+      "headingsChecked": 10,
+      "missingHeadings": [],
+      "textUnitsChecked": 150,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0,
+      "operationsPrCorrect": true
+    },
+    {
+      "key": "OPERATIONS",
+      "characters": 1993,
+      "headingsChecked": 8,
+      "missingHeadings": [],
+      "textUnitsChecked": 40,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0,
+      "operationsPrCorrect": true
+    },
+    {
+      "key": "MEETINGS",
+      "characters": 1614,
+      "headingsChecked": 13,
+      "missingHeadings": [],
+      "textUnitsChecked": 85,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0,
+      "operationsPrCorrect": true
+    }
+  ],
+  "issues": [
+    {
+      "key": "A",
+      "id": "NONONO-6",
+      "nativeBlockedBy": [],
+      "expectedBlockedBy": [],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 22,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "B",
+      "id": "NONONO-7",
+      "nativeBlockedBy": [],
+      "expectedBlockedBy": [],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 22,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "C",
+      "id": "NONONO-8",
+      "nativeBlockedBy": [],
+      "expectedBlockedBy": [],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 22,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "D",
+      "id": "NONONO-9",
+      "nativeBlockedBy": [],
+      "expectedBlockedBy": [],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 22,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "E",
+      "id": "NONONO-10",
+      "nativeBlockedBy": [],
+      "expectedBlockedBy": [],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 20,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T01",
+      "id": "NONONO-11",
+      "nativeBlockedBy": [],
+      "expectedBlockedBy": [],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 38,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T02",
+      "id": "NONONO-12",
+      "nativeBlockedBy": [
+        "T01"
+      ],
+      "expectedBlockedBy": [
+        "T01"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T03",
+      "id": "NONONO-18",
+      "nativeBlockedBy": [
+        "T02"
+      ],
+      "expectedBlockedBy": [
+        "T02"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T04",
+      "id": "NONONO-20",
+      "nativeBlockedBy": [
+        "T02"
+      ],
+      "expectedBlockedBy": [
+        "T02"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T05",
+      "id": "NONONO-23",
+      "nativeBlockedBy": [
+        "T02"
+      ],
+      "expectedBlockedBy": [
+        "T02"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T06",
+      "id": "NONONO-21",
+      "nativeBlockedBy": [
+        "T02"
+      ],
+      "expectedBlockedBy": [
+        "T02"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 0,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 37,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T07",
+      "id": "NONONO-13",
+      "nativeBlockedBy": [
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "expectedBlockedBy": [
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 3,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 38,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T08",
+      "id": "NONONO-19",
+      "nativeBlockedBy": [
+        "T07"
+      ],
+      "expectedBlockedBy": [
+        "T07"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T09",
+      "id": "NONONO-22",
+      "nativeBlockedBy": [
+        "T06",
+        "T07"
+      ],
+      "expectedBlockedBy": [
+        "T06",
+        "T07"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 2,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 37,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T10",
+      "id": "NONONO-24",
+      "nativeBlockedBy": [
+        "T08",
+        "T09"
+      ],
+      "expectedBlockedBy": [
+        "T08",
+        "T09"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 2,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T11",
+      "id": "NONONO-26",
+      "nativeBlockedBy": [
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "expectedBlockedBy": [
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 3,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 37,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T12",
+      "id": "NONONO-14",
+      "nativeBlockedBy": [
+        "T10"
+      ],
+      "expectedBlockedBy": [
+        "T10"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T13",
+      "id": "NONONO-15",
+      "nativeBlockedBy": [
+        "T08",
+        "T09"
+      ],
+      "expectedBlockedBy": [
+        "T08",
+        "T09"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 2,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 38,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T14",
+      "id": "NONONO-27",
+      "nativeBlockedBy": [
+        "T12",
+        "T13"
+      ],
+      "expectedBlockedBy": [
+        "T12",
+        "T13"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 2,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 37,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T15",
+      "id": "NONONO-25",
+      "nativeBlockedBy": [
+        "T14"
+      ],
+      "expectedBlockedBy": [
+        "T14"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T16",
+      "id": "NONONO-28",
+      "nativeBlockedBy": [
+        "T15"
+      ],
+      "expectedBlockedBy": [
+        "T15"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T17",
+      "id": "NONONO-16",
+      "nativeBlockedBy": [
+        "T16"
+      ],
+      "expectedBlockedBy": [
+        "T16"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T18",
+      "id": "NONONO-29",
+      "nativeBlockedBy": [
+        "T17"
+      ],
+      "expectedBlockedBy": [
+        "T17"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 36,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T19",
+      "id": "NONONO-30",
+      "nativeBlockedBy": [
+        "T17"
+      ],
+      "expectedBlockedBy": [
+        "T17"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 37,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T20",
+      "id": "NONONO-31",
+      "nativeBlockedBy": [
+        "T18",
+        "T19"
+      ],
+      "expectedBlockedBy": [
+        "T18",
+        "T19"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 2,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 37,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    },
+    {
+      "key": "T21",
+      "id": "NONONO-17",
+      "nativeBlockedBy": [
+        "T20"
+      ],
+      "expectedBlockedBy": [
+        "T20"
+      ],
+      "nativeBlockerTitleCheck": true,
+      "domBlockedLinksChecked": 1,
+      "metadataChecks": {
+        "status": true,
+        "priority": true,
+        "assignment": true,
+        "date": true,
+        "milestone": true,
+        "project": true,
+        "parent": true
+      },
+      "missingCoreSections": [],
+      "textUnitsChecked": 37,
+      "unmatchedTextUnits": [],
+      "oldReferenceOrPlaceholderCount": 0
+    }
+  ],
+  "coverage": {
+    "documents": 6,
+    "issueSnapshots": 26,
+    "roleSnapshots": 5,
+    "taskSnapshots": 21,
+    "currentlyMissingSnapshots": []
+  },
+  "sourceFilesModified": false,
+  "project": {
+    "checks": {
+      "startDate": true,
+      "targetDate": true,
+      "lead": true,
+      "bodyDates": true,
+      "noMissingTextUnits": true,
+      "milestone_W1": true,
+      "milestone_W2": true,
+      "milestone_W3": true,
+      "milestone_W4": true,
+      "milestone_W5": true
+    },
+    "checkedTextUnits": 69,
+    "unmatchedTextUnits": []
+  },
+  "workflow": {
+    "Backlog": true,
+    "Todo": true,
+    "In Progress": true,
+    "In Review": true,
+    "Done": true
+  },
+  "members": {
+    "activeOne": true,
+    "leadActive": true,
+    "invitedTwo": true,
+    "applicationOne": true,
+    "noFormerPerson": true
+  },
+  "savedSnapshotLegacyOrPlaceholderHits": [],
+  "checkboxNormalization": "Native checkbox glyphs replace Markdown [ ] markers; section headings are compared to each issue-specific payload."
+}

@@ -1,0 +1,358 @@
+Browser tab: 4, Title: "NONONO-11 T01 · 착수 회의와 역할·일정·공유 공간 확정", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95?noRedirect=1".
+1 AXWebArea NONONO-11 T01 · 착수 회의와 역할·일정·공유 공간 확정, URL: linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						248 container
+							249 button (expanded) Your teams, Secondary Actions: Collapse
+							250 button Join a team
+							251 content list teams-boundary-container
+								252 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									253 container
+										254 container
+											255 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												256 text 문의하지마세요
+											257 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										258 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											259 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											260 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											261 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											262 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							263 button (expanded) Try, Secondary Actions: Collapse
+							264 container sidebarTry
+								265 container
+									266 container Invite to 도형준 · 문의하지마세요…
+										267 text Invite people
+									268 button Dismiss
+										269 image Dismiss
+								270 container
+									271 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									272 button Dismiss
+										273 image Dismiss
+					46 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				47 container
+					48 container
+						49 container
+							50 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							51 link Description: NONONO-11 T01 · 착수 회의와 역할·일정·공유 공간 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95
+							52 switch Description: Add to favorites, Value: 0
+							53 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							54 button Copy issue URL
+							55 button Copy issue ID
+							56 button Copy branch name
+							57 container
+								58 button Copy as prompt
+								59 button Choose coding tool
+							60 container T01 · 착수 회의와 역할·일정·공유 공간 확정 Sub-issue of NONONO-6 [A·팀장 도형준] 기획·공통 처리·전체 통합 Open sub-issues of NONONO-6 여기부터 시작 · T01 처음 할 일: 이 이슈 댓글에 A=도형준, B\~E=담당자 확인 필요라는 역할표 초안을 적는다. 진행 순서 도형준(A)이 B\~E의 실명과 각자 가능한 주간 시간을 확인해 역할표를 채운다. 모르는 이름은 추정하지 않는다. 새 팀원에게 가입 방법을 안내하고 Linear 팀·프로젝트 참여와 이슈 접근 결과를 확인한다. 각자의 AI 도구에서 담당 이슈를 읽을 수 있는지 연결 성공·미연결·미확인으로 보고받는다. 비밀번호·토큰·키 값은 받지 않는다. 실제 프로젝트 저장소와 작업 폴더, 배포 공간, 관리자를 확정한다. 아직 미정이면 미정이라고 기록하고 다른 수업 폴더를 대신 사용하지 않는다. Teams에서 외부 마감 시각·제출 위치를 확인하고 기존 내부 기한·기능 동결·회의 방식을 공유한다. 미확인 항목에는 확인 담당자를 적는다. 남길 결과물: 착수 결정표 예: A 도형준 / B 성명 확인 중 / 저장소 미정 / 새 팀원 4명 중 3명 가입 확인 / AI 연결 성공 2명·미확인 3명 / 외부 제출 위치 확인 중. 민감정보 없이 이슈 댓글에 남긴다. 직접 확인할 것: 팀원 한 명에게 프로젝트와 본인 이슈가 실제로 열리는지 확인받는다. 명단만 만들거나 가입·AI 연결을 추정해서 완료로 표시하지 않는다. AI에게 그대로 복사할 요청 Detecting… 1 2 3 4 5 6 7 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T01) 한 개를 도와줘. 먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘. 먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘. 아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘. 실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마. 작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마. 결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다. 가입·AI 연결이 막히면 처음 30분 안내 역할과 일정 주 역할: A · 팀장 도형준 협업 역할: B · C · D · E 완료 목표: 2026-10-29 단계: Week 1 목표 5인 팀이 같은 목표와 업무 기준으로 개발을 시작하도록 담당자와 실행 환경을 확정한다. 할 일 A=도형준을 확인하고, B\~E 역할을 실제 팀원에게 배정한 뒤 개인별 주간 가용 시간을 확인한다. 팀원 전원의 Linear 초대 수락·우리 프로젝트 접근·본인 이슈 열기를 확인한다. 팀원별 AI의 Linear 읽기 테스트 또는 본문 복사 사용 여부를 기록하고, 코드 역할은 저장소·폴더 연결 방법도 안내한다. 공유 저장소·작업 보드·배포 공간의 관리 담당자를 정한다. 외부 마감 2026-12-02의 정확한 시각·제출 위치·발표일을 Teams 공지에서 확인한다. 내부 최종 제출 목표 2026-12-01 21:00과 11/24 기능 동결을 공유한다. 주간 통합 점검 시각과 작업 공유 방식을 합의하고 결정 기록을 남긴다. 완료 기준 A\~E 역할별 담당자와 가용 시간이 기록되어 있다. 팀원 전원이 저장소와 작업 보드에 접근할 수 있다. 외부 제출 조건의 확인 결과와 내부 기한·회의 일정이 공유되어 있다. 선행 작업 없음. 가장 먼저 착수한다. 결과를 남길 곳 완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다. 팀 실행 계획서 · 공통 계약과 검증 기준 A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다. Add reaction Attach images, files, or videos Add sub-issues Activity Unsubscribe from issue Change subscribers 도형준 도형준 created the issue · Thu Oct 29, 2026, 오전 9:47:07 도형준 marked this issue as blocking NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정 · Thu Oct 29, 2026, 오전 9:48:17 Properties
+								61 container
+									62 text field (settable) Description: Issue title, Value: T01 · 착수 회의와 역할·일정·공유 공간 확정
+										63 text T01 · 착수 회의와 역할·일정·공유 공간 확정
+									64 text Sub-issue of
+									65 link Description: NONONO-6 [A·팀장 도형준] 기획·공통 처리·전체 통합, Value: linear.app/dhj00570-helpdesk/issue/NONONO-6/a%ED%8C%80%EC%9E%A5-%EB%8F%84%ED%98%95%EC%A4%80-%EA%B8%B0%ED%9A%8D%EA%B3%B5%ED%86%B5-%EC%B2%98%EB%A6%AC%EC%A0%84%EC%B2%B4-%ED%86%B5%ED%95%A9
+									66 container Open sub-issues of NONONO-6
+										67 text 0/7
+									68 text entry area (settable) Description: Issue description, Value: 여기부터 시작 · T01
+
+처음 할 일: 이 이슈 댓글에 A=도형준, B\~E=담당자 확인 필요라는 역할표 초안을 적는다.
+
+진행 순서
+
+도형준(A)이 B\~E의 실명과 각자 가능한 주간 시간을 확인해 역할표를 채운다. 모르는 이름은 추정하지 않는다.
+
+새 팀원에게 가입 방법을 안내하고 Linear 팀·프로젝트 참여와 이슈 접근 결과를 확인한다. 각자의 AI 도구에서 담당 이슈를 읽을 수 있는지 연결 성공·미연결·미확인으로 보고받는다. 비밀번호·토큰·키 값은 받지 않는다.
+
+실제 프로젝트 저장소와 작업 폴더, 배포 공간, 관리자를 확정한다. 아직 미정이면 미정이라고 기록하고 다른 수업 폴더를 대신 사용하지 않는다.
+
+Teams에서 외부 마감 시각·제출 위치를 확인하고 기존 내부 기한·기능 동결·회의 방식을 공유한다. 미확인 항목에는 확인 담당자를 적는다.
+
+남길 결과물: 착수 결정표 예: A 도형준 / B 성명 확인 중 / 저장소 미정 / 새 팀원 4명 중 3명 가입 확인 / AI 연결 성공 2명·미확인 3명 / 외부 제출 위치 확인 중. 민감정보 없이 이슈 댓글에 남긴다.
+
+직접 확인할 것: 팀원 한 명에게 프로젝트와 본인 이슈가 실제로 열리는지 확인받는다. 명단만 만들거나 가입·AI 연결을 추정해서 완료로 표시하지 않는다.
+
+AI에게 그대로 복사할 요청
+Detecting…
+1
+2
+3
+4
+5
+6
+7
+현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T01) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+
+
+결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+
+가입·AI 연결이 막히면 처음 30분 안내
+
+역할과 일정
+
+주 역할: A · 팀장 도형준
+
+협업 역할: B · C · D · E
+
+완료 목표: 2026-10-29
+
+단계: Week 1
+
+목표
+
+5인 팀이 같은 목표와 업무 기준으로 개발을 시작하도록 담당자와 실행 환경을 확정한다.
+
+할 일
+
+A=도형준을 확인하고, B\~E 역할을 실제 팀원에게 배정한 뒤 개인별 주간 가용 시간을 확인한다.
+
+팀원 전원의 Linear 초대 수락·우리 프로젝트 접근·본인 이슈 열기를 확인한다.
+
+팀원별 AI의 Linear 읽기 테스트 또는 본문 복사 사용 여부를 기록하고, 코드 역할은 저장소·폴더 연결 방법도 안내한다.
+
+공유 저장소·작업 보드·배포 공간의 관리 담당자를 정한다.
+
+외부 마감 2026-12-02의 정확한 시각·제출 위치·발표일을 Teams 공지에서 확인한다.
+
+내부 최종 제출 목표 2026-12-01 21:00과 11/24 기능 동결을 공유한다.
+
+주간 통합 점검 시각과 작업 공유 방식을 합의하고 결정 기록을 남긴다.
+
+완료 기준
+
+A\~E 역할별 담당자와 가용 시간이 기록되어 있다.
+
+팀원 전원이 저장소와 작업 보드에 접근할 수 있다.
+
+외부 제출 조건의 확인 결과와 내부 기한·회의 일정이 공유되어 있다.
+
+선행 작업
+
+없음. 가장 먼저 착수한다.
+
+결과를 남길 곳
+
+완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+
+팀 실행 계획서 · 공통 계약과 검증 기준
+
+A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+										69 heading Heading actions 여기부터 시작 · T01, Value: 2, ID: 7141b2a5-8913-4569-9dbc-adc6bdc4c7b5
+											70 container
+												71 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											72 text 여기부터 시작 · T01
+										73 container
+											74 text 처음 할 일:  이 이슈 댓글에 A=도형준, B\~E=담당자 확인 필요라는 역할표 초안을 적는다.
+										75 heading Heading actions 진행 순서, Value: 3, ID: d00a393e-98e3-493c-9992-e109892bdcd2
+											76 container
+												77 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											78 text 진행 순서
+										79 content list
+											80 container
+												81 text 1 . 도형준(A)이 B\~E의 실명과 각자 가능한 주간 시간을 확인해 역할표를 채운다. 모르는 이름은 추정하지 않는다.
+											82 container
+												83 text 2 . 새 팀원에게 가입 방법을 안내하고 Linear 팀·프로젝트 참여와 이슈 접근 결과를 확인한다. 각자의 AI 도구에서 담당 이슈를 읽을 수 있는지 연결 성공·미연결·미확인으로 보고받는다. 비밀번호·토큰·키 값은 받지 않는다.
+											84 container
+												85 text 3 . 실제 프로젝트 저장소와 작업 폴더, 배포 공간, 관리자를 확정한다. 아직 미정이면 미정이라고 기록하고 다른 수업 폴더를 대신 사용하지 않는다.
+											86 container
+												87 text 4 . Teams에서 외부 마감 시각·제출 위치를 확인하고 기존 내부 기한·기능 동결·회의 방식을 공유한다. 미확인 항목에는 확인 담당자를 적는다.
+										88 container
+											89 text 남길 결과물:  착수 결정표 예: A 도형준 / B 성명 확인 중 / 저장소 미정 / 새 팀원 4명 중 3명 가입 확인 / AI 연결 성공 2명·미확인 3명 / 외부 제출 위치 확인 중. 민감정보 없이 이슈 댓글에 남긴다.
+										90 container
+											91 text 직접 확인할 것:  팀원 한 명에게 프로젝트와 본인 이슈가 실제로 열리는지 확인받는다. 명단만 만들거나 가입·AI 연결을 추정해서 완료로 표시하지 않는다.
+										92 heading Heading actions AI에게 그대로 복사할 요청, Value: 3, ID: 3cd22081-6f7b-4601-9e6a-6dfd693b48c8
+											93 container
+												94 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											95 text AI에게 그대로 복사할 요청
+										96 container 70d295cc-c1c1-4246-baa0-8541f28e29fe
+											97 container
+												98 container Change language
+													99 text Detecting…
+												100 image Display options
+												101 image Copy content
+												102 button Delete
+													103 image Delete
+											104 container
+												105 text 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T01) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+										106 container
+											107 text 결과 보고:  이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+										108 link Description: 가입·AI 연결이 막히면 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										109 heading Heading actions 역할과 일정, Value: 2, ID: b99f42d4-c2ed-48c2-ad10-43f2a83a7545
+											110 container
+												111 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											112 text 역할과 일정
+										113 content list
+											114 container
+												115 text • 주 역할: 
+												116 text A · 팀장 도형준
+											117 container
+												118 text • 협업 역할: B · C · D · E
+											119 container
+												120 text • 완료 목표: 2026-10-29
+											121 container
+												122 text • 단계: Week 1
+										123 heading Heading actions 목표, Value: 2, ID: ef68e6d8-4a34-4c2f-bd20-705607dadaa3
+											124 container
+												125 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											126 text 목표
+										127 text 5인 팀이 같은 목표와 업무 기준으로 개발을 시작하도록 담당자와 실행 환경을 확정한다.
+										128 heading Heading actions 할 일, Value: 2, ID: d8ae97fe-29d2-4b36-990e-353407db0f42
+											129 container
+												130 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											131 text 할 일
+										132 content list
+											133 container
+												134 image
+												135 checkbox Description: A=도형준을 확인하고, B\~E 역할을 실제 팀원에게 배정한 뒤 개인별 주간 가용 시간을 확인한다., Value: 0
+												136 text A=도형준을 확인하고, B\~E 역할을 실제 팀원에게 배정한 뒤 개인별 주간 가용 시간을 확인한다.
+											137 container
+												138 image
+												139 checkbox Description: 팀원 전원의 Linear 초대 수락·우리 프로젝트 접근·본인 이슈 열기를 확인한다., Value: 0
+												140 text 팀원 전원의 Linear 초대 수락·우리 프로젝트 접근·본인 이슈 열기를 확인한다.
+											141 container
+												142 image
+												143 checkbox Description: 팀원별 AI의 Linear 읽기 테스트 또는 본문 복사 사용 여부를 기록하고, 코드 역할은 저장소·폴더 연결 방법도 안내한다., Value: 0
+												144 text 팀원별 AI의 Linear 읽기 테스트 또는 본문 복사 사용 여부를 기록하고, 코드 역할은 저장소·폴더 연결 방법도 안내한다.
+											145 container
+												146 image
+												147 checkbox Description: 공유 저장소·작업 보드·배포 공간의 관리 담당자를 정한다., Value: 0
+												148 text 공유 저장소·작업 보드·배포 공간의 관리 담당자를 정한다.
+											149 container
+												150 image
+												151 checkbox Description: 외부 마감 2026-12-02의 정확한 시각·제출 위치·발표일을 Teams 공지에서 확인한다., Value: 0
+												152 text 외부 마감 2026-12-02의 정확한 시각·제출 위치·발표일을 Teams 공지에서 확인한다.
+											153 container
+												154 image
+												155 checkbox Description: 내부 최종 제출 목표 2026-12-01 21:00과 11/24 기능 동결을 공유한다., Value: 0
+												156 text 내부 최종 제출 목표 2026-12-01 21:00과 11/24 기능 동결을 공유한다.
+											157 container
+												158 image
+												159 checkbox Description: 주간 통합 점검 시각과 작업 공유 방식을 합의하고 결정 기록을 남긴다., Value: 0
+												160 text 주간 통합 점검 시각과 작업 공유 방식을 합의하고 결정 기록을 남긴다.
+										161 heading Heading actions 완료 기준, Value: 2, ID: f4695005-9d35-4a4f-bc2d-1899c2c678ed
+											162 container
+												163 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											164 text 완료 기준
+										165 content list
+											166 container
+												167 image
+												168 checkbox Description: A\~E 역할별 담당자와 가용 시간이 기록되어 있다., Value: 0
+												169 text A\~E 역할별 담당자와 가용 시간이 기록되어 있다.
+											170 container
+												171 image
+												172 checkbox Description: 팀원 전원이 저장소와 작업 보드에 접근할 수 있다., Value: 0
+												173 text 팀원 전원이 저장소와 작업 보드에 접근할 수 있다.
+											174 container
+												175 image
+												176 checkbox Description: 외부 제출 조건의 확인 결과와 내부 기한·회의 일정이 공유되어 있다., Value: 0
+												177 text 외부 제출 조건의 확인 결과와 내부 기한·회의 일정이 공유되어 있다.
+										178 heading Heading actions 선행 작업, Value: 2, ID: ff018945-c072-44e5-9455-6ac1f6609795
+											179 container
+												180 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											181 text 선행 작업
+										182 text 없음. 가장 먼저 착수한다.
+										183 heading Heading actions 결과를 남길 곳, Value: 2, ID: 3f3bc989-3d73-41e4-afd4-6bb549f75e07
+											184 container
+												185 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											186 text 결과를 남길 곳
+										187 text 완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+										188 container
+											189 link Description: 팀 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+											190 text  · 
+											191 link Description: 공통 계약과 검증 기준, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+										192 text A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+									193 button Add reaction
+									194 button Attach images, files, or videos
+									195 button Add sub-issues
+									196 heading Activity, Value: 3
+										197 text Activity
+									198 button (disabled) Unsubscribe from issue
+									199 button Change subscribers
+										200 image 도형준
+									201 container
+										202 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										203 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										204 text created the  issue
+										205 text ·
+										206 link Description: Thu Oct 29, 2026, 오전 9:47:07, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95#update-c3cf4523-9242-4604-92c4-b184f5cd0b7d-issue-created
+										207 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										208 text marked this issue as blocking 
+										209 link Description: NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95
+										210 text ·
+										211 link Description: Thu Oct 29, 2026, 오전 9:48:17, Value: linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95#update-93941c1e-cf0a-476a-bf45-8417f5e2bbc1-relationship-ax-NONONO-12
+									212 container
+										213 text Leave a comment…
+										214 button Submit comment
+										215 button Attach images, files, or videos
+								216 container
+									217 heading Properties, Value: 3
+										218 text Properties
+									219 button Todo
+										220 image
+										221 text Todo
+									222 button High Priority High
+										223 image High Priority
+										224 text High
+									225 button 도형준 도형준
+										226 image 도형준
+										227 text 도형준
+									228 link Description: Go to user, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+									229 button Today
+										230 container
+											231 text field (settable) Today
+									232 heading Labels, Value: 3
+										233 text Labels
+									234 container Add labels
+										235 button Add labels
+									236 heading Project, Value: 3
+										237 text Project
+									238 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									239 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									240 button Week 1 · 기술 검증과 첫 연결
+									241 button
+									242 heading Blocking, Value: 3
+										243 text Blocking
+									244 container
+										245 link Description: T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95
+										246 button Remove relation
+					274 container
+						275 button Agent
+						276 button Chat history
+			247 container Notifications alt+T
+
+The focused UI element is 60 container T01 · 착수 회의와 역할·일정·공유 공간 확정 Sub-issue of NONONO-6 [A·팀장 도형준] 기획·공통 처리·전체 통합 Open sub-issues of NONONO-6 여기부터 시작 · T01 처음 할 일: 이 이슈 댓글에 A=도형준, B\~E=담당자 확인 필요라는 역할표 초안을 적는다. 진행 순서 도형준(A)이 B\~E의 실명과 각자 가능한 주간 시간을 확인해 역할표를 채운다. 모르는 이름은 추정하지 않는다. 새 팀원에게 가입 방법을 안내하고 Linear 팀·프로젝트 참여와 이슈 접근 결과를 확인한다. 각자의 AI 도구에서 담당 이슈를 읽을 수 있는지 연결 성공·미연결·미확인으로 보고받는다. 비밀번호·토큰·키 값은 받지 않는다. 실제 프로젝트 저장소와 작업 폴더, 배포 공간, 관리자를 확정한다. 아직 미정이면 미정이라고 기록하고 다른 수업 폴더를 대신 사용하지 않는다. Teams에서 외부 마감 시각·제출 위치를 확인하고 기존 내부 기한·기능 동결·회의 방식을 공유한다. 미확인 항목에는 확인 담당자를 적는다. 남길 결과물: 착수 결정표 예: A 도형준 / B 성명 확인 중 / 저장소 미정 / 새 팀원 4명 중 3명 가입 확인 / AI 연결 성공 2명·미확인 3명 / 외부 제출 위치 확인 중. 민감정보 없이 이슈 댓글에 남긴다. 직접 확인할 것: 팀원 한 명에게 프로젝트와 본인 이슈가 실제로 열리는지 확인받는다. 명단만 만들거나 가입·AI 연결을 추정해서 완료로 표시하지 않는다. AI에게 그대로 복사할 요청 Detecting… 1 2 3 4 5 6 7 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T01) 한 개를 도와줘. 먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘. 먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘. 아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘. 실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마. 작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마. 결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다. 가입·AI 연결이 막히면 처음 30분 안내 역할과 일정 주 역할: A · 팀장 도형준 협업 역할: B · C · D · E 완료 목표: 2026-10-29 단계: Week 1 목표 5인 팀이 같은 목표와 업무 기준으로 개발을 시작하도록 담당자와 실행 환경을 확정한다. 할 일 A=도형준을 확인하고, B\~E 역할을 실제 팀원에게 배정한 뒤 개인별 주간 가용 시간을 확인한다. 팀원 전원의 Linear 초대 수락·우리 프로젝트 접근·본인 이슈 열기를 확인한다. 팀원별 AI의 Linear 읽기 테스트 또는 본문 복사 사용 여부를 기록하고, 코드 역할은 저장소·폴더 연결 방법도 안내한다. 공유 저장소·작업 보드·배포 공간의 관리 담당자를 정한다. 외부 마감 2026-12-02의 정확한 시각·제출 위치·발표일을 Teams 공지에서 확인한다. 내부 최종 제출 목표 2026-12-01 21:00과 11/24 기능 동결을 공유한다. 주간 통합 점검 시각과 작업 공유 방식을 합의하고 결정 기록을 남긴다. 완료 기준 A\~E 역할별 담당자와 가용 시간이 기록되어 있다. 팀원 전원이 저장소와 작업 보드에 접근할 수 있다. 외부 제출 조건의 확인 결과와 내부 기한·회의 일정이 공유되어 있다. 선행 작업 없음. 가장 먼저 착수한다. 결과를 남길 곳 완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다. 팀 실행 계획서 · 공통 계약과 검증 기준 A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다. Add reaction Attach images, files, or videos Add sub-issues Activity Unsubscribe from issue Change subscribers 도형준 도형준 created the issue · Thu Oct 29, 2026, 오전 9:47:07 도형준 marked this issue as blocking NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정 · Thu Oct 29, 2026, 오전 9:48:17 Properties

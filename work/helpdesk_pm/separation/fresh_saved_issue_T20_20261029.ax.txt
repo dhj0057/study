@@ -1,0 +1,362 @@
+Browser tab: 4, Title: "NONONO-31 T20 · 최종 발표·질의 리허설과 시연 백업 준비", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84?noRedirect=1".
+1 AXWebArea NONONO-31 T20 · 최종 발표·질의 리허설과 시연 백업 준비, URL: linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								52 container
+									53 container Invite to 도형준 · 문의하지마세요…
+										54 text Invite people
+									55 button Dismiss
+										56 image Dismiss
+								57 container
+									58 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									59 button Dismiss
+										60 image Dismiss
+					61 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				62 container
+					63 container
+						64 container
+							65 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							66 link Description: NONONO-31 T20 · 최종 발표·질의 리허설과 시연 백업 준비, Value: linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84
+							67 switch Description: Add to favorites, Value: 0
+							68 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							69 button Copy issue URL
+							70 button Copy issue ID
+							71 button Copy branch name
+							72 container
+								73 button Copy as prompt
+								74 button Choose coding tool
+							75 container
+								76 container
+									77 text field (settable) Description: Issue title, Value: T20 · 최종 발표·질의 리허설과 시연 백업 준비
+										78 text T20 · 최종 발표·질의 리허설과 시연 백업 준비
+									79 text Sub-issue of
+									80 link Description: NONONO-10 [E·배정 예정] 검증·결함 관리·발표·백업, Value: linear.app/dhj00570-helpdesk/issue/NONONO-10/e%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EA%B2%80%EC%A6%9D%EA%B2%B0%ED%95%A8-%EA%B4%80%EB%A6%AC%EB%B0%9C%ED%91%9C%EB%B0%B1%EC%97%85
+									81 container Open sub-issues of NONONO-10
+										82 text 0/6
+									83 text entry area (settable) Description: Issue description, Value: 여기부터 시작 · T20
+
+처음 할 일: 이슈 댓글에 최종 후보 버전과 시연할 일반 문의·검토 문의 한 건씩을 적는다.
+
+진행 순서
+
+T18·T19의 완료 근거와 최종 후보 버전을 확인한다. 필수 결함이 남으면 리허설 준비와 최종 완료를 구분해 보고한다.
+
+전원이 발표 15분·질의 10분 리허설에 참여해 실제 엔진 선택·대체 이유·FAQ 근거·오류 대응·30건의 한계를 설명한다.
+
+합의된 초기화 방법과 시연 입력으로 정상·검토·완료·오류 안내를 실행한다. 실행 방법을 모르면 D·A에게 확인하고 코드를 임의 수정하지 않는다.
+
+같은 버전에서 키·개인정보 없는 캡처·영상을 확보하고 보조 자료임을 표시한다. 다른 팀원이 입력과 초기화 절차를 따라 재현하게 한다.
+
+남길 결과물: 최종 리허설 기록: 후보 버전 / 역할별 설명 / 발표·질의 시간 / 시연 입력과 초기화 순서 / 캡처·백업 영상 위치 / 미확인 항목.
+
+직접 확인할 것: 본인이 시연 입력을 순서대로 실행하고 다른 팀원의 초기화·재현 결과를 확인한다. 캡처·영상만 확보한 상태를 실제 데모 검증 완료로 표시하지 않는다.
+
+AI에게 그대로 복사할 요청
+TOML
+1
+2
+3
+4
+5
+6
+7
+현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T20) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+
+
+결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+
+가입·AI 연결이 막히면 처음 30분 안내
+
+역할과 일정
+
+주 역할: E · 실제 담당자 배정 예정
+
+협업 역할: A · B · C · D
+
+완료 목표: 2026-11-30
+
+단계: Week 5
+
+목표
+
+검증된 최종 후보 버전으로 발표와 질의를 연습하고 장애 시 사용할 보조 자료를 확보한다.
+
+할 일
+
+전원이 발표 15분·질의 10분 기준으로 리허설한다.
+
+Jev 선택 또는 대체 이유·FAQ 근거·오류와 한도 대응·30건 검증의 한계를 설명한다.
+
+시연 입력과 데이터 초기화·준비 절차를 확정한다.
+
+최종 후보 버전의 정상·검토·완료·오류 안내 캡처와 백업 영상을 준비한다.
+
+캡처·영상은 보조 자료로 표시하고 실제 데모·발표 자료의 버전 일치를 확인한다.
+
+완료 기준
+
+전원 참여 리허설을 마치고 발표·질의의 시간과 담당 부분을 확인했다.
+
+시연 입력과 초기화 절차를 다른 팀원이 재현할 수 있다.
+
+최종 후보 버전의 캡처·영상이 있으며 키·개인정보가 포함되지 않는다.
+
+선행 작업
+
+T18 · T18
+
+T19 · T19
+
+결과 기록
+
+실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명의 확인과 통합판 재현 후 Done으로 변경한다.
+
+팀 실행 계획서 · 공통 계약과 검증 기준
+
+11/24 기능 동결 이후 새 기능은 추가하지 않는다. 외부 마감은 12/2이며, 내부 제출 목표는 12/1 21:00 KST다. 실제 제출 시각·발표일은 공지 확인을 따른다.
+										84 heading Heading actions 여기부터 시작 · T20, Value: 2, ID: 05eb34fe-93fe-4088-977d-fbcd0cc71467
+											85 container
+												86 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											87 text 여기부터 시작 · T20
+										88 container
+											89 text 처음 할 일:  이슈 댓글에 최종 후보 버전과 시연할 일반 문의·검토 문의 한 건씩을 적는다.
+										90 heading Heading actions 진행 순서, Value: 3, ID: 8c8892c1-5f21-46df-94c7-0bb01a382815
+											91 container
+												92 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											93 text 진행 순서
+										94 content list
+											95 container
+												96 text 1 . T18·T19의 완료 근거와 최종 후보 버전을 확인한다. 필수 결함이 남으면 리허설 준비와 최종 완료를 구분해 보고한다.
+											97 container
+												98 text 2 . 전원이 발표 15분·질의 10분 리허설에 참여해 실제 엔진 선택·대체 이유·FAQ 근거·오류 대응·30건의 한계를 설명한다.
+											99 container
+												100 text 3 . 합의된 초기화 방법과 시연 입력으로 정상·검토·완료·오류 안내를 실행한다. 실행 방법을 모르면 D·A에게 확인하고 코드를 임의 수정하지 않는다.
+											101 container
+												102 text 4 . 같은 버전에서 키·개인정보 없는 캡처·영상을 확보하고 보조 자료임을 표시한다. 다른 팀원이 입력과 초기화 절차를 따라 재현하게 한다.
+										103 container
+											104 text 남길 결과물:  최종 리허설 기록: 후보 버전 / 역할별 설명 / 발표·질의 시간 / 시연 입력과 초기화 순서 / 캡처·백업 영상 위치 / 미확인 항목.
+										105 container
+											106 text 직접 확인할 것:  본인이 시연 입력을 순서대로 실행하고 다른 팀원의 초기화·재현 결과를 확인한다. 캡처·영상만 확보한 상태를 실제 데모 검증 완료로 표시하지 않는다.
+										107 heading Heading actions AI에게 그대로 복사할 요청, Value: 3, ID: 0a25e591-725b-4087-8411-6881cfae8cda
+											108 container
+												109 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											110 text AI에게 그대로 복사할 요청
+										111 container 954694fd-006b-492e-90ed-c78bba9af78f
+											112 container
+												113 container Change language
+													114 text TOML
+												115 image Display options
+												116 image Copy content
+												117 button Delete
+													118 image Delete
+											119 container
+												120 text 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T20) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+먼저 이 이슈에 필요한 문서·표·점검 결과의 작은 초안을 만들어줘. 실제 확인이 필요한 항목은 미확인으로 남겨줘. 코드 수정이 필요한 결함은 재현 순서와 담당 모듈을 정리해줘.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+										121 container
+											122 text 결과 보고:  이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+										123 link Description: 가입·AI 연결이 막히면 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										124 heading Heading actions 역할과 일정, Value: 2, ID: 517a5e6b-3c59-459a-b9d0-87ebe87025f3
+											125 container
+												126 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											127 text 역할과 일정
+										128 content list
+											129 container
+												130 text • 주 역할: 
+												131 text E · 실제 담당자 배정 예정
+											132 container
+												133 text • 협업 역할: A · B · C · D
+											134 container
+												135 text • 완료 목표: 2026-11-30
+											136 container
+												137 text • 단계: Week 5
+										138 heading Heading actions 목표, Value: 2, ID: 449e315a-239b-4a7f-bef2-c31e809492ec
+											139 container
+												140 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											141 text 목표
+										142 text 검증된 최종 후보 버전으로 발표와 질의를 연습하고 장애 시 사용할 보조 자료를 확보한다.
+										143 heading Heading actions 할 일, Value: 2, ID: 702ccf34-5b63-4132-9e86-616187c5d0fc
+											144 container
+												145 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											146 text 할 일
+										147 content list
+											148 container
+												149 image
+												150 checkbox Description: 전원이 발표 15분·질의 10분 기준으로 리허설한다., Value: 0
+												151 text 전원이 발표 15분·질의 10분 기준으로 리허설한다.
+											152 container
+												153 image
+												154 checkbox Description: Jev 선택 또는 대체 이유·FAQ 근거·오류와 한도 대응·30건 검증의 한계를 설명한다., Value: 0
+												155 text Jev 선택 또는 대체 이유·FAQ 근거·오류와 한도 대응·30건 검증의 한계를 설명한다.
+											156 container
+												157 image
+												158 checkbox Description: 시연 입력과 데이터 초기화·준비 절차를 확정한다., Value: 0
+												159 text 시연 입력과 데이터 초기화·준비 절차를 확정한다.
+											160 container
+												161 image
+												162 checkbox Description: 최종 후보 버전의 정상·검토·완료·오류 안내 캡처와 백업 영상을 준비한다., Value: 0
+												163 text 최종 후보 버전의 정상·검토·완료·오류 안내 캡처와 백업 영상을 준비한다.
+											164 container
+												165 image
+												166 checkbox Description: 캡처·영상은 보조 자료로 표시하고 실제 데모·발표 자료의 버전 일치를 확인한다., Value: 0
+												167 text 캡처·영상은 보조 자료로 표시하고 실제 데모·발표 자료의 버전 일치를 확인한다.
+										168 heading Heading actions 완료 기준, Value: 2, ID: 044cc1b2-8b89-4583-9fa3-c27d58c281bc
+											169 container
+												170 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											171 text 완료 기준
+										172 content list
+											173 container
+												174 image
+												175 checkbox Description: 전원 참여 리허설을 마치고 발표·질의의 시간과 담당 부분을 확인했다., Value: 0
+												176 text 전원 참여 리허설을 마치고 발표·질의의 시간과 담당 부분을 확인했다.
+											177 container
+												178 image
+												179 checkbox Description: 시연 입력과 초기화 절차를 다른 팀원이 재현할 수 있다., Value: 0
+												180 text 시연 입력과 초기화 절차를 다른 팀원이 재현할 수 있다.
+											181 container
+												182 image
+												183 checkbox Description: 최종 후보 버전의 캡처·영상이 있으며 키·개인정보가 포함되지 않는다., Value: 0
+												184 text 최종 후보 버전의 캡처·영상이 있으며 키·개인정보가 포함되지 않는다.
+										185 heading Heading actions 선행 작업, Value: 2, ID: 49b58d65-cc24-48b3-9a45-cd7905a04750
+											186 container
+												187 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											188 text 선행 작업
+										189 content list
+											190 container
+												191 text •
+												192 link Description: T18, Value: linear.app/dhj00570-helpdesk/issue/NONONO-29
+												193 text  · T18
+											194 container
+												195 text •
+												196 link Description: T19, Value: linear.app/dhj00570-helpdesk/issue/NONONO-30
+												197 text  · T19
+										198 heading Heading actions 결과 기록, Value: 2, ID: ed232bbc-80e5-41ff-8a97-bc71545731d6
+											199 container
+												200 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											201 text 결과 기록
+										202 text 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명의 확인과 통합판 재현 후 Done으로 변경한다.
+										203 container
+											204 link Description: 팀 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+											205 text  · 
+											206 link Description: 공통 계약과 검증 기준, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+										207 text 11/24 기능 동결 이후 새 기능은 추가하지 않는다. 외부 마감은 12/2이며, 내부 제출 목표는 12/1 21:00 KST다. 실제 제출 시각·발표일은 공지 확인을 따른다.
+									208 button Add reaction
+									209 button Attach images, files, or videos
+									210 button Add sub-issues
+									211 heading Activity, Value: 3
+										212 text Activity
+									213 button Unsubscribe from issue
+									214 button Change subscribers
+										215 image 도형준
+									216 container
+										217 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										218 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										219 text created the  issue
+										220 text ·
+										221 link Description: Thu Oct 29, 2026, 오전 9:57:17, Value: linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84#update-e4ca2791-7caa-43d5-952d-bea4d6218b00-issue-created
+										280 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										281 text marked this issue as blocked by 
+										282 link Description: NONONO-30 T19 · 치명·주요 결함 수정과 재검증 완료, Value: linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C
+										283 text ·
+										284 link Description: Thu Oct 29, 2026, 오전 9:57:18, Value: linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84#update-42e1b780-8fb5-4071-b3bb-eede86ffa6ce-relationship-ab-NONONO-30
+										292 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										293 text marked this issue as blocked by 
+										294 link Description: NONONO-29 T18 · 발표 초안과 개인별 설명·1차 리허설, Value: linear.app/dhj00570-helpdesk/issue/NONONO-29/t18-%EB%B0%9C%ED%91%9C-%EC%B4%88%EC%95%88%EA%B3%BC-%EA%B0%9C%EC%9D%B8%EB%B3%84-%EC%84%A4%EB%AA%851%EC%B0%A8-%EB%A6%AC%ED%97%88%EC%84%A4
+										295 text ·
+										296 link Description: Thu Oct 29, 2026, 오전 9:57:18, Value: linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84#update-42e1b780-8fb5-4071-b3bb-eede86ffa6ce-relationship-ab-NONONO-29
+									226 container
+										227 text Leave a comment…
+										228 button Submit comment
+										229 button Attach images, files, or videos
+								230 container
+									231 heading Properties, Value: 3
+										232 text Properties
+									233 button Backlog
+										263 image
+										235 text Backlog
+									236 button Medium Priority Medium
+										237 image Medium Priority
+										238 text Medium
+									239 button Assign
+									240 button 2026. 11. 30.
+										241 container
+											242 text field (settable) 2026. 11. 30.
+									243 heading Labels, Value: 3
+										244 text Labels
+									245 container Add labels
+										246 button Add labels
+									247 heading Project, Value: 3
+										248 text Project
+									249 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									250 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									251 button Week 5 · 안정화와 발표 및 제출
+									252 button
+									264 heading Blocked by, Value: 3
+										265 text Blocked by
+									285 container
+										286 container
+											287 link Description: T18 · 발표 초안과 개인별 설명·1차 리허설, Value: linear.app/dhj00570-helpdesk/issue/NONONO-29/t18-%EB%B0%9C%ED%91%9C-%EC%B4%88%EC%95%88%EA%B3%BC-%EA%B0%9C%EC%9D%B8%EB%B3%84-%EC%84%A4%EB%AA%851%EC%B0%A8-%EB%A6%AC%ED%97%88%EC%84%A4
+											288 button Remove relation
+										289 container
+											290 link Description: T19 · 치명·주요 결함 수정과 재검증 완료, Value: linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C
+											291 button Remove relation
+					272 container
+						273 button Agent
+						274 button Chat history
+			262 container Notifications alt+T
+
+The focused UI element is 1 AXWebArea NONONO-31 T20 · 최종 발표·질의 리허설과 시연 백업 준비, URL: linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84?noRedirect=1

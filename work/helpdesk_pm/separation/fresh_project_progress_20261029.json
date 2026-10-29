@@ -1,0 +1,956 @@
+{
+  "workspaceSlug": "dhj00570-helpdesk",
+  "teamKey": "NONONO",
+  "projectName": "AI Smart Help Desk · 문의하지마세요 · 10/29 시작",
+  "projectUrl": "https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6",
+  "startDate": "2026-10-29",
+  "targetDate": "2026-12-02",
+  "lead": "도형준",
+  "milestones": [
+    {
+      "key": "W1",
+      "uuid": "c45d07ec-c996-45e5-9610-e90f2647719a",
+      "name": "Week 1 · 기술 검증과 첫 연결",
+      "targetDate": "2026-11-03",
+      "url": "https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview#milestone-c45d07ec-c996-45e5-9610-e90f2647719a"
+    },
+    {
+      "key": "W2",
+      "uuid": "3763ac95-3696-437f-a63e-c13009de1e7b",
+      "name": "Week 2 · 사용자 흐름과 관리자 조회",
+      "targetDate": "2026-11-10",
+      "url": "https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview#milestone-3763ac95-3696-437f-a63e-c13009de1e7b"
+    },
+    {
+      "key": "W3",
+      "uuid": "475aa786-906a-4b10-a6af-2194daf4c526",
+      "name": "Week 3 · 관리자 처리와 오류 대응",
+      "targetDate": "2026-11-17",
+      "url": "https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview#milestone-475aa786-906a-4b10-a6af-2194daf4c526"
+    },
+    {
+      "key": "W4",
+      "uuid": "4a77ff6a-f813-4a4b-89fb-4bd81099adef",
+      "name": "Week 4 · 무료 배포와 기능 동결",
+      "targetDate": "2026-11-24",
+      "url": "https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview#milestone-4a77ff6a-f813-4a4b-89fb-4bd81099adef"
+    },
+    {
+      "key": "W5",
+      "uuid": "19fa80a7-6201-4c13-95fe-18ccce212ffe",
+      "name": "Week 5 · 안정화와 발표 및 제출",
+      "targetDate": "2026-12-01",
+      "url": "https://linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview#milestone-19fa80a7-6201-4c13-95fe-18ccce212ffe"
+    }
+  ],
+  "documents": [
+    {
+      "key": "START",
+      "title": "00 처음 합류하면 여기부터 · 가입·AI 연결·첫 작업",
+      "uuid": "9029958e-c362-46ea-a65a-83475dbcb78f",
+      "url": "https://linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f",
+      "bodyComplete": true,
+      "savedVerified": true,
+      "headingCount": 16,
+      "savedCharacters": 7737
+    },
+    {
+      "key": "PLAN",
+      "title": "팀 실행 계획서 · 12월 2일 마감 · 2026-10-29",
+      "uuid": "9c045d15-3df9-4393-84f6-322dbbf9b353",
+      "url": "https://linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353",
+      "bodyComplete": true,
+      "savedVerified": true,
+      "headingCount": 32,
+      "savedCharacters": 13810
+    },
+    {
+      "key": "CONTRACT",
+      "title": "공통 데이터·처리 규칙과 검증 기준 v1",
+      "uuid": "00139e43-fe60-40d0-94e1-f86c33ef6814",
+      "url": "https://linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814",
+      "bodyComplete": true,
+      "savedVerified": true,
+      "headingCount": 7,
+      "savedCharacters": 3682
+    },
+    {
+      "key": "ASSIGNMENT",
+      "title": "팀 작업 배정안 · A~E 역할과 T01~T21",
+      "uuid": "f9bb5d5c-0eae-4167-a634-a912dc3b557b",
+      "url": "https://linear.app/dhj00570-helpdesk/document/f9bb5d5c-0eae-4167-a634-a912dc3b557b",
+      "bodyComplete": true,
+      "savedVerified": true,
+      "headingCount": 10,
+      "savedCharacters": 3627
+    },
+    {
+      "key": "OPERATIONS",
+      "title": "프로젝트 운영 규칙 · GitHub / Linear / 팀 공유",
+      "uuid": "c62090ff-fb77-4d44-a060-f730c8e0b168",
+      "url": "https://linear.app/dhj00570-helpdesk/document/c62090ff-fb77-4d44-a060-f730c8e0b168",
+      "bodyComplete": true,
+      "savedVerified": true,
+      "headingCount": 8,
+      "savedCharacters": 1993
+    },
+    {
+      "key": "MEETINGS",
+      "title": "회의록 허브 · 착수 안건과 주간 점검",
+      "uuid": "ada06bff-0d17-4621-9f89-4786585af3d0",
+      "url": "https://linear.app/dhj00570-helpdesk/document/ada06bff-0d17-4621-9f89-4786585af3d0",
+      "bodyComplete": true,
+      "savedVerified": true,
+      "headingCount": 13,
+      "savedCharacters": 1614
+    }
+  ],
+  "issues": [
+    {
+      "key": "A",
+      "kind": "role",
+      "title": "[A·팀장 도형준] 기획·공통 처리·전체 통합",
+      "id": "NONONO-6",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/563e797d-f074-4695-8bad-da9c3e7cb8c6",
+      "uuid": "563e797d-f074-4695-8bad-da9c3e7cb8c6",
+      "role": "A",
+      "parentKey": null,
+      "dueDate": "2026-12-01",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W5",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [],
+      "relationsVerified": true,
+      "blockedLinks": []
+    },
+    {
+      "key": "B",
+      "kind": "role",
+      "title": "[B·배정 예정] Jev 검증·문의 분류·긴급도",
+      "id": "NONONO-7",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/e36d90d9-8389-4768-96d3-7072eeca41b5",
+      "uuid": "e36d90d9-8389-4768-96d3-7072eeca41b5",
+      "role": "B",
+      "parentKey": null,
+      "dueDate": "2026-11-24",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W4",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [],
+      "relationsVerified": true,
+      "blockedLinks": []
+    },
+    {
+      "key": "C",
+      "kind": "role",
+      "title": "[C·배정 예정] FAQ·Gemini 답변·근거 관리",
+      "id": "NONONO-8",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/72541ed8-f723-4b42-b919-290502b51065",
+      "uuid": "72541ed8-f723-4b42-b919-290502b51065",
+      "role": "C",
+      "parentKey": null,
+      "dueDate": "2026-11-24",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W4",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [],
+      "relationsVerified": true,
+      "blockedLinks": []
+    },
+    {
+      "key": "D",
+      "kind": "role",
+      "title": "[D·배정 예정] 사용자·관리자 화면·무료 배포",
+      "id": "NONONO-9",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/094b5315-c78a-42e4-be0b-d978049de2d8",
+      "uuid": "094b5315-c78a-42e4-be0b-d978049de2d8",
+      "role": "D",
+      "parentKey": null,
+      "dueDate": "2026-12-01",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W5",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [],
+      "relationsVerified": true,
+      "blockedLinks": []
+    },
+    {
+      "key": "E",
+      "kind": "role",
+      "title": "[E·배정 예정] 검증·결함 관리·발표·백업",
+      "id": "NONONO-10",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/949c511f-22a5-4773-aaff-dd958dc0dfe0",
+      "uuid": "949c511f-22a5-4773-aaff-dd958dc0dfe0",
+      "role": "E",
+      "parentKey": null,
+      "dueDate": "2026-12-01",
+      "status": "Backlog",
+      "priority": "Medium",
+      "milestone": "W5",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [],
+      "relationsVerified": true,
+      "blockedLinks": []
+    },
+    {
+      "key": "T01",
+      "kind": "task",
+      "title": "T01 · 착수 회의와 역할·일정·공유 공간 확정",
+      "id": "NONONO-11",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-11/t01-%EC%B0%A9%EC%88%98-%ED%9A%8C%EC%9D%98%EC%99%80-%EC%97%AD%ED%95%A0%EC%9D%BC%EC%A0%95%EA%B3%B5%EC%9C%A0-%EA%B3%B5%EA%B0%84-%ED%99%95%EC%A0%95",
+      "uuid": null,
+      "role": "A",
+      "parentKey": "A",
+      "parentComplete": true,
+      "dueDate": "2026-10-29",
+      "status": "Todo",
+      "priority": "High",
+      "milestone": "W1",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [],
+      "relationsVerified": true,
+      "blockedLinks": []
+    },
+    {
+      "key": "T02",
+      "kind": "task",
+      "title": "T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정",
+      "id": "NONONO-12",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95",
+      "uuid": null,
+      "role": "A",
+      "parentKey": "A",
+      "parentComplete": true,
+      "dueDate": "2026-10-29",
+      "status": "Todo",
+      "priority": "High",
+      "milestone": "W1",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [
+        "T01"
+      ],
+      "relationsVerified": true
+    },
+    {
+      "key": "T07",
+      "kind": "task",
+      "title": "T07 · 실제 AI 문의 1건의 접수부터 관리자 조회까지 연결",
+      "id": "NONONO-13",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-13/t07-%EC%8B%A4%EC%A0%9C-ai-%EB%AC%B8%EC%9D%98-1%EA%B1%B4%EC%9D%98-%EC%A0%91%EC%88%98%EB%B6%80%ED%84%B0-%EA%B4%80%EB%A6%AC%EC%9E%90-%EC%A1%B0%ED%9A%8C%EA%B9%8C%EC%A7%80-%EC%97%B0%EA%B2%B0",
+      "uuid": null,
+      "role": "A",
+      "parentKey": "A",
+      "parentComplete": true,
+      "dueDate": "2026-11-03",
+      "status": "Todo",
+      "priority": "High",
+      "milestone": "W1",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T05",
+        "T03",
+        "T04"
+      ],
+      "blockedBy": [
+        "T05",
+        "T03",
+        "T04"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T05",
+          "id": "NONONO-23",
+          "url": "/dhj00570-helpdesk/issue/NONONO-23/t05-고정-예시-ui와-최소-무료-space-실행-검증"
+        },
+        {
+          "key": "T03",
+          "id": "NONONO-18",
+          "url": "/dhj00570-helpdesk/issue/NONONO-18/t03-jev-무료-호출-검증과-분류-엔진-결정"
+        },
+        {
+          "key": "T04",
+          "id": "NONONO-20",
+          "url": "/dhj00570-helpdesk/issue/NONONO-20/t04-gemini-무료-호출과-faq-초안-6개-준비"
+        }
+      ]
+    },
+    {
+      "key": "T12",
+      "kind": "task",
+      "title": "T12 · 관리자 상세 수정과 처리 상태 전이 구현",
+      "id": "NONONO-14",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-14/t12-%EA%B4%80%EB%A6%AC%EC%9E%90-%EC%83%81%EC%84%B8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%B2%98%EB%A6%AC-%EC%83%81%ED%83%9C-%EC%A0%84%EC%9D%B4-%EA%B5%AC%ED%98%84",
+      "uuid": null,
+      "role": "A",
+      "parentKey": "A",
+      "parentComplete": true,
+      "dueDate": "2026-11-13",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W3",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T10"
+      ],
+      "blockedBy": [
+        "T10"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T10",
+          "id": "NONONO-24",
+          "url": "/dhj00570-helpdesk/issue/NONONO-24/t10-접수-결과관리자-목록필터새로고침-연결"
+        }
+      ]
+    },
+    {
+      "key": "T13",
+      "kind": "task",
+      "title": "T13 · 모델 실패 처리와 같은 접수번호 재시도 구현",
+      "id": "NONONO-15",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-15/t13-%EB%AA%A8%EB%8D%B8-%EC%8B%A4%ED%8C%A8-%EC%B2%98%EB%A6%AC%EC%99%80-%EA%B0%99%EC%9D%80-%EC%A0%91%EC%88%98%EB%B2%88%ED%98%B8-%EC%9E%AC%EC%8B%9C%EB%8F%84-%EA%B5%AC%ED%98%84",
+      "uuid": null,
+      "role": "A",
+      "parentKey": "A",
+      "parentComplete": true,
+      "dueDate": "2026-11-17",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W3",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T09",
+        "T08"
+      ],
+      "blockedBy": [
+        "T09",
+        "T08"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T09",
+          "id": "NONONO-22",
+          "url": "/dhj00570-helpdesk/issue/NONONO-22/t09-faq-후보-조회와-근거-기반-답변-생성-완성"
+        },
+        {
+          "key": "T08",
+          "id": "NONONO-19",
+          "url": "/dhj00570-helpdesk/issue/NONONO-19/t08-분류-결과와-부서-매핑검토-규칙-연결"
+        }
+      ]
+    },
+    {
+      "key": "T17",
+      "kind": "task",
+      "title": "T17 · 필수 기능 완료 판정과 11월 24일 기능 동결",
+      "id": "NONONO-16",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-16/t17-%ED%95%84%EC%88%98-%EA%B8%B0%EB%8A%A5-%EC%99%84%EB%A3%8C-%ED%8C%90%EC%A0%95%EA%B3%BC-11%EC%9B%94-24%EC%9D%BC-%EA%B8%B0%EB%8A%A5-%EB%8F%99%EA%B2%B0",
+      "uuid": null,
+      "role": "A",
+      "parentKey": "A",
+      "parentComplete": true,
+      "dueDate": "2026-11-24",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W4",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T16"
+      ],
+      "blockedBy": [
+        "T16"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T16",
+          "id": "NONONO-28",
+          "url": "/dhj00570-helpdesk/issue/NONONO-28/t16-배포-환경-30건오류-8개-전체-예비-검증"
+        }
+      ]
+    },
+    {
+      "key": "T21",
+      "kind": "task",
+      "title": "T21 · 12월 1일 21시 내부 최종 제출·인계 점검",
+      "id": "NONONO-17",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-17/t21-12%EC%9B%94-1%EC%9D%BC-21%EC%8B%9C-%EB%82%B4%EB%B6%80-%EC%B5%9C%EC%A2%85-%EC%A0%9C%EC%B6%9C%EC%9D%B8%EA%B3%84-%EC%A0%90%EA%B2%80",
+      "uuid": null,
+      "role": "A",
+      "parentKey": "A",
+      "parentComplete": true,
+      "dueDate": "2026-12-01",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W5",
+      "assignedToLead": true,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T20"
+      ],
+      "blockedBy": [
+        "T20"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T20",
+          "id": "NONONO-31",
+          "url": "/dhj00570-helpdesk/issue/NONONO-31/t20-최종-발표질의-리허설과-시연-백업-준비"
+        }
+      ]
+    },
+    {
+      "key": "T03",
+      "kind": "task",
+      "title": "T03 · Jev 무료 호출 검증과 분류 엔진 결정",
+      "id": "NONONO-18",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-18/t03-jev-%EB%AC%B4%EB%A3%8C-%ED%98%B8%EC%B6%9C-%EA%B2%80%EC%A6%9D%EA%B3%BC-%EB%B6%84%EB%A5%98-%EC%97%94%EC%A7%84-%EA%B2%B0%EC%A0%95",
+      "uuid": null,
+      "role": "B",
+      "parentKey": "B",
+      "parentComplete": true,
+      "dueDate": "2026-10-30",
+      "status": "Todo",
+      "priority": "High",
+      "milestone": "W1",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [
+        "T02"
+      ],
+      "relationsVerified": true
+    },
+    {
+      "key": "T08",
+      "kind": "task",
+      "title": "T08 · 분류 결과와 부서 매핑·검토 규칙 연결",
+      "id": "NONONO-19",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-19/t08-%EB%B6%84%EB%A5%98-%EA%B2%B0%EA%B3%BC%EC%99%80-%EB%B6%80%EC%84%9C-%EB%A7%A4%ED%95%91%EA%B2%80%ED%86%A0-%EA%B7%9C%EC%B9%99-%EC%97%B0%EA%B2%B0",
+      "uuid": null,
+      "role": "B",
+      "parentKey": "B",
+      "parentComplete": true,
+      "dueDate": "2026-11-06",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W2",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T07"
+      ],
+      "blockedBy": [
+        "T07"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T07",
+          "id": "NONONO-13",
+          "url": "/dhj00570-helpdesk/issue/NONONO-13/t07-실제-ai-문의-1건의-접수부터-관리자-조회까지-연결"
+        }
+      ]
+    },
+    {
+      "key": "T04",
+      "kind": "task",
+      "title": "T04 · Gemini 무료 호출과 FAQ 초안 6개 준비",
+      "id": "NONONO-20",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-20/t04-gemini-%EB%AC%B4%EB%A3%8C-%ED%98%B8%EC%B6%9C%EA%B3%BC-faq-%EC%B4%88%EC%95%88-6%EA%B0%9C-%EC%A4%80%EB%B9%84",
+      "uuid": null,
+      "role": "C",
+      "parentKey": "C",
+      "parentComplete": true,
+      "dueDate": "2026-10-30",
+      "status": "Todo",
+      "priority": "High",
+      "milestone": "W1",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "blockedBy": [
+        "T02"
+      ],
+      "relationsVerified": true
+    },
+    {
+      "key": "T06",
+      "kind": "task",
+      "title": "T06 · FAQ 12개와 가상 문의 30건 정답 기준 확정",
+      "id": "NONONO-21",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12%EA%B0%9C%EC%99%80-%EA%B0%80%EC%83%81-%EB%AC%B8%EC%9D%98-30%EA%B1%B4-%EC%A0%95%EB%8B%B5-%EA%B8%B0%EC%A4%80-%ED%99%95%EC%A0%95",
+      "uuid": null,
+      "role": "C",
+      "parentKey": "C",
+      "parentComplete": true,
+      "dueDate": "2026-11-03",
+      "status": "Todo",
+      "priority": "Medium",
+      "milestone": "W1",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T02"
+      ],
+      "blockedBy": [
+        "T02"
+      ],
+      "relationsVerified": true
+    },
+    {
+      "key": "T09",
+      "kind": "task",
+      "title": "T09 · FAQ 후보 조회와 근거 기반 답변 생성 완성",
+      "id": "NONONO-22",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-22/t09-faq-%ED%9B%84%EB%B3%B4-%EC%A1%B0%ED%9A%8C%EC%99%80-%EA%B7%BC%EA%B1%B0-%EA%B8%B0%EB%B0%98-%EB%8B%B5%EB%B3%80-%EC%83%9D%EC%84%B1-%EC%99%84%EC%84%B1",
+      "uuid": null,
+      "role": "C",
+      "parentKey": "C",
+      "parentComplete": true,
+      "dueDate": "2026-11-06",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W2",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T07",
+        "T06"
+      ],
+      "blockedBy": [
+        "T07",
+        "T06"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T07",
+          "id": "NONONO-13",
+          "url": "/dhj00570-helpdesk/issue/NONONO-13/t07-실제-ai-문의-1건의-접수부터-관리자-조회까지-연결"
+        },
+        {
+          "key": "T06",
+          "id": "NONONO-21",
+          "url": "/dhj00570-helpdesk/issue/NONONO-21/t06-faq-12개와-가상-문의-30건-정답-기준-확정"
+        }
+      ]
+    },
+    {
+      "key": "T05",
+      "kind": "task",
+      "title": "T05 · 고정 예시 UI와 최소 무료 Space 실행 검증",
+      "id": "NONONO-23",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D",
+      "uuid": null,
+      "role": "D",
+      "parentKey": "D",
+      "parentComplete": true,
+      "dueDate": "2026-10-30",
+      "status": "Todo",
+      "priority": "High",
+      "milestone": "W1",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T02"
+      ],
+      "blockedBy": [
+        "T02"
+      ],
+      "relationsVerified": true
+    },
+    {
+      "key": "T10",
+      "kind": "task",
+      "title": "T10 · 접수 결과·관리자 목록·필터·새로고침 연결",
+      "id": "NONONO-24",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-24/t10-%EC%A0%91%EC%88%98-%EA%B2%B0%EA%B3%BC%EA%B4%80%EB%A6%AC%EC%9E%90-%EB%AA%A9%EB%A1%9D%ED%95%84%ED%84%B0%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8-%EC%97%B0%EA%B2%B0",
+      "uuid": null,
+      "role": "D",
+      "parentKey": "D",
+      "parentComplete": true,
+      "dueDate": "2026-11-10",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W2",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T09",
+        "T08"
+      ],
+      "blockedBy": [
+        "T09",
+        "T08"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T09",
+          "id": "NONONO-22",
+          "url": "/dhj00570-helpdesk/issue/NONONO-22/t09-faq-후보-조회와-근거-기반-답변-생성-완성"
+        },
+        {
+          "key": "T08",
+          "id": "NONONO-19",
+          "url": "/dhj00570-helpdesk/issue/NONONO-19/t08-분류-결과와-부서-매핑검토-규칙-연결"
+        }
+      ]
+    },
+    {
+      "key": "T15",
+      "kind": "task",
+      "title": "T15 · 최종 기능의 Space 배포와 새 환경 실행 재현",
+      "id": "NONONO-25",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-25/t15-%EC%B5%9C%EC%A2%85-%EA%B8%B0%EB%8A%A5%EC%9D%98-space-%EB%B0%B0%ED%8F%AC%EC%99%80-%EC%83%88-%ED%99%98%EA%B2%BD-%EC%8B%A4%ED%96%89-%EC%9E%AC%ED%98%84",
+      "uuid": null,
+      "role": "D",
+      "parentKey": "D",
+      "parentComplete": true,
+      "dueDate": "2026-11-20",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W4",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T14"
+      ],
+      "blockedBy": [
+        "T14"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T14",
+          "id": "NONONO-27",
+          "url": "/dhj00570-helpdesk/issue/NONONO-27/t14-30건-1차-통합-검증과-결함-우선순위-확정"
+        }
+      ]
+    },
+    {
+      "key": "T11",
+      "kind": "task",
+      "title": "T11 · 주요 문의 유형별 사용자 흐름 검증",
+      "id": "NONONO-26",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-26/t11-%EC%A3%BC%EC%9A%94-%EB%AC%B8%EC%9D%98-%EC%9C%A0%ED%98%95%EB%B3%84-%EC%82%AC%EC%9A%A9%EC%9E%90-%ED%9D%90%EB%A6%84-%EA%B2%80%EC%A6%9D",
+      "uuid": null,
+      "role": "E",
+      "parentKey": "E",
+      "parentComplete": true,
+      "dueDate": "2026-11-10",
+      "status": "Backlog",
+      "priority": "Medium",
+      "milestone": "W2",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T09",
+        "T10",
+        "T08"
+      ],
+      "blockedBy": [
+        "T09",
+        "T10",
+        "T08"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T09",
+          "id": "NONONO-22",
+          "url": "/dhj00570-helpdesk/issue/NONONO-22/t09-faq-후보-조회와-근거-기반-답변-생성-완성"
+        },
+        {
+          "key": "T10",
+          "id": "NONONO-24",
+          "url": "/dhj00570-helpdesk/issue/NONONO-24/t10-접수-결과관리자-목록필터새로고침-연결"
+        },
+        {
+          "key": "T08",
+          "id": "NONONO-19",
+          "url": "/dhj00570-helpdesk/issue/NONONO-19/t08-분류-결과와-부서-매핑검토-규칙-연결"
+        }
+      ]
+    },
+    {
+      "key": "T14",
+      "kind": "task",
+      "title": "T14 · 30건 1차 통합 검증과 결함 우선순위 확정",
+      "id": "NONONO-27",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-27/t14-30%EA%B1%B4-1%EC%B0%A8-%ED%86%B5%ED%95%A9-%EA%B2%80%EC%A6%9D%EA%B3%BC-%EA%B2%B0%ED%95%A8-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-%ED%99%95%EC%A0%95",
+      "uuid": null,
+      "role": "E",
+      "parentKey": "E",
+      "parentComplete": true,
+      "dueDate": "2026-11-17",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W3",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T12",
+        "T13"
+      ],
+      "blockedBy": [
+        "T12",
+        "T13"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T12",
+          "id": "NONONO-14",
+          "url": "/dhj00570-helpdesk/issue/NONONO-14/t12-관리자-상세-수정과-처리-상태-전이-구현"
+        },
+        {
+          "key": "T13",
+          "id": "NONONO-15",
+          "url": "/dhj00570-helpdesk/issue/NONONO-15/t13-모델-실패-처리와-같은-접수번호-재시도-구현"
+        }
+      ]
+    },
+    {
+      "key": "T16",
+      "kind": "task",
+      "title": "T16 · 배포 환경 30건·오류 8개 전체 예비 검증",
+      "id": "NONONO-28",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-28/t16-%EB%B0%B0%ED%8F%AC-%ED%99%98%EA%B2%BD-30%EA%B1%B4%EC%98%A4%EB%A5%98-8%EA%B0%9C-%EC%A0%84%EC%B2%B4-%EC%98%88%EB%B9%84-%EA%B2%80%EC%A6%9D",
+      "uuid": null,
+      "role": "E",
+      "parentKey": "E",
+      "parentComplete": true,
+      "dueDate": "2026-11-24",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W4",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T15"
+      ],
+      "blockedBy": [
+        "T15"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T15",
+          "id": "NONONO-25",
+          "url": "/dhj00570-helpdesk/issue/NONONO-25/t15-최종-기능의-space-배포와-새-환경-실행-재현"
+        }
+      ]
+    },
+    {
+      "key": "T18",
+      "kind": "task",
+      "title": "T18 · 발표 초안과 개인별 설명·1차 리허설",
+      "id": "NONONO-29",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-29/t18-%EB%B0%9C%ED%91%9C-%EC%B4%88%EC%95%88%EA%B3%BC-%EA%B0%9C%EC%9D%B8%EB%B3%84-%EC%84%A4%EB%AA%851%EC%B0%A8-%EB%A6%AC%ED%97%88%EC%84%A4",
+      "uuid": null,
+      "role": "E",
+      "parentKey": "E",
+      "parentComplete": true,
+      "dueDate": "2026-11-27",
+      "status": "Backlog",
+      "priority": "Medium",
+      "milestone": "W5",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T17"
+      ],
+      "blockedBy": [
+        "T17"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T17",
+          "id": "NONONO-16",
+          "url": "/dhj00570-helpdesk/issue/NONONO-16/t17-필수-기능-완료-판정과-11월-24일-기능-동결"
+        }
+      ]
+    },
+    {
+      "key": "T19",
+      "kind": "task",
+      "title": "T19 · 치명·주요 결함 수정과 재검증 완료",
+      "id": "NONONO-30",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-30/t19-%EC%B9%98%EB%AA%85%EC%A3%BC%EC%9A%94-%EA%B2%B0%ED%95%A8-%EC%88%98%EC%A0%95%EA%B3%BC-%EC%9E%AC%EA%B2%80%EC%A6%9D-%EC%99%84%EB%A3%8C",
+      "uuid": null,
+      "role": "E",
+      "parentKey": "E",
+      "parentComplete": true,
+      "dueDate": "2026-11-29",
+      "status": "Backlog",
+      "priority": "High",
+      "milestone": "W5",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T17"
+      ],
+      "blockedBy": [
+        "T17"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T17",
+          "id": "NONONO-16",
+          "url": "/dhj00570-helpdesk/issue/NONONO-16/t17-필수-기능-완료-판정과-11월-24일-기능-동결"
+        }
+      ]
+    },
+    {
+      "key": "T20",
+      "kind": "task",
+      "title": "T20 · 최종 발표·질의 리허설과 시연 백업 준비",
+      "id": "NONONO-31",
+      "url": "https://linear.app/dhj00570-helpdesk/issue/NONONO-31/t20-%EC%B5%9C%EC%A2%85-%EB%B0%9C%ED%91%9C%EC%A7%88%EC%9D%98-%EB%A6%AC%ED%97%88%EC%84%A4%EA%B3%BC-%EC%8B%9C%EC%97%B0-%EB%B0%B1%EC%97%85-%EC%A4%80%EB%B9%84",
+      "uuid": null,
+      "role": "E",
+      "parentKey": "E",
+      "parentComplete": true,
+      "dueDate": "2026-11-30",
+      "status": "Backlog",
+      "priority": "Medium",
+      "milestone": "W5",
+      "assignedToLead": false,
+      "bodyComplete": true,
+      "propertiesComplete": true,
+      "relationsComplete": true,
+      "addedBlockedBy": [
+        "T19",
+        "T18"
+      ],
+      "blockedBy": [
+        "T19",
+        "T18"
+      ],
+      "relationsVerified": true,
+      "blockedLinks": [
+        {
+          "key": "T19",
+          "id": "NONONO-30",
+          "url": "/dhj00570-helpdesk/issue/NONONO-30/t19-치명주요-결함-수정과-재검증-완료"
+        },
+        {
+          "key": "T18",
+          "id": "NONONO-29",
+          "url": "/dhj00570-helpdesk/issue/NONONO-29/t18-발표-초안과-개인별-설명1차-리허설"
+        }
+      ]
+    }
+  ],
+  "plannedIssueIds": {
+    "A": "NONONO-6",
+    "B": "NONONO-7",
+    "C": "NONONO-8",
+    "D": "NONONO-9",
+    "E": "NONONO-10",
+    "T01": "NONONO-11",
+    "T02": "NONONO-12",
+    "T07": "NONONO-13",
+    "T12": "NONONO-14",
+    "T13": "NONONO-15",
+    "T17": "NONONO-16",
+    "T21": "NONONO-17",
+    "T03": "NONONO-18",
+    "T08": "NONONO-19",
+    "T04": "NONONO-20",
+    "T06": "NONONO-21",
+    "T09": "NONONO-22",
+    "T05": "NONONO-23",
+    "T10": "NONONO-24",
+    "T15": "NONONO-25",
+    "T11": "NONONO-26",
+    "T14": "NONONO-27",
+    "T16": "NONONO-28",
+    "T18": "NONONO-29",
+    "T19": "NONONO-30",
+    "T20": "NONONO-31"
+  },
+  "projectDescriptionComplete": true,
+  "projectSavedVerified": true,
+  "reviewStatusConfigured": true,
+  "workspaceIsolationVerified": true,
+  "membership": {
+    "activeHumans": 1,
+    "pendingInvitations": 2,
+    "applications": 1,
+    "unrelatedMemberFound": false
+  },
+  "finalProof": "D:/study/work/helpdesk_pm/separation/fresh_project_overview_20261029.png",
+  "setupComplete": true
+}

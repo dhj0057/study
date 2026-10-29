@@ -1,0 +1,49 @@
+.landing-page {
+    min-height: 100vh;
+    background-color: #f7f9fc;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 24px;
+    background-color: #4a7cf7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.toolbar span {
+    color: white;
+    font-weight: bold;
+}
+
+.toolbar button {
+    padding: 8px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #4a7cf7;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+.toolbar button:hover {
+    background-color: #e8eefe;
+}
+
+.landing-content {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: #333;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

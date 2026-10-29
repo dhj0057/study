@@ -1,0 +1,240 @@
+Browser tab: 4, Title: "NONONO-9 [D·배정 예정] 사용자·관리자 화면·무료 배포", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-9/d%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B4%80%EB%A6%AC%EC%9E%90-%ED%99%94%EB%A9%B4%EB%AC%B4%EB%A3%8C-%EB%B0%B0%ED%8F%AC?noRedirect=1".
+1 AXWebArea NONONO-9 [D·배정 예정] 사용자·관리자 화면·무료 배포, URL: linear.app/dhj00570-helpdesk/issue/NONONO-9/d%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B4%80%EB%A6%AC%EC%9E%90-%ED%99%94%EB%A9%B4%EB%AC%B4%EB%A3%8C-%EB%B0%B0%ED%8F%AC?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-9/d%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B4%80%EB%A6%AC%EC%9E%90-%ED%99%94%EB%A9%B4%EB%AC%B4%EB%A3%8C-%EB%B0%B0%ED%8F%AC?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						173 container
+							174 button (expanded) Your teams, Secondary Actions: Collapse
+							175 button Join a team
+							176 content list teams-boundary-container
+								177 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									178 container
+										179 container
+											180 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												181 text 문의하지마세요
+											182 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										183 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											184 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											185 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											186 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											187 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							188 button (expanded) Try, Secondary Actions: Collapse
+							189 container sidebarTry
+								190 container
+									191 container Invite to 도형준 · 문의하지마세요…
+										192 text Invite people
+									193 button Dismiss
+										194 image Dismiss
+								195 container
+									196 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									197 button Dismiss
+										198 image Dismiss
+					46 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				47 container
+					48 container
+						49 container
+							50 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							51 link Description: NONONO-9 [D·배정 예정] 사용자·관리자 화면·무료 배포, Value: linear.app/dhj00570-helpdesk/issue/NONONO-9/d%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B4%80%EB%A6%AC%EC%9E%90-%ED%99%94%EB%A9%B4%EB%AC%B4%EB%A3%8C-%EB%B0%B0%ED%8F%AC
+							52 switch Description: Add to favorites, Value: 0
+							53 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							54 button Copy issue URL
+							55 button Copy issue ID
+							56 button Copy branch name
+							57 container
+								58 button Copy as prompt
+								59 button Choose coding tool
+							60 container [D·배정 예정] 사용자·관리자 화면·무료 배포 이 역할을 쉽게 설명하면 담당: 합류 후 배정 사람이 문의를 입력하고 관리자가 처리할 화면을 만들고 데모 주소를 준비한다. 첫 행동: T05에서 입력·결과·관리자 목록 화면을 고정 예시로 먼저 연결한다. 첫 작업 T05을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다. 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다. 작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다. 가입·AI 연결·내 작업 찾기 · 처음 30분 안내 역할과 배정 상태 주 역할: D. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다. 소유 범위 입력·결과·목록·상세, 필터·수정·상태·재시도 표시, 최소 무료 Space 확인, 실행 설정과 최종 배포 주요 결과물 아래는 저장소 안에서 작성할 코드·설정 파일 이름이다. Detecting… 1 2 3 app.py requirements.txt README에 배포·복구 방법을 남긴다. 완료 기준 실제 공통 처리 모듈과 연결하고 별도 창에서 동일 접수번호를 확인한다. 재시도·진행·중복 방지와 오류 안내가 동작하고 새 환경에서 실행·배포를 재현한다. 하위 이슈의 완료 기준과 선행 관계를 따른다. 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다. 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다. 협업 A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다. Add reaction Attach images, files, or videos Collapse sub-issues section 0/3 Display options Create new sub-issue Select issue Todo T05 · 고정 예시 UI와 최소 무료 Space 실행 검증 Tomorrow 1 1 Select issue Backlog T10 · 접수 결과·관리자 목록·필터·새로고침 연결
+								61 container
+									62 text field (settable) Description: Issue title, Value: [D·배정 예정] 사용자·관리자 화면·무료 배포
+										63 text [D·배정 예정] 사용자·관리자 화면·무료 배포
+									64 text entry area (settable) Description: Issue description, Value: 이 역할을 쉽게 설명하면
+
+담당: 합류 후 배정
+
+사람이 문의를 입력하고 관리자가 처리할 화면을 만들고 데모 주소를 준비한다.
+
+첫 행동: T05에서 입력·결과·관리자 목록 화면을 고정 예시로 먼저 연결한다. 첫 작업 T05을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다.
+
+이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다.
+
+작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다.
+
+가입·AI 연결·내 작업 찾기 · 처음 30분 안내
+
+역할과 배정 상태
+
+주 역할: D. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다.
+
+소유 범위
+
+입력·결과·목록·상세, 필터·수정·상태·재시도 표시, 최소 무료 Space 확인, 실행 설정과 최종 배포
+
+주요 결과물
+
+아래는 저장소 안에서 작성할 코드·설정 파일 이름이다.
+
+Detecting…
+1
+2
+3
+app.py
+requirements.txt
+
+
+
+README에 배포·복구 방법을 남긴다.
+
+완료 기준
+
+실제 공통 처리 모듈과 연결하고 별도 창에서 동일 접수번호를 확인한다. 재시도·진행·중복 방지와 오류 안내가 동작하고 새 환경에서 실행·배포를 재현한다.
+
+하위 이슈의 완료 기준과 선행 관계를 따른다.
+
+구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다.
+
+고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다.
+
+협업
+
+A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다.
+										65 heading Heading actions 이 역할을 쉽게 설명하면, Value: 2, ID: 4d3db5d2-a0aa-441a-84bb-8b053ce6d57c
+											66 container
+												67 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											68 text 이 역할을 쉽게 설명하면
+										69 container
+											70 text 담당:  합류 후 배정
+										71 text 사람이 문의를 입력하고 관리자가 처리할 화면을 만들고 데모 주소를 준비한다.
+										72 container
+											73 text 첫 행동:  T05에서 입력·결과·관리자 목록 화면을 고정 예시로 먼저 연결한다. 
+											74 link Description: 첫 작업 T05, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23
+											75 text 을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다.
+										76 text 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다.
+										77 container
+											78 text 작업한 날의 보고:  ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다.
+										79 link Description: 가입·AI 연결·내 작업 찾기 · 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										80 heading Heading actions 역할과 배정 상태, Value: 2, ID: fc3a7582-0b8b-493f-8412-99802ddcae9a
+											81 container
+												82 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											83 text 역할과 배정 상태
+										84 container
+											85 text 주 역할:  D . 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다.
+										86 heading Heading actions 소유 범위, Value: 2, ID: 23be1afe-635f-4841-a932-8f6682f01c2b
+											87 container
+												88 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											89 text 소유 범위
+										90 text 입력·결과·목록·상세, 필터·수정·상태·재시도 표시, 최소 무료 Space 확인, 실행 설정과 최종 배포
+										91 heading Heading actions 주요 결과물, Value: 2, ID: 0523f6b8-d907-4442-8411-8889263ee5d9
+											92 container
+												93 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											94 text 주요 결과물
+										95 text 아래는 저장소 안에서 작성할 코드·설정 파일 이름이다.
+										96 container 6557054a-ef29-4831-8b38-994ae9d95010
+											97 container
+												98 container Change language
+													99 text Detecting…
+												100 image Display options
+												101 image Copy content
+												102 button Delete
+													103 image Delete
+											104 container
+												105 text app.py
+requirements.txt
+
+										106 text README에 배포·복구 방법을 남긴다.
+										107 heading Heading actions 완료 기준, Value: 2, ID: ec2c2657-433f-49d5-ab17-7792c31711da
+											108 container
+												109 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											110 text 완료 기준
+										111 text 실제 공통 처리 모듈과 연결하고 별도 창에서 동일 접수번호를 확인한다. 재시도·진행·중복 방지와 오류 안내가 동작하고 새 환경에서 실행·배포를 재현한다.
+										112 content list
+											113 container
+												114 text • 하위 이슈의 완료 기준과 선행 관계를 따른다.
+											115 container
+												116 text • 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다.
+											117 container
+												118 text • 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다.
+										119 heading Heading actions 협업, Value: 2, ID: 8b6d3db3-2d13-429d-87e2-2eff3daa9729
+											120 container
+												121 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											122 text 협업
+										123 text A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다.
+									124 button Add reaction
+									125 button Attach images, files, or videos
+									126 button (expanded) Description: Collapse sub-issues section, Secondary Actions: Collapse
+									127 text 0 / 3
+									128 button Display options
+									129 button Create new sub-issue
+									130 container
+										131 link Description: Select issue Todo T05 · 고정 예시 UI와 최소 무료 Space 실행 검증 Tomorrow 1 1, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D
+										132 link Description: Select issue Backlog T10 · 접수 결과·관리자 목록·필터·새로고침 연결 Nov 10 2 2, Value: linear.app/dhj00570-helpdesk/issue/NONONO-24/t10-%EC%A0%91%EC%88%98-%EA%B2%B0%EA%B3%BC%EA%B4%80%EB%A6%AC%EC%9E%90-%EB%AA%A9%EB%A1%9D%ED%95%84%ED%84%B0%EC%83%88%EB%A1%9C%EA%B3%A0%EC%B9%A8-%EC%97%B0%EA%B2%B0
+										133 link Description: Select issue Backlog T15 · 최종 기능의 Space 배포와 새 환경 실행 재현 Nov 20 1 1, Value: linear.app/dhj00570-helpdesk/issue/NONONO-25/t15-%EC%B5%9C%EC%A2%85-%EA%B8%B0%EB%8A%A5%EC%9D%98-space-%EB%B0%B0%ED%8F%AC%EC%99%80-%EC%83%88-%ED%99%98%EA%B2%BD-%EC%8B%A4%ED%96%89-%EC%9E%AC%ED%98%84
+									134 heading Activity, Value: 3
+										135 text Activity
+									136 button Unsubscribe from issue
+									137 button Change subscribers
+										138 image 도형준
+									139 container
+										140 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										141 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										142 text created the  issue ·
+										143 link Description: Thu Oct 29, 2026, 오전 9:43:12, Value: linear.app/dhj00570-helpdesk/issue/NONONO-9/d%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B4%80%EB%A6%AC%EC%9E%90-%ED%99%94%EB%A9%B4%EB%AC%B4%EB%A3%8C-%EB%B0%B0%ED%8F%AC#update-094b5315-c78a-42e4-be0b-d978049de2d8-issue-created
+									144 container
+										145 text Leave a comment…
+										146 button Submit comment
+										147 button Attach images, files, or videos
+								148 container
+									149 heading Properties, Value: 3
+										150 text Properties
+									151 button Backlog
+										152 image
+										153 text Backlog
+									154 button High Priority High
+										155 image High Priority
+										156 text High
+									157 button Assign
+									158 button 2026. 12. 01.
+										159 container
+											160 text field (settable) 2026. 12. 01.
+									161 heading Labels, Value: 3
+										162 text Labels
+									163 container Add labels
+										164 button Add labels
+									165 heading Project, Value: 3
+										166 text Project
+									167 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									168 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									169 button Week 5 · 안정화와 발표 및 제출
+									170 button
+					199 container
+						200 button Agent
+						201 button Chat history
+			171 container Notifications alt+T
+			172 text Navigated to NONONO-9 [D·배정 예정] 사용자·관리자 화면·무료 배포
+
+The focused UI element is 60 container [D·배정 예정] 사용자·관리자 화면·무료 배포 이 역할을 쉽게 설명하면 담당: 합류 후 배정 사람이 문의를 입력하고 관리자가 처리할 화면을 만들고 데모 주소를 준비한다. 첫 행동: T05에서 입력·결과·관리자 목록 화면을 고정 예시로 먼저 연결한다. 첫 작업 T05을 연다. 선행 작업이 남아 있으면 준비 가능한 자료부터 만들고 도형준에게 막힌 부분을 알린다. 이 상위 이슈는 내 역할의 전체 범위다. 실제 진행과 결과는 아래 T번호 개별 이슈 한 개씩 기록한다. 처음부터 이 역할 전체를 한 번에 끝내려 하지 않는다. 작업한 날의 보고: ‘한 일 / 실제 증거 / 다음 할 일·막힌 점’ 세 줄을 개별 이슈 댓글에 남긴다. 코드는 실제 팀 저장소와 폴더를 확인한 뒤 본인 담당 범위에서 수정한다. 가입·AI 연결·내 작업 찾기 · 처음 30분 안내 역할과 배정 상태 주 역할: D. 실제 담당자는 T01 착수 회의에서 정한다. 다른 프로젝트의 인원을 자동 배정하지 않는다. 소유 범위 입력·결과·목록·상세, 필터·수정·상태·재시도 표시, 최소 무료 Space 확인, 실행 설정과 최종 배포 주요 결과물 아래는 저장소 안에서 작성할 코드·설정 파일 이름이다. Detecting… 1 2 3 app.py requirements.txt README에 배포·복구 방법을 남긴다. 완료 기준 실제 공통 처리 모듈과 연결하고 별도 창에서 동일 접수번호를 확인한다. 재시도·진행·중복 방지와 오류 안내가 동작하고 새 환경에서 실행·배포를 재현한다. 하위 이슈의 완료 기준과 선행 관계를 따른다. 구현자 외 1명의 확인 및 통합 재현 후 Done으로 옮긴다. 고정 예시는 개발 보조이며 실제 API 동작·배포·검증 완료를 뜻하지 않는다. 협업 A는 저장·상태·통합, B는 판단, C는 FAQ·생성, D는 UI·배포, E는 재현·발표를 맡는다. 11/24 이후는 결함 수정만 허용한다. Add reaction Attach images, files, or videos Collapse sub-issues section 0/3 Display options Create new sub-issue Select issue Todo T05 · 고정 예시 UI와 최소 무료 Space 실행 검증 Tomorrow 1 1 Select issue Backlog T10 · 접수 결과·관리자 목록·필터·새로고침 연결

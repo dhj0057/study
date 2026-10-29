@@ -1,0 +1,347 @@
+Browser tab: 4, Title: "NONONO-23 T05 · 고정 예시 UI와 최소 무료 Space 실행 검증", URL: "https://linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D?noRedirect=1".
+1 AXWebArea NONONO-23 T05 · 고정 예시 UI와 최소 무료 Space 실행 검증, URL: linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								52 container
+									53 container Invite to 도형준 · 문의하지마세요…
+										54 text Invite people
+									55 button Dismiss
+										56 image Dismiss
+								57 container
+									58 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									59 button Dismiss
+										60 image Dismiss
+					61 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				62 container
+					63 container
+						64 container
+							65 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+							66 link Description: NONONO-23 T05 · 고정 예시 UI와 최소 무료 Space 실행 검증, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D
+							67 switch Description: Add to favorites, Value: 0
+							68 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand
+							69 button Copy issue URL
+							70 button Copy issue ID
+							71 button Copy branch name
+							72 container
+								73 button Copy as prompt
+								74 button Choose coding tool
+							75 container
+								76 container
+									77 text field (settable) Description: Issue title, Value: T05 · 고정 예시 UI와 최소 무료 Space 실행 검증
+										78 text T05 · 고정 예시 UI와 최소 무료 Space 실행 검증
+									79 text Sub-issue of
+									80 link Description: NONONO-9 [D·배정 예정] 사용자·관리자 화면·무료 배포, Value: linear.app/dhj00570-helpdesk/issue/NONONO-9/d%EB%B0%B0%EC%A0%95-%EC%98%88%EC%A0%95-%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B4%80%EB%A6%AC%EC%9E%90-%ED%99%94%EB%A9%B4%EB%AC%B4%EB%A3%8C-%EB%B0%B0%ED%8F%AC
+									81 container Open sub-issues of NONONO-9
+										82 text 0/3
+									83 text entry area (settable) Description: Issue description, Value: 여기부터 시작 · T05
+
+처음 할 일: 사용자 입력칸·결과 영역·관리자 목록을 간단히 그려 이슈 댓글에 첨부한다.
+
+진행 순서
+
+T02 계약과 실제 프로젝트 폴더, D의 화면·설치 설정·실행 안내 파일 위치를 확인한다. 파일이 없으면 생성 전에 팀장에게 확인한다. 다른 프레임워크나 별도 서버를 추가하지 않는다.
+
+정해진 고정 예시 1건으로 사용자·관리자 기본 화면을 연결하고 화면에 개발용 예시임을 표시한다. 실제 AI 호출이라고 설명하지 않는다.
+
+확인된 팀 배포 공간에서 최소 무료 Space 실행을 점검한다. 계정·비밀 설정 권한이 없으면 필요한 권한과 막힌 단계만 기록한다.
+
+다른 팀원에게 주소 접근을 확인받고 실행 방법·환경변수 이름·실패 재현 정보를 남긴다. 비밀키 값은 화면과 문서에 넣지 않는다.
+
+남길 결과물: 화면 초안과 실행 증거: 개발용 예시 표시가 있는 화면 / 무료 Space 주소 또는 실패 단계 / 다른 팀원 접근 결과 / 실행 방법. 그림만 있으면 UI 구현 완료로 표시하지 않는다.
+
+직접 확인할 것: 직접 실행한 화면에서 고정 예시가 보이는지 확인하고 다른 팀원 한 명의 접근 결과를 받는다. 배포하지 못했다면 로컬 실행과 배포 상태를 구분한다.
+
+AI에게 그대로 복사할 요청
+TOML
+1
+2
+3
+4
+5
+6
+7
+현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T05) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+코드 작업 전 실제 팀 저장소와 작업 폴더, 공통 계약을 확인해줘. 이 작업의 예정 관련 파일은 app.py, requirements.txt, README.md야. 실제 경로와 소유 담당자를 확인하고 내 담당 범위의 최소 변경부터 진행해줘. 다른 담당자 파일이 필요하면 변경 전에 협업 범위를 정리해줘. 연결된 폴더가 없으면 무엇이 필요한지 알려주고 실행했다고 말하지 마.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+
+
+결과 보고: 이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+
+가입·AI 연결이 막히면 처음 30분 안내
+
+역할과 일정
+
+주 역할: D · 실제 담당자 배정 예정
+
+협업 역할: 필요 시 A와 연결
+
+완료 목표: 2026-10-30
+
+단계: Week 1
+
+목표
+
+실제 모듈 개발과 별개로 화면과 무료 배포 환경이 사용 가능한지 조기에 확인한다.
+
+할 일
+
+공통 계약의 고정 예시를 읽는 사용자·관리자 기본 Gradio 화면을 만든다.
+
+실제 API 연결 전 화면에 개발용 예시임을 표시한다.
+
+최소 앱을 무료 Hugging Face Space에서 실행한다.
+
+환경변수 이름과 비밀키 등록 방식을 확인하고 팀원 접근을 점검한다.
+
+실행 방법과 실패 시 원인·재현 정보를 기록한다.
+
+완료 기준
+
+고정 예시로 기본 화면을 실행할 수 있고 개발용 예시 표시가 보인다.
+
+최소 무료 Space가 실행되고 다른 팀원이 주소에 접근할 수 있다.
+
+키가 코드·화면·공유 문서에 노출되지 않는다.
+
+선행 작업
+
+T02 · T02
+
+결과를 남길 곳
+
+완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+
+팀 실행 계획서 · 공통 계약과 검증 기준
+
+A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+										84 heading Heading actions 여기부터 시작 · T05, Value: 2, ID: b53bc5f2-d4ad-4dff-a562-fe2c6ec07d16
+											85 container
+												86 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											87 text 여기부터 시작 · T05
+										88 container
+											89 text 처음 할 일:  사용자 입력칸·결과 영역·관리자 목록을 간단히 그려 이슈 댓글에 첨부한다.
+										90 heading Heading actions 진행 순서, Value: 3, ID: 2f584121-29d3-447b-bae2-5063fc4380af
+											91 container
+												92 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											93 text 진행 순서
+										94 content list
+											95 container
+												96 text 1 . T02 계약과 실제 프로젝트 폴더, D의 화면·설치 설정·실행 안내 파일 위치를 확인한다. 파일이 없으면 생성 전에 팀장에게 확인한다. 다른 프레임워크나 별도 서버를 추가하지 않는다.
+											97 container
+												98 text 2 . 정해진 고정 예시 1건으로 사용자·관리자 기본 화면을 연결하고 화면에 개발용 예시임을 표시한다. 실제 AI 호출이라고 설명하지 않는다.
+											99 container
+												100 text 3 . 확인된 팀 배포 공간에서 최소 무료 Space 실행을 점검한다. 계정·비밀 설정 권한이 없으면 필요한 권한과 막힌 단계만 기록한다.
+											101 container
+												102 text 4 . 다른 팀원에게 주소 접근을 확인받고 실행 방법·환경변수 이름·실패 재현 정보를 남긴다. 비밀키 값은 화면과 문서에 넣지 않는다.
+										103 container
+											104 text 남길 결과물:  화면 초안과 실행 증거: 개발용 예시 표시가 있는 화면 / 무료 Space 주소 또는 실패 단계 / 다른 팀원 접근 결과 / 실행 방법. 그림만 있으면 UI 구현 완료로 표시하지 않는다.
+										105 container
+											106 text 직접 확인할 것:  직접 실행한 화면에서 고정 예시가 보이는지 확인하고 다른 팀원 한 명의 접근 결과를 받는다. 배포하지 못했다면 로컬 실행과 배포 상태를 구분한다.
+										107 heading Heading actions AI에게 그대로 복사할 요청, Value: 3, ID: 054e09e3-c826-4c4e-99c2-b5708db9182c
+											108 container
+												109 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											110 text AI에게 그대로 복사할 요청
+										111 container a79e77f1-fe48-4bd6-9c7a-51d42dc5cd96
+											112 container
+												113 container Change language
+													114 text TOML
+												115 image Display options
+												116 image Copy content
+												117 button Delete
+													118 image Delete
+											119 container
+												120 text 현재 새 프로젝트(AI Smart Help Desk · 문의하지마세요 · 10/29 시작)에서 현재 열어둔 이 이슈(T05) 한 개를 도와줘.
+먼저 현재 담당자·목표·선행 작업·마감·완료 조건을 읽고, 지금 가능한 첫 행동을 짧게 설명해줘. 미배정이면 팀장 도형준에게 배정을 요청할 수 있게 알려줘.
+코드 작업 전 실제 팀 저장소와 작업 폴더, 공통 계약을 확인해줘. 이 작업의 예정 관련 파일은 app.py, requirements.txt, README.md야. 실제 경로와 소유 담당자를 확인하고 내 담당 범위의 최소 변경부터 진행해줘. 다른 담당자 파일이 필요하면 변경 전에 협업 범위를 정리해줘. 연결된 폴더가 없으면 무엇이 필요한지 알려주고 실행했다고 말하지 마.
+아래 목표와 완료 조건에 맞는 작은 산출물부터 함께 만들어줘. 선행 작업이 미완료면 준비 가능한 범위와 막힌 부분을 구분해줘.
+실제 수행·실행한 결과와 초안·미확인 사항을 구분해줘. 실행하지 않은 검증을 통과했다고 쓰지 마.
+작업 후 변경 내용·확인한 증거·다음 할 일을 정리해줘. 다른 프로젝트·담당자·기한은 변경하지 말고, Done 처리는 하지 마.
+
+										121 container
+											122 text 결과 보고:  이 이슈 댓글에 ‘한 일 / 실제 결과·증거 / 다음 할 일·필요한 도움’을 남긴다. 완료 조건을 확인하면 In Review로 옮겨 도형준 또는 정해진 검토자에게 검토를 요청한다.
+										123 link Description: 가입·AI 연결이 막히면 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										124 heading Heading actions 역할과 일정, Value: 2, ID: fe861a2e-7517-42df-a86c-e8615b3ca429
+											125 container
+												126 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											127 text 역할과 일정
+										128 content list
+											129 container
+												130 text • 주 역할: 
+												131 text D · 실제 담당자 배정 예정
+											132 container
+												133 text • 협업 역할: 필요 시 A와 연결
+											134 container
+												135 text • 완료 목표: 2026-10-30
+											136 container
+												137 text • 단계: Week 1
+										138 heading Heading actions 목표, Value: 2, ID: 39189c96-f313-4d4c-8405-99d51c8e6b71
+											139 container
+												140 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											141 text 목표
+										142 text 실제 모듈 개발과 별개로 화면과 무료 배포 환경이 사용 가능한지 조기에 확인한다.
+										143 heading Heading actions 할 일, Value: 2, ID: 81dd1959-047e-40d5-8926-8a31ee9724d4
+											144 container
+												145 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											146 text 할 일
+										147 content list
+											148 container
+												149 image
+												150 checkbox Description: 공통 계약의 고정 예시를 읽는 사용자·관리자 기본 Gradio 화면을 만든다., Value: 0
+												151 text 공통 계약의 고정 예시를 읽는 사용자·관리자 기본 Gradio 화면을 만든다.
+											152 container
+												153 image
+												154 checkbox Description: 실제 API 연결 전 화면에 개발용 예시임을 표시한다., Value: 0
+												155 text 실제 API 연결 전 화면에 개발용 예시임을 표시한다.
+											156 container
+												157 image
+												158 checkbox Description: 최소 앱을 무료 Hugging Face Space에서 실행한다., Value: 0
+												159 text 최소 앱을 무료 Hugging Face Space에서 실행한다.
+											160 container
+												161 image
+												162 checkbox Description: 환경변수 이름과 비밀키 등록 방식을 확인하고 팀원 접근을 점검한다., Value: 0
+												163 text 환경변수 이름과 비밀키 등록 방식을 확인하고 팀원 접근을 점검한다.
+											164 container
+												165 image
+												166 checkbox Description: 실행 방법과 실패 시 원인·재현 정보를 기록한다., Value: 0
+												167 text 실행 방법과 실패 시 원인·재현 정보를 기록한다.
+										168 heading Heading actions 완료 기준, Value: 2, ID: a8d97d7a-adc6-4339-98b0-9d81c10e745d
+											169 container
+												170 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											171 text 완료 기준
+										172 content list
+											173 container
+												174 image
+												175 checkbox Description: 고정 예시로 기본 화면을 실행할 수 있고 개발용 예시 표시가 보인다., Value: 0
+												176 text 고정 예시로 기본 화면을 실행할 수 있고 개발용 예시 표시가 보인다.
+											177 container
+												178 image
+												179 checkbox Description: 최소 무료 Space가 실행되고 다른 팀원이 주소에 접근할 수 있다., Value: 0
+												180 text 최소 무료 Space가 실행되고 다른 팀원이 주소에 접근할 수 있다.
+											181 container
+												182 image
+												183 checkbox Description: 키가 코드·화면·공유 문서에 노출되지 않는다., Value: 0
+												184 text 키가 코드·화면·공유 문서에 노출되지 않는다.
+										185 heading Heading actions 선행 작업, Value: 2, ID: 4624331d-d944-49e5-b964-84c60c869eeb
+											186 container
+												187 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											188 text 선행 작업
+										189 content list
+											190 container
+												191 text •
+												192 link Description: T02, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12
+												193 text  · T02
+										194 heading Heading actions 결과를 남길 곳, Value: 2, ID: b2fcfbfd-b5b2-4215-a6b7-e621ce0e76d3
+											195 container
+												196 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+											197 text 결과를 남길 곳
+										198 text 완료 보고에 실행 버전·가상 입력·기대/실제 결과·PR 또는 산출물 링크·검토자를 기록한다. 다른 팀원 1명이 확인하고 통합판에서 재현한 뒤 Done으로 변경한다.
+										199 container
+											200 link Description: 팀 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+											201 text  · 
+											202 link Description: 공통 계약과 검증 기준, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+										203 text A는 팀장 도형준으로 확정했다. B\~E는 실제 팀원이 합류해 역할을 정한 뒤 배정한다. 고정 예시·캡처·영상과 실제 AI 호출·배포 증거를 구분한다.
+									204 button Add reaction
+									205 button Attach images, files, or videos
+									206 button Add sub-issues
+									207 heading Activity, Value: 3
+										208 text Activity
+									209 button Unsubscribe from issue
+									210 button Change subscribers
+										211 image 도형준
+									212 container
+										213 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										214 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										215 text created the  issue
+										216 text ·
+										217 link Description: Thu Oct 29, 2026, 오전 9:54:21, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D#update-302d52bf-bd21-4a5e-8e44-6d020de07951-issue-created
+										270 link Description: 도형준, Value: linear.app/dhj00570-helpdesk/profiles/dhj00570
+										271 text marked this issue as blocked by 
+										272 link Description: NONONO-12 T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95
+										273 text ·
+										274 link Description: Thu Oct 29, 2026, 오전 9:54:22, Value: linear.app/dhj00570-helpdesk/issue/NONONO-23/t05-%EA%B3%A0%EC%A0%95-%EC%98%88%EC%8B%9C-ui%EC%99%80-%EC%B5%9C%EC%86%8C-%EB%AC%B4%EB%A3%8C-space-%EC%8B%A4%ED%96%89-%EA%B2%80%EC%A6%9D#update-b7213e59-731c-44db-92ec-bdb6ec77d252-relationship-ab-NONONO-12
+									223 container
+										224 text Leave a comment…
+										225 button Submit comment
+										226 button Attach images, files, or videos
+								227 container
+									228 heading Properties, Value: 3
+										229 text Properties
+									230 button Todo
+										256 image
+										232 text Todo
+									233 button High Priority High
+										234 image High Priority
+										235 text High
+									236 button Assign
+									237 button Tomorrow
+										238 container
+											239 text field (settable) Tomorrow
+									240 heading Labels, Value: 3
+										241 text Labels
+									242 container Add labels
+										243 button Add labels
+									244 heading Project, Value: 3
+										245 text Project
+									246 button AI Smart Help Desk · 문의하지마세요 · 10/29 시작
+									247 link Description: Open project, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6
+									248 button Week 1 · 기술 검증과 첫 연결
+									249 button
+									257 heading Blocked by, Value: 3
+										258 text Blocked by
+									259 container
+										260 link Description: T02 · 공통 계약 v1과 접수 저장·조회 기본 함수 확정, Value: linear.app/dhj00570-helpdesk/issue/NONONO-12/t02-%EA%B3%B5%ED%86%B5-%EA%B3%84%EC%95%BD-v1%EA%B3%BC-%EC%A0%91%EC%88%98-%EC%A0%80%EC%9E%A5%EC%A1%B0%ED%9A%8C-%EA%B8%B0%EB%B3%B8-%ED%95%A8%EC%88%98-%ED%99%95%EC%A0%95
+										261 button Remove relation
+					267 container
+						268 button Agent
+						269 button Chat history
+			255 container Notifications alt+T
+
+The focused UI element is 68 pop up button (collapsed) Description: Issue options, Secondary Actions: Expand

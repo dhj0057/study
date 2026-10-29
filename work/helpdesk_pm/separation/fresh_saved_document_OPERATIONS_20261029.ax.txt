@@ -1,0 +1,265 @@
+Browser tab: 4, Title: "프로젝트 운영 규칙 · GitHub / Linear / 팀 공유", URL: "https://linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382?noRedirect=1".
+1 AXWebArea 프로젝트 운영 규칙 · GitHub / Linear / 팀 공유, URL: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382?noRedirect=1
+	2 container
+		3 container root
+			4 link Description: Skip to content, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382?noRedirect=1#skip-nav
+			5 container mainLayoutContainer
+				6 container
+					7 container
+						8 pop up button (collapsed) Description: 도형준 · 문의하지마세요 Workspace Menu, Secondary Actions: Expand
+							9 text 도형준 · 문의하지마세요
+						10 button Search
+						11 button Create new issue
+						12 container
+							13 sortable Inbox 2 unread notifications
+								14 link Description: Inbox 2 unread notifications, Value: linear.app/dhj00570-helpdesk/inbox
+							15 sortable My issues
+								16 link Description: My issues, Value: linear.app/dhj00570-helpdesk/my-issues/assigned
+							17 sortable Reviews Enable integration
+								18 link Description: Reviews Enable integration, Value: linear.app/dhj00570-helpdesk/reviews
+							19 sortable Agent
+								20 link Description: Agent, Value: linear.app/dhj00570-helpdesk/agent
+							21 sortable
+							22 button (expanded) Workspace, Secondary Actions: Collapse
+							23 container sidebarWorkspace
+								24 sortable Projects
+									25 link Description: Projects, Value: linear.app/dhj00570-helpdesk/projects/all
+								26 sortable Views
+									27 link Description: Views, Value: linear.app/dhj00570-helpdesk/views
+								28 sortable
+								29 sortable
+								30 button Show more links
+						31 container
+							32 button (expanded) Your teams, Secondary Actions: Collapse
+							33 button Join a team
+							34 content list teams-boundary-container
+								35 sortable 문의하지마세요 Team menu Home Issues Projects Views
+									36 container
+										37 container
+											38 button (expanded) 문의하지마세요, Secondary Actions: Collapse
+												39 text 문의하지마세요
+											40 pop up button (collapsed) Description: Team menu, Secondary Actions: Expand
+										41 container team-dc20e225-6351-4964-9e1a-48683f965b5a
+											42 link Description: Home, Value: linear.app/dhj00570-helpdesk/team/NONONO/overview
+											43 link Description: Issues, Value: linear.app/dhj00570-helpdesk/team/NONONO/all
+											44 link Description: Projects, Value: linear.app/dhj00570-helpdesk/team/NONONO/projects/all
+											45 link Description: Views, Value: linear.app/dhj00570-helpdesk/team/NONONO/views/issues
+							46 button (expanded) Try, Secondary Actions: Collapse
+							47 container sidebarTry
+								48 container
+									49 container Invite to 도형준 · 문의하지마세요…
+										50 text Invite people
+									51 button Dismiss
+										52 image Dismiss
+								53 container
+									54 link Description: Connect GitHub, Value: linear.app/dhj00570-helpdesk/settings/integrations/github?source=try
+									55 button Dismiss
+										56 image Dismiss
+					57 pop up button (collapsed) Description: Open Help menu, Secondary Actions: Expand
+				58 container
+					59 container
+						60 container
+							61 link Description: AI Smart Help Desk · 문의하지마세요 · 10/29 시작, Value: linear.app/dhj00570-helpdesk/project/ai-smart-help-desk-%EB%AC%B8%EC%9D%98%ED%95%98%EC%A7%80%EB%A7%88%EC%84%B8%EC%9A%94-1029-%EC%8B%9C%EC%9E%91-bb32703f33f6/overview
+							62 text 프로젝트 운영 규칙 · GitHub / Linear / 팀 공유
+							63 switch Description: Add to favorites, Value: 0
+							64 pop up button (collapsed) Description: Document options, Secondary Actions: Expand
+							65 pop up button (collapsed) Description: Document display options and metadata; Edited Oct 29, Secondary Actions: Expand
+							66 button Copy document URL
+							67 button Change document subscribers
+							68 container
+								69 button Document icon
+								70 text field (settable) Description: Document title, Value: 프로젝트 운영 규칙 · GitHub / Linear / 팀 공유
+									71 text 프로젝트 운영 규칙 · GitHub / Linear / 팀 공유
+								72 text entry area (settable) Description: Document content, Value: 처음 합류한 팀원: 가입·AI 연결·첫 작업 안내부터 진행하세요. 팀장과 A 담당은 도형준이며, B\~E는 합류 후 배정합니다.
+
+프로젝트 운영 규칙 · GitHub / Linear / 팀 대화
+협업 도구
+
+Linear: 작업·마감·선행 관계·검증·결정 기록.
+
+GitHub: 실제 코드·브랜치·PR·리뷰.
+
+기존 팀 대화 채널: 빠른 질문·도움 요청·작업 공유. 채널 개설·초대·메시지 전송을 완료했다는 기록은 아니다.
+
+상태와 작업 선택
+
+Backlog: 배정 또는 시작 대기.
+
+Todo: 이번에 착수할 작업. 현재 T01\~T07.
+
+In Progress: 실제 작업 시작.
+
+In Review: 결과물/PR 검토와 통합 재현 대기.
+
+Done: 완료 기준, 관련자 검토, 통합 재현 확인 후.
+
+막힘: 별도 상태를 새로 만들지 않고 선행 차단 관계와 이슈 본문에 필요한 도움 기록.
+
+한 사람의 핵심 진행 작업은 1개를 원칙으로 한다. A는 팀장 도형준으로 확정했으며, B\~E 실명과 가용 시간은 T01에서 확인한다. 코드 작성이나 고정 예시 화면만으로 Done으로 바꾸지 않는다.
+
+Git 브랜치와 PR
+
+공유한 코드 관리와 검토 절차를 팀 저장소에 적용한다. 저장소와 기본 브랜치 개설은 T01에서 결정·실행한다.
+
+main: 발표·배포 가능한 안정 버전.
+
+develop: 팀 작업 통합.
+
+feature/NONONO-번호-짧은설명 또는 fix/NONONO-번호-짧은설명에서 작업.
+
+feature/fix → develop PR, 통합 검증 후 develop → main PR.
+
+PR 제목에 [NONONO-번호] 표시.
+
+관련 담당자 1명 이상 확인 후 병합. main 직접 변경 금지.
+
+실행 방법·의존성·모델/설정 변경도 함께 기록.
+
+작업 공유와 회의
+
+작업한 날에 완료한 ID와 확인 결과 / 다음 작업 / 막힌 점·도움을 짧게 공유한다. 해결이 2시간 이상 지연되거나 기한 지연이 예상되면 당일 A에게 공유한다.
+
+매주 화요일 11/3·10·17·24·12/1에 20분 통합 점검. 실제 회의 시각은 T01에서 합의한다. 화면 10분 → 의존성 5분 → 다음 완료 조건·담당자 5분. 실시 전에는 회의 결과를 기록하지 않는다.
+
+“80% 완료” 대신 실제 실행 입력·결과·PR·링크를 제시한다. 실제 AI 호출·배포와 고정 예시/영상은 구분한다.
+
+일정과 범위 변경
+
+변경 이유·추가 작업·영향 모듈·필요 시간을 적고 A가 관련자와 검토한다. 같은 양의 일을 줄일 수 있을 때만 계획에 넣는다. 11/24 기능 동결 이후에는 결함 수정만 한다.
+
+Jev 무료 실제 호출이 10/30까지 확인되지 않으면 B가 Gemini 분류로 대체한다. Gemini 무료 호출 자체가 불가하면 A가 교수와 허용 대안을 확인한다. 결제수단 연결로 해결하지 않는다.
+
+결함과 주간 성과 기록
+
+결함: 이슈 ID / 버전 / 가상 입력 / 기대 / 실제 / 재현 순서 / 담당 / 수정·재검증일.
+​P0: 키·개인정보 노출·결제 조건 위반. P1: 필수 흐름 중단·검토 누락·근거 없는 단정. P0/P1 최종 0건, P2는 영향·대응 기록.
+
+주간 기록: 이번 주 목표 / 실제 완료 / 증거·검증 / 문제와 해결 / 다음 작업. 확인하지 않은 일을 완료 성과로 쓰지 않는다.
+
+실행 계획서 · 공통 계약과 검증
+
+처음 쓰는 팀원의 최소 작업 순서
+
+가입과 AI 연결은 처음 30분 안내대로 진행한다.
+
+배정받은 T번호 이슈 한 개를 열고, 맨 위의 ‘첫 행동’부터 한다.
+
+실제 시작할 때 In Progress로 옮기고, 작업한 날에는 한 일 / 확인한 증거 / 다음 할 일·막힌 점 세 줄을 댓글로 남긴다.
+
+완료 조건을 확인한 결과물과 증거를 붙인 뒤 In Review로 옮기고 팀장 도형준에게 검토를 요청한다. 관련자 검토와 통합 재현 후 Done으로 바꾼다.
+
+AI는 본인 계정으로 연결하고 본인 이슈 범위로 요청한다. 플러그인 연결, 코드 폴더 준비, 실제 실행 확인은 각각 구분한다. 자세한 복사·붙여넣기 질문은 시작 안내와 각 이슈에 있다.
+									73 container
+										74 text 처음 합류한 팀원:
+										75 link Description: 가입·AI 연결·첫 작업 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+										76 text 부터 진행하세요. 팀장과 A 담당은  도형준 이며, B\~E는 합류 후 배정합니다.
+									77 heading Heading actions 프로젝트 운영 규칙 · GitHub / Linear / 팀 대화, Value: 1, ID: 6565c721-e53f-450c-b041-eab0251d7591
+										78 container
+											79 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										80 text 프로젝트 운영 규칙 · GitHub / Linear / 팀 대화
+									81 heading Heading actions 협업 도구, Value: 2, ID: a28d8d59-9b84-4230-83a0-0aaf2e430975
+										82 container
+											83 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										84 text 협업 도구
+									85 content list
+										86 container
+											87 text • Linear: 작업·마감·선행 관계·검증·결정 기록.
+										88 container
+											89 text • GitHub: 실제 코드·브랜치·PR·리뷰.
+										90 container
+											91 text • 기존 팀 대화 채널: 빠른 질문·도움 요청·작업 공유. 채널 개설·초대·메시지 전송을 완료했다는 기록은 아니다.
+									92 heading Heading actions 상태와 작업 선택, Value: 2, ID: 32fab494-0c3f-47a7-97b7-1feb84e4efee
+										93 container
+											94 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										95 text 상태와 작업 선택
+									96 content list
+										97 container
+											98 text • Backlog: 배정 또는 시작 대기.
+										99 container
+											100 text • Todo: 이번에 착수할 작업. 현재 T01\~T07.
+										101 container
+											102 text • In Progress: 실제 작업 시작.
+										103 container
+											104 text • In Review: 결과물/PR 검토와 통합 재현 대기.
+										105 container
+											106 text • Done: 완료 기준, 관련자 검토, 통합 재현 확인 후.
+										107 container
+											108 text • 막힘: 별도 상태를 새로 만들지 않고 선행 차단 관계와 이슈 본문에 필요한 도움 기록.
+									109 text 한 사람의 핵심 진행 작업은 1개를 원칙으로 한다. A는 팀장 도형준으로 확정했으며, B\~E 실명과 가용 시간은 T01에서 확인한다. 코드 작성이나 고정 예시 화면만으로 Done으로 바꾸지 않는다.
+									110 heading Heading actions Git 브랜치와 PR, Value: 2, ID: 9a9e3f19-196d-4f9a-97bd-eb268edb56b6
+										111 container
+											112 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										113 text Git 브랜치와 PR
+									114 text 공유한 코드 관리와 검토 절차를 팀 저장소에 적용한다. 저장소와 기본 브랜치 개설은 T01에서 결정·실행한다.
+									115 content list
+										116 container
+											117 text • main: 발표·배포 가능한 안정 버전.
+										118 container
+											119 text • develop: 팀 작업 통합.
+										120 container
+											121 text • feature/NONONO-번호-짧은설명 또는 fix/NONONO-번호-짧은설명에서 작업.
+										122 container
+											123 text • feature/fix → develop PR, 통합 검증 후 develop → main PR.
+										124 container
+											125 text • PR 제목에 [NONONO-번호] 표시.
+										126 container
+											127 text • 관련 담당자 1명 이상 확인 후 병합. main 직접 변경 금지.
+										128 container
+											129 text • 실행 방법·의존성·모델/설정 변경도 함께 기록.
+									130 heading Heading actions 작업 공유와 회의, Value: 2, ID: 426fb6b0-40ec-4e38-b732-fb363e0b6816
+										131 container
+											132 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										133 text 작업 공유와 회의
+									134 text 작업한 날에 완료한 ID와 확인 결과 / 다음 작업 / 막힌 점·도움을 짧게 공유한다. 해결이 2시간 이상 지연되거나 기한 지연이 예상되면 당일 A에게 공유한다.
+									135 text 매주 화요일 11/3·10·17·24·12/1에 20분 통합 점검. 실제 회의 시각은 T01에서 합의한다. 화면 10분 → 의존성 5분 → 다음 완료 조건·담당자 5분. 실시 전에는 회의 결과를 기록하지 않는다.
+									136 text “80% 완료” 대신 실제 실행 입력·결과·PR·링크를 제시한다. 실제 AI 호출·배포와 고정 예시/영상은 구분한다.
+									137 heading Heading actions 일정과 범위 변경, Value: 2, ID: d4ab81ed-9c56-4081-bab7-9c3ebcb1ebb6
+										138 container
+											139 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										140 text 일정과 범위 변경
+									141 text 변경 이유·추가 작업·영향 모듈·필요 시간을 적고 A가 관련자와 검토한다. 같은 양의 일을 줄일 수 있을 때만 계획에 넣는다. 11/24 기능 동결 이후에는 결함 수정만 한다.
+									142 text Jev 무료 실제 호출이 10/30까지 확인되지 않으면 B가 Gemini 분류로 대체한다. Gemini 무료 호출 자체가 불가하면 A가 교수와 허용 대안을 확인한다. 결제수단 연결로 해결하지 않는다.
+									143 heading Heading actions 결함과 주간 성과 기록, Value: 2, ID: ac8e1882-5b70-4e13-a4cf-e0cfaf7857cb
+										144 container
+											145 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										146 text 결함과 주간 성과 기록
+									147 container
+										148 text 결함: 이슈 ID / 버전 / 가상 입력 / 기대 / 실제 / 재현 순서 / 담당 / 수정·재검증일.
+										149 text P0: 키·개인정보 노출·결제 조건 위반. P1: 필수 흐름 중단·검토 누락·근거 없는 단정. P0/P1 최종 0건, P2는 영향·대응 기록.
+									150 text 주간 기록: 이번 주 목표 / 실제 완료 / 증거·검증 / 문제와 해결 / 다음 작업. 확인하지 않은 일을 완료 성과로 쓰지 않는다.
+									151 container
+										152 link Description: 실행 계획서, Value: linear.app/dhj00570-helpdesk/document/9c045d15-3df9-4393-84f6-322dbbf9b353
+										153 text  · 
+										154 link Description: 공통 계약과 검증, Value: linear.app/dhj00570-helpdesk/document/00139e43-fe60-40d0-94e1-f86c33ef6814
+									155 heading Heading actions 처음 쓰는 팀원의 최소 작업 순서, Value: 2, ID: c1d2cc0f-7a0d-46c6-a01b-dfaf1b99f027
+										156 container
+											157 pop up button (collapsed) Description: Heading actions, Secondary Actions: Expand
+										158 text 처음 쓰는 팀원의 최소 작업 순서
+									159 content list
+										160 container
+											161 text 1 . 가입과 AI 연결은 
+											162 link Description: 처음 30분 안내, Value: linear.app/dhj00570-helpdesk/document/9029958e-c362-46ea-a65a-83475dbcb78f
+											163 text 대로 진행한다.
+										164 container
+											165 text 2 . 배정받은 T번호 이슈 한 개를 열고, 맨 위의 ‘첫 행동’부터 한다.
+										166 container
+											167 text 3 . 실제 시작할 때 In Progress로 옮기고, 작업한 날에는 
+											168 text 한 일 / 확인한 증거 / 다음 할 일·막힌 점
+											169 text  세 줄을 댓글로 남긴다.
+										170 container
+											171 text 4 . 완료 조건을 확인한 결과물과 증거를 붙인 뒤 In Review로 옮기고 팀장 도형준에게 검토를 요청한다. 관련자 검토와 통합 재현 후 Done으로 바꾼다.
+									172 text AI는 본인 계정으로 연결하고 본인 이슈 범위로 요청한다. 플러그인 연결, 코드 폴더 준비, 실제 실행 확인은 각각 구분한다. 자세한 복사·붙여넣기 질문은 시작 안내와 각 이슈에 있다.
+							173 link Description: 프로젝트 운영 규칙 · GitHub / Linear / 팀 대화, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-6565c721
+							174 link Description: 협업 도구, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-a28d8d59
+							175 link Description: 상태와 작업 선택, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-32fab494
+							176 link Description: Git 브랜치와 PR, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-9a9e3f19
+							177 link Description: 작업 공유와 회의, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-426fb6b0
+							178 link Description: 일정과 범위 변경, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-d4ab81ed
+							179 link Description: 결함과 주간 성과 기록, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-ac8e1882
+							180 link Description: 처음 쓰는 팀원의 최소 작업 순서, Value: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382#heading-untitled-c1d2cc0f
+					181 container
+						182 button Agent
+						183 button Chat history
+			184 container Notifications alt+T
+
+The focused UI element is 1 AXWebArea 프로젝트 운영 규칙 · GitHub / Linear / 팀 공유, URL: linear.app/dhj00570-helpdesk/document/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%9A%B4%EC%98%81-%EA%B7%9C%EC%B9%99-github-linear-%ED%8C%80-%EA%B3%B5%EC%9C%A0-ee4dcbb6b382?noRedirect=1
