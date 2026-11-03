@@ -1,6 +1,6 @@
 package ai1028;
 
-import ai1027.SetFrame;
+import center.SetFrame;
 
 import javax.swing.*;
 import java.awt.*;
