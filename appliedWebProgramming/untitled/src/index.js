@@ -30,13 +30,18 @@ import reportWebVitals from './reportWebVitals'
 //import LogInControl2 from "./09/ex3/LogInControl2";
 import MainPage from "./09/ex4/MainPage";
 import LandingPage from "./09/finalEX/LandingPage";
+import AttendanceBook from "./10/AttendanceBook";
+import AttendanceCardBook from "./10/AttendanceCardBook";
+import NameForm from "./11/NameForm";
+import FruitSelect from "./11/FruitSelect";
+import Reservation from "./11/Reservation";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <LandingPage/>
+        <Reservation/>
     </React.StrictMode>
 );
 

@@ -1,0 +1,52 @@
+.fruit-form {
+    max-width: 360px;
+    margin: 50px auto;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #f7f9fc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fruit-select {
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccd5e6;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.fruit-select:focus {
+    border-color: #4a7cf7;
+}
+
+.fruit-btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background-color: #4a7cf7;
+    transition: background-color 0.2s;
+}
+
+.fruit-btn:hover {
+    background-color: #3460d6;
+}
