@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device" version="24.7.17">
+  <diagram id="page1" name="01 요구명세서">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="01  대학교 실습장비 예약·대여·정비 관리 시스템" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=30;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="30" width="1710" height="55" />
+        </mxCell>
+        <mxCell id="3" value="요구사항 18개 · 한 관리실 · 예약 1건당 실물 장비 1대 · 학생 / 장비 / 예약 / 대여 / 정비" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="88" width="1710" height="45" />
+        </mxCell>
+        <mxCell id="4" value="R01" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="155" width="75" height="125" />
+        </mxCell>
+        <mxCell id="5" value="학생에 대한 학번, 이름, 학과, 연락처, 이용가능여부 정보를 유지해야 한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="155" width="765" height="125" />
+        </mxCell>
+        <mxCell id="6" value="R02" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="293" width="75" height="125" />
+        </mxCell>
+        <mxCell id="7" value="학생은 학번으로 식별한다. 이용가능여부는 가능 또는 제한 중 하나이다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="293" width="765" height="125" />
+        </mxCell>
+        <mxCell id="8" value="R03" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="431" width="75" height="125" />
+        </mxCell>
+        <mxCell id="9" value="장비에 대한 장비번호, 장비명, 모델명, 보관위치, 운영상태 정보를 유지해야 한다. 운영상태는 정상 또는 정비중 중 하나이다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="431" width="765" height="125" />
+        </mxCell>
+        <mxCell id="10" value="R04" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="569" width="75" height="125" />
+        </mxCell>
+        <mxCell id="11" value="장비는 개별 실물에 부여한 장비번호로 식별한다. 같은 모델의 장비도 서로 다른 장비번호를 갖는다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="569" width="765" height="125" />
+        </mxCell>
+        <mxCell id="12" value="R05" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="707" width="75" height="125" />
+        </mxCell>
+        <mxCell id="13" value="한 학생은 여러 예약을 할 수 있고, 한 장비는 서로 다른 시점에 여러 학생에게 예약될 수 있다. 예약 한 건은 반드시 학생 한 명과 장비 한 대에 속한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="707" width="765" height="125" />
+        </mxCell>
+        <mxCell id="14" value="R06" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="845" width="75" height="125" />
+        </mxCell>
+        <mxCell id="15" value="예약에 대한 예약번호, 신청일시, 예약시작일시, 예약종료일시, 예약상태, 사용목적 정보를 유지해야 한다. 예약상태는 확정, 취소, 대여전환 중 하나이다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="845" width="765" height="125" />
+        </mxCell>
+        <mxCell id="16" value="R07" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="983" width="75" height="125" />
+        </mxCell>
+        <mxCell id="17" value="예약은 예약번호로 식별한다. 이용 가능한 학생만 정상 상태의 장비를 예약할 수 있고, 신청일시 ≤ 예약시작일시 &lt; 예약종료일시를 만족해야 한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="983" width="765" height="125" />
+        </mxCell>
+        <mxCell id="18" value="R08" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1121" width="75" height="125" />
+        </mxCell>
+        <mxCell id="19" value="같은 장비에 대해 확정 또는 대여전환 상태인 예약의 시간 구간은 겹칠 수 없다. 예약종료일시와 다음 예약시작일시가 같은 경우는 허용한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="1121" width="765" height="125" />
+        </mxCell>
+        <mxCell id="20" value="R09" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1259" width="75" height="125" />
+        </mxCell>
+        <mxCell id="21" value="확정 예약은 대여 전까지 취소할 수 있다. 취소 이력은 삭제하지 않으며 취소된 예약은 대여할 수 없다. 미사용 확정 예약은 다음 처리 전에 취소로 정리한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="120" y="1259" width="765" height="125" />
+        </mxCell>
+        <mxCell id="22" value="R10" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="155" width="75" height="125" />
+        </mxCell>
+        <mxCell id="23" value="대여는 확정 예약을 근거로만 등록한다. 예약 한 건에는 대여가 없거나 한 건만 연결되며, 대여 한 건은 반드시 예약 한 건에 속한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="155" width="765" height="125" />
+        </mxCell>
+        <mxCell id="24" value="R11" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="293" width="75" height="125" />
+        </mxCell>
+        <mxCell id="25" value="대여에 대한 대여번호, 실제대여일시, 실제반납일시, 반납점검내용 정보를 유지해야 한다. 대여는 대여번호로 식별하며, 실제반납일시와 반납점검내용은 미반납 중에는 비어 있다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="293" width="765" height="125" />
+        </mxCell>
+        <mxCell id="26" value="R12" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="431" width="75" height="125" />
+        </mxCell>
+        <mxCell id="27" value="대여 시 학생의 이용가능여부와 장비의 운영상태를 다시 확인한다. 예약시작일시 ≤ 실제대여일시 &lt; 예약종료일시여야 하며, 같은 장비에 미반납 대여가 있으면 새 대여를 등록할 수 없다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="431" width="765" height="125" />
+        </mxCell>
+        <mxCell id="28" value="R13" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="569" width="75" height="125" />
+        </mxCell>
+        <mxCell id="29" value="대여를 등록하면 해당 예약을 대여전환으로 변경한다. 반납기한은 예약종료일시이며 실제반납일시가 기한을 넘으면 연체로 조회한다. 반납 시 반납일시와 점검내용을 함께 기록하고 실제반납일시는 실제대여일시 이상이어야 한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="569" width="765" height="125" />
+        </mxCell>
+        <mxCell id="30" value="R14" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="707" width="75" height="125" />
+        </mxCell>
+        <mxCell id="31" value="장비 한 대에는 여러 정비 이력이 있을 수 있고, 정비 한 건은 반드시 장비 한 대에 속한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="707" width="765" height="125" />
+        </mxCell>
+        <mxCell id="32" value="R15" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="845" width="75" height="125" />
+        </mxCell>
+        <mxCell id="33" value="정비에 대한 정비번호, 정비시작일시, 정비완료일시, 정비사유, 조치내용 정보를 유지해야 한다. 정비는 정비번호로 식별하며, 정비 진행 중에는 완료일시와 조치내용이 비어 있다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="845" width="765" height="125" />
+        </mxCell>
+        <mxCell id="34" value="R16" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="983" width="75" height="125" />
+        </mxCell>
+        <mxCell id="35" value="같은 장비에는 완료되지 않은 정비가 최대 한 건만 존재한다. 미반납 대여가 있으면 먼저 반납을 처리해야 정비를 시작할 수 있다. 정비 시작 시 해당 장비의 모든 확정 예약을 취소하고 운영상태를 정비중으로 변경한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="983" width="765" height="125" />
+        </mxCell>
+        <mxCell id="36" value="R17" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="1121" width="75" height="125" />
+        </mxCell>
+        <mxCell id="37" value="정비 완료 시 완료일시와 조치내용을 함께 기록하고 운영상태를 정상으로 변경한다. 완료일시는 시작일시 이상이어야 하며 취소된 예약을 자동 복구하지 않는다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="1121" width="765" height="125" />
+        </mxCell>
+        <mxCell id="38" value="R18" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="915" y="1259" width="75" height="125" />
+        </mxCell>
+        <mxCell id="39" value="예약·대여·정비 이력에서 참조하는 학생과 장비 및 이력은 삭제하지 않는다. 학생·장비별 예약, 미반납·연체 대여, 장비별 정비 이력을 조회할 수 있어야 한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="1259" width="765" height="125" />
+        </mxCell>
+        <mxCell id="40" value="범위 및 해석" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1420" width="200" height="120" />
+        </mxCell>
+        <mxCell id="41" value="예약은 신청 즉시 확정한다. 예약 시간 변경·대여 연장·묶음 예약·결제·승인·로그인 구현은 제외한다.&#10;장비 운영상태는 정상/정비중만 저장하며, 대여중·미반납·연체 여부는 이력과 현재 시각으로 조회한다.&#10;미반납 연체 = 실제반납일시가 없고 현재 시각 &gt; 예약종료일시. 이력은 삭제하지 않는다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="245" y="1420" width="1510" height="120" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page2" name="02 E-R 다이어그램">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="02  E-R 다이어그램" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=30;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="30" width="2010" height="55" />
+        </mxCell>
+        <mxCell id="3" value="Chen 표기 · 사각형은 개체 / 마름모는 관계 / 타원은 속성 / 밑줄은 식별자" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="88" width="2010" height="45" />
+        </mxCell>
+        <mxCell id="4" value="학생" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=26;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="220" y="460" width="210" height="80" />
+        </mxCell>
+        <mxCell id="5" value="예약" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=26;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="910" y="460" width="210" height="80" />
+        </mxCell>
+        <mxCell id="6" value="장비" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=26;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1630" y="460" width="210" height="80" />
+        </mxCell>
+        <mxCell id="7" value="대여" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=26;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="910" y="1030" width="210" height="80" />
+        </mxCell>
+        <mxCell id="8" value="정비" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=26;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1630" y="1030" width="210" height="80" />
+        </mxCell>
+        <mxCell id="9" value="학번" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="35" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="4" target="9">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="11" value="이름" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="165" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="4" target="11">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="13" value="학과" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="295" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="4" target="13">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="15" value="연락처" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="425" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="4" target="15">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="17" value="이용가능여부" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="555" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="4" target="17">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="19" value="예약번호" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="685" y="260" width="105" height="85" />
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="19">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="21" value="신청일시" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="796" y="260" width="105" height="85" />
+        </mxCell>
+        <mxCell id="22" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="21">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="23" value="예약시작일시" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="907" y="260" width="105" height="85" />
+        </mxCell>
+        <mxCell id="24" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="23">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="25" value="예약종료일시" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1018" y="260" width="105" height="85" />
+        </mxCell>
+        <mxCell id="26" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="25">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="27" value="예약상태" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1129" y="260" width="105" height="85" />
+        </mxCell>
+        <mxCell id="28" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="27">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="29" value="사용목적" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1240" y="260" width="105" height="85" />
+        </mxCell>
+        <mxCell id="30" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="29">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="31" value="장비번호" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1430" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="32" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="6" target="31">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="33" value="장비명" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1560" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="34" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="6" target="33">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="35" value="모델명" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1690" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="36" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="6" target="35">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="37" value="보관위치" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1820" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="38" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="6" target="37">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="39" value="운영상태" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1950" y="260" width="120" height="85" />
+        </mxCell>
+        <mxCell id="40" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="6" target="39">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="41" value="대여번호" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="710" y="1230" width="145" height="85" />
+        </mxCell>
+        <mxCell id="42" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="7" target="41">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="43" value="실제대여일시" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="865" y="1230" width="145" height="85" />
+        </mxCell>
+        <mxCell id="44" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="7" target="43">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="45" value="실제반납일시" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1020" y="1230" width="145" height="85" />
+        </mxCell>
+        <mxCell id="46" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="7" target="45">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="47" value="반납점검내용" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1175" y="1230" width="145" height="85" />
+        </mxCell>
+        <mxCell id="48" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="7" target="47">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="49" value="정비번호" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1420" y="1230" width="125" height="85" />
+        </mxCell>
+        <mxCell id="50" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="8" target="49">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="51" value="정비시작일시" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1552" y="1230" width="125" height="85" />
+        </mxCell>
+        <mxCell id="52" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="8" target="51">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="53" value="정비완료일시" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1684" y="1230" width="125" height="85" />
+        </mxCell>
+        <mxCell id="54" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="8" target="53">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="55" value="정비사유" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1816" y="1230" width="125" height="85" />
+        </mxCell>
+        <mxCell id="56" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="8" target="55">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="57" value="조치내용" style="ellipse;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1948" y="1230" width="125" height="85" />
+        </mxCell>
+        <mxCell id="58" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="8" target="57">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="59" value="신청" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#FFF0D6;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="590" y="450" width="140" height="100" />
+        </mxCell>
+        <mxCell id="60" value="0..N" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="4" target="59">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="61" value="1..1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="59" target="5">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="62" value="배정" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#FFF0D6;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1300" y="450" width="140" height="100" />
+        </mxCell>
+        <mxCell id="63" value="1..1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="62">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="64" value="0..N" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="62" target="6">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="65" value="전환" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#FFF0D6;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="945" y="740" width="140" height="100" />
+        </mxCell>
+        <mxCell id="66" value="0..1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="5" target="65">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="67" value="1..1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="65" target="7">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="68" value="정비 이력" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#FFF0D6;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1665" y="740" width="140" height="100" />
+        </mxCell>
+        <mxCell id="69" value="0..N" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="6" target="68">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="70" value="1..1" style="edgeStyle=none;rounded=0;html=0;endArrow=none;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="68" target="8">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="71" value="참여 제약 읽는 법" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="700" width="560" height="60" />
+        </mxCell>
+        <mxCell id="72" value="관계선의 수치는 그 선에 연결된 개체 한 건이&#10;관계에 참여할 수 있는 최소·최대 횟수이다.&#10;&#10;0 = 부분 참여 / 1 = 전체 참여&#10;학생은 예약 0..N건을 신청할 수 있다.&#10;예약은 반드시 학생 1명에게 속한다.&#10;예약에는 대여가 0..1건 연결된다.&#10;대여는 반드시 예약 1건에 속한다.&#10;&#10;학생–장비의 반복 이용 N:M은&#10;예약 연관 개체로 표현한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="760" width="560" height="365" />
+        </mxCell>
+        <mxCell id="73" value="관계 외의 업무 제약" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1150" width="560" height="60" />
+        </mxCell>
+        <mxCell id="74" value="R08  같은 장비의 예약 시간 중복 금지&#10;R12  미반납 장비의 추가 대여 금지&#10;R16  장비당 진행 중 정비 최대 1건&#10;정비 시작 → 확정 예약 취소 + 장비 정비중&#10;정비 완료 → 장비 정상" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=19;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1210" width="560" height="175" />
+        </mxCell>
+        <mxCell id="75" value="설계 대응  |  학생 R01–02 · 장비 R03–04 · 예약 R05–09 · 대여 R10–13 · 정비 R14–17 · 이력 조회 및 보존 R18&#10;개념적 설계에서는 FK를 별도 속성으로 중복 표시하지 않는다. 관계의 FK 변환과 UNIQUE는 03 릴레이션 스키마에서 명시한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=20;fontColor=#182B40;fillColor=#F4F7FB;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="1450" width="2010" height="90" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page3" name="03 릴레이션 스키마">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="03  릴레이션 스키마" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=30;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="30" width="1810" height="55" />
+        </mxCell>
+        <mxCell id="3" value="PK 기본키 · FK 외래키 · UQ 유일키 · 모든 FK는 NOT NULL · 연결 화살표는 FK → 참조 PK" style="text;strokeColor=none;fillColor=none;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=18;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="45" y="88" width="1810" height="45" />
+        </mxCell>
+        <mxCell id="4" value="학생  STUDENT" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="180" width="490" height="55" />
+        </mxCell>
+        <mxCell id="5" value="PK     student_id  |  학번  |  VARCHAR(20)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F3F7FC;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="235" width="490" height="47" />
+        </mxCell>
+        <mxCell id="6" value="       name  |  이름  |  VARCHAR(50)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="282" width="490" height="47" />
+        </mxCell>
+        <mxCell id="7" value="       department  |  학과  |  VARCHAR(100)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="329" width="490" height="47" />
+        </mxCell>
+        <mxCell id="8" value="       phone  |  연락처  |  VARCHAR(30)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="376" width="490" height="47" />
+        </mxCell>
+        <mxCell id="9" value="       eligibility  |  이용가능여부  |  VARCHAR(10)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="423" width="490" height="47" />
+        </mxCell>
+        <mxCell id="10" value="예약  RESERVATION" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="180" width="490" height="55" />
+        </mxCell>
+        <mxCell id="11" value="PK     reservation_id  |  예약번호  |  BIGINT" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F3F7FC;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="235" width="490" height="47" />
+        </mxCell>
+        <mxCell id="12" value="FK     student_id  |  학번  |  VARCHAR(20)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="282" width="490" height="47" />
+        </mxCell>
+        <mxCell id="13" value="FK     equipment_id  |  장비번호  |  VARCHAR(20)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="329" width="490" height="47" />
+        </mxCell>
+        <mxCell id="14" value="       requested_at  |  신청일시  |  TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="376" width="490" height="47" />
+        </mxCell>
+        <mxCell id="15" value="       starts_at  |  예약시작일시  |  TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="423" width="490" height="47" />
+        </mxCell>
+        <mxCell id="16" value="       ends_at  |  예약종료일시  |  TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="470" width="490" height="47" />
+        </mxCell>
+        <mxCell id="17" value="       reservation_status  |  예약상태  |  VARCHAR(10)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="517" width="490" height="47" />
+        </mxCell>
+        <mxCell id="18" value="       purpose  |  사용목적  |  VARCHAR(500)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="564" width="490" height="47" />
+        </mxCell>
+        <mxCell id="19" value="장비  EQUIPMENT" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="180" width="490" height="55" />
+        </mxCell>
+        <mxCell id="20" value="PK     equipment_id  |  장비번호  |  VARCHAR(20)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F3F7FC;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="235" width="490" height="47" />
+        </mxCell>
+        <mxCell id="21" value="       equipment_name  |  장비명  |  VARCHAR(100)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="282" width="490" height="47" />
+        </mxCell>
+        <mxCell id="22" value="       model_name  |  모델명  |  VARCHAR(100)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="329" width="490" height="47" />
+        </mxCell>
+        <mxCell id="23" value="       storage_location  |  보관위치  |  VARCHAR(100)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="376" width="490" height="47" />
+        </mxCell>
+        <mxCell id="24" value="       operating_status  |  운영상태  |  VARCHAR(10)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="423" width="490" height="47" />
+        </mxCell>
+        <mxCell id="25" value="대여  LOAN" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="800" width="490" height="55" />
+        </mxCell>
+        <mxCell id="26" value="PK     loan_id  |  대여번호  |  BIGINT" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F3F7FC;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="855" width="490" height="47" />
+        </mxCell>
+        <mxCell id="27" value="FK UQ  reservation_id  |  예약번호  |  BIGINT" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="902" width="490" height="47" />
+        </mxCell>
+        <mxCell id="28" value="       checked_out_at  |  실제대여일시  |  TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="949" width="490" height="47" />
+        </mxCell>
+        <mxCell id="29" value="NULL   returned_at  |  실제반납일시  |  TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="996" width="490" height="47" />
+        </mxCell>
+        <mxCell id="30" value="NULL   return_inspection  |  반납점검내용  |  VARCHAR(1000)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="700" y="1043" width="490" height="47" />
+        </mxCell>
+        <mxCell id="31" value="정비  MAINTENANCE" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=23;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="800" width="490" height="55" />
+        </mxCell>
+        <mxCell id="32" value="PK     maintenance_id  |  정비번호  |  BIGINT" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#F3F7FC;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="855" width="490" height="47" />
+        </mxCell>
+        <mxCell id="33" value="FK     equipment_id  |  장비번호  |  VARCHAR(20)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="902" width="490" height="47" />
+        </mxCell>
+        <mxCell id="34" value="       started_at  |  정비시작일시  |  TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="949" width="490" height="47" />
+        </mxCell>
+        <mxCell id="35" value="NULL   completed_at  |  정비완료일시  |  TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="996" width="490" height="47" />
+        </mxCell>
+        <mxCell id="36" value="       reason  |  정비사유  |  VARCHAR(500)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="1043" width="490" height="47" />
+        </mxCell>
+        <mxCell id="37" value="NULL   action_taken  |  조치내용  |  VARCHAR(1000)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=16;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1360" y="1090" width="490" height="47" />
+        </mxCell>
+        <mxCell id="38" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="12" target="5">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="610" y="305.5" />
+              <mxPoint x="610" y="258.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="13" target="20">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1280" y="352.5" />
+              <mxPoint x="1280" y="258.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="27" target="11">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="640" y="925.5" />
+              <mxPoint x="640" y="258.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" value="" style="edgeStyle=none;rounded=0;html=0;endArrow=classic;startArrow=none;strokeColor=#506B85;strokeWidth=1.6;fontSize=17;fontFamily=Malgun Gothic;labelBackgroundColor=#FFFFFF;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="33" target="20">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1880" y="925.5" />
+              <mxPoint x="1880" y="258.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" value="관계 변환과 중복 방지" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="560" width="490" height="55" />
+        </mxCell>
+        <mxCell id="43" value="학생 1 : 예약 N&#10;장비 1 : 예약 N&#10;예약 1 : 대여 0..1&#10;장비 1 : 정비 N&#10;&#10;LOAN.reservation_id에 UNIQUE 적용&#10;대여의 학생·장비는 예약을 통해 조회&#10;반납기한은 예약종료일시에서 조회&#10;NULL 표시 외 모든 속성은 필수&#10;참조 데이터 삭제는 RESTRICT/NO ACTION" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=19;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="615" width="490" height="365" />
+        </mxCell>
+        <mxCell id="44" value="도메인 및 저장 기준" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1000" width="490" height="55" />
+        </mxCell>
+        <mxCell id="45" value="이용가능여부: 가능 / 제한&#10;운영상태: 정상 / 정비중&#10;예약상태: 확정 / 취소 / 대여전환&#10;일시: 한국 표준시 기준&#10;자료형은 DBMS 선정 후 실제 형식 확정" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=19;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1055" width="490" height="165" />
+        </mxCell>
+        <mxCell id="46" value="행 단위 제약" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1290" width="870" height="55" />
+        </mxCell>
+        <mxCell id="47" value="신청일시 ≤ 예약시작일시 &lt; 예약종료일시&#10;실제반납일시 ≥ 실제대여일시 / 정비완료일시 ≥ 정비시작일시&#10;반납일시·점검내용, 정비완료일시·조치내용은 각각 NULL 쌍 또는 값 쌍&#10;식별자는 변경하지 않으며 필수 문자열은 공백 입력을 허용하지 않는다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=19;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1345" width="870" height="170" />
+        </mxCell>
+        <mxCell id="48" value="여러 행을 확인하는 트랜잭션 제약" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=22;fontColor=#182B40;fillColor=#DFEAF5;strokeColor=#60758B;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="950" y="1290" width="900" height="55" />
+        </mxCell>
+        <mxCell id="49" value="예약 중복: 기존 시작 &lt; 새 종료 AND 새 시작 &lt; 기존 종료 (취소 제외)&#10;대여 등록 + 예약 대여전환을 함께 처리한다.&#10;정비 시작 + 확정 예약 취소 + 장비 정비중을 함께 처리한다.&#10;장비별 잠금으로 미반납 대여·진행 정비·동시 예약의 중복을 방지한다." style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Malgun Gothic;fontSize=19;fontColor=#182B40;fillColor=#FFFFFF;strokeColor=#60758B;strokeWidth=1.5;align=left;verticalAlign=middle;spacing=12;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="950" y="1345" width="900" height="170" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
