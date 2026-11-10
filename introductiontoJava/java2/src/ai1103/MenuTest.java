@@ -7,16 +7,19 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 public class MenuTest extends JFrame {
     JTextArea textArea = new JTextArea();
     JFileChooser fileChooser = new JFileChooser();
     JFrame frame;
-    String[] btnIconFileNames = {"new", "open", "close", "Magenta", "Blue", "White"};
-    JButton[] btns = new JButton[6];
+    String[] btnIconFileNames = {"new", "open", "save", "close", "Magenta", "Blue", "White"};
+    JButton[] btns = new JButton[btnIconFileNames.length];
+    File currentFile = null; // 현재 열려 있거나 저장된 파일 (없으면 null)
 
     public MenuTest() {
         frame = this;
@@ -40,11 +43,16 @@ public class MenuTest extends JFrame {
         menuBar.add(fileMenu);
         menuBar.add(editMenu);
 
-        JMenuItem newMenuItem = new JMenuItem("New"); //textArea의 문자열을 초기화
-        JMenuItem openMenuItem = new JMenuItem("Open"); //JFileChooser
-        JMenuItem closeMenuItem = new JMenuItem("Close"); //System.exit
+        JMenuItem newMenuItem = new JMenuItem("New");       // textArea의 문자열을 초기화
+        JMenuItem openMenuItem = new JMenuItem("Open");     // JFileChooser로 파일 열기
+        JMenuItem saveMenuItem = new JMenuItem("Save");     // 현재 파일에 저장 (없으면 Save As)
+        JMenuItem saveAsMenuItem = new JMenuItem("Save As"); // 새 이름으로 저장
+        JMenuItem closeMenuItem = new JMenuItem("Close");   // System.exit
         fileMenu.add(newMenuItem);
         fileMenu.add(openMenuItem);
+        fileMenu.add(saveMenuItem);
+        fileMenu.add(saveAsMenuItem);
+        fileMenu.addSeparator();
         fileMenu.add(closeMenuItem);
 
         JMenuItem whiteMenuItem = new JMenuItem("White");
@@ -60,6 +68,8 @@ public class MenuTest extends JFrame {
 
         newMenuItem.addActionListener(fileListener);
         openMenuItem.addActionListener(fileListener);
+        saveMenuItem.addActionListener(fileListener);
+        saveAsMenuItem.addActionListener(fileListener);
         closeMenuItem.addActionListener(fileListener);
 
         SetFrame.setFrame(this, "메뉴만들기", 500, 500);
@@ -71,16 +81,18 @@ public class MenuTest extends JFrame {
             JButton eBtn = (JButton) e.getSource();
 
             if (eBtn == btns[0]) {
-                textArea.setText("");
+                newFile();
             } else if (eBtn == btns[1]) {
                 openFile();
             } else if (eBtn == btns[2]) {
-                System.exit(0);
+                saveFile();
             } else if (eBtn == btns[3]) {
-                textArea.setBackground(Color.MAGENTA);
+                System.exit(0);
             } else if (eBtn == btns[4]) {
-                textArea.setBackground(Color.BLUE);
+                textArea.setBackground(Color.MAGENTA);
             } else if (eBtn == btns[5]) {
+                textArea.setBackground(Color.BLUE);
+            } else if (eBtn == btns[6]) {
                 textArea.setBackground(Color.WHITE);
             }
         }
@@ -91,10 +103,16 @@ public class MenuTest extends JFrame {
         public void actionPerformed(ActionEvent e) {
             switch (e.getActionCommand()) {
                 case "New":
-                    textArea.setText("");
+                    newFile();
                     break;
                 case "Open":
                     openFile();
+                    break;
+                case "Save":
+                    saveFile();
+                    break;
+                case "Save As":
+                    saveFileAs();
                     break;
                 case "Close":
                     System.exit(0);
@@ -122,12 +140,64 @@ public class MenuTest extends JFrame {
         }
     };
 
+    private void newFile() {
+        textArea.setText("");
+        currentFile = null;
+        frame.setTitle("메뉴만들기");
+    }
+
     private void openFile() {
         int result = fileChooser.showOpenDialog(frame);
         if (result == JFileChooser.APPROVE_OPTION) {
             File selectedFile = fileChooser.getSelectedFile();
             textArea.setText(readFile(selectedFile));
             textArea.setCaretPosition(0);
+            currentFile = selectedFile;
+            frame.setTitle("메뉴만들기 - " + currentFile.getName());
+        }
+    }
+
+    // Save: 열려 있는 파일이 있으면 그 파일에 덮어쓰고, 없으면 Save As로 넘김
+    private void saveFile() {
+        if (currentFile == null) {
+            saveFileAs();
+        } else {
+            writeFile(currentFile);
+        }
+    }
+
+    // Save As: 저장 대화상자로 파일 이름을 받아 저장
+    private void saveFileAs() {
+        int result = fileChooser.showSaveDialog(frame);
+        if (result != JFileChooser.APPROVE_OPTION) {
+            return;
+        }
+        File selectedFile = fileChooser.getSelectedFile();
+
+        if (selectedFile.exists()) {
+            int answer = JOptionPane.showConfirmDialog(frame,
+                    selectedFile.getName() + " 파일이 이미 있습니다. 덮어쓸까요?",
+                    "저장 확인", JOptionPane.YES_NO_OPTION);
+            if (answer != JOptionPane.YES_OPTION) {
+                return;
+            }
+        }
+
+        if (writeFile(selectedFile)) {
+            currentFile = selectedFile;
+            frame.setTitle("메뉴만들기 - " + currentFile.getName());
+        }
+    }
+
+    private boolean writeFile(File file) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
+            bw.write(textArea.getText());
+            JOptionPane.showMessageDialog(frame, file.getName() + " 저장 완료");
+            return true;
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(frame, "저장 실패: " + e.getMessage(),
+                    "오류", JOptionPane.ERROR_MESSAGE);
+            return false;
         }
     }
 
