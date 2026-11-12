@@ -35,13 +35,15 @@ import AttendanceCardBook from "./10/AttendanceCardBook";
 import NameForm from "./11/NameForm";
 import FruitSelect from "./11/FruitSelect";
 import Reservation from "./11/Reservation";
+import Calculator from "./12/ex4/Calculator";
+import DistanceCalculator from "./12/ex5/DistanceCalculator";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <Reservation/>
+        <DistanceCalculator/>
     </React.StrictMode>
 );
 
