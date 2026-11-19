@@ -1,0 +1,14 @@
+{
+  "code": "5046d68",
+  "tested": "2557152 (same app as 5046d68)",
+  "route": "Local classroom app in a fresh Chrome browser context",
+  "faq": "81346a10e8ba488a9448b6ac1f0dca49",
+  "high": "e0e9d5e097c64e0185e056ce368f1c3b",
+  "personal": "dfbbdd6062514f0abd51e707076565c4",
+  "sameButtonSubmitRequests": 1,
+  "physicalDoubleClick": true,
+  "adminRowSelect": true,
+  "blankFinishRejected": true,
+  "sameReceiptOnRefresh": true,
+  "video": "AI_Smart_Help_Desk_5046d68_오프라인시연.webm"
+}

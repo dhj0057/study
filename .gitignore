@@ -16,3 +16,6 @@ Release/
 *.recipe
 *.vcxproj.user
 *.suo
+node_modules/
+build/
+dist/

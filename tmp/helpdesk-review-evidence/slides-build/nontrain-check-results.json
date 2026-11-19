@@ -1,0 +1,46 @@
+{
+  "checkedRelease": "969f2c8",
+  "tests": {
+    "T05": {
+      "receipt": "60dcb2dc10d84e71968cb0a1f4ad8ced",
+      "mode": "fixed-demo",
+      "sameNumberAndOriginal": true
+    },
+    "T37": {
+      "offline": true,
+      "decodedSeconds": 2.0108,
+      "width": 1440
+    },
+    "T11": {
+      "results": [
+        {
+          "id": "CASE-28",
+          "receipt": "c1b46deeadff4858a98bc0ce0fb3f57c",
+          "pass": true
+        },
+        {
+          "id": "CASE-05",
+          "receipt": "c4d399317a194aa99ce3d215d131b501",
+          "pass": true
+        },
+        {
+          "id": "CASE-15",
+          "receipt": "2416b90fe8694d4e9a06d780ae2199ae",
+          "pass": true
+        },
+        {
+          "id": "CASE-24",
+          "receipt": "221fe62d10eb4bb78cb9710dcdf62cce",
+          "pass": true
+        },
+        {
+          "id": "CASE-25",
+          "receipt": "b3ea3c9e18c74dcdbe6b71a5fa030898",
+          "pass": true
+        }
+      ],
+      "highIndex": -1,
+      "lowIndex": -1
+    }
+  }
+}

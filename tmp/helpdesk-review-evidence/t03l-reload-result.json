@@ -1,0 +1,88 @@
+{
+  "input": {
+    "id": "t03l-reload-test",
+    "source": "synthetic-helpdesk-development",
+    "state": "가상 문의: 강의실 천장에서 물이 새고 있습니다. 시설 점검을 요청합니다.",
+    "questions": {
+      "category": {
+        "type": "choice",
+        "instructions": "가상 대학 문의의 주된 분야는 무엇인가? Which team handles the request?",
+        "criteria": {
+          "SCHOLARSHIP": "장학금, 장학 지원금, 장학생 선정 / scholarship",
+          "ACADEMIC": "수강, 성적, 휴학, 졸업 등 학사 / academic affairs",
+          "FACILITY": "교내 건물·시설, 기숙사, 고장 신고 / campus facilities",
+          "OTHER": "문의는 명확하지만 위 분야에 속하지 않음 / clear but outside these categories",
+          "UNKNOWN": "대상이나 분야를 특정할 수 없음 / not enough context to identify a category"
+        },
+        "label": "FACILITY",
+        "src": "synthetic-reload-check"
+      },
+      "urgency": {
+        "type": "choice",
+        "instructions": "교내 업무 문의의 처리 우선순위는? What is the administrative priority?",
+        "criteria": {
+          "LOW": "마감 압박이 없는 일반 문의 / routine inquiry without a near deadline",
+          "MEDIUM": "다가오는 일정으로 빠른 안내가 필요한 문의 / upcoming deadline requiring timely guidance",
+          "HIGH": "오늘 마감이거나 지연으로 수강·신청 등 교내 업무에 차질이 임박함 / deadline today or imminent administrative disruption",
+          "UNKNOWN": "어떤 문제인지조차 불명확해 긴급도 판단 보류 / cannot tell what the issue is"
+        },
+        "label": "LOW",
+        "src": "synthetic-reload-check"
+      },
+      "review_required": {
+        "type": "noul",
+        "instructions": "개인별 승인·선정·접수 결과, 임박한 업무 마감이나 차질, 또는 대상이 모호한 경우 담당자가 확인해야 합니다. 일반 절차 문의는 아니오입니다. Is this a personal status check, imminent administrative deadline or disruption, or unclear request?",
+        "label": false,
+        "src": "synthetic-reload-check"
+      }
+    }
+  },
+  "expected": {
+    "category": "FACILITY",
+    "urgency": "LOW",
+    "review_required": false
+  },
+  "result": {
+    "probabilities": {
+      "category": {
+        "SCHOLARSHIP": 6.441654432087773e-10,
+        "ACADEMIC": 1.1733480278053321e-05,
+        "FACILITY": 0.9989527463912964,
+        "OTHER": 0.000386117841117084,
+        "UNKNOWN": 0.0006494102999567986
+      },
+      "urgency": {
+        "LOW": 0.43025338649749756,
+        "MEDIUM": 0.006330613046884537,
+        "HIGH": 0.05663571506738663,
+        "UNKNOWN": 0.5067802667617798
+      },
+      "review_required": {
+        "false": 0.7230928540229797,
+        "true": 0.27690717577934265
+      }
+    },
+    "logits": {
+      "category": {
+        "SCHOLARSHIP": -14.655071258544922,
+        "ACADEMIC": -4.845070838928223,
+        "FACILITY": 6.506945610046387,
+        "OTHER": -1.351374864578247,
+        "UNKNOWN": -0.8314525485038757
+      },
+      "urgency": {
+        "LOW": -2.72068190574646,
+        "MEDIUM": -6.939659118652344,
+        "HIGH": -4.748416423797607,
+        "UNKNOWN": -2.556978702545166
+      },
+      "review_required": {
+        "false": -0.20728155970573425,
+        "true": -1.1671369075775146
+      }
+    },
+    "inference_temperature": 1.0,
+    "latency_ms": 1385.7821350002268,
+    "input_tokens": 317
+  }
+}

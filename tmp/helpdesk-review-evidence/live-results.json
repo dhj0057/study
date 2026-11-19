@@ -1,0 +1,2461 @@
+{
+  "date": "2026-11-18T12:53:37.339591",
+  "branch": "review combination",
+  "head": "66e106c1f0ce0de4cb262e5963d2e08ba7b74684",
+  "components": {
+    "T12": "81036d5",
+    "T13": "c084890",
+    "T08": "4eb7b60"
+  },
+  "model": "Kev-4B-Q4_K_M.gguf / Gemini configured FAQ selector",
+  "scope": "base-model service integration; not a trained-model evaluation",
+  "cases_sha256": "6225b8a4e039b5c4e339088dc3c6aa6b9d7575a7c4c96d32c0bd76e9290d80d4",
+  "cases": [
+    {
+      "case_id": "CASE-01",
+      "message": "성적 좋으면 장학금 신청서를 내야 하나요, 아니면 그냥 주나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S01"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "8b5869bb7d7a46fc9fd19b1e6320409e",
+        "message": "성적 좋으면 장학금 신청서를 내야 하나요, 아니면 그냥 주나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S01"
+        ],
+        "reply": "직전 학기 성적을 기준으로 자동 선정되며 별도 신청이 필요 없습니다. 선정 여부는 학기 시작 후 포털 장학 메뉴에서 확인할 수 있습니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.6343250482579507,
+                "ACADEMIC": 0.09488929512094099,
+                "FACILITY": 0.0019282733279039554,
+                "OTHER": 0.11768843663268842,
+                "UNKNOWN": 0.1511689466605158
+              },
+              "confidence": 0.5429063103224383
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.5863290250368827,
+                "MEDIUM": 0.05472965347793282,
+                "HIGH": 0.015925268209257656,
+                "UNKNOWN": 0.3430160532759269
+              },
+              "confidence": 0.4484387000491769
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3784655310838378
+            }
+          },
+          "usage": {
+            "input_tokens": 372,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-02",
+      "message": "성적 장학금 받으려면 평점이 최소 얼마는 돼야 하나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S03"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "67e55402f4c94c989589024c1baa82a3",
+        "message": "성적 장학금 받으려면 평점이 최소 얼마는 돼야 하나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S03"
+        ],
+        "reply": "직전 학기에 12학점 이상을 이수하고 평점평균이 3.5 이상인 학생 중에서 학과별 성적 순으로 선정합니다. 학과마다 선정 인원이 달라 같은 평점이라도 선정 여부는 다를 수 있습니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.7727456909174364,
+                "ACADEMIC": 0.05933454965238582,
+                "FACILITY": 0.0010856119865153956,
+                "OTHER": 0.07350701109212814,
+                "UNKNOWN": 0.0933271363515342
+              },
+              "confidence": 0.7159321136467955
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.620688390872844,
+                "MEDIUM": 0.043377286054988695,
+                "HIGH": 0.009717148491406794,
+                "UNKNOWN": 0.3262171745807606
+              },
+              "confidence": 0.4942511878304587
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.35181585319699693
+            }
+          },
+          "usage": {
+            "input_tokens": 366,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-03",
+      "message": "국가장학금 때문에 서류를 내야 하는데 학과 사무실에 가져가면 되나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S04"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "abf70112b033431993e3e39e49793235",
+        "message": "국가장학금 때문에 서류를 내야 하는데 학과 사무실에 가져가면 되나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": false,
+        "faq_ids": false,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.6709353401497882,
+                "ACADEMIC": 0.0706765979669427,
+                "FACILITY": 0.007018215969190499,
+                "OTHER": 0.11702298692301637,
+                "UNKNOWN": 0.13434685899106236
+              },
+              "confidence": 0.5886691751872352
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "LOW": 0.42147598466771696,
+                "MEDIUM": 0.07675714131778752,
+                "HIGH": 0.039917174351748214,
+                "UNKNOWN": 0.4618496996627473
+              },
+              "confidence": 0.2824662662169964
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3308636914054133
+            }
+          },
+          "usage": {
+            "input_tokens": 378,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-04",
+      "message": "외부 재단 장학금을 받고 있는데 학교 장학금도 받을 수 있나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S02"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "eb47a1b5be6940ca976c074a546e5a4b",
+        "message": "외부 재단 장학금을 받고 있는데 학교 장학금도 받을 수 있나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S02"
+        ],
+        "reply": "함께 받을 수 있으나 합계가 해당 학기 등록금을 넘으면 교내 장학금이 조정될 수 있습니다. 조정 여부는 장학 담당 부서가 개별 확인합니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.8332735659437722,
+                "ACADEMIC": 0.023484913767210895,
+                "FACILITY": 0.0009817477859618874,
+                "OTHER": 0.05761271432918701,
+                "UNKNOWN": 0.0846470581738681
+              },
+              "confidence": 0.7915919574297153
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.6556736243277431,
+                "MEDIUM": 0.028137100181829786,
+                "HIGH": 0.0075530964807409345,
+                "UNKNOWN": 0.30863617900968626
+              },
+              "confidence": 0.5408981657703241
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3416804807466339
+            }
+          },
+          "usage": {
+            "input_tokens": 366,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-05",
+      "message": "수강 정정 기간이 언제인가요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A01"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "5f1ad757c262492f838fc47b2cb86314",
+        "message": "수강 정정 기간이 언제인가요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A01"
+        ],
+        "reply": "수강 정정은 개강 후 첫 주 동안 포털 수강신청 메뉴에서 과목을 추가하거나 삭제하는 방식으로 진행합니다. 정정 기간이 끝나면 변경할 수 없으며, 기간 중 시스템 오류가 있으면 학사 담당 부서에 문의합니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "ACADEMIC",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0019912283467806804,
+                "ACADEMIC": 0.76102665167915,
+                "FACILITY": 0.003300082964746736,
+                "OTHER": 0.10173405292657578,
+                "UNKNOWN": 0.13194798408274702
+              },
+              "confidence": 0.7012833145989374
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "MEDIUM",
+              "probabilities": {
+                "LOW": 0.1804399202014664,
+                "MEDIUM": 0.7016670269893119,
+                "HIGH": 0.018657192126896226,
+                "UNKNOWN": 0.09923586068232537
+              },
+              "confidence": 0.602222702652416
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.39488785693150424
+            }
+          },
+          "usage": {
+            "input_tokens": 345,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-06",
+      "message": "다음 학기에 쉬고 싶은데 휴학은 어디서 신청해요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A02"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "c576c1c8452846f7b35279e63bf1d907",
+        "message": "다음 학기에 쉬고 싶은데 휴학은 어디서 신청해요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A02"
+        ],
+        "reply": "휴학은 학기 시작 전 정해진 기간에 포털 학적 메뉴에서 신청합니다. 일반휴학은 한 번에 1개 학기 또는 2개 학기 단위로 신청할 수 있고, 학기 중 휴학은 학사 담당 부서의 확인이 필요합니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "ACADEMIC",
+              "probabilities": {
+                "SCHOLARSHIP": 0.00039142284427072695,
+                "ACADEMIC": 0.9301661409228946,
+                "FACILITY": 0.002528315792471944,
+                "OTHER": 0.030094051544405937,
+                "UNKNOWN": 0.036820068895956806
+              },
+              "confidence": 0.9127076761536181
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.6003850865110029,
+                "MEDIUM": 0.12190430581868891,
+                "HIGH": 0.012874834496068676,
+                "UNKNOWN": 0.2648357731742394
+              },
+              "confidence": 0.4671801153480038
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.385220552586885
+            }
+          },
+          "usage": {
+            "input_tokens": 360,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-07",
+      "message": "성적 이의신청은 어떤 절차로 하나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A03"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "17451ad376214eacb37180f494679c23",
+        "message": "성적 이의신청은 어떤 절차로 하나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A03"
+        ],
+        "reply": "성적 공개 후 약 일주일의 이의신청 기간 동안 포털 성적 메뉴에서 과목별로 신청합니다. 담당 교수가 확인한 뒤 처리 결과를 포털로 안내합니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "ACADEMIC",
+              "probabilities": {
+                "SCHOLARSHIP": 0.011522701416456872,
+                "ACADEMIC": 0.69890777300591,
+                "FACILITY": 0.00695821303278713,
+                "OTHER": 0.12398754700642187,
+                "UNKNOWN": 0.15862376553842394
+              },
+              "confidence": 0.6236347162573874
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.4274323343504727,
+                "MEDIUM": 0.14438334899683905,
+                "HIGH": 0.06573765245187724,
+                "UNKNOWN": 0.36244666420081106
+              },
+              "confidence": 0.23657644580063023
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3247069812102663
+            }
+          },
+          "usage": {
+            "input_tokens": 354,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-08",
+      "message": "졸업 요건은 어디서 확인할 수 있나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A04"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "e5969ac9582a4c2485c10d4729e6b368",
+        "message": "졸업 요건은 어디서 확인할 수 있나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A04"
+        ],
+        "reply": "포털 학적 메뉴의 졸업요건 조회에서 총 이수 학점과 전공·교양 학점 충족 여부를 확인할 수 있습니다. 조회 결과가 예상과 다르면 소속 학과 사무실에 문의합니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "ACADEMIC",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0006586287557243273,
+                "ACADEMIC": 0.898768586769863,
+                "FACILITY": 0.0012150390297672809,
+                "OTHER": 0.0424193777591059,
+                "UNKNOWN": 0.05693836768553934
+              },
+              "confidence": 0.8734607334623287
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.608759169560411,
+                "MEDIUM": 0.04146216480031113,
+                "HIGH": 0.010636630794562806,
+                "UNKNOWN": 0.33914203484471506
+              },
+              "confidence": 0.4783455594138813
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3451541211278224
+            }
+          },
+          "usage": {
+            "input_tokens": 348,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-09",
+      "message": "시험 기간에 도서관 열람실 밤 몇 시까지 열어요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F01"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "5548ce9720bf46d39a8d013eda6f65c9",
+        "message": "시험 기간에 도서관 열람실 밤 몇 시까지 열어요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": false,
+        "faq_ids": false,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "FACILITY",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0010173397765594224,
+                "ACADEMIC": 0.04688042876442706,
+                "FACILITY": 0.704241493976563,
+                "OTHER": 0.11529641287159227,
+                "UNKNOWN": 0.1325643246108581
+              },
+              "confidence": 0.6303018674707036
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "LOW": 0.3463476430867731,
+                "MEDIUM": 0.22684777397696287,
+                "HIGH": 0.02390320294388159,
+                "UNKNOWN": 0.4029013799923824
+              },
+              "confidence": 0.20386850665650988
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.27886262266289497
+            }
+          },
+          "usage": {
+            "input_tokens": 360,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-10",
+      "message": "스터디 때문에 강의실을 빌리려면 어떻게 해야 하나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F02"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "5376c8eeb63c48a69a8f1d1275624c7d",
+        "message": "스터디 때문에 강의실을 빌리려면 어떻게 해야 하나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F02"
+        ],
+        "reply": "사용일 3일 전까지 포털 시설예약 메뉴에서 신청하면 빈 강의실을 빌릴 수 있습니다. 담당 부서 승인 후 사용할 수 있으며, 수업이 있는 시간에는 대여할 수 없습니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "FACILITY",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0022714943308419504,
+                "ACADEMIC": 0.3340213892382868,
+                "FACILITY": 0.35473192302222467,
+                "OTHER": 0.15492203573834026,
+                "UNKNOWN": 0.15405315767030636
+              },
+              "confidence": 0.1934149037777808
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.5062414406578624,
+                "MEDIUM": 0.09045196717808716,
+                "HIGH": 0.02131642834283654,
+                "UNKNOWN": 0.38199016382121387
+              },
+              "confidence": 0.34165525421048315
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3463544518047793
+            }
+          },
+          "usage": {
+            "input_tokens": 357,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-11",
+      "message": "강의실 에어컨이 고장 났는데 어디에 신고하나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F03"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "28d08784276a467f8910c25eb63b4dee",
+        "message": "강의실 에어컨이 고장 났는데 어디에 신고하나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F03"
+        ],
+        "reply": "포털 시설민원 메뉴에서 건물명과 호실, 고장 내용을 적어 신고합니다. 수업 중이라 바로 조치가 필요하면 해당 건물 관리실에 연락합니다.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "FACILITY",
+              "probabilities": {
+                "SCHOLARSHIP": 0.00015379624978666468,
+                "ACADEMIC": 0.01556969877418761,
+                "FACILITY": 0.895785103361287,
+                "OTHER": 0.03994505138529644,
+                "UNKNOWN": 0.04854635022944219
+              },
+              "confidence": 0.8697313792016087
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.5135082843845845,
+                "MEDIUM": 0.05596986479945894,
+                "HIGH": 0.051467996807900276,
+                "UNKNOWN": 0.37905385400805613
+              },
+              "confidence": 0.351344379179446
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.4655680185229656
+            }
+          },
+          "usage": {
+            "input_tokens": 366,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-12",
+      "message": "학교에서 지갑을 잃어버렸는데 분실물은 어디서 찾나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F04"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "3e5a5016adb04f17bd2873500f5a30c3",
+        "message": "학교에서 지갑을 잃어버렸는데 분실물은 어디서 찾나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": false,
+        "faq_ids": false,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "OTHER",
+              "probabilities": {
+                "SCHOLARSHIP": 0.00127061796367497,
+                "ACADEMIC": 0.01808907042790074,
+                "FACILITY": 0.17004389779520065,
+                "OTHER": 0.4095634387581485,
+                "UNKNOWN": 0.4010329750550752
+              },
+              "confidence": 0.2619542984476856
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.5693032655328436,
+                "MEDIUM": 0.02438853269164587,
+                "HIGH": 0.009703955584213005,
+                "UNKNOWN": 0.3966042461912975
+              },
+              "confidence": 0.4257376873771248
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.22470739082499533
+            }
+          },
+          "usage": {
+            "input_tokens": 366,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-13",
+      "message": "이번 학기 성적 장학금 명단에 제 이름이 있나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "MEDIUM",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "ab171cc99d6a4b288330d8c4ab593cc7",
+        "message": "이번 학기 성적 장학금 명단에 제 이름이 있나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.5757974318421888,
+                "ACADEMIC": 0.14780658850189002,
+                "FACILITY": 0.0013983005380554085,
+                "OTHER": 0.11629508303444666,
+                "UNKNOWN": 0.15870259608341916
+              },
+              "confidence": 0.46974678980273593
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.4470239703334421,
+                "MEDIUM": 0.08787881982971121,
+                "HIGH": 0.022872704233144282,
+                "UNKNOWN": 0.44222450560370224
+              },
+              "confidence": 0.26269862711125613
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.46445561509772804
+            }
+          },
+          "usage": {
+            "input_tokens": 357,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-14",
+      "message": "장학금 서류 마감이 오늘인데 제 서류가 접수됐는지 급하게 확인해 주세요.",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "e98f7ad7cae24656b5290a4e0b64db4f",
+        "message": "장학금 서류 마감이 오늘인데 제 서류가 접수됐는지 급하게 확인해 주세요.",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.741588258391692,
+                "ACADEMIC": 0.015538097976197178,
+                "FACILITY": 0.0009307843205473604,
+                "OTHER": 0.10200473052247187,
+                "UNKNOWN": 0.13993812878909162
+              },
+              "confidence": 0.676985322989615
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "HIGH",
+              "probabilities": {
+                "LOW": 0.010118393523452954,
+                "MEDIUM": 0.07070667344783452,
+                "HIGH": 0.8410190569516054,
+                "UNKNOWN": 0.0781558760771071
+              },
+              "confidence": 0.7880254092688072
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.835948517018886
+            }
+          },
+          "usage": {
+            "input_tokens": 378,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-15",
+      "message": "제가 낸 휴학 신청이 승인됐나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "4d72e2a9a7294dc0b1207b566bbb72f4",
+        "message": "제가 낸 휴학 신청이 승인됐나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "ACADEMIC",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0006352691794058706,
+                "ACADEMIC": 0.8760493354248101,
+                "FACILITY": 0.001450372241838149,
+                "OTHER": 0.049481776776436975,
+                "UNKNOWN": 0.0723832463775089
+              },
+              "confidence": 0.8450616692810126
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.4950798050787755,
+                "MEDIUM": 0.08870882562251939,
+                "HIGH": 0.03234016870639521,
+                "UNKNOWN": 0.38387120059231
+              },
+              "confidence": 0.32677307343836737
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.4067723369723457
+            }
+          },
+          "usage": {
+            "input_tokens": 348,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-16",
+      "message": "내일 졸업 확정인데 제가 학점이 부족한지 바로 알려 주세요.",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "11b1674ecb1841e9af85b69cc03acf12",
+        "message": "내일 졸업 확정인데 제가 학점이 부족한지 바로 알려 주세요.",
+        "engine": "Kev-4B / Gemini",
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "MEDIUM",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "ACADEMIC",
+              "probabilities": {
+                "SCHOLARSHIP": 0.004429734583633822,
+                "ACADEMIC": 0.8944847878251688,
+                "FACILITY": 0.0010411685787354576,
+                "OTHER": 0.03637775281694679,
+                "UNKNOWN": 0.06366655619551527
+              },
+              "confidence": 0.868105984781461
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "MEDIUM",
+              "probabilities": {
+                "LOW": 0.057117454274722444,
+                "MEDIUM": 0.3939305963934825,
+                "HIGH": 0.290487740605622,
+                "UNKNOWN": 0.258464208726173
+              },
+              "confidence": 0.19190746185797666
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.6196574027722634
+            }
+          },
+          "usage": {
+            "input_tokens": 360,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-17",
+      "message": "제가 신청한 강의실 대여가 승인됐나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "9b8e1bed82a64e2588d2cfdf7f54be53",
+        "message": "제가 신청한 강의실 대여가 승인됐나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "FACILITY",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0009430125884098992,
+                "ACADEMIC": 0.09624053819312905,
+                "FACILITY": 0.6311097355374332,
+                "OTHER": 0.12236301037783791,
+                "UNKNOWN": 0.14934370330319005
+              },
+              "confidence": 0.5388871694217915
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.44082316147635053,
+                "MEDIUM": 0.1515834507222489,
+                "HIGH": 0.039780018452634604,
+                "UNKNOWN": 0.367813369348766
+              },
+              "confidence": 0.25443088196846736
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3732517592798104
+            }
+          },
+          "usage": {
+            "input_tokens": 351,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-18",
+      "message": "제가 맡긴 분실물이 찾아졌나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "86f9f521d76849569d9f5dac926d9f5d",
+        "message": "제가 맡긴 분실물이 찾아졌나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "OTHER",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0017667539796169028,
+                "ACADEMIC": 0.01678549555201234,
+                "FACILITY": 0.11835764983419017,
+                "OTHER": 0.45033526021406833,
+                "UNKNOWN": 0.4127548404201122
+              },
+              "confidence": 0.3129190752675854
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "LOW": 0.4324363264685184,
+                "MEDIUM": 0.024175813019127437,
+                "HIGH": 0.010873085018909922,
+                "UNKNOWN": 0.5325147754934443
+              },
+              "confidence": 0.3766863673245924
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.30670977206465017
+            }
+          },
+          "usage": {
+            "input_tokens": 348,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-19",
+      "message": "이거 어디에 물어봐야 하나요?",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "urgency": [
+          "UNKNOWN",
+          "LOW"
+        ],
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ]
+        ]
+      },
+      "actual": {
+        "ticket_id": "59828532cda64510bd274c42ea1be55a",
+        "message": "이거 어디에 물어봐야 하나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "SCHOLARSHIP": 0.01971469210165264,
+                "ACADEMIC": 0.1133156692577573,
+                "FACILITY": 0.07659949664006131,
+                "OTHER": 0.3841269515153498,
+                "UNKNOWN": 0.406243190485179
+              },
+              "confidence": 0.2578039881064737
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "LOW": 0.4337669123121239,
+                "MEDIUM": 0.03670698050524602,
+                "HIGH": 0.011231067363217403,
+                "UNKNOWN": 0.5182950398194127
+              },
+              "confidence": 0.35772671975921694
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.4880259625257976
+            }
+          },
+          "usage": {
+            "input_tokens": 345,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-20",
+      "message": "등록금이랑 장학금이랑 수업 문제가 다 꼬였어요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "MEDIUM",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "SCHOLARSHIP",
+            "장학 담당"
+          ],
+          [
+            "ACADEMIC",
+            "학사 담당"
+          ]
+        ]
+      },
+      "actual": {
+        "ticket_id": "aae8109775ba4781ab99119465fa8288",
+        "message": "등록금이랑 장학금이랑 수업 문제가 다 꼬였어요.",
+        "engine": "Kev-4B / Gemini",
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "SCHOLARSHIP": 0.09807914871922169,
+                "ACADEMIC": 0.13419457435906432,
+                "FACILITY": 0.004228611287101249,
+                "OTHER": 0.36914530859898353,
+                "UNKNOWN": 0.3943523570356293
+              },
+              "confidence": 0.24294044629453662
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "LOW": 0.2089831011337472,
+                "MEDIUM": 0.10206712463021858,
+                "HIGH": 0.2764427212839365,
+                "UNKNOWN": 0.4125070529520976
+              },
+              "confidence": 0.2166760706027968
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.5415220571753608
+            }
+          },
+          "usage": {
+            "input_tokens": 357,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-21",
+      "message": "학교 앱이 안 돼요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "urgency": [
+          "UNKNOWN",
+          "LOW"
+        ],
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ],
+          [
+            "FACILITY",
+            "시설 담당"
+          ]
+        ]
+      },
+      "actual": {
+        "ticket_id": "ebb55eafb99642de9dd21169c7fefa19",
+        "message": "학교 앱이 안 돼요.",
+        "engine": "Kev-4B / Gemini",
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "SCHOLARSHIP": 0.003554721159624778,
+                "ACADEMIC": 0.09359353495963837,
+                "FACILITY": 0.03495031435461245,
+                "OTHER": 0.4116641517429598,
+                "UNKNOWN": 0.4562372777831646
+              },
+              "confidence": 0.3202965972289557
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "LOW": 0.39654047413870536,
+                "MEDIUM": 0.030549089166801758,
+                "HIGH": 0.017995854737805034,
+                "UNKNOWN": 0.5549145819566879
+              },
+              "confidence": 0.4065527759422505
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.30182792238060646
+            }
+          },
+          "usage": {
+            "input_tokens": 339,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-22",
+      "message": "오늘 신청 마감인데 신청 버튼이 안 눌려요. 빨리 확인해 주세요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ]
+        ]
+      },
+      "actual": {
+        "ticket_id": "7f62da4a066649df906192734abf19b1",
+        "message": "오늘 신청 마감인데 신청 버튼이 안 눌려요. 빨리 확인해 주세요.",
+        "engine": "Kev-4B / Gemini",
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "SCHOLARSHIP": 0.11978052933328166,
+                "ACADEMIC": 0.08213531842292907,
+                "FACILITY": 0.011934271080384777,
+                "OTHER": 0.38979892615106404,
+                "UNKNOWN": 0.3963509550123404
+              },
+              "confidence": 0.2454386937654255
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "HIGH",
+              "probabilities": {
+                "LOW": 0.004780521685870813,
+                "MEDIUM": 0.05805900180105538,
+                "HIGH": 0.8969091454527903,
+                "UNKNOWN": 0.040251331060283446
+              },
+              "confidence": 0.8625455272703871
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.7824786708010802
+            }
+          },
+          "usage": {
+            "input_tokens": 369,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-23",
+      "message": "오늘이 등록 마감인데 수강신청도 안 되고 등록금 고지서도 안 떠요. 급해요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "ACADEMIC",
+            "학사 담당"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ]
+        ]
+      },
+      "actual": {
+        "ticket_id": "2954396cdbd34806bdc754c28ed133b4",
+        "message": "오늘이 등록 마감인데 수강신청도 안 되고 등록금 고지서도 안 떠요. 급해요.",
+        "engine": "Kev-4B / Gemini",
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0023960970063359776,
+                "ACADEMIC": 0.12392553282306525,
+                "FACILITY": 0.004027267922496035,
+                "OTHER": 0.4028343754940035,
+                "UNKNOWN": 0.4668167267540991
+              },
+              "confidence": 0.33352090844262383
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "HIGH",
+              "probabilities": {
+                "LOW": 0.00524282850837546,
+                "MEDIUM": 0.06364010899595468,
+                "HIGH": 0.885663152171015,
+                "UNKNOWN": 0.04545391032465489
+              },
+              "confidence": 0.8475508695613533
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.7331599969553777
+            }
+          },
+          "usage": {
+            "input_tokens": 387,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-24",
+      "message": "신청 기간이 언제예요?",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "urgency": [
+          "UNKNOWN",
+          "LOW"
+        ],
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "SCHOLARSHIP",
+            "장학 담당"
+          ],
+          [
+            "ACADEMIC",
+            "학사 담당"
+          ]
+        ]
+      },
+      "actual": {
+        "ticket_id": "833b3507411840a2914d36b0a2b7ee9f",
+        "message": "신청 기간이 언제예요?",
+        "engine": "Kev-4B / Gemini",
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "OTHER",
+              "probabilities": {
+                "SCHOLARSHIP": 0.17871258952129307,
+                "ACADEMIC": 0.1001091745360822,
+                "FACILITY": 0.006794524746513645,
+                "OTHER": 0.36826843635630263,
+                "UNKNOWN": 0.3461152748398085
+              },
+              "confidence": 0.21033554544537827
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "LOW": 0.3293522438988951,
+                "MEDIUM": 0.25309513429537395,
+                "HIGH": 0.01974267881872127,
+                "UNKNOWN": 0.39780994298700967
+              },
+              "confidence": 0.19707992398267957
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3636591889982833
+            }
+          },
+          "usage": {
+            "input_tokens": 336,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-25",
+      "message": "기숙사 입사 신청은 어떻게 하나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "512a06271a3244c2a8f85073a3e9f593",
+        "message": "기숙사 입사 신청은 어떻게 하나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "FACILITY",
+              "probabilities": {
+                "SCHOLARSHIP": 0.001635842335135097,
+                "ACADEMIC": 0.01346234386564124,
+                "FACILITY": 0.7488391584164709,
+                "OTHER": 0.11157026593906418,
+                "UNKNOWN": 0.12449238944368862
+              },
+              "confidence": 0.6860489480205886
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.5913214400364593,
+                "MEDIUM": 0.05509086147064364,
+                "HIGH": 0.014707166035712706,
+                "UNKNOWN": 0.3388805324571845
+              },
+              "confidence": 0.4550952533819457
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.28283899475362695
+            }
+          },
+          "usage": {
+            "input_tokens": 351,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-26",
+      "message": "교환학생 지원 자격이 어떻게 되나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "551f22ac10674e44853a67ad6e0fd624",
+        "message": "교환학생 지원 자격이 어떻게 되나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "OTHER",
+              "probabilities": {
+                "SCHOLARSHIP": 0.10244000043220798,
+                "ACADEMIC": 0.1236238786329376,
+                "FACILITY": 0.0030753324026961838,
+                "OTHER": 0.4044812024176135,
+                "UNKNOWN": 0.36637958611454474
+              },
+              "confidence": 0.25560150302201684
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.5240772591879995,
+                "MEDIUM": 0.06420972389886544,
+                "HIGH": 0.013191186900143745,
+                "UNKNOWN": 0.3985218300129912
+              },
+              "confidence": 0.36543634558399934
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3706820497245106
+            }
+          },
+          "usage": {
+            "input_tokens": 345,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-27",
+      "message": "외부 장학재단 추천서는 어떻게 받나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "e178a71cbee34505a8d1d10f048205e7",
+        "message": "외부 장학재단 추천서는 어떻게 받나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.6925930894560445,
+                "ACADEMIC": 0.04635870084576855,
+                "FACILITY": 0.0020079669041451398,
+                "OTHER": 0.11714329080797654,
+                "UNKNOWN": 0.14189695198606522
+              },
+              "confidence": 0.6157413618200556
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.48808652804860164,
+                "MEDIUM": 0.058113874268902486,
+                "HIGH": 0.013067675100412996,
+                "UNKNOWN": 0.4407319225820827
+              },
+              "confidence": 0.3174487040648022
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.3435966640400226
+            }
+          },
+          "usage": {
+            "input_tokens": 348,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-28",
+      "message": "장학금 신청 마감이 오늘 6시인데 포털 장학 메뉴가 계속 오류 나요.",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "1607d4d8d6eb41ba9e64596e07f81613",
+        "message": "장학금 신청 마감이 오늘 6시인데 포털 장학 메뉴가 계속 오류 나요.",
+        "engine": "Kev-4B / Gemini",
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": true,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "SCHOLARSHIP",
+              "probabilities": {
+                "SCHOLARSHIP": 0.6891361077257904,
+                "ACADEMIC": 0.04022636861448369,
+                "FACILITY": 0.0028731799505929473,
+                "OTHER": 0.11751490782865151,
+                "UNKNOWN": 0.15024943588048142
+              },
+              "confidence": 0.6114201346572379
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "HIGH",
+              "probabilities": {
+                "LOW": 0.009899267839467579,
+                "MEDIUM": 0.06992860499762252,
+                "HIGH": 0.8569192348178442,
+                "UNKNOWN": 0.06325289234506574
+              },
+              "confidence": 0.8092256464237922
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.7795980000383944
+            }
+          },
+          "usage": {
+            "input_tokens": 381,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-29",
+      "message": "등록금 납부 마감이 오늘인데 분할 납부가 되나요?",
+      "expected": {
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "4d7587cd839e416b970cda004dc10b96",
+        "message": "등록금 납부 마감이 오늘인데 분할 납부가 되나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "UNKNOWN",
+              "probabilities": {
+                "SCHOLARSHIP": 0.008518254659444238,
+                "ACADEMIC": 0.06037030871293615,
+                "FACILITY": 0.00365558052979147,
+                "OTHER": 0.45351496434996613,
+                "UNKNOWN": 0.4739408917478621
+              },
+              "confidence": 0.3424261146848276
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "HIGH",
+              "probabilities": {
+                "LOW": 0.022277240633254296,
+                "MEDIUM": 0.13908511707464893,
+                "HIGH": 0.7292289783162565,
+                "UNKNOWN": 0.10940866397584026
+              },
+              "confidence": 0.638971971088342
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.6028711171643676
+            }
+          },
+          "usage": {
+            "input_tokens": 363,
+            "output_tokens": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CASE-30",
+      "message": "교내 주차 등록은 어떻게 하나요?",
+      "expected": {
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "actual": {
+        "ticket_id": "ea093238682942a1918dd8b6915cbe8b",
+        "message": "교내 주차 등록은 어떻게 하나요?",
+        "engine": "Kev-4B / Gemini",
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "reply": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+        "status": "NEW",
+        "resolution_note": "",
+        "error_code": null,
+        "revision": 0
+      },
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true
+      },
+      "passed": false,
+      "raw_kev": [
+        {
+          "model": "Kev-4B-Q4_K_M.gguf",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "FACILITY",
+              "probabilities": {
+                "SCHOLARSHIP": 0.0005586864771031864,
+                "ACADEMIC": 0.023309776699456435,
+                "FACILITY": 0.5160847692964166,
+                "OTHER": 0.2289427636261194,
+                "UNKNOWN": 0.2311040039009044
+              },
+              "confidence": 0.39510596162052064
+            },
+            "urgency": {
+              "type": "choice",
+              "choice": "LOW",
+              "probabilities": {
+                "LOW": 0.6748831207120105,
+                "MEDIUM": 0.026514754531778963,
+                "HIGH": 0.008391310080598317,
+                "UNKNOWN": 0.29021081467561216
+              },
+              "confidence": 0.566510827616014
+            },
+            "review_required": {
+              "type": "noul",
+              "noul": 0.2518798261854335
+            }
+          },
+          "usage": {
+            "input_tokens": 345,
+            "output_tokens": 0
+          }
+        }
+      ]
+    }
+  ],
+  "retry_admin": {
+    "first_failure_injected": true,
+    "recovery": "real Kev + Gemini",
+    "passed": true,
+    "ticket_id": "fdd989a4df8d4740bd5d4ba3e671c887",
+    "initial_error": "CLASSIFY_FAILED",
+    "recovered_faq": [
+      "FAQ-S01"
+    ],
+    "completed_status": "DONE"
+  },
+  "summary": {
+    "passed": 18,
+    "total": 30,
+    "failed_ids": [
+      "CASE-03",
+      "CASE-07",
+      "CASE-09",
+      "CASE-11",
+      "CASE-12",
+      "CASE-13",
+      "CASE-16",
+      "CASE-18",
+      "CASE-20",
+      "CASE-26",
+      "CASE-29",
+      "CASE-30"
+    ],
+    "errors": []
+  }
+}

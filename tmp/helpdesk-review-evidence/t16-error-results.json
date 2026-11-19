@@ -1,0 +1,51 @@
+[
+  {
+    "scenario": "빈 입력",
+    "environment": "deployed HTTPS",
+    "outcome": "pass",
+    "evidence": "Whitespace is rejected by the live HTTPS submission handler."
+  },
+  {
+    "scenario": "분류 실패",
+    "environment": "local injection",
+    "outcome": "pass",
+    "evidence": "CLASSIFY_FAILED: review route with original and receipt preserved"
+  },
+  {
+    "scenario": "생성 실패",
+    "environment": "local injection",
+    "outcome": "pass",
+    "evidence": "REPLY_FAILED: review route with original and receipt preserved"
+  },
+  {
+    "scenario": "분류값 오류",
+    "environment": "local injection",
+    "outcome": "pass",
+    "evidence": "CLASSIFY_FORMAT: review route with original and receipt preserved"
+  },
+  {
+    "scenario": "FAQ 번호 불일치",
+    "environment": "local injection",
+    "outcome": "pass",
+    "evidence": "REPLY_FORMAT: review route with original and receipt preserved"
+  },
+  {
+    "scenario": "중복 접수",
+    "environment": "deployed HTTPS and UI event configuration",
+    "outcome": "partial",
+    "evidence": "UI config uses trigger_mode=once. Two separate concurrent API requests issued distinct receipts; physical double-click on one screen still needs confirmation.",
+    "distinct_receipts": 2
+  },
+  {
+    "scenario": "두 창 갱신",
+    "environment": "deployed HTTPS, separate client sessions",
+    "outcome": "pass",
+    "evidence": "Separate live sessions rejected the stale save and retained the first reply."
+  },
+  {
+    "scenario": "완료 보호",
+    "environment": "deployed HTTPS",
+    "outcome": "pass",
+    "evidence": "Live empty completion and edits after completing were rejected; original receipt retained the approved reply."
+  }
+]

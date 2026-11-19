@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-18T14:46:55+09:00",
+  "release": "c7a499495e85030e4f6104a6f6186db506e53918",
+  "python": "3.11.9",
+  "engine": "Existing local Kev-4B Q4_K_M and Gemini, new app directory and Python environment",
+  "case": "이번 학기 성적장학금 신청은 따로 해야 하나요?",
+  "faq": "FAQ-S01",
+  "receipt": "c22254550f3f424aa63fac792750e022",
+  "same_receipt_and_original": true,
+  "new_process_empty_and_old_receipt_unavailable": true
+}

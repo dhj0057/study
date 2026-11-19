@@ -1,0 +1,1197 @@
+{
+  "executed_at": "2026-11-18T15:10:46+09:00",
+  "release": "969f2c8",
+  "transport": "Authenticated Gradio HTTPS relay from the host PC",
+  "engine": "Kev-4B Q4_K_M and Gemini FAQ selector",
+  "dataset_sha256": "6225b8a4e039b5c4e339088dc3c6aa6b9d7575a7c4c96d32c0bd76e9290d80d4",
+  "cases": [
+    {
+      "case_id": "CASE-01",
+      "message": "성적 좋으면 장학금 신청서를 내야 하나요, 아니면 그냥 주나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S01"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "9e8b0727aebb46bda20ca98bc0a69660",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S01"
+        ],
+        "status": "NEW"
+      },
+      "answer": "직전 학기 성적을 기준으로 자동 선정되며 별도 신청이 필요 없습니다. 선정 여부는 학기 시작 후 포털 장학 메뉴에서 확인할 수 있습니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-02",
+      "message": "성적 장학금 받으려면 평점이 최소 얼마는 돼야 하나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S03"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "cb668281c2d145479b83b23d05104829",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S03"
+        ],
+        "status": "NEW"
+      },
+      "answer": "직전 학기에 12학점 이상을 이수하고 평점평균이 3.5 이상인 학생 중에서 학과별 성적 순으로 선정합니다. 학과마다 선정 인원이 달라 같은 평점이라도 선정 여부는 다를 수 있습니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-03",
+      "message": "국가장학금 때문에 서류를 내야 하는데 학과 사무실에 가져가면 되나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S04"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "592d68b6d8194a47bd5fc27b2b4da8c3",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": false,
+        "faq_ids": false,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-04",
+      "message": "외부 재단 장학금을 받고 있는데 학교 장학금도 받을 수 있나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S02"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "2f410feb71bb4ef29b27fac7111f698d",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-S02"
+        ],
+        "status": "NEW"
+      },
+      "answer": "함께 받을 수 있으나 합계가 해당 학기 등록금을 넘으면 교내 장학금이 조정될 수 있습니다. 조정 여부는 장학 담당 부서가 개별 확인합니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-05",
+      "message": "수강 정정 기간이 언제인가요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A01"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "47025e916b8240ed90630ebedd98789f",
+      "actual": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A01"
+        ],
+        "status": "NEW"
+      },
+      "answer": "수강 정정은 개강 후 첫 주 동안 포털 수강신청 메뉴에서 과목을 추가하거나 삭제하는 방식으로 진행합니다. 정정 기간이 끝나면 변경할 수 없으며, 기간 중 시스템 오류가 있으면 학사 담당 부서에 문의합니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-06",
+      "message": "다음 학기에 쉬고 싶은데 휴학은 어디서 신청해요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A02"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "03da0906c8074c8b8d74c3fdc1eef3ee",
+      "actual": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A02"
+        ],
+        "status": "NEW"
+      },
+      "answer": "휴학은 학기 시작 전 정해진 기간에 포털 학적 메뉴에서 신청합니다. 일반휴학은 한 번에 1개 학기 또는 2개 학기 단위로 신청할 수 있고, 학기 중 휴학은 학사 담당 부서의 확인이 필요합니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-07",
+      "message": "성적 이의신청은 어떤 절차로 하나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A03"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "a7720e849d68497eac3328b9c6a70d70",
+      "actual": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A03"
+        ],
+        "status": "NEW"
+      },
+      "answer": "성적 공개 후 약 일주일의 이의신청 기간 동안 포털 성적 메뉴에서 과목별로 신청합니다. 담당 교수가 확인한 뒤 처리 결과를 포털로 안내합니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-08",
+      "message": "졸업 요건은 어디서 확인할 수 있나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A04"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "83832f3435704212b71736c137020d05",
+      "actual": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-A04"
+        ],
+        "status": "NEW"
+      },
+      "answer": "포털 학적 메뉴의 졸업요건 조회에서 총 이수 학점과 전공·교양 학점 충족 여부를 확인할 수 있습니다. 조회 결과가 예상과 다르면 소속 학과 사무실에 문의합니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-09",
+      "message": "시험 기간에 도서관 열람실 밤 몇 시까지 열어요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F01"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "9ccbe2cfd72943dcb89df49f70e64552",
+      "actual": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": false,
+        "faq_ids": false,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-10",
+      "message": "스터디 때문에 강의실을 빌리려면 어떻게 해야 하나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F02"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "abe8ea2a98ca4d0eba459f365ba14672",
+      "actual": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F02"
+        ],
+        "status": "NEW"
+      },
+      "answer": "사용일 3일 전까지 포털 시설예약 메뉴에서 신청하면 빈 강의실을 빌릴 수 있습니다. 담당 부서 승인 후 사용할 수 있으며, 수업이 있는 시간에는 대여할 수 없습니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-11",
+      "message": "강의실 에어컨이 고장 났는데 어디에 신고하나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "MEDIUM",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F03"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "208118b948f84f0f94f0a686d2e9524f",
+      "actual": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F03"
+        ],
+        "status": "NEW"
+      },
+      "answer": "포털 시설민원 메뉴에서 건물명과 호실, 고장 내용을 적어 신고합니다. 수업 중이라 바로 조치가 필요하면 해당 건물 관리실에 연락합니다.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-12",
+      "message": "학교에서 지갑을 잃어버렸는데 분실물은 어디서 찾나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": false,
+        "faq_ids": [
+          "FAQ-F04"
+        ],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "0ba13c38bc954de1a9d61745d2439716",
+      "actual": {
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": false,
+        "faq_ids": false,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-13",
+      "message": "이번 학기 성적 장학금 명단에 제 이름이 있나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "MEDIUM",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "960d8ebe70ed49f880b0023180ae2a8a",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-14",
+      "message": "장학금 서류 마감이 오늘인데 제 서류가 접수됐는지 급하게 확인해 주세요.",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "31e79ad43e1e4f13a15530ee6cc37928",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-15",
+      "message": "제가 낸 휴학 신청이 승인됐나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "24cceead7573450db7b85092b3d94772",
+      "actual": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-16",
+      "message": "내일 졸업 확정인데 제가 학점이 부족한지 바로 알려 주세요.",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "c4ab8a1da3cb4cfd8dc57f1c14c1e276",
+      "actual": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-17",
+      "message": "제가 신청한 강의실 대여가 승인됐나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "5dae0c66cfef40048eee5415b48aef7e",
+      "actual": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-18",
+      "message": "제가 맡긴 분실물이 찾아졌나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "30ae896a0bba4945bc5ff3a3da35ed0e",
+      "actual": {
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-19",
+      "message": "이거 어디에 물어봐야 하나요?",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "urgency": [
+          "UNKNOWN",
+          "LOW"
+        ],
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ]
+        ]
+      },
+      "receipt": "0e701addfb2b49e59d0f177e0edda75e",
+      "actual": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-20",
+      "message": "등록금이랑 장학금이랑 수업 문제가 다 꼬였어요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "MEDIUM",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "SCHOLARSHIP",
+            "장학 담당"
+          ],
+          [
+            "ACADEMIC",
+            "학사 담당"
+          ]
+        ]
+      },
+      "receipt": "b456b5e977064b148a5b30c847fe6271",
+      "actual": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": false,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-21",
+      "message": "학교 앱이 안 돼요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "urgency": [
+          "UNKNOWN",
+          "LOW"
+        ],
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ],
+          [
+            "FACILITY",
+            "시설 담당"
+          ]
+        ]
+      },
+      "receipt": "965b9d33c18e42e283c1eb52947b786b",
+      "actual": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-22",
+      "message": "오늘 신청 마감인데 신청 버튼이 안 눌려요. 빨리 확인해 주세요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ]
+        ]
+      },
+      "receipt": "d94821df35994687b130dcbe911630c1",
+      "actual": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-23",
+      "message": "오늘이 등록 마감인데 수강신청도 안 되고 등록금 고지서도 안 떠요. 급해요.",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "ACADEMIC",
+            "학사 담당"
+          ],
+          [
+            "OTHER",
+            "일반 문의 담당"
+          ]
+        ]
+      },
+      "receipt": "9ebb3097ca324b018e98c1e87cf2e754",
+      "actual": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-24",
+      "message": "신청 기간이 언제예요?",
+      "expected": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {
+        "urgency": [
+          "UNKNOWN",
+          "LOW"
+        ],
+        "pairs": [
+          [
+            null,
+            "UNASSIGNED"
+          ],
+          [
+            "SCHOLARSHIP",
+            "장학 담당"
+          ],
+          [
+            "ACADEMIC",
+            "학사 담당"
+          ]
+        ]
+      },
+      "receipt": "9095e9107d6a49338bd5cf121534dcef",
+      "actual": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "UNKNOWN",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-25",
+      "message": "기숙사 입사 신청은 어떻게 하나요?",
+      "expected": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "1ff1d3499b5840a5b69ae6f014d411c8",
+      "actual": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-26",
+      "message": "교환학생 지원 자격이 어떻게 되나요?",
+      "expected": {
+        "category": "ACADEMIC",
+        "department": "학사 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "d0f440ac3b2c4273804a082c1828912d",
+      "actual": {
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-27",
+      "message": "외부 장학재단 추천서는 어떻게 받나요?",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "a0f62630a10e42c7ad03868fe322f967",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-28",
+      "message": "장학금 신청 마감이 오늘 6시인데 포털 장학 메뉴가 계속 오류 나요.",
+      "expected": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "e4d9951b2a89449ebe0b1dc724ac221f",
+      "actual": {
+        "category": "SCHOLARSHIP",
+        "department": "장학 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": true,
+        "department": true,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-29",
+      "message": "등록금 납부 마감이 오늘인데 분할 납부가 되나요?",
+      "expected": {
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "6b5f94906e0c46729bbe2bb2395e6b67",
+      "actual": {
+        "category": null,
+        "department": "UNASSIGNED",
+        "urgency": "HIGH",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    },
+    {
+      "case_id": "CASE-30",
+      "message": "교내 주차 등록은 어떻게 하나요?",
+      "expected": {
+        "category": "OTHER",
+        "department": "일반 문의 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "accept": {},
+      "receipt": "98711d365a8f4ed1b1513c01b04f3929",
+      "actual": {
+        "category": "FACILITY",
+        "department": "시설 담당",
+        "urgency": "LOW",
+        "review_required": true,
+        "faq_ids": [],
+        "status": "NEW"
+      },
+      "answer": "담당자 확인이 필요한 문의입니다. 접수번호로 처리 상태를 확인해 주세요.",
+      "checks": {
+        "category": false,
+        "department": false,
+        "urgency": true,
+        "review_required": true,
+        "faq_ids": true,
+        "status": true,
+        "same_receipt_original": true,
+        "verbatim_faq_when_shown": true,
+        "actual_engine": true
+      }
+    }
+  ],
+  "summary": {
+    "executed": 30,
+    "all_match": 19,
+    "fields": {
+      "category": 25,
+      "department": 25,
+      "urgency": 23,
+      "review_required": 27,
+      "faq_ids": 27,
+      "status": 30,
+      "same_receipt_original": 30,
+      "verbatim_faq_when_shown": 30,
+      "actual_engine": 30
+    },
+    "required_review": 18,
+    "high": 6,
+    "faq_match_on_normal_12": 9,
+    "failed_ids": [
+      "CASE-03",
+      "CASE-07",
+      "CASE-09",
+      "CASE-11",
+      "CASE-12",
+      "CASE-13",
+      "CASE-18",
+      "CASE-20",
+      "CASE-26",
+      "CASE-29",
+      "CASE-30"
+    ],
+    "call_errors": []
+  }
+}

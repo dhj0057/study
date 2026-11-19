@@ -37,13 +37,17 @@ import FruitSelect from "./11/FruitSelect";
 import Reservation from "./11/Reservation";
 import Calculator from "./12/ex4/Calculator";
 import DistanceCalculator from "./12/ex5/DistanceCalculator";
+import WelcomeDialog from "./13/ex2/WelcomeDialog";
+import Dialog from "./13/ex3/Dialog";
+import SignUpDialog from "./13/ex3/SignUpDialog";
+import ProfileCard from "./13/ex4/ProfileCard";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <DistanceCalculator/>
+        <ProfileCard/>
     </React.StrictMode>
 );
 

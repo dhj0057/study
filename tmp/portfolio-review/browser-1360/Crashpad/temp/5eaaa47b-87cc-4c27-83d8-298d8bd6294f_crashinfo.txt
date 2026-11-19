@@ -1,0 +1,74 @@
+BrowserMainParts-state=PostBrowserStart
+BrowserProcessImpl-shutdownstate=running
+IsOfficialBuild=1
+KeepAliveCount=2
+KeepAliveRestartCount=0
+KeepAliveShuttingDown=0
+KeepAlives=HEADLESS_COMMAND (1), BROWSER (1)
+LocaleDataPakExists-found_attrs=32
+LocaleDataPakExists-found_path=C:\Program Files (x86)\Microsoft\Edge\Application\157.0.4341.60\Locales\ko.pak
+LocaleDataPakExists-not_found_error=2
+LocaleDataPakExists-not_found_path=C:\Program Files (x86)\Microsoft\Edge\Application\157.0.4341.60\Locales\ko-KR.pak
+breadcrumbs=0:00:01 Tab1 StartNav7 #typed
+0:00:00 Tab1 PageLoad
+0:00:00 Tab1 FinishNav6
+0:00:00 Browser1 Insert active Tab1 at 0
+0:00:00 Microsoft.BrowserList.AddBrowser
+0:00:00 Microsoft.NewBrowser_Normal
+0:00:00 Microsoft.DeleteProfileHelper.CleanUpDeletedProfiles
+0:00:00 Microsoft.DeleteProfileHelper.CleanUpEphemeralProfiles
+0:00:00 Startup
+
+browser_window_count=1
+chrome-trace-id=6897183315984439131
+chromium-version=157.0.8103.80
+component-extension-1=Edge Copilot Bridge
+component-extension-2=Edge 피드백
+component-extension-3=Gemini in Chrome
+component-extension-4=Media Internals Services Extension
+component-extension-5=Microsoft Clipboard Extension
+exception_code=0xc0000005
+exception_module_path=C:\Program Files (x86)\Microsoft\Edge\Application\157.0.4341.60\msedge.dll
+exception_module_version=157.0.4341.60
+exe=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+extension-function-caller-1=jdiccldimpdaibmpdkjnbmckianbfold
+gpu-devid=0xffff
+gpu-driver=10.0.26100.9818
+gpu-generation-intel=0
+gpu-psver=5.0
+gpu-rev=0
+gpu-subid=0x00000000
+gpu-venid=0xffff
+gpu-vsver=5.0
+gpu_count=0
+guid=d700243e-7a26-4530-ba28-310a929d974b
+gwp-asan-partitionalloc=68f8001603c0
+keep_alive_registry={registered_count_=2, restart_allowed_count_=0, KeepAlives=[HEADLESS_COMMAND (1), BROWSER (1)]}
+metrics_client_id_hash=7727712098058509782
+metrics_session_id=0
+module_offset=46199498
+num-component-extensions=10
+num-experiments=15
+num-extensions=0
+num-switches=11
+num-variations-runtime-overrides=0
+osarch=x86_64
+pid=7348
+plat=Win64
+process_id=7348
+prod=Edge
+ptype=browser
+reentry_guard_tls_slot=unused
+ss_ver=1.2.2609.3
+switch-1=--headless
+switch-2=--disable-gpu
+switch-3=--disable-crash-reporter
+switch-4=--user-data-dir=D:\study\tmp\portfolio-review\browser-1360
+switch-5=--window-size=1360,900
+switch-6=--screenshot=D:\study\tmp\portfolio-review\preview-1360.png
+switch-7=--noerrdialogs
+switch-8=--no-first-run
+switch-9=file:///D:/study/tmp/portfolio-review/index.html
+third_party_modules=IMGSF50Filter_x64.dll
+variations=b6f29041-9af5ba90,b357b792-3d47f4f4,f4f00e05-ca7d8d80,a35976f5-f23d1dea,9481ce98-3d47f4f4,4b935545-bb2d3403,9a38bae3-3d47f4f4,41ad04e1-16e9df14,2d1e43a3-3d47f4f4,370ace14-3f4a17df,386dc267-3d47f4f4,d69d967d-4866ef6e,3c8f75a1-6df3c12c,a4406b35-1657e2d6,408da146-1657e2d6,
+ver=157.0.4341.60

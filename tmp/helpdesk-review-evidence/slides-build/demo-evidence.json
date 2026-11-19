@@ -1,0 +1,10 @@
+{
+  "tested_release": "969f2c8",
+  "mode": "shared HTTPS real Kev/Gemini",
+  "faq": "3c00d54792d44b84bcf42d6309d7edb9",
+  "high": "958f8338d262462494cddcc7596f4e6f",
+  "personal": "f0811489b187494aa68e43f76192ecc1",
+  "same_receipt_after_completion": true,
+  "empty_completion_rejected": true,
+  "model_training_executed": false
+}

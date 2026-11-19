@@ -1,0 +1,45 @@
+.Dialog-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.FancyBorder {
+    flex: 1 1 300px;
+    max-width: 360px;
+    padding: 24px 28px;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.FancyBorder:hover {
+    transform: translateY(-4px);
+}
+
+.FancyBorder-blue {
+    border: 3px solid #4a7cf7;
+}
+
+.FancyBorder-red {
+    border: 3px solid #f25c5c;
+}
+
+.Dialog-title {
+    margin: 0 0 12px;
+    font-size: 24px;
+    color: #333;
+}
+
+.Dialog-message {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}

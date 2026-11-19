@@ -4,74 +4,87 @@ import book_management.domain.Book;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumnModel;
 import java.awt.*;
 import java.util.ArrayList;
 
 public class BookSearchPan extends JPanel {
     JTextField fieldSearch = new JTextField(20);
     JButton btnSearch = new JButton("검색");
-    String[] comboStr = {"도서명", "출판사명", "저자명"};
-    JComboBox<String> combo = new JComboBox<String>(comboStr);
+    String [] comboStr = {"도서명", "출판사명", "저자명"};
+    JComboBox <String> combo = new JComboBox<String>(comboStr);
     JTable table;
     DefaultTableModel model;
-    String[] tableHeader = {"도서번호", "도서명", "저자명", "도서가격", "재고량", "카테고리", "출판사"};
+    String[] tableHeader = {"도서 번호", "도서명", "출판사",  "저자명", "도서가격", "재고량", "카테고리"};
     ArrayList<Book> bookList;
     String searchWord;
 
-    public BookSearchPan() {
+    public BookSearchPan(){
         setLayout(new BorderLayout());
 
         JPanel panN = new JPanel();
-        JLabel lbl = new JLabel("검색어");
+        JLabel lbl = new JLabel("검색어: ");
         panN.add(lbl);
         panN.add(fieldSearch);
         panN.add(combo);
         panN.add(btnSearch);
 
-        add("North", panN);
+        add("North",panN);
     }
 
-    public void initView() {
-        model = new DefaultTableModel(tableHeader, bookList.size()) {
+    public void initView(){
+        model = new DefaultTableModel(tableHeader, bookList.size()){
             @Override
             public boolean isCellEditable(int row, int column) {
                 return false;
             }
         };
-
         table = new JTable(model);
 
-        JScrollPane scroll = new JScrollPane(table);
+        TableColumnModel tcm = table.getColumnModel();
 
-        add("Center", scroll);
+        tcm.getColumn(0).setPreferredWidth(50);
+        tcm.getColumn(1).setPreferredWidth(200);
+        tcm.getColumn(2).setPreferredWidth(100);
+        tcm.getColumn(3).setPreferredWidth(100);
+        tcm.getColumn(4).setPreferredWidth(50);
+        tcm.getColumn(5).setPreferredWidth(100);
+        tcm.getColumn(6).setPreferredWidth(100);
+
+        JScrollPane scroll = new JScrollPane(table);
         putSearchResult();
+
+        add ("Center", scroll);
     }
 
-    public void putSearchResult() {
+    // DefaultTableModel을 사용해서 각 셀에 도서 정보 값을 설정
+    public void putSearchResult(){
         model.setRowCount(bookList.size());
         Book book = null;
 
-        for (int i = 0; i < bookList.size(); i++) {
+        for (int i = 0; i < bookList.size(); i++){
             book = bookList.get(i);
-            model.setValueAt(book.getIsbn(), i, 0);
-            model.setValueAt(book.getName(), i, 1);
-            model.setValueAt(book.getAuthor(), i, 2);
-            model.setValueAt(book.getPrice(), i, 3);
-            model.setValueAt(book.getInventory(), i, 4);
-            model.setValueAt(book.getCategory_name(), i, 5);
-            model.setValueAt(book.getPublish_name(), i, 6);
+            model.setValueAt(book.getIsbn(),  i, 0);
+            model.setValueAt(book.getName(),  i, 1);
+            model.setValueAt(book.getAuthor(),  i, 2);
+            model.setValueAt(book.getPublish_name(),  i, 3);
+            model.setValueAt(book.getPrice(),  i, 4);
+            model.setValueAt(book.getInventory(),  i, 5);
+            model.setValueAt(book.getCategory_name(),  i, 6);
         }
     }
 
     public void setBookList(ArrayList<Book> bookList) {
         this.bookList = bookList;
     }
+
     public String getSearchWord() {
         searchWord = fieldSearch.getText();
         return searchWord;
     }
 
     public JButton getBtnSearch() {
+
         return btnSearch;
     }
 

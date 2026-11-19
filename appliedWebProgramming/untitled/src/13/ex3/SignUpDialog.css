@@ -1,0 +1,49 @@
+.FancyBorder {
+    max-width: 380px;
+    margin: 50px auto;
+    padding: 20px 28px;
+    border-radius: 8px;
+    background-color: white;
+    color: #333;
+    text-align: center;
+}
+
+.FancyBorder-blue {
+    border: 3px solid #1a3fe0;
+}
+
+.Dialog-title {
+    margin: 0 0 8px;
+    font-size: 20px;
+    color: #333;
+}
+
+.Dialog-message {
+    margin: 0 0 16px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-input {
+    width: 160px;
+    padding: 8px 10px;
+    margin-right: 8px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.signup-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    background-color: #1a3fe0;
+}
+
+.signup-btn:hover {
+    background-color: #1230b8;
+}
