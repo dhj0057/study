@@ -1,0 +1,39 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 180px;
+    flex-shrink: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box {
+    width: 100%;
+    height: 160px;
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}

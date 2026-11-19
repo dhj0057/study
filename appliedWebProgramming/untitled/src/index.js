@@ -41,13 +41,14 @@ import WelcomeDialog from "./13/ex2/WelcomeDialog";
 import Dialog from "./13/ex3/Dialog";
 import SignUpDialog from "./13/ex3/SignUpDialog";
 import ProfileCard from "./13/ex4/ProfileCard";
-
+import Card from "./13/ex4/Card";
+import ProfileList from "./13/ex4/ProfileList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <ProfileCard/>
+        <ProfileList />
     </React.StrictMode>
 );
 

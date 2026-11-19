@@ -5,7 +5,7 @@ function Card(props) {
     const { title, backgroundColor, children } = props;
 
     return (
-        <div>
+        <div className="card" style={{ backgroundColor: backgroundColor }}>
             {title && (<h1>{title}</h1>)}
             {children}
         </div>
