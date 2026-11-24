@@ -97,4 +97,55 @@ public class BookRepository {
 
         return result;
     }
+
+    public int update(Book book){
+        String sql = "update book set name = ?, author = ?, price = ?, inventory = ?, " +
+                "category_id = ?, publish_id = ? where isbn = ?";
+
+        int publish_id = 0;
+        switch (book.getPublish_name()){
+            case "한빛아카데미": publish_id = 1; break;
+            case "생능출판사": publish_id = 2; break;
+            case "민음사": publish_id = 3; break;
+            case "해냄출판사": publish_id = 4; break;
+        }
+
+        int category_id = 0;
+        switch (book.getCategory_name()){
+            case "IT도서": category_id = 10; break;
+            case "소설": category_id = 20; break;
+            case "수필": category_id = 30; break;
+            case "시": category_id = 40; break;
+        }
+
+        int result = 0;
+        try (Connection con = JDBCConnector.getConnection();
+             PreparedStatement pstmt = con.prepareStatement(sql)) {
+            pstmt.setString(1, book.getName());
+            pstmt.setString(2, book.getAuthor());
+            pstmt.setInt(3, book.getPrice());
+            pstmt.setInt(4, book.getInventory());
+            pstmt.setInt(5, category_id);
+            pstmt.setInt(6, publish_id);
+            pstmt.setString(7, book.getIsbn());
+            result = pstmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return result;
+    }
+
+    public int delete(String isbn){
+        String sql = "delete from book where isbn = ?";
+
+        int result = 0;
+        try (Connection con = JDBCConnector.getConnection();
+             PreparedStatement pstmt = con.prepareStatement(sql)) {
+            pstmt.setString(1, isbn);
+            result = pstmt.executeUpdate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return result;
+    }
 }

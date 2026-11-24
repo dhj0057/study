@@ -39,8 +39,14 @@ public class BookInsertPan extends JPanel {
             public boolean isCellEditable(int row, int column) {
                 return false;
             }
+            @Override
+            public Class<?> getColumnClass(int columnIndex) {
+                // 가격(4), 재고량(5)은 숫자로 정렬
+                return (columnIndex == 4 || columnIndex == 5) ? Integer.class : String.class;
+            }
         };
         table = new JTable(model);
+        table.setAutoCreateRowSorter(true); // 열 제목 클릭 시 오름차순/내림차순 정렬
         add(new JScrollPane(table), BorderLayout.CENTER);
         putBookList();
 

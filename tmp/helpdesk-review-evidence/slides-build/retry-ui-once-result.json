@@ -1,0 +1,17 @@
+{
+  "receipt": "75a299bb6392456db7e1f43789736f3f",
+  "query": "이번 학기 성적장학금 신청은 따로 해야 하나요?",
+  "visibleInitialError": true,
+  "retryButtonRecoveredFaq": true,
+  "sameNumber": true,
+  "originalInAdmin": true,
+  "errorCleared": true,
+  "retryDisabledAfterRecovery": true,
+  "faq": "FAQ-S01",
+  "release": "5046d68",
+  "mode": "Isolated Gradio Chrome with one injected local failure and fixed demo responses",
+  "model_calls": false,
+  "calls": 2,
+  "ticket_count": 1,
+  "recorded_at": "2026-11-19T16:38:02+09:00"
+}

@@ -15,7 +15,7 @@ public class BookSearchPan extends JPanel {
     JComboBox <String> combo = new JComboBox<String>(comboStr);
     JTable table;
     DefaultTableModel model;
-    String[] tableHeader = {"도서 번호", "도서명", "출판사",  "저자명", "도서가격", "재고량", "카테고리"};
+    String[] tableHeader = {"도서 번호", "도서명", "저자명", "출판사", "도서가격", "재고량", "카테고리"};
     ArrayList<Book> bookList;
     String searchWord;
 
@@ -38,9 +38,14 @@ public class BookSearchPan extends JPanel {
             public boolean isCellEditable(int row, int column) {
                 return false;
             }
+            @Override
+            public Class<?> getColumnClass(int columnIndex) {
+                // 가격(4), 재고량(5)은 숫자로 정렬
+                return (columnIndex == 4 || columnIndex == 5) ? Integer.class : String.class;
+            }
         };
         table = new JTable(model);
-
+        table.setAutoCreateRowSorter(true); // 열 제목 클릭 시 오름차순/내림차순 정렬
         TableColumnModel tcm = table.getColumnModel();
 
         tcm.getColumn(0).setPreferredWidth(50);
