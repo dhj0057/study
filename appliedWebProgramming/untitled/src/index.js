@@ -28,29 +28,30 @@ import reportWebVitals from './reportWebVitals'
 //import LogInControl from "./09/ex2/LogInControl";
 //import MailBox from "./09/ex3/MailBox";
 //import LogInControl2 from "./09/ex3/LogInControl2";
-import MainPage from "./09/ex4/MainPage";
-import LandingPage from "./09/finalEX/LandingPage";
-import AttendanceBook from "./10/AttendanceBook";
-import AttendanceCardBook from "./10/AttendanceCardBook";
-import NameForm from "./11/NameForm";
-import FruitSelect from "./11/FruitSelect";
-import Reservation from "./11/Reservation";
-import Calculator from "./12/ex4/Calculator";
-import DistanceCalculator from "./12/ex5/DistanceCalculator";
-import WelcomeDialog from "./13/ex2/WelcomeDialog";
-import Dialog from "./13/ex3/Dialog";
-import SignUpDialog from "./13/ex3/SignUpDialog";
-import ProfileCard from "./13/ex4/ProfileCard";
-import Card from "./13/ex4/Card";
-import ProfileList from "./13/ex4/ProfileList";
-import DarkOrLight from "./14/DarkOrLight";
-import FortuneApp from "./14/fortune/FortuneApp";
+//import MainPage from "./09/ex4/MainPage";
+//import LandingPage from "./09/finalEX/LandingPage";
+//import AttendanceBook from "./10/AttendanceBook";
+//import AttendanceCardBook from "./10/AttendanceCardBook";
+//import NameForm from "./11/NameForm";
+//import FruitSelect from "./11/FruitSelect";
+//import Reservation from "./11/Reservation";
+//import Calculator from "./12/ex4/Calculator";
+//import DistanceCalculator from "./12/ex5/DistanceCalculator";
+//import WelcomeDialog from "./13/ex2/WelcomeDialog";
+//import Dialog from "./13/ex3/Dialog";
+//import SignUpDialog from "./13/ex3/SignUpDialog";
+//import ProfileCard from "./13/ex4/ProfileCard";
+//import Card from "./13/ex4/Card";
+//import ProfileList from "./13/ex4/ProfileList";
+//import DarkOrLight from "./14/DarkOrLight";
+//import FortuneApp from "./14/fortune/FortuneApp";
+import ShopList from "./14/simpleShop/ShopList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <FortuneApp />
+        <ShopList />
     </React.StrictMode>
 );
 
