@@ -43,12 +43,14 @@ import SignUpDialog from "./13/ex3/SignUpDialog";
 import ProfileCard from "./13/ex4/ProfileCard";
 import Card from "./13/ex4/Card";
 import ProfileList from "./13/ex4/ProfileList";
+import DarkOrLight from "./14/DarkOrLight";
+import FortuneApp from "./14/fortune/FortuneApp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <ProfileList />
+        <FortuneApp />
     </React.StrictMode>
 );
 

@@ -1,0 +1,184 @@
+/* 테마별 색상 */
+.fortune-app.light {
+    --bg: #f6f3ff;
+    --card: #ffffff;
+    --text: #2b2440;
+    --sub: #6b6385;
+    --accent: #7b5cff;
+    --accent-hover: #6542f0;
+    --line: #e3dcff;
+}
+
+.fortune-app.dark {
+    --bg: #14111f;
+    --card: #221d33;
+    --text: #f1edff;
+    --sub: #b2a9d1;
+    --accent: #ffcf5c;
+    --accent-hover: #ffbf2e;
+    --line: #3a3254;
+}
+
+.fortune-app {
+    min-height: 100vh;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.fortune-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    border-bottom: 1px solid var(--line);
+}
+
+.fortune-logo {
+    margin: 0;
+    font-size: 26px;
+}
+
+.fortune-date {
+    margin: 4px 0 0;
+    color: var(--sub);
+}
+
+.theme-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--text);
+    background-color: var(--card);
+}
+
+.fortune-main {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 0 16px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.fortune-form,
+.fortune-card {
+    padding: 24px 28px;
+    border-radius: 16px;
+    background-color: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.fortune-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.fortune-form h2,
+.fortune-card h2 {
+    margin: 0 0 4px;
+    font-size: 20px;
+}
+
+.fortune-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: bold;
+    color: var(--sub);
+}
+
+.fortune-form input,
+.fortune-form select {
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    color: var(--text);
+    background-color: var(--bg);
+    outline: none;
+}
+
+.fortune-form input:focus,
+.fortune-form select:focus {
+    border-color: var(--accent);
+}
+
+.fortune-btn {
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: var(--accent);
+    transition: background-color 0.2s;
+}
+
+.fortune-app.dark .fortune-btn {
+    color: #14111f;
+}
+
+.fortune-btn:hover {
+    background-color: var(--accent-hover);
+}
+
+.fortune-total {
+    margin: 12px 0 16px;
+    line-height: 1.6;
+}
+
+.fortune-scores {
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+}
+
+.fortune-scores li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed var(--line);
+}
+
+.stars {
+    color: var(--accent);
+    letter-spacing: 2px;
+}
+
+.fortune-lucky {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.fortune-lucky div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 12px;
+    border-radius: 10px;
+    color: var(--sub);
+    background-color: var(--bg);
+}
+
+.fortune-lucky strong {
+    font-size: 20px;
+    color: var(--accent);
+}
+
+.fortune-advice {
+    margin: 0;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--sub);
+    background-color: var(--bg);
+}
